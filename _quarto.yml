@@ -4,9 +4,22 @@ project:
 website:
   title: "vz-logbook"
   navbar:
-    left:
+    background: light
+    search: true
+    right:
       - href: about.qmd
-        text: About
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            url:  https://github.com/vanzaj/vz-logbook.git
+  sidebar:
+    style: "docked"
+    contents:
+      - section: "Books"
+        contents:
+          - books/Yunkaporta_Sand-Talk_2019.qmd
+
 
 format:
   html:
