@@ -6,21 +6,15 @@ website:
   navbar:
     background: light
     search: true
-    right:
-      - href: about.qmd
     tools:
       - icon: github
         menu:
           - text: Source Code
             url:  https://github.com/vanzaj/vz-logbook.git
   sidebar:
-    style: "docked"
-    contents:
-      - section: "Books"
-        contents:
-          - books/singh_trick-or-treatment_2008.qmd
-          - books/yunkaporta_sand-talk_2019.qmd
-
+    style: "floating"
+    collapse-level: 1
+    contents: auto
 
 format:
   html:

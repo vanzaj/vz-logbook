@@ -1,0 +1,123 @@
+---
+title: Docker
+---
+
+# Docker commands
+
+``` bash
+docker
+    run $name[:$tag] [$cmd]
+    ps [-a] [$name]
+    stop $name | $id
+    rm $name | $id
+    images
+    rmi $name
+    pull $name
+    attach $id
+    logs $name
+```
+
+# Docker run
+
+``` bash
+docker run -it $name  # interactive + terminal
+docker run -d 80:8080 $name  # daemon mode, link ports $host:$container
+docker run -v /local/dir:/container/dir $name  # mount local volume
+docker run -e MYVAR=foobar $name  # pass env var to container
+```
+
+NB: ports and volumes arguments always follow `$host:$container` order
+
+
+# Creating an image
+
+``` bash
+cat > Dockerfile << EOF
+FROM ubuntu
+RUN apt-get update
+RUN apt-get install python
+RUN pip install flask flask-mysql
+COPY . /opt/src
+ENTRYPOINT FLASK_APP=/opt/src/app.py flask run
+EOF
+```
+
+``` bash
+docker build . -t $myname
+docker push $myname
+docker history $myname  # to see layers (successful RUNs in Dockerfile)
+```
+
+Docker image is built from layers created from each `FROM, RUN and COPY` line.
+The layers are reused for different images.
+
+Other useful commands: `ENV, WORKDIR, USER, CMD`
+
+
+# Network
+
+By default docker uses bridge mode for containers running on the same host with default network 172.17.xxx.xxx.
+Other network modes are "none" (no network) and "host" (no network isolation from host).
+
+`docker network create --driver bridge --subnet 182.18.0.0/16 my_network`
+
+`docker inspect $name` will show full container info including network.
+
+Dockers uses internal DNS 127.0.0.11 to resolve containers IP and containers names.
+
+
+# Storage
+
+Containers, images, volumes are stored in `/var/lib/docker`.
+All image layers are RO. A contaier runs in a special RW container layer which gets destroyed when container is stoped.
+Data can be persisted in named volumes inside `/var/lib/docker/volumes` (volume mount) or a directory on a host (bind mount).
+
+```bash
+docker volume create my_volume
+docker run -v my_volume:/var/log my_image
+
+# new explicit format for mounting volumes
+docker run --mount type=bind,source=/data/my_image/logs,target=/var/log my_image
+
+```
+
+# Docker compose
+
+It's possible to run multiple containers and "link" them for networking. But much easier to use docker-compose to manage multi-container app.
+
+docker-compose.yml
+
+``` yaml
+version: 2
+
+services:
+  frontend:
+    build:
+      context: ./app
+      args:
+        DB_HOST: localhost:5005
+    links:
+      - db
+    volumes:
+      - logs:/var/logs
+    depends_on:
+      db:
+        condition: service_started
+
+  db:
+    image: postgres:9.4
+    ports:
+      - "5005:5432"
+    volumes:
+      - /data/app/postgres:/var/lib/postgres
+
+volumes:
+  logs:
+```
+
+``` bash
+docker-compose up -d   #--build
+docker-compose exec frontend ls -l
+docker-compose logs frontend
+docker-compose down -v
+```

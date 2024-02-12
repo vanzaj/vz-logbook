@@ -1,0 +1,69 @@
+---
+title: Ops
+---
+
+# ansible vault
+
+``` bash
+echo $random_passwd > .ansible-vault-password-file
+export ANSIBLE_VAULT_PASSWORD_FILE=./.ansible-vault-password-file
+ansible-vault encrypt hosts.txt
+ansible-vault view hosts.txt
+ansible-vault edit hosts.txt
+```
+
+# crontab
+
+``` bash
+# user crontab
+crontab -e
+5 * * * * /path/to/script
+crontab -l # -r to remove
+
+#system crontab (run every 5 min)
+echo "*/5 * * * * bob /path/to/scrip.sh" > /etc/cron.d/bobs-script
+```
+
+# journalctl
+
+``` bash
+journalctl --since "2 days ago" -u uwsgi
+journalctl -flu uwsgi
+```
+
+# nginx
+
+test config: `nginx -T`
+
+# postfix
+
+``` bash
+postqueue -p  # emails still in queue
+postsuper -d $EMAIL_HEX_ID  # to delete
+```
+
+# sendmail
+
+``` bash
+ssh $mgmt_box
+sendmail -t <<eof
+From: ops@foo.com
+To: regi@registrar.com
+Subject: renew this
+
+Hi, i can haz renew.
+eof
+```
+
+# vagrant (osx)
+
+``` bash
+brew tap caskroom/cask
+brew cask install vagrant
+brew cask reinstall virtualbox virtualbox-extension-pack
+vagrant init bento/ubuntu-16.04
+vim Vagrantfile
+vagrant up
+vagrant provision
+vagrant ssh
+```
