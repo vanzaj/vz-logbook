@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Tyson Yunkaporta">
-<meta name="dcterms.date" content="2019-01-01">
 
-<title>vz-logbook - Sand Talk: How Indigenous Thinking Can Save the World</title>
+<title>vz-logbook - Ops</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -104,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../books/index.html">Book notes</a></li><li class="breadcrumb-item"><a href="../books/yunkaporta_sand-talk_2019.html">Sand Talk: How Indigenous Thinking Can Save the World</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../coding/docker.html">Coding</a></li><li class="breadcrumb-item"><a href="../coding/ops.html">Ops</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -124,13 +156,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
  <span class="menu-text">Coding</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../coding/docker.html" class="sidebar-item-text sidebar-link">
@@ -139,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../coding/ops.html" class="sidebar-item-text sidebar-link">
+  <a href="../coding/ops.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Ops</span></a>
   </div>
 </li>
@@ -149,11 +181,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../books/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Book notes</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../books/singh_trick-or-treatment_2008.html" class="sidebar-item-text sidebar-link">
@@ -162,7 +194,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../books/yunkaporta_sand-talk_2019.html" class="sidebar-item-text sidebar-link active">
+  <a href="../books/yunkaporta_sand-talk_2019.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Sand Talk: How Indigenous Thinking Can Save the World</span></a>
   </div>
 </li>
@@ -177,45 +209,30 @@ ul.task-list li input[type="checkbox"] {
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
-  <ul class="collapse">
-  <li><a href="#albino-boy" id="toc-albino-boy" class="nav-link active" data-scroll-target="#albino-boy">Albino boy</a></li>
-  <li><a href="#first-law" id="toc-first-law" class="nav-link" data-scroll-target="#first-law">First Law</a></li>
-  <li><a href="#forever-limited" id="toc-forever-limited" class="nav-link" data-scroll-target="#forever-limited">Forever limited</a></li>
-  <li><a href="#lines-in-the-sand" id="toc-lines-in-the-sand" class="nav-link" data-scroll-target="#lines-in-the-sand">Lines in the sand</a></li>
-  <li><a href="#of-spirit-and-spirits" id="toc-of-spirit-and-spirits" class="nav-link" data-scroll-target="#of-spirit-and-spirits">Of Spirit and Spirits</a></li>
-  <li><a href="#advanced-and-fair" id="toc-advanced-and-fair" class="nav-link" data-scroll-target="#advanced-and-fair">Advanced and Fair</a></li>
+  <ul>
+  <li><a href="#ansible-vault" id="toc-ansible-vault" class="nav-link active" data-scroll-target="#ansible-vault">ansible vault</a></li>
+  <li><a href="#crontab" id="toc-crontab" class="nav-link" data-scroll-target="#crontab">crontab</a></li>
+  <li><a href="#journalctl" id="toc-journalctl" class="nav-link" data-scroll-target="#journalctl">journalctl</a></li>
+  <li><a href="#nginx" id="toc-nginx" class="nav-link" data-scroll-target="#nginx">nginx</a></li>
+  <li><a href="#postfix" id="toc-postfix" class="nav-link" data-scroll-target="#postfix">postfix</a></li>
+  <li><a href="#sendmail" id="toc-sendmail" class="nav-link" data-scroll-target="#sendmail">sendmail</a></li>
+  <li><a href="#vagrant-osx" id="toc-vagrant-osx" class="nav-link" data-scroll-target="#vagrant-osx">vagrant (osx)</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../books/index.html">Book notes</a></li><li class="breadcrumb-item"><a href="../books/yunkaporta_sand-talk_2019.html">Sand Talk: How Indigenous Thinking Can Save the World</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../coding/docker.html">Coding</a></li><li class="breadcrumb-item"><a href="../coding/ops.html">Ops</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Sand Talk: How Indigenous Thinking Can Save the World</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">culture</div>
-    <div class="quarto-category">complexity</div>
-  </div>
-  </div>
+<h1 class="title">Ops</h1>
+</div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Tyson Yunkaporta </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">2019</p>
-    </div>
-  </div>
   
     
   </div>
@@ -225,99 +242,59 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<blockquote class="blockquote">
-<p>Solutions to complex problems take many dissimilar minds and points of view.</p>
-</blockquote>
-<p>Connective thinking.</p>
-<section id="albino-boy" class="level1">
-<h1>Albino boy</h1>
-<p>( &lt; &gt; ) knee bend direction, “I am greater/lesser than you”</p>
-<blockquote class="blockquote">
-<p>Containing the excesses of malignant narcissists is a team effort… Engaging with them (narcissists) alone is futile – never wrestle a pig – as the old saying goes; you both end up covered in shit, and the pig likes it.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>The basic protocols of Aboriginal society, like most societies, include respecting and hearing all points of view in a yarn. Narcissists demand this right, then refuse to allow other points of view on the grounds that any other opinion somehow infringes their freedom of speech or is offensive.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Everyone is an idiot from time to time.</p>
-</blockquote>
+<section id="ansible-vault" class="level1">
+<h1>ansible vault</h1>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="va">$random_passwd</span> <span class="op">&gt;</span> .ansible-vault-password-file</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="bu">export</span> <span class="va">ANSIBLE_VAULT_PASSWORD_FILE</span><span class="op">=</span>./.ansible-vault-password-file</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">ansible-vault</span> encrypt hosts.txt</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ex">ansible-vault</span> view hosts.txt</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ex">ansible-vault</span> edit hosts.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="first-law" class="level1">
-<h1>First Law</h1>
-<p>(three circles and flowers)</p>
-<blockquote class="blockquote">
-<p>After my yarns with Percy, I begin to see the uncertainty principle not as a law but as an expression of frustration about the impossibility of achieving godlike scientific objectivity.</p>
-</blockquote>
+<section id="crontab" class="level1">
+<h1>crontab</h1>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># user crontab</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">crontab</span> <span class="at">-e</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ex">5</span> <span class="pp">*</span> <span class="pp">*</span> <span class="pp">*</span> <span class="pp">*</span> /path/to/script</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">crontab</span> <span class="at">-l</span> <span class="co"># -r to remove</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="co">#system crontab (run every 5 min)</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"*/5 * * * * bob /path/to/scrip.sh"</span> <span class="op">&gt;</span> /etc/cron.d/bobs-script</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="forever-limited" class="level1">
-<h1>Forever limited</h1>
-<blockquote class="blockquote">
-<p>Sustainable systems cannot be manufactured by individuals or appointed committees, particularly during times of intense transition and upheaval.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Ideas can be re-engineered to serve the interests of the powerful.</p>
-</blockquote>
-<p>(chekout Larry Gross, Post Apocaliptic Stress Syndrom).</p>
+<section id="journalctl" class="level1">
+<h1>journalctl</h1>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">journalctl</span> <span class="at">--since</span> <span class="st">"2 days ago"</span> <span class="at">-u</span> uwsgi</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ex">journalctl</span> <span class="at">-flu</span> uwsgi</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="lines-in-the-sand" class="level1">
-<h1>Lines in the sand</h1>
-<blockquote class="blockquote">
-<p>People today will mostly focus on the points of connection, the nodes of interest like stars in the sky. But the real understanding comes in the spaces in between, in the relational forces that connect and move the points.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Systems are <strong>heterarchical</strong> – composed of equal parts interacting together. Imposing a hierarchical model of top-down control can only destroy them. Healthy interventions can only be made by free agents within a complex system.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>On learning another culture (cultural humility): 1) Check your ego and motives, 2) You don’t need to be an expert to understand the knowledge process of people from other cultures and enter into dialogues with them (but you need to show respect), 3) Making yourself an expert in another culture is not always appreciated by the members of that culture.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>It is difficult to relinquish the illusions of power and delusions of exceptionalism that come with privilege. But it is strangely liberating to realise your true status as a single node in a cooperative network.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Sustainable systems cannot function without the full autonomy and unique expression of each independent part of the interdependent whole.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Sustainability agents have a few simple operating guidelines, or network protocols, or rules if you like – connect, diversify, interact and adapt.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>An agent that is truly adaptive and changing is open to sudden eruptions of transformation.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Not all strange attractors are benevolent (narcissist).</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Adolescent cultures always ask the same three questions. Why are we here? How should we live? What will happen when we die?</p>
-</blockquote>
+<section id="nginx" class="level1">
+<h1>nginx</h1>
+<p>test config: <code>nginx -T</code></p>
 </section>
-<section id="of-spirit-and-spirits" class="level1">
-<h1>Of Spirit and Spirits</h1>
-<blockquote class="blockquote">
-<p>There are at least four parts to your spirit from an Aboriginal point of view: your higher self (superego), ancestral spirit, living spirit and shadow spirit… Your shadow spirit is that part of you that wants things you don’t need, makes you think you’re better than other people and above the land. If the rest of your spirit is not clear and in balance, it gets away from you, causing conflict and destruction. You gossip behind people’s backs, spread uncertainty, deliver judgments, upset people, take more than you need and accumulate goods without sharing. It makes you a competitor instead of a human being.</p>
-</blockquote>
-<pre><code>                   =     metaphors   
-                //   \\    
-abstract       o      o   concrete
-                \\   //
-                   =    metaphors</code></pre>
-<blockquote class="blockquote">
-<p>There is a spark of creation like lightning when true learning takes place, with a genetic reward of chemical pleasure released in the brain… The chemical burst of pleasure we feel when genuine knowledge transmission takes place occurs from the creation of new neural pathways. These are connections between two points that were previously unconnected. Jokes are one of the most pure examples of this neural creation event… If people are laughing, they are learning.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>There needs to be an interaction between abstract (spirit) and concrete (physical) worlds of knowledge for this kind of complexity to develop fully.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Without closing the loop between abstract knowledge and reality, and without making connections between different ideas and areas of knowledge, true learning cannot occur.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>A focus on linear, abstract, declarative knowledge alone not only fails to create complex connectivity but damages the mind. We are biologically punished for this destructive behaviour with a neuro-chemical rush of lethargy and discomfort that most people call boredom.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Knowledge transmission must connect both abstract knowledge and concrete application through meaningful metaphors to be effective.</p>
-</blockquote>
+<section id="postfix" class="level1">
+<h1>postfix</h1>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">postqueue</span> <span class="at">-p</span>  <span class="co"># emails still in queue</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">postsuper</span> <span class="at">-d</span> <span class="va">$EMAIL_HEX_ID</span>  <span class="co"># to delete</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="advanced-and-fair" class="level1">
-<h1>Advanced and Fair</h1>
-<p>TODO</p>
+<section id="sendmail" class="level1">
+<h1>sendmail</h1>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh</span> <span class="va">$mgmt_box</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">sendmail</span> <span class="at">-t</span> <span class="op">&lt;&lt;eof</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="st">From: ops@foo.com</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="st">To: regi@registrar.com</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="st">Subject: renew this</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="st">Hi, i can haz renew.</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="op">eof</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="vagrant-osx" class="level1">
+<h1>vagrant (osx)</h1>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> tap caskroom/cask</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> cask install vagrant</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> cask reinstall virtualbox virtualbox-extension-pack</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="ex">vagrant</span> init bento/ubuntu-16.04</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="ex">vim</span> Vagrantfile</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="ex">vagrant</span> up</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="ex">vagrant</span> provision</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="ex">vagrant</span> ssh</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>

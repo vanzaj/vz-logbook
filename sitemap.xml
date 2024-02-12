@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://vanzaj.github.io/vz-logbook/coding/ops.html</loc>
+    <lastmod>2024-02-12T14:34:53.677Z</lastmod>
+  </url>
+  <url>
     <loc>https://vanzaj.github.io/vz-logbook/about.html</loc>
     <lastmod>2024-02-11T14:33:14.593Z</lastmod>
   </url>
@@ -19,5 +23,9 @@
   <url>
     <loc>https://vanzaj.github.io/vz-logbook/index.html</loc>
     <lastmod>2024-02-11T14:33:14.593Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vanzaj.github.io/vz-logbook/coding/docker.html</loc>
+    <lastmod>2024-02-12T14:21:32.596Z</lastmod>
   </url>
 </urlset>
