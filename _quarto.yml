@@ -18,7 +18,8 @@ website:
     contents:
       - section: "Books"
         contents:
-          - books/Yunkaporta_Sand-Talk_2019.qmd
+          - books/singh_trick-or-treatment_2008.qmd
+          - books/yunkaporta_sand-talk_2019.qmd
 
 
 format:

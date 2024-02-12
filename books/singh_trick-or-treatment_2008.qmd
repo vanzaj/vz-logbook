@@ -1,0 +1,54 @@
+---
+title: "Trick or Treatment? Alternative Medicine on Trial"
+author:
+    - name: Simon Singh
+    - name: Edzard Ernst
+date: 01/01/2008
+date-format: "YYYY"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+categories: [science, medicine]
+---
+
+# Chapter 1: How do you determine the truth?
+
+General chapter on what is evidence-based medicine using *bloodletting* as a historic example of how long established treatment methods can be challenged.  Bloodletting was already used in ancient Greece and continued to be widely used until 1850's as a treatment option to many conditions. In 1799 [George_Washington](https://en.wikipedia.org/wiki/George_Washington) got pneumonia and died supposedly from extensive bloodletting. In the same year there was probably the first famous court case about medical malpractice between [Benjamin Rush](https://en.wikipedia.org/wiki/Benjamin_Rush) and William Cobbett. Rush was a rather famous and established doctor and politician and easily won the case. 
+
+At that time the idea of conducting clinical trials to establish the efficiency of treatment was not yet accepted by the medical establishment. However, first attempts to conduct such trials to have been performed by [James Lind](https://en.wikipedia.org/wiki/James_Lind) in 1747 in an attempt to establish the treatment for scurvy. Scurvy was a disease that affected a large number of sailors (many more death due to scurvy than anything else including war injuries). Lind isolated 12 sailors, separated them in 6 pairs, gave similar diet, but different treatments. He correctly observed that citrus fruit improved patients condition. The link to vitamin C was already known at that time, but wasn't widely accepted. Lind failed to publish his results. In 1780 Gilbert Blane repeated Lind's experiment involving many more subjects and managed to convince the British navy to make mandatory use of lime juice to prevent scurvy (hence "[limey](https://en.wikipedia.org/wiki/Glossary_of_names_for_the_British#Limey)").
+
+The [first trial](http://www.jameslindlibrary.org/trial_records/19th_Century/hamilton/hamilton_commentary.html) that questioned the efficiency of bloodletting was supposedly conducted by Alexander Lesassier Hamilton in 1809. He introduced random patient assignment between 3 doctors and showed that the mortality rates were much lower in the two groups where bloodletting wasn't used. He failed to publish and disseminate his results. It was Pierre Charles Louis, a French physician, who reconfirmed inefficiency of bloodletting for treatment of fevers in 1828. His "numerical method" was strongly opposed by the medical community.
+
+Other examples of how evidence was used to advance medical practice are the stories of [Florence Nightingale](https://en.wikipedia.org/wiki/Florence_Nightingale), who demonstrated the importance of hygiene in military hospitals during Crimean war (1853-1856) using mortality statistics, and the [British Doctors Study](https://en.wikipedia.org/wiki/British_Doctors_Study) by Hill and Doll in the early 1950's that demonstrated the link between smoking and lung cancer (first prospective cohort study, used doctors as subjects in order to get a more homogeneous sample population).
+
+> Evidence based medicine can be used to decide what works, what does not work, efficiency of preventive methods, and what causes the disease.
+
+> Evidence based medicine is the conscientious, explicit, and judicious use of current best evidence in making decisions about the care of individual patients. -- David Sackett
+
+> All great truth begin as blasphemies. Not all blasphemies become great truth. --Bernard Shaw
+
+Other good source of info: [jameslindlibrary](http://www.jameslindlibrary.org/index.html).
+
+
+# Chapter 2: Acupuncture
+
+## History of acupuncture
+
+- In 1991 two tourists discovered a 5000 y.o. body in Austrian alps ([Otzi](https://en.wikipedia.org/wiki/%C3%96tzi)) which was covered with tattoos that correspond closely to "modern" acupuncture meridians.
+- Acupuncture was described in Yellow Emperor's Classic of Internal Medicine (200BC).
+- Trade with China brought acupuncture to Europe in the end of XVII century.
+- After 1st and 2d [Opium wars](https://en.wikipedia.org/wiki/Opium_Wars), acupuncture was perceived as "sinister ritual from the evil Orient"
+- Revival of acupuncture in China in 1947 under Mao as traditional method (and cheap healthcare solution)
+- A spectacular case of [James Raston](https://en.wikipedia.org/wiki/James_Reston), who was treated post appendix operation pain relieve in 1971 (During Kissinger and Nixon visit to China).
+
+
+## Placebos
+
+Placebo effect was probably recognized very early.
+
+[John Haygarth](https://en.wikipedia.org/wiki/John_Haygarth) conducted a trial in 1799 on the efficiency of "Perkins' tractors" and demonstrated that fake "tractors" were as efficient as the originals and concluded that "powerful influence upon diseases is produced by mere imagination". He also recognized that placebo plays a role in genuine medicine as well as is dependent on factors such as doctor's reputation, cost of the treatment, novelty...
+
+Henry Beecher's observations regarding morphine vs saline effects during WWII.
+
+Sham surgery (Leonard Cobb, internal mammary ligation) -> importance of double-blind studies.
