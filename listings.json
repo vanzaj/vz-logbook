@@ -1,16 +1,18 @@
 [
   {
+    "listing": "/notes/books/index.html",
+    "items": [
+      "/notes/books/freeman-goos_2009.html",
+      "/notes/books/yunkaporta_sand-talk_2019.html",
+      "/notes/books/singh_trick-or-treatment_2008.html",
+      "/notes/books/feathers-legacy-code_2004.html"
+    ]
+  },
+  {
     "listing": "/writings/index.html",
     "items": [
       "/writings/hr-lingo.html",
       "/writings/org-signalling.html"
-    ]
-  },
-  {
-    "listing": "/notes/books/index.html",
-    "items": [
-      "/notes/books/yunkaporta_sand-talk_2019.html",
-      "/notes/books/singh_trick-or-treatment_2008.html"
     ]
   }
 ]

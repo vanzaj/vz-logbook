@@ -11,51 +11,50 @@
     ]
   },
   {
-    "objectID": "notes/books/singh_trick-or-treatment_2008.html",
-    "href": "notes/books/singh_trick-or-treatment_2008.html",
-    "title": "Trick or Treatment? Alternative Medicine on Trial",
+    "objectID": "notes/books/freeman-goos_2009.html",
+    "href": "notes/books/freeman-goos_2009.html",
+    "title": "Growing Object-Oriented Software, Guided by tests",
     "section": "",
-    "text": "General chapter on what is evidence-based medicine using bloodletting as a historic example of how long established treatment methods can be challenged. Bloodletting was already used in ancient Greece and continued to be widely used until 1850’s as a treatment option to many conditions. In 1799 George_Washington got pneumonia and died supposedly from extensive bloodletting. In the same year there was probably the first famous court case about medical malpractice between Benjamin Rush and William Cobbett. Rush was a rather famous and established doctor and politician and easily won the case.\nAt that time the idea of conducting clinical trials to establish the efficiency of treatment was not yet accepted by the medical establishment. However, first attempts to conduct such trials to have been performed by James Lind in 1747 in an attempt to establish the treatment for scurvy. Scurvy was a disease that affected a large number of sailors (many more death due to scurvy than anything else including war injuries). Lind isolated 12 sailors, separated them in 6 pairs, gave similar diet, but different treatments. He correctly observed that citrus fruit improved patients condition. The link to vitamin C was already known at that time, but wasn’t widely accepted. Lind failed to publish his results. In 1780 Gilbert Blane repeated Lind’s experiment involving many more subjects and managed to convince the British navy to make mandatory use of lime juice to prevent scurvy (hence “limey”).\nThe first trial that questioned the efficiency of bloodletting was supposedly conducted by Alexander Lesassier Hamilton in 1809. He introduced random patient assignment between 3 doctors and showed that the mortality rates were much lower in the two groups where bloodletting wasn’t used. He failed to publish and disseminate his results. It was Pierre Charles Louis, a French physician, who reconfirmed inefficiency of bloodletting for treatment of fevers in 1828. His “numerical method” was strongly opposed by the medical community.\nOther examples of how evidence was used to advance medical practice are the stories of Florence Nightingale, who demonstrated the importance of hygiene in military hospitals during Crimean war (1853-1856) using mortality statistics, and the British Doctors Study by Hill and Doll in the early 1950’s that demonstrated the link between smoking and lung cancer (first prospective cohort study, used doctors as subjects in order to get a more homogeneous sample population).\n\nEvidence based medicine can be used to decide what works, what does not work, efficiency of preventive methods, and what causes the disease.\n\n\nEvidence based medicine is the conscientious, explicit, and judicious use of current best evidence in making decisions about the care of individual patients. – David Sackett\n\n\nAll great truth begin as blasphemies. Not all blasphemies become great truth. –Bernard Shaw\n\nOther good source of info: jameslindlibrary.",
+    "text": "Problem domain vs solution domain.\nVideo game example. Problem: actors, scene, effects… Solution: renderer, animator, collision detector…\nAn object is an implementation of one or more roles; a role is a set of related responsibilities; a responsibility is an obligation to perform a task or know information.\nCRC cards: candidate, responsibilities, collaborators\n\n…nothing forces us to understand a process better than trying to automate it.\n\n\nUnderstand the problem\nBroad-brush design\nAutomate: build, deployment, end-to-end test\nATDD-TDD cycle\n\nWalking skeleton.",
     "crumbs": [
       "Notes",
       "Books",
-      "Trick or Treatment? Alternative Medicine on Trial"
+      "Growing Object-Oriented Software, Guided by tests"
     ]
   },
   {
-    "objectID": "notes/books/singh_trick-or-treatment_2008.html#history-of-acupuncture",
-    "href": "notes/books/singh_trick-or-treatment_2008.html#history-of-acupuncture",
-    "title": "Trick or Treatment? Alternative Medicine on Trial",
-    "section": "History of acupuncture",
-    "text": "History of acupuncture\n\nIn 1991 two tourists discovered a 5000 y.o. body in Austrian alps (Otzi) which was covered with tattoos that correspond closely to “modern” acupuncture meridians.\nAcupuncture was described in Yellow Emperor’s Classic of Internal Medicine (200BC).\nTrade with China brought acupuncture to Europe in the end of XVII century.\nAfter 1st and 2d Opium wars, acupuncture was perceived as “sinister ritual from the evil Orient”\nRevival of acupuncture in China in 1947 under Mao as traditional method (and cheap healthcare solution)\nA spectacular case of James Raston, who was treated post appendix operation pain relieve in 1971 (During Kissinger and Nixon visit to China).",
-    "crumbs": [
-      "Notes",
-      "Books",
-      "Trick or Treatment? Alternative Medicine on Trial"
-    ]
-  },
-  {
-    "objectID": "notes/books/singh_trick-or-treatment_2008.html#placebos",
-    "href": "notes/books/singh_trick-or-treatment_2008.html#placebos",
-    "title": "Trick or Treatment? Alternative Medicine on Trial",
-    "section": "Placebos",
-    "text": "Placebos\nPlacebo effect was probably recognized very early.\nJohn Haygarth conducted a trial in 1799 on the efficiency of “Perkins’ tractors” and demonstrated that fake “tractors” were as efficient as the originals and concluded that “powerful influence upon diseases is produced by mere imagination”. He also recognized that placebo plays a role in genuine medicine as well as is dependent on factors such as doctor’s reputation, cost of the treatment, novelty…\nHenry Beecher’s observations regarding morphine vs saline effects during WWII.\nSham surgery (Leonard Cobb, internal mammary ligation) -&gt; importance of double-blind studies.",
-    "crumbs": [
-      "Notes",
-      "Books",
-      "Trick or Treatment? Alternative Medicine on Trial"
-    ]
-  },
-  {
-    "objectID": "notes/books/yunkaporta_sand-talk_2019.html",
-    "href": "notes/books/yunkaporta_sand-talk_2019.html",
-    "title": "Sand Talk: How Indigenous Thinking Can Save the World",
+    "objectID": "notes/books/index.html",
+    "href": "notes/books/index.html",
+    "title": "Books",
     "section": "",
-    "text": "Solutions to complex problems take many dissimilar minds and points of view.\n\nConnective thinking.\n\nAlbino boy\n( &lt; &gt; ) knee bend direction, “I am greater/lesser than you”\n\nContaining the excesses of malignant narcissists is a team effort… Engaging with them (narcissists) alone is futile – never wrestle a pig – as the old saying goes; you both end up covered in shit, and the pig likes it.\n\n\nThe basic protocols of Aboriginal society, like most societies, include respecting and hearing all points of view in a yarn. Narcissists demand this right, then refuse to allow other points of view on the grounds that any other opinion somehow infringes their freedom of speech or is offensive.\n\n\nEveryone is an idiot from time to time.\n\n\n\nFirst Law\n(three circles and flowers)\n\nAfter my yarns with Percy, I begin to see the uncertainty principle not as a law but as an expression of frustration about the impossibility of achieving godlike scientific objectivity.\n\n\n\nForever limited\n\nSustainable systems cannot be manufactured by individuals or appointed committees, particularly during times of intense transition and upheaval.\n\n\nIdeas can be re-engineered to serve the interests of the powerful.\n\n(chekout Larry Gross, Post Apocaliptic Stress Syndrom).\n\n\nLines in the sand\n\nPeople today will mostly focus on the points of connection, the nodes of interest like stars in the sky. But the real understanding comes in the spaces in between, in the relational forces that connect and move the points.\n\n\nSystems are heterarchical – composed of equal parts interacting together. Imposing a hierarchical model of top-down control can only destroy them. Healthy interventions can only be made by free agents within a complex system.\n\n\nOn learning another culture (cultural humility): 1) Check your ego and motives, 2) You don’t need to be an expert to understand the knowledge process of people from other cultures and enter into dialogues with them (but you need to show respect), 3) Making yourself an expert in another culture is not always appreciated by the members of that culture.\n\n\nIt is difficult to relinquish the illusions of power and delusions of exceptionalism that come with privilege. But it is strangely liberating to realise your true status as a single node in a cooperative network.\n\n\nSustainable systems cannot function without the full autonomy and unique expression of each independent part of the interdependent whole.\n\n\nSustainability agents have a few simple operating guidelines, or network protocols, or rules if you like – connect, diversify, interact and adapt.\n\n\nAn agent that is truly adaptive and changing is open to sudden eruptions of transformation.\n\n\nNot all strange attractors are benevolent (narcissist).\n\n\nAdolescent cultures always ask the same three questions. Why are we here? How should we live? What will happen when we die?\n\n\n\nOf Spirit and Spirits\n\nThere are at least four parts to your spirit from an Aboriginal point of view: your higher self (superego), ancestral spirit, living spirit and shadow spirit… Your shadow spirit is that part of you that wants things you don’t need, makes you think you’re better than other people and above the land. If the rest of your spirit is not clear and in balance, it gets away from you, causing conflict and destruction. You gossip behind people’s backs, spread uncertainty, deliver judgments, upset people, take more than you need and accumulate goods without sharing. It makes you a competitor instead of a human being.\n\n                   =     metaphors   \n                //   \\\\    \nabstract       o      o   concrete\n                \\\\   //\n                   =    metaphors\n\nThere is a spark of creation like lightning when true learning takes place, with a genetic reward of chemical pleasure released in the brain… The chemical burst of pleasure we feel when genuine knowledge transmission takes place occurs from the creation of new neural pathways. These are connections between two points that were previously unconnected. Jokes are one of the most pure examples of this neural creation event… If people are laughing, they are learning.\n\n\nThere needs to be an interaction between abstract (spirit) and concrete (physical) worlds of knowledge for this kind of complexity to develop fully.\n\n\nWithout closing the loop between abstract knowledge and reality, and without making connections between different ideas and areas of knowledge, true learning cannot occur.\n\n\nA focus on linear, abstract, declarative knowledge alone not only fails to create complex connectivity but damages the mind. We are biologically punished for this destructive behaviour with a neuro-chemical rush of lethargy and discomfort that most people call boredom.\n\n\nKnowledge transmission must connect both abstract knowledge and concrete application through meaningful metaphors to be effective.\n\n\n\nAdvanced and Fair\nTODO",
+    "text": "This is a collection of my books reading notes. I also record my reading history at librarything.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2009\n\n\nGrowing Object-Oriented Software, Guided by tests\n\n\nSteve Freeman, Nat Pryce\n\n\n\n\n2019\n\n\nSand Talk: How Indigenous Thinking Can Save the World\n\n\nTyson Yunkaporta\n\n\n\n\n2008\n\n\nTrick or Treatment? Alternative Medicine on Trial\n\n\nSimon Singh, Edzard Ernst\n\n\n\n\n2004\n\n\nWorking Effectively with Legacy Code\n\n\nMichael C. Feathers\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Notes",
+      "Books"
+    ]
+  },
+  {
+    "objectID": "notes/books/feathers-legacy-code_2004.html#ch.-2-working-with-feedback",
+    "href": "notes/books/feathers-legacy-code_2004.html#ch.-2-working-with-feedback",
+    "title": "Working Effectively with Legacy Code",
+    "section": "Ch. 2: Working with feedback",
+    "text": "Ch. 2: Working with feedback\nA test is not a unit test if:\n\nIt talks to a database.\nIt communicates across a network.\nIt touches the file system.\nYou have to do special things to your environment to run it.",
     "crumbs": [
       "Notes",
       "Books",
-      "Sand Talk: How Indigenous Thinking Can Save the World"
+      "Working Effectively with Legacy Code"
+    ]
+  },
+  {
+    "objectID": "notes/books/feathers-legacy-code_2004.html#ch.-3-sensing-and-separation",
+    "href": "notes/books/feathers-legacy-code_2004.html#ch.-3-sensing-and-separation",
+    "title": "Working Effectively with Legacy Code",
+    "section": "Ch. 3: Sensing and separation",
+    "text": "Ch. 3: Sensing and separation\n\nFake objects\nSale sale = new Sale();\nsale.scan(barcode); // scan() calls Display.showLine(item)\n\npublic interface Display\n{\n    void showLine(String line);\n}\n\npublic class Sale\n{\n    private Display display;\n\n    public Sale(Display display) {\n        this.display = display;\n    }\n\n    public void scan(String barcode) {\n        // item = get_item(barcode);\n        String lineItem = item.name() + \" \" + item.price();\n        display.showLine(lineItem);\n    }\n}\n\npublic class FakeDisplay implements Display\n{\n    private String lastLine = \"\";\n    public void showLine(String line){\n        this.lastLine = line;\n    }\n    public String getLastLine(){\n        return lastLine;\n    }\n}\n\n// test\npublic class SaleTest extends TestCase\n{\n    public void testDisplayAnItem() {\n        FakeDisplay display = new FakeDisplay();\n        Sale sale = new Sale(display);\n        sale.scan(\"1\");\n        assertEquals(\"xxx: $1.00\", display.getLastLine());\n    }\n}\n\n// test with Mock\npublic class SaleTest extends TestCase\n{\n    public void testDisplayAnItem() {\n        MockDisplay display = new MockDisplay();\n        display.setExpectation(\"showLine\", \"xxx: $1.00\")\n        Sale sale = new Sale(display);\n        sale.scan(\"1\");\n        display.verify();\n    }\n}\nA seam is a place where you can alter behavior in your program without editing in that place.",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "Working Effectively with Legacy Code"
     ]
   },
   {
@@ -119,14 +118,39 @@
     ]
   },
   {
-    "objectID": "notes/books/index.html",
-    "href": "notes/books/index.html",
-    "title": "Books",
+    "objectID": "notes/books/yunkaporta_sand-talk_2019.html",
+    "href": "notes/books/yunkaporta_sand-talk_2019.html",
+    "title": "Sand Talk: How Indigenous Thinking Can Save the World",
     "section": "",
-    "text": "This is a collection of my books reading notes. I also record my reading history at librarything.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2019\n\n\nSand Talk: How Indigenous Thinking Can Save the World\n\n\nTyson Yunkaporta\n\n\n\n\n2008\n\n\nTrick or Treatment? Alternative Medicine on Trial\n\n\nSimon Singh, Edzard Ernst\n\n\n\n\n\nNo matching items",
+    "text": "Solutions to complex problems take many dissimilar minds and points of view.\n\nConnective thinking.\n\nAlbino boy\n( &lt; &gt; ) knee bend direction, “I am greater/lesser than you”\n\nContaining the excesses of malignant narcissists is a team effort… Engaging with them (narcissists) alone is futile – never wrestle a pig – as the old saying goes; you both end up covered in shit, and the pig likes it.\n\n\nThe basic protocols of Aboriginal society, like most societies, include respecting and hearing all points of view in a yarn. Narcissists demand this right, then refuse to allow other points of view on the grounds that any other opinion somehow infringes their freedom of speech or is offensive.\n\n\nEveryone is an idiot from time to time.\n\n\n\nFirst Law\n(three circles and flowers)\n\nAfter my yarns with Percy, I begin to see the uncertainty principle not as a law but as an expression of frustration about the impossibility of achieving godlike scientific objectivity.\n\n\n\nForever limited\n\nSustainable systems cannot be manufactured by individuals or appointed committees, particularly during times of intense transition and upheaval.\n\n\nIdeas can be re-engineered to serve the interests of the powerful.\n\n(chekout Larry Gross, Post Apocaliptic Stress Syndrom).\n\n\nLines in the sand\n\nPeople today will mostly focus on the points of connection, the nodes of interest like stars in the sky. But the real understanding comes in the spaces in between, in the relational forces that connect and move the points.\n\n\nSystems are heterarchical – composed of equal parts interacting together. Imposing a hierarchical model of top-down control can only destroy them. Healthy interventions can only be made by free agents within a complex system.\n\n\nOn learning another culture (cultural humility): 1) Check your ego and motives, 2) You don’t need to be an expert to understand the knowledge process of people from other cultures and enter into dialogues with them (but you need to show respect), 3) Making yourself an expert in another culture is not always appreciated by the members of that culture.\n\n\nIt is difficult to relinquish the illusions of power and delusions of exceptionalism that come with privilege. But it is strangely liberating to realise your true status as a single node in a cooperative network.\n\n\nSustainable systems cannot function without the full autonomy and unique expression of each independent part of the interdependent whole.\n\n\nSustainability agents have a few simple operating guidelines, or network protocols, or rules if you like – connect, diversify, interact and adapt.\n\n\nAn agent that is truly adaptive and changing is open to sudden eruptions of transformation.\n\n\nNot all strange attractors are benevolent (narcissist).\n\n\nAdolescent cultures always ask the same three questions. Why are we here? How should we live? What will happen when we die?\n\n\n\nOf Spirit and Spirits\n\nThere are at least four parts to your spirit from an Aboriginal point of view: your higher self (superego), ancestral spirit, living spirit and shadow spirit… Your shadow spirit is that part of you that wants things you don’t need, makes you think you’re better than other people and above the land. If the rest of your spirit is not clear and in balance, it gets away from you, causing conflict and destruction. You gossip behind people’s backs, spread uncertainty, deliver judgments, upset people, take more than you need and accumulate goods without sharing. It makes you a competitor instead of a human being.\n\n                   =     metaphors   \n                //   \\\\    \nabstract       o      o   concrete\n                \\\\   //\n                   =    metaphors\n\nThere is a spark of creation like lightning when true learning takes place, with a genetic reward of chemical pleasure released in the brain… The chemical burst of pleasure we feel when genuine knowledge transmission takes place occurs from the creation of new neural pathways. These are connections between two points that were previously unconnected. Jokes are one of the most pure examples of this neural creation event… If people are laughing, they are learning.\n\n\nThere needs to be an interaction between abstract (spirit) and concrete (physical) worlds of knowledge for this kind of complexity to develop fully.\n\n\nWithout closing the loop between abstract knowledge and reality, and without making connections between different ideas and areas of knowledge, true learning cannot occur.\n\n\nA focus on linear, abstract, declarative knowledge alone not only fails to create complex connectivity but damages the mind. We are biologically punished for this destructive behaviour with a neuro-chemical rush of lethargy and discomfort that most people call boredom.\n\n\nKnowledge transmission must connect both abstract knowledge and concrete application through meaningful metaphors to be effective.\n\n\n\nAdvanced and Fair\nTODO",
     "crumbs": [
       "Notes",
-      "Books"
+      "Books",
+      "Sand Talk: How Indigenous Thinking Can Save the World"
+    ]
+  },
+  {
+    "objectID": "notes/books/singh_trick-or-treatment_2008.html#history-of-acupuncture",
+    "href": "notes/books/singh_trick-or-treatment_2008.html#history-of-acupuncture",
+    "title": "Trick or Treatment? Alternative Medicine on Trial",
+    "section": "History of acupuncture",
+    "text": "History of acupuncture\n\nIn 1991 two tourists discovered a 5000 y.o. body in Austrian alps (Otzi) which was covered with tattoos that correspond closely to “modern” acupuncture meridians.\nAcupuncture was described in Yellow Emperor’s Classic of Internal Medicine (200BC).\nTrade with China brought acupuncture to Europe in the end of XVII century.\nAfter 1st and 2d Opium wars, acupuncture was perceived as “sinister ritual from the evil Orient”\nRevival of acupuncture in China in 1947 under Mao as traditional method (and cheap healthcare solution)\nA spectacular case of James Raston, who was treated post appendix operation pain relieve in 1971 (During Kissinger and Nixon visit to China).",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "Trick or Treatment? Alternative Medicine on Trial"
+    ]
+  },
+  {
+    "objectID": "notes/books/singh_trick-or-treatment_2008.html#placebos",
+    "href": "notes/books/singh_trick-or-treatment_2008.html#placebos",
+    "title": "Trick or Treatment? Alternative Medicine on Trial",
+    "section": "Placebos",
+    "text": "Placebos\nPlacebo effect was probably recognized very early.\nJohn Haygarth conducted a trial in 1799 on the efficiency of “Perkins’ tractors” and demonstrated that fake “tractors” were as efficient as the originals and concluded that “powerful influence upon diseases is produced by mere imagination”. He also recognized that placebo plays a role in genuine medicine as well as is dependent on factors such as doctor’s reputation, cost of the treatment, novelty…\nHenry Beecher’s observations regarding morphine vs saline effects during WWII.\nSham surgery (Leonard Cobb, internal mammary ligation) -&gt; importance of double-blind studies.",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "Trick or Treatment? Alternative Medicine on Trial"
     ]
   },
   {
