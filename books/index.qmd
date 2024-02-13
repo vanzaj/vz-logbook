@@ -1,5 +1,8 @@
 ---
 title: "Book notes"
+listing: table
+date-format: YYYY
 ---
 
 This is a collection of my books reading notes. I also record my reading history at [librarything](https://www.librarything.com/catalog/vanzaj/yourlibrary).
+
