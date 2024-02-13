@@ -3,14 +3,11 @@ title: "Trick or Treatment? Alternative Medicine on Trial"
 author:
     - name: Simon Singh
     - name: Edzard Ernst
-date: 01/01/2008
-date-format: "YYYY"
-format:
-  html:
-    toc: true
-    toc-depth: 2
+date: 2008-08-17
 categories: [science, medicine]
 ---
+
+-----
 
 # Chapter 1: How do you determine the truth?
 

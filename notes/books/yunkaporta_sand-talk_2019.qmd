@@ -1,15 +1,11 @@
 ---
 title: "Sand Talk: How Indigenous Thinking Can Save the World"
 author: Tyson Yunkaporta 
-date: 01/01/2019
-date-format: "YYYY"
-format:
-  html:
-    toc: true
-    toc-depth: 2
+date: 2019-09-19
 categories: [culture, complexity]
 ---
 
+------
 
 > Solutions to complex problems take many dissimilar minds and points of view.
 

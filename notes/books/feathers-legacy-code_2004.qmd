@@ -1,0 +1,82 @@
+---
+title: Working Effectively with Legacy Code
+author: Michael C. Feathers
+date: 2004-09-01
+---
+
+-----
+
+## Ch. 2: Working with feedback
+
+A test is not a unit test if:
+
+1. It talks to a database.
+2. It communicates across a network.
+3. It touches the file system.
+4. You have to do special things to your environment to run it.
+
+
+## Ch. 3: Sensing and separation
+
+### Fake objects
+
+``` java
+Sale sale = new Sale();
+sale.scan(barcode); // scan() calls Display.showLine(item)
+
+public interface Display
+{
+    void showLine(String line);
+}
+
+public class Sale
+{
+    private Display display;
+
+    public Sale(Display display) {
+        this.display = display;
+    }
+
+    public void scan(String barcode) {
+        // item = get_item(barcode);
+        String lineItem = item.name() + " " + item.price();
+        display.showLine(lineItem);
+    }
+}
+
+public class FakeDisplay implements Display
+{
+    private String lastLine = "";
+    public void showLine(String line){
+        this.lastLine = line;
+    }
+    public String getLastLine(){
+        return lastLine;
+    }
+}
+
+// test
+public class SaleTest extends TestCase
+{
+    public void testDisplayAnItem() {
+        FakeDisplay display = new FakeDisplay();
+        Sale sale = new Sale(display);
+        sale.scan("1");
+        assertEquals("xxx: $1.00", display.getLastLine());
+    }
+}
+
+// test with Mock
+public class SaleTest extends TestCase
+{
+    public void testDisplayAnItem() {
+        MockDisplay display = new MockDisplay();
+        display.setExpectation("showLine", "xxx: $1.00")
+        Sale sale = new Sale(display);
+        sale.scan("1");
+        display.verify();
+    }
+}
+```
+
+A *seam* is a place where you can alter behavior in your program without editing in that place.

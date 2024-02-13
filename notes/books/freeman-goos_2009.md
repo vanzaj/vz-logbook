@@ -1,0 +1,28 @@
+---
+title: Growing Object-Oriented Software, Guided by tests
+author:
+    - name: Steve Freeman
+    - name: Nat Pryce
+date: 2009-10-22
+---
+
+-----
+
+Problem domain vs solution domain.
+
+Video game example. Problem: actors, scene, effects... Solution: renderer, animator, collision detector...
+
+An object is an implementation of one or more *roles*;
+a *role* is a set of related *responsibilities*;
+a *responsibility* is an obligation to perform a task or know information.
+
+CRC cards: candidate, responsibilities, collaborators
+
+> ...nothing forces us to understand a process better than trying to automate it.
+
+1. Understand the problem
+2. Broad-brush design
+3. Automate: build, deployment, end-to-end test
+4. ATDD-TDD cycle
+
+Walking skeleton.
