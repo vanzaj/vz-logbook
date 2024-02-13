@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Tyson Yunkaporta">
+<meta name="dcterms.date" content="2019-01-01">
 
-<title>vz-logbook - Docker</title>
+<title>vz-logbook - Sand Talk: How Indigenous Thinking Can Save the World</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,59 +22,25 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -102,7 +70,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-sidebar floating nav-fixed">
@@ -112,7 +80,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">vz-logbook</span>
     </a>
   </div>
@@ -136,7 +104,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../coding/docker.html">Coding</a></li><li class="breadcrumb-item"><a href="../coding/docker.html">Docker</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notes/inbox.html">Notes</a></li><li class="breadcrumb-item"><a href="../../notes/books/index.html">Books</a></li><li class="breadcrumb-item"><a href="../../notes/books/yunkaporta_sand-talk_2019.html">Sand Talk: How Indigenous Thinking Can Save the World</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -150,28 +118,28 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../about.html" class="sidebar-item-text sidebar-link">
+  <a href="../../about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
  <span class="menu-text">Coding</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../coding/docker.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../coding/docker.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Docker</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../coding/ops.html" class="sidebar-item-text sidebar-link">
+  <a href="../../coding/ops.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ops</span></a>
   </div>
 </li>
@@ -179,7 +147,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../writings/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../writings/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Writings</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -188,13 +156,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../writings/hr-lingo.html" class="sidebar-item-text sidebar-link">
+  <a href="../../writings/hr-lingo.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">HR lingo</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../writings/org-signalling.html" class="sidebar-item-text sidebar-link">
+  <a href="../../writings/org-signalling.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Org signalling</span></a>
   </div>
 </li>
@@ -202,37 +170,37 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
  <span class="menu-text">Notes</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../notes/inbox.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/inbox.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Inbox</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../notes/books/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../notes/books/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Books</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../notes/books/singh_trick-or-treatment_2008.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/books/singh_trick-or-treatment_2008.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Trick or Treatment? Alternative Medicine on Trial</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../notes/books/yunkaporta_sand-talk_2019.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/books/yunkaporta_sand-talk_2019.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Sand Talk: How Indigenous Thinking Can Save the World</span></a>
   </div>
 </li>
@@ -249,29 +217,45 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
-  <ul>
-  <li><a href="#docker-commands" id="toc-docker-commands" class="nav-link active" data-scroll-target="#docker-commands">Docker commands</a></li>
-  <li><a href="#docker-run" id="toc-docker-run" class="nav-link" data-scroll-target="#docker-run">Docker run</a></li>
-  <li><a href="#creating-an-image" id="toc-creating-an-image" class="nav-link" data-scroll-target="#creating-an-image">Creating an image</a></li>
-  <li><a href="#network" id="toc-network" class="nav-link" data-scroll-target="#network">Network</a></li>
-  <li><a href="#storage" id="toc-storage" class="nav-link" data-scroll-target="#storage">Storage</a></li>
-  <li><a href="#docker-compose" id="toc-docker-compose" class="nav-link" data-scroll-target="#docker-compose">Docker compose</a></li>
+  <ul class="collapse">
+  <li><a href="#albino-boy" id="toc-albino-boy" class="nav-link active" data-scroll-target="#albino-boy">Albino boy</a></li>
+  <li><a href="#first-law" id="toc-first-law" class="nav-link" data-scroll-target="#first-law">First Law</a></li>
+  <li><a href="#forever-limited" id="toc-forever-limited" class="nav-link" data-scroll-target="#forever-limited">Forever limited</a></li>
+  <li><a href="#lines-in-the-sand" id="toc-lines-in-the-sand" class="nav-link" data-scroll-target="#lines-in-the-sand">Lines in the sand</a></li>
+  <li><a href="#of-spirit-and-spirits" id="toc-of-spirit-and-spirits" class="nav-link" data-scroll-target="#of-spirit-and-spirits">Of Spirit and Spirits</a></li>
+  <li><a href="#advanced-and-fair" id="toc-advanced-and-fair" class="nav-link" data-scroll-target="#advanced-and-fair">Advanced and Fair</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../coding/docker.html">Coding</a></li><li class="breadcrumb-item"><a href="../coding/docker.html">Docker</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notes/inbox.html">Notes</a></li><li class="breadcrumb-item"><a href="../../notes/books/index.html">Books</a></li><li class="breadcrumb-item"><a href="../../notes/books/yunkaporta_sand-talk_2019.html">Sand Talk: How Indigenous Thinking Can Save the World</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Docker</h1>
-</div>
+<h1 class="title">Sand Talk: How Indigenous Thinking Can Save the World</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">culture</div>
+    <div class="quarto-category">complexity</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Tyson Yunkaporta </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2019</p>
+    </div>
+  </div>
   
     
   </div>
@@ -281,92 +265,99 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="docker-commands" class="level1">
-<h1>Docker commands</h1>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="ex">run</span> <span class="va">$name</span><span class="pp">[</span><span class="ss">:$tag</span><span class="pp">]</span> <span class="pp">[</span><span class="ss">$cmd</span><span class="pp">]</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">ps</span> <span class="pp">[-</span><span class="ss">a</span><span class="pp">]</span> <span class="pp">[</span><span class="ss">$name</span><span class="pp">]</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="ex">stop</span> <span class="va">$name</span> <span class="kw">|</span> <span class="va">$id</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">rm</span> <span class="va">$name</span> <span class="kw">|</span> <span class="va">$id</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="ex">images</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="ex">rmi</span> <span class="va">$name</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="ex">pull</span> <span class="va">$name</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="ex">attach</span> <span class="va">$id</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="ex">logs</span> <span class="va">$name</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<blockquote class="blockquote">
+<p>Solutions to complex problems take many dissimilar minds and points of view.</p>
+</blockquote>
+<p>Connective thinking.</p>
+<section id="albino-boy" class="level1">
+<h1>Albino boy</h1>
+<p>( &lt; &gt; ) knee bend direction, “I am greater/lesser than you”</p>
+<blockquote class="blockquote">
+<p>Containing the excesses of malignant narcissists is a team effort… Engaging with them (narcissists) alone is futile – never wrestle a pig – as the old saying goes; you both end up covered in shit, and the pig likes it.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>The basic protocols of Aboriginal society, like most societies, include respecting and hearing all points of view in a yarn. Narcissists demand this right, then refuse to allow other points of view on the grounds that any other opinion somehow infringes their freedom of speech or is offensive.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Everyone is an idiot from time to time.</p>
+</blockquote>
 </section>
-<section id="docker-run" class="level1">
-<h1>Docker run</h1>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run <span class="at">-it</span> <span class="va">$name</span>  <span class="co"># interactive + terminal</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run <span class="at">-d</span> 80:8080 <span class="va">$name</span>  <span class="co"># daemon mode, link ports $host:$container</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run <span class="at">-v</span> /local/dir:/container/dir <span class="va">$name</span>  <span class="co"># mount local volume</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run <span class="at">-e</span> MYVAR=foobar <span class="va">$name</span>  <span class="co"># pass env var to container</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>NB: ports and volumes arguments always follow <code>$host:$container</code> order</p>
+<section id="first-law" class="level1">
+<h1>First Law</h1>
+<p>(three circles and flowers)</p>
+<blockquote class="blockquote">
+<p>After my yarns with Percy, I begin to see the uncertainty principle not as a law but as an expression of frustration about the impossibility of achieving godlike scientific objectivity.</p>
+</blockquote>
 </section>
-<section id="creating-an-image" class="level1">
-<h1>Creating an image</h1>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> <span class="op">&gt;</span> Dockerfile <span class="op">&lt;&lt; EOF</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="st">FROM ubuntu</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="st">RUN apt-get update</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="st">RUN apt-get install python</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="st">RUN pip install flask flask-mysql</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="st">COPY . /opt/src</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="st">ENTRYPOINT FLASK_APP=/opt/src/app.py flask run</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="op">EOF</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> build . <span class="at">-t</span> <span class="va">$myname</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> push <span class="va">$myname</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> history <span class="va">$myname</span>  <span class="co"># to see layers (successful RUNs in Dockerfile)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Docker image is built from layers created from each <code>FROM, RUN and COPY</code> line. The layers are reused for different images.</p>
-<p>Other useful commands: <code>ENV, WORKDIR, USER, CMD</code></p>
+<section id="forever-limited" class="level1">
+<h1>Forever limited</h1>
+<blockquote class="blockquote">
+<p>Sustainable systems cannot be manufactured by individuals or appointed committees, particularly during times of intense transition and upheaval.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Ideas can be re-engineered to serve the interests of the powerful.</p>
+</blockquote>
+<p>(chekout Larry Gross, Post Apocaliptic Stress Syndrom).</p>
 </section>
-<section id="network" class="level1">
-<h1>Network</h1>
-<p>By default docker uses bridge mode for containers running on the same host with default network 172.17.xxx.xxx. Other network modes are “none” (no network) and “host” (no network isolation from host).</p>
-<p><code>docker network create --driver bridge --subnet 182.18.0.0/16 my_network</code></p>
-<p><code>docker inspect $name</code> will show full container info including network.</p>
-<p>Dockers uses internal DNS 127.0.0.11 to resolve containers IP and containers names.</p>
+<section id="lines-in-the-sand" class="level1">
+<h1>Lines in the sand</h1>
+<blockquote class="blockquote">
+<p>People today will mostly focus on the points of connection, the nodes of interest like stars in the sky. But the real understanding comes in the spaces in between, in the relational forces that connect and move the points.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Systems are <strong>heterarchical</strong> – composed of equal parts interacting together. Imposing a hierarchical model of top-down control can only destroy them. Healthy interventions can only be made by free agents within a complex system.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>On learning another culture (cultural humility): 1) Check your ego and motives, 2) You don’t need to be an expert to understand the knowledge process of people from other cultures and enter into dialogues with them (but you need to show respect), 3) Making yourself an expert in another culture is not always appreciated by the members of that culture.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>It is difficult to relinquish the illusions of power and delusions of exceptionalism that come with privilege. But it is strangely liberating to realise your true status as a single node in a cooperative network.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Sustainable systems cannot function without the full autonomy and unique expression of each independent part of the interdependent whole.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Sustainability agents have a few simple operating guidelines, or network protocols, or rules if you like – connect, diversify, interact and adapt.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>An agent that is truly adaptive and changing is open to sudden eruptions of transformation.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Not all strange attractors are benevolent (narcissist).</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Adolescent cultures always ask the same three questions. Why are we here? How should we live? What will happen when we die?</p>
+</blockquote>
 </section>
-<section id="storage" class="level1">
-<h1>Storage</h1>
-<p>Containers, images, volumes are stored in <code>/var/lib/docker</code>. All image layers are RO. A contaier runs in a special RW container layer which gets destroyed when container is stoped. Data can be persisted in named volumes inside <code>/var/lib/docker/volumes</code> (volume mount) or a directory on a host (bind mount).</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> volume create my_volume</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run <span class="at">-v</span> my_volume:/var/log my_image</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># new explicit format for mounting volumes</span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run <span class="at">--mount</span> type=bind,source=/data/my_image/logs,target=/var/log my_image</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="of-spirit-and-spirits" class="level1">
+<h1>Of Spirit and Spirits</h1>
+<blockquote class="blockquote">
+<p>There are at least four parts to your spirit from an Aboriginal point of view: your higher self (superego), ancestral spirit, living spirit and shadow spirit… Your shadow spirit is that part of you that wants things you don’t need, makes you think you’re better than other people and above the land. If the rest of your spirit is not clear and in balance, it gets away from you, causing conflict and destruction. You gossip behind people’s backs, spread uncertainty, deliver judgments, upset people, take more than you need and accumulate goods without sharing. It makes you a competitor instead of a human being.</p>
+</blockquote>
+<pre><code>                   =     metaphors   
+                //   \\    
+abstract       o      o   concrete
+                \\   //
+                   =    metaphors</code></pre>
+<blockquote class="blockquote">
+<p>There is a spark of creation like lightning when true learning takes place, with a genetic reward of chemical pleasure released in the brain… The chemical burst of pleasure we feel when genuine knowledge transmission takes place occurs from the creation of new neural pathways. These are connections between two points that were previously unconnected. Jokes are one of the most pure examples of this neural creation event… If people are laughing, they are learning.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>There needs to be an interaction between abstract (spirit) and concrete (physical) worlds of knowledge for this kind of complexity to develop fully.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Without closing the loop between abstract knowledge and reality, and without making connections between different ideas and areas of knowledge, true learning cannot occur.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>A focus on linear, abstract, declarative knowledge alone not only fails to create complex connectivity but damages the mind. We are biologically punished for this destructive behaviour with a neuro-chemical rush of lethargy and discomfort that most people call boredom.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Knowledge transmission must connect both abstract knowledge and concrete application through meaningful metaphors to be effective.</p>
+</blockquote>
 </section>
-<section id="docker-compose" class="level1">
-<h1>Docker compose</h1>
-<p>It’s possible to run multiple containers and “link” them for networking. But much easier to use docker-compose to manage multi-container app.</p>
-<p>docker-compose.yml</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">version</span><span class="kw">:</span><span class="at"> </span><span class="dv">2</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">services</span><span class="kw">:</span></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">frontend</span><span class="kw">:</span></span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">build</span><span class="kw">:</span></span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">context</span><span class="kw">:</span><span class="at"> ./app</span></span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">args</span><span class="kw">:</span></span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">DB_HOST</span><span class="kw">:</span><span class="at"> localhost:5005</span></span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">links</span><span class="kw">:</span></span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> db</span></span>
-<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">volumes</span><span class="kw">:</span></span>
-<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> logs:/var/logs</span></span>
-<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">depends_on</span><span class="kw">:</span></span>
-<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">db</span><span class="kw">:</span></span>
-<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">condition</span><span class="kw">:</span><span class="at"> service_started</span></span>
-<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">db</span><span class="kw">:</span></span>
-<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">image</span><span class="kw">:</span><span class="at"> postgres:9.4</span></span>
-<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">ports</span><span class="kw">:</span></span>
-<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="st">"5005:5432"</span></span>
-<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">volumes</span><span class="kw">:</span></span>
-<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> /data/app/postgres:/var/lib/postgres</span></span>
-<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a><span class="fu">volumes</span><span class="kw">:</span></span>
-<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">logs</span><span class="kw">:</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker-compose</span> up <span class="at">-d</span>   <span class="co">#--build</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="ex">docker-compose</span> exec frontend ls <span class="at">-l</span></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="ex">docker-compose</span> logs frontend</span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="ex">docker-compose</span> down <span class="at">-v</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="advanced-and-fair" class="level1">
+<h1>Advanced and Fair</h1>
+<p>TODO</p>
 
 
 </section>
