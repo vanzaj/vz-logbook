@@ -1,5 +1,5 @@
 ---
-title: "Book notes"
+title: "Books"
 listing: table
 date-format: YYYY
 ---

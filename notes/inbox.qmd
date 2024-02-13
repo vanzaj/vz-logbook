@@ -1,0 +1,21 @@
+---
+title: Inbox
+---
+
+# Notes on current learnings
+
+From Xagility [podcast](https://www.youtube.com/watch?v=h2KU7knb8Xc): Quinton Quartel on FaST - people self-organising around work.
+
+- Open space as alternative to retrospectives
+- Feature factory vs Modern product managment
+- Valuable increment
+- Vision, Mission, Indicators
+- Business value vs Learning value vs Option value
+
+----
+
+> Scaling is a coordination problem -- James Shore (in his talk on FaST)
+
+----
+
+> We have paleolithic emotions, medieval institutions and god-like technology. -- ??

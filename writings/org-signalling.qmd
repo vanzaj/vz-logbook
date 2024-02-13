@@ -1,0 +1,8 @@
+---
+title: Org signalling
+date: 2020-07-29
+---
+
+Just like people, organizations use *signalling* to communicate with the rest of the world. SEC filing, branding campaigns, industry awards are obvious mechanisms. Certifications like [ISO 9001](https://en.wikipedia.org/wiki/ISO_9000#Contents_of_ISO_9001) are useful for getting contractual agreements. There are also more subtle signals. For example [B-corp](https://en.wikipedia.org/wiki/B_Corporation_(certification)) certification means that a for-profit organization puts social sustainability above profit, while [worldblue membership](https://en.wikipedia.org/wiki/B_Corporation_(certification)) signals a cultural shift from traditional command-and-control to a more progressive organization.
+
+But there are also organizations that don’t bother with certifications and branding. They just focus on doing good work and leave signalling to word-of-mouth. [Corporate Rebels](https://corporate-rebels.com) and their [bucketlist](https://corporate-rebels.com/bucketlist/) are currently the best source of information on such organizations. Happy to see Odd-e appearing in the list.
