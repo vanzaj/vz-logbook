@@ -1,0 +1,116 @@
+---
+title: Search Inside Yourself
+author: Chade-Meng Tan
+date: 2012-01-01
+---
+
+----
+
+[Mattieu Richard](https://en.wikipedia.org/wiki/Matthieu_Ricard), buddist monk, happiest man (because science).
+
+    Attention-Training
+    Self-knowledge & self-mastery
+    Creating useful mental habits
+
+Emotional intelligence, Peter Salovey and John D. Mayer
+
+EQ is "The ability to monitor one's own and others' feelings and emotions, to discriminate among them and to use this information to guide one's thinking and actions"
+
+Daniel Goleman, 5 domains of EQ:
+
+    self-awareness: knowledge of one's internal states, preferences
+    self-regulation: management of one's internal states, impulses
+    motivation: emotional tendencies that guide or facilitate reaching goals
+    empathy: awareness of other's feelings and needs
+    social skills: adeptness of inducing desirable responses in others
+
+Benefits of high EQ:
+
+    Stellar work performance
+    Outstanding leadership
+    Ability to create conditions for Happiness
+
+Wallace Bachman, "Nice Guys Finish First: A SYMLOG Analysis of U.S. Naval Commands," in The SYMLOG Practitioner, ed. Polley, Hare, and Stone (New York: Praeger, 1988): 133–153.
+
+If nothing good happens, then by default, I feel unhappy
+vs
+In nothing bad happens, than by default I feel happy
+
+> Between stimulus and response, there is a space. In that space lies our freedom and our power to choose our response. In our response lies our growth and our happiness." -- V. Frankl
+
+Every emotional experience is not just a psychological experience; it is also a physiological experience.
+
+Mindfulness meditation trains attention and meta-attention. The latter is the secret to concentration.
+Walking, cycling, micro-falling and micro-recovering.
+
+Mindfullness meditation practices: 1) Easy way -- pay attention to the process of breathing and gently bring attention back every time it wanders away, 2) Easier way -- shift from doing to being, just be without agenda for 2 minutes.
+Sit in a comfortable pose that allows to be both relaxed and alert. Bring attention to the process of breathing. If the mind gets distracted by a sound, or an itch, acknowledge the source of distraction, experience it without judging, and let it go if it wants to be let go. If you need to move, maintain mindfullness of intention, movement and sensation. If self-criticism or self-judgment arises, invite a thought of self-directed kindness to arise.
+
+
+## Ch3: extending mindfullness beyond sitting
+
+We take for granted many of the neutral things in life, such as not being in pain, having three meals a day, and being able to walk from point A to point B. Expensive and cheap food meditation. Walking meditation: standing, lifting one foot, moving foot, placing foot on the ground, stopping, turning, changing speed. Office to restroom.
+
+Mindful listening exercise (10 min): speaker-listener pair, 3 minutes monologue, listener gives full attention to the speaker, no questions allowed, only "I see" or "I understand", give space to silence. Switch roles. Have a meta-conversation at the end. Suggested topics: "what are you feeling right now?", "what is something that happened today that you want to talk about?", "anything you want to talk about?"
+
+Our attention is the most valuable gift we can give to others.
+
+Mindful conversation: mindful listening, looping (listener tells the speaker what he or she heard), dipping (self-checkin). How to listen and do self-checkin at the same time? Central vision (attention on other) and periferal vision (attention on self).
+
+Tips for practicing mindfullness: 1) Have a buddy, 2) do less than you can(one mindful breath a day), 3) self-checkin (how am i doing with my commitment to my practice, what has arisen in my life that relates to my practice)
+
+physical fitness: strength and stamina (circuit interval traning, cardio, resistance)
+attention: focused (intense focus on a chosen object) and open attention (willingness to meet any object that arrives in the mind)
+
+Meditation circuit training: rest the mind, 3 min of focused attention, 3 min of open attention.
+
+Zen and a baby learning to walk. One step, two steps, two steps, two steps, four steps, five steps, 8, 16... (in ~3 months). Initial access, consolidation.
+
+
+## Ch4: all-natural, organic self-confidence
+
+Self-awareness is clarity within oneself. Resolution and vividness as attributes of clarity. Self-awareness allows emotional awareness, accurate self-assessment, self-confidence and self-motivation. All systems have failure modes, recovery modes.
+
+Self-awareness and mindfullness are the same thing. Mindfullness training is self-awareness training. To train physical-emotional self-knowledge we can use "body scan". Journaling develops self-honesty and self-assessment.
+
+Body-scan from Mindfulness-based stress reduction course (Jon Kabat-Zinn):
+bring attention to different body parts starting from the top of our head and moving down to the tips of our toes (or vice versa). The important thing is attention, not sensation. It doesn't matter if you experience sensation or not, it only matters that you pay attention.
+
+SIY practice:
+
+easy meditation: 2 min
+body scan: 6 min (head, face, neck and shoulders, back front, entire body)
+positive emotion body scan: 3 min (think of a positive emotion or any happy event, bring attention to the body)
+easy meditation: 2 min (return to grounding)
+
+Journaling prompts:
+
+- What I am feeling now is ...
+- I am aware that ...
+- What motivates me is ...
+- I am inspired by ...
+- Today, I aspire to ...
+- Things that give me pleasure are...
+- My strengths are...
+- What hurts me is...
+- I wish...
+- Others are...
+- I made a happy mistake...
+- Love is...
+- Things that annoy me are...
+- My weaknesses are ...
+
+Try priming before writing: spend 2 minutes thinking about one or more instances in which you responded positively to a challenging situation and the outcome was very satisfying.
+
+Thoughts and emotions are not who we are; they are simply phenomena in mind and body that come and go (clouds in the sky).
+
+
+## Ch5: Riding your emotions like a horse
+
+5 dis-functions of a team:
+
+- absence of trust
+- fear of conflict
+- lack of commitment
+- avoidance of accountability
+- inattention to results
