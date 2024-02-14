@@ -2,6 +2,7 @@
 title: Working Effectively with Legacy Code
 author: Michael C. Feathers
 date: 2004-09-01
+categories: [programming, dev practice]
 ---
 
 -----

@@ -2,6 +2,7 @@
 title: How To Think More About Sex
 author: Alain De Botton
 date: 2012-05-01
+categories: [psychology, culture]
 ---
 
 # I. Introduction
@@ -10,7 +11,7 @@ date: 2012-05-01
 
 > Despite being one of the most private of activities, sex is nonetheless surrounded by a range of powerful socially sanctioned ideas that codify how normal people are meant to feel about and deal with the matter.
 
-> Whatever discomform we de feel around sex is commonly aggravated by the idea that we belong to a liberated age -- and ought by now, as a result, to be finding sex a straightforward and untroubling matter.
+> Whatever discomfort we de feel around sex is commonly aggravated by the idea that we belong to a liberated age -- and ought by now, as a result, to be finding sex a straightforward and untroubling matter.
 
 pre-religious society, religious society, 1920's - 1960's "sexual liberation", bikinis, talk about masturbation and bdsm, watching pornography...
 
@@ -26,11 +27,11 @@ there is a reason why it was and still is a taboo subject in many social context
 # II. The pleasures of sex
 ## 1. Eroticism and Loneliness
 
-Evolutionary biology, genetically programmed for reproduction, pleasures of sex as a reward for undertaking the immense efforts of raising childern
+Evolutionary biology, genetically programmed for reproduction, pleasures of sex as a reward for undertaking the immense efforts of raising children
 
 But evolutionary biology doesn't really provide us with a very satisfactory account of why sex should really matter to us as reflexive humans.
 
-Memories of first or new encounter with someone exhibiting reciprocal interest, first kiss... Relation to child-mother, unconditional acceptance, tenderness and love with a lot of physical contact. Gradually there is a separation, covering of the body, adolessence, social and cultural norms, public and private self, shame.
+Memories of first or new encounter with someone exhibiting reciprocal interest, first kiss... Relation to child-mother, unconditional acceptance, tenderness and love with a lot of physical contact. Gradually there is a separation, covering of the body, adolescence, social and cultural norms, public and private self, shame.
 
 > We grow into clumsy, heavy-footed, shameful, anxious creatures. We become adults, definitively expelled from paradise. But deep inside, we never quite forget the needs with which we were born: to be accepted as we are, without regard to our deeds; to be loved through the medium of our body; to be enclosed in another’s arms.
 
@@ -70,7 +71,7 @@ Deep, semi-conscious memories that might indicate/confirm an ideal partner.
 
 ### Orgasm -- Utopia
 
-> The more closely we analyse what we consider "sexy", the more clearly we will understand that eroticism is the feeling of excitement we experience at finding another human being who shares our values and our sense of the meaning of existence.
+> The more closely we analyze what we consider "sexy", the more clearly we will understand that eroticism is the feeling of excitement we experience at finding another human being who shares our values and our sense of the meaning of existence.
 
 > The orgasm itself marks the supreme moment when our loneliness and alienation are momentarily overcome. Everything we have appreciated about our lover [...] are combined into a concentrated distillation of pleasure that leaves each partner feeling uniquely tender towards and vulnerable with the other.
 
@@ -85,7 +86,7 @@ Attraction based purely on physical appearance.
 Biology: beauty is a promise of health and healthy offsprings.
 Cross-cultural studies: beauty == symmetry, balance, right proportions.
 Stendhal: beauty is a promise of happiness. How much can we "read" from a portrait?
-Clothes and expression/sugguestion of values.
+Clothes and expression/suggestion of values.
 
 
 ## 3. Natalie or Scarlett?

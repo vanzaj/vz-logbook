@@ -2,6 +2,7 @@
 title: Search Inside Yourself
 author: Chade-Meng Tan
 date: 2012-01-01
+categories: [psychology]
 ---
 
 ----

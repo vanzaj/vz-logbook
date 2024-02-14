@@ -4,6 +4,7 @@ author:
     - name: Steve Freeman
     - name: Nat Pryce
 date: 2009-10-22
+categories: [programming, dev practice, tdd]
 ---
 
 -----
