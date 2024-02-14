@@ -4,6 +4,29 @@ title: Inbox
 
 # Notes on current learnings
 
+## 14 Feb, 2024
+
+[Demo of the Mob Programming RPG](https://www.youtube.com/watch?v=ixV8YG5vwyM)
+
+:::{.callout}
+Your primary duty is that everyone playing treats each other with *Kindness*, *Consideration* and *Respect*.
+:::
+
+----
+
+[Data contracts](https://www.datacouncil.ai/talks/data-contracts-accountable-data-quality)
+
+Data as a Product. Good engineering practices applied to DS/DE.
+
+Modern data tools:
+    - dbt
+    - airflow
+    - fivetran
+    - metabase
+    - snowflake
+    - flink
+
+## 13 Feb, 2024
 From Xagility [podcast](https://www.youtube.com/watch?v=h2KU7knb8Xc): Quinton Quartel on FaST - people self-organising around work.
 
 - Open space as alternative to retrospectives
