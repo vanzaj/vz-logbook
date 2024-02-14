@@ -95,55 +95,6 @@
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site",
-    "crumbs": [
-      "About"
-    ]
-  },
-  {
-    "objectID": "writings/org-signalling.html",
-    "href": "writings/org-signalling.html",
-    "title": "Org signalling",
-    "section": "",
-    "text": "Just like people, organizations use signalling to communicate with the rest of the world. SEC filing, branding campaigns, industry awards are obvious mechanisms. Certifications like ISO 9001 are useful for getting contractual agreements. There are also more subtle signals. For example B-corp certification means that a for-profit organization puts social sustainability above profit, while worldblue membership signals a cultural shift from traditional command-and-control to a more progressive organization.\nBut there are also organizations that don’t bother with certifications and branding. They just focus on doing good work and leave signalling to word-of-mouth. Corporate Rebels and their bucketlist are currently the best source of information on such organizations. Happy to see Odd-e appearing in the list.",
-    "crumbs": [
-      "Writings",
-      "Org signalling"
-    ]
-  },
-  {
-    "objectID": "writings/index.html",
-    "href": "writings/index.html",
-    "title": "Writings",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nSep 24, 2020\n\n\nHR lingo\n\n\n \n\n\n\n\nJul 29, 2020\n\n\nOrg signalling\n\n\n \n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Writings"
-    ]
-  },
-  {
-    "objectID": "writings/hr-lingo.html",
-    "href": "writings/hr-lingo.html",
-    "title": "HR lingo",
-    "section": "",
-    "text": "language and the words you use say a lot about a culture, and that we can take steps to change culture through changing those words. – Emily Webber\n\nThe above quote is from a short and sweet “Should you call people resources?” post which resonated with me. I don’t remember when the term “resource” applied to people started to bother me. It’s been a while, but usually I didn’t do anything about it. Last year I decided to engage with an HR admin in a bank where I worked as an external consultant. She kept referring to me and my colleagues as “external resources” in emails. I’d asked her to stop calling us that, but either she had ignored my request or thought it wasn’t important and continued to call us “ER”s. I repeated my request accompanied by a small explanation why people are not resources thinking that sensible people especially working in HR would have no problem understanding it. Her reply: “but it is just a classification in our internal IT system”…\nSome of my HR friends say that the R-word is slowly disappearing from their industry’s lexicon and that organization adopt Google’s “People Operation” or similar (hopefully not just borrowing the term and being done with it). I like this development.\nWhat about “talent”? It is not as offensive as “resources”, but still might trigger “I’ve got no talents.” Or “I’m not good at this.” And isn’t talent overrated? And what about “human capital” or “human assets”? What is the benefit of using these words and constructs instead of just “people”?",
-    "crumbs": [
-      "Writings",
-      "HR lingo"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "vz-logbook",
-    "section": "",
-    "text": "This is a Quarto website."
-  },
-  {
     "objectID": "notes/books/feathers-legacy-code_2004.html#ch.-2-working-with-feedback",
     "href": "notes/books/feathers-legacy-code_2004.html#ch.-2-working-with-feedback",
     "title": "Working Effectively with Legacy Code",
@@ -168,11 +119,156 @@
     ]
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "vz-logbook",
+    "section": "",
+    "text": "This is a Quarto website."
+  },
+  {
+    "objectID": "writings/hr-lingo.html",
+    "href": "writings/hr-lingo.html",
+    "title": "HR lingo",
+    "section": "",
+    "text": "language and the words you use say a lot about a culture, and that we can take steps to change culture through changing those words. – Emily Webber\n\nThe above quote is from a short and sweet “Should you call people resources?” post which resonated with me. I don’t remember when the term “resource” applied to people started to bother me. It’s been a while, but usually I didn’t do anything about it. Last year I decided to engage with an HR admin in a bank where I worked as an external consultant. She kept referring to me and my colleagues as “external resources” in emails. I’d asked her to stop calling us that, but either she had ignored my request or thought it wasn’t important and continued to call us “ER”s. I repeated my request accompanied by a small explanation why people are not resources thinking that sensible people especially working in HR would have no problem understanding it. Her reply: “but it is just a classification in our internal IT system”…\nSome of my HR friends say that the R-word is slowly disappearing from their industry’s lexicon and that organization adopt Google’s “People Operation” or similar (hopefully not just borrowing the term and being done with it). I like this development.\nWhat about “talent”? It is not as offensive as “resources”, but still might trigger “I’ve got no talents.” Or “I’m not good at this.” And isn’t talent overrated? And what about “human capital” or “human assets”? What is the benefit of using these words and constructs instead of just “people”?",
+    "crumbs": [
+      "Writings",
+      "HR lingo"
+    ]
+  },
+  {
+    "objectID": "writings/index.html",
+    "href": "writings/index.html",
+    "title": "Writings",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nSep 24, 2020\n\n\nHR lingo\n\n\n \n\n\n\n\nJul 29, 2020\n\n\nOrg signalling\n\n\n \n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Writings"
+    ]
+  },
+  {
+    "objectID": "writings/org-signalling.html",
+    "href": "writings/org-signalling.html",
+    "title": "Org signalling",
+    "section": "",
+    "text": "Just like people, organizations use signalling to communicate with the rest of the world. SEC filing, branding campaigns, industry awards are obvious mechanisms. Certifications like ISO 9001 are useful for getting contractual agreements. There are also more subtle signals. For example B-corp certification means that a for-profit organization puts social sustainability above profit, while worldblue membership signals a cultural shift from traditional command-and-control to a more progressive organization.\nBut there are also organizations that don’t bother with certifications and branding. They just focus on doing good work and leave signalling to word-of-mouth. Corporate Rebels and their bucketlist are currently the best source of information on such organizations. Happy to see Odd-e appearing in the list.",
+    "crumbs": [
+      "Writings",
+      "Org signalling"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "notes/books/de_botton-how-to-think-more-about-sex_2012.html",
+    "href": "notes/books/de_botton-how-to-think-more-about-sex_2012.html",
+    "title": "How To Think More About Sex",
+    "section": "",
+    "text": "It is rare to get through this life without feeing that we are somehow a bit odd about sex.\n\n\nDespite being one of the most private of activities, sex is nonetheless surrounded by a range of powerful socially sanctioned ideas that codify how normal people are meant to feel about and deal with the matter.\n\n\nWhatever discomfort we de feel around sex is commonly aggravated by the idea that we belong to a liberated age – and ought by now, as a result, to be finding sex a straightforward and untroubling matter.\n\npre-religious society, religious society, 1920’s - 1960’s “sexual liberation”, bikinis, talk about masturbation and bdsm, watching pornography…\n\n…sex is not something that we can ever expect to feel easily liberated from.\n\nthere is a reason why it was and still is a taboo subject in many social contexts.\n\nit (sex) is a fundamentally disruptive, overwhelming and demented force, strongly at odds with the majority of our ambitions and all but incapable of being discreetly integrated within civilized society.\n\n\nIt refuses to sit neatly on top of love, as it should.",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "How To Think More About Sex"
+    ]
+  },
+  {
+    "objectID": "notes/books/de_botton-how-to-think-more-about-sex_2012.html#eroticism-and-loneliness",
+    "href": "notes/books/de_botton-how-to-think-more-about-sex_2012.html#eroticism-and-loneliness",
+    "title": "How To Think More About Sex",
+    "section": "1. Eroticism and Loneliness",
+    "text": "1. Eroticism and Loneliness\nEvolutionary biology, genetically programmed for reproduction, pleasures of sex as a reward for undertaking the immense efforts of raising children\nBut evolutionary biology doesn’t really provide us with a very satisfactory account of why sex should really matter to us as reflexive humans.\nMemories of first or new encounter with someone exhibiting reciprocal interest, first kiss… Relation to child-mother, unconditional acceptance, tenderness and love with a lot of physical contact. Gradually there is a separation, covering of the body, adolescence, social and cultural norms, public and private self, shame.\n\nWe grow into clumsy, heavy-footed, shameful, anxious creatures. We become adults, definitively expelled from paradise. But deep inside, we never quite forget the needs with which we were born: to be accepted as we are, without regard to our deeds; to be loved through the medium of our body; to be enclosed in another’s arms.\n\n\nThe Kiss – Acceptance\n\nIt could sound disgusting, and that’s the point. Nothing is erotic that isn’t also, with the wrong person, revolting, which is precisely what makes erotic moments so intense.\n\n\n\nThe Undressing – An end to shame\n\nThe shame begins in adolescence… A division begins between our ordinary public selves on the one hand and our sexual and private identities on the other. A large portion of who we are as adults, from our sexual fantasies to our parted legs, becomes impossible to share with almost anyone we know.\n\nsexual fantasies clash with what we think is proper and expected behavior (from family and society).\n\n\nExcitement – Authenticity\n\nErections and lubrication simply cannot be effected by willpower and are therefore particularly true and honest indices of interest.\n\n\n\nRudeness – Love\n\nIt can be a sign of love to be allowed to slap someone hard across the face or to clasp our hands forcefully around another’s neck… It doesn’t matter to them (partner) that we have darker sides; they can – like the ideal parent – see us whole and recognize us as being fundamentally good.\n\n\nWhen we are on the receiving end of this type of violence and rudeness, we may find a parallel pleasure, and a certain sense of strength, in being able to decide for ourselves just how insulted, hurt and dominated we are going to feel.\n\n\n\nFetishism – Goodness\n\nWe will be drawn to specific things either because they recall appealing qualities of a beloved parental figure or else, conversely, because they somehow cancel out, or otherwise help us to escape, a memory of early humiliation or terror.\n\nDeep, semi-conscious memories that might indicate/confirm an ideal partner.\n\nThey turn us on because they are emblems of the Good.\n\n\n\nOrgasm – Utopia\n\nThe more closely we analyze what we consider “sexy”, the more clearly we will understand that eroticism is the feeling of excitement we experience at finding another human being who shares our values and our sense of the meaning of existence.\n\n\nThe orgasm itself marks the supreme moment when our loneliness and alienation are momentarily overcome. Everything we have appreciated about our lover […] are combined into a concentrated distillation of pleasure that leaves each partner feeling uniquely tender towards and vulnerable with the other.\n\n\nPost-coital sadness often settles over a couple.\n\n\n…it [sex] is an ecstasy we feel at encountering someone who may be able to put to rest certain of our greatest fears, and with whom we may hope to build a shared life based upon common values.",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "How To Think More About Sex"
+    ]
+  },
+  {
+    "objectID": "notes/books/de_botton-how-to-think-more-about-sex_2012.html#can-sexiness-be-profound",
+    "href": "notes/books/de_botton-how-to-think-more-about-sex_2012.html#can-sexiness-be-profound",
+    "title": "How To Think More About Sex",
+    "section": "2. Can ‘Sexiness’ Be Profound?",
+    "text": "2. Can ‘Sexiness’ Be Profound?\nAttraction based purely on physical appearance. Biology: beauty is a promise of health and healthy offsprings. Cross-cultural studies: beauty == symmetry, balance, right proportions. Stendhal: beauty is a promise of happiness. How much can we “read” from a portrait? Clothes and expression/suggestion of values.",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "How To Think More About Sex"
+    ]
+  },
+  {
+    "objectID": "notes/books/de_botton-how-to-think-more-about-sex_2012.html#natalie-or-scarlett",
+    "href": "notes/books/de_botton-how-to-think-more-about-sex_2012.html#natalie-or-scarlett",
+    "title": "How To Think More About Sex",
+    "section": "3. Natalie or Scarlett?",
+    "text": "3. Natalie or Scarlett?\n\nThe specifics of what we find “beautiful” and what we find “sexy” are indications of what we most deeply crave in order to rebalance ourselves.",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "How To Think More About Sex"
+    ]
+  },
+  {
+    "objectID": "notes/books/de_botton-how-to-think-more-about-sex_2012.html#iii.-the-problems-of-sex",
+    "href": "notes/books/de_botton-how-to-think-more-about-sex_2012.html#iii.-the-problems-of-sex",
+    "title": "How To Think More About Sex",
+    "section": "III. The problems of Sex",
+    "text": "III. The problems of Sex",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "How To Think More About Sex"
+    ]
+  },
+  {
+    "objectID": "notes/books/de_botton-how-to-think-more-about-sex_2012.html#love-and-sex",
+    "href": "notes/books/de_botton-how-to-think-more-about-sex_2012.html#love-and-sex",
+    "title": "How To Think More About Sex",
+    "section": "1. Love and Sex",
+    "text": "1. Love and Sex\n\nWe tend to tiptoe around what we want, cloaking our needs with evasions and in the process, we habitually lie, break others’ hearts and suffer through evenings filled with frustration and guilt.\n\nDirect expression of pure sexual desire or pure love are equally problematic and force both parties to lie (not tell the whole truth).\n\n…wanting love more than sex, or even instead of it, isn’t “better” or “worse” than the reverse.",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "How To Think More About Sex"
+    ]
+  },
+  {
+    "objectID": "notes/books/de_botton-how-to-think-more-about-sex_2012.html#sexual-rejection",
+    "href": "notes/books/de_botton-how-to-think-more-about-sex_2012.html#sexual-rejection",
+    "title": "How To Think More About Sex",
+    "section": "2. Sexual Rejection",
+    "text": "2. Sexual Rejection\n\nRejection hurts so much because we take it as a damning judgement passed not merely on our physical appeal but on our entire selves, and by extension on our very right to exist.",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "How To Think More About Sex"
+    ]
+  },
+  {
+    "objectID": "notes/books/de_botton-how-to-think-more-about-sex_2012.html#lack-of-desire",
+    "href": "notes/books/de_botton-how-to-think-more-about-sex_2012.html#lack-of-desire",
+    "title": "How To Think More About Sex",
+    "section": "3. Lack of desire",
+    "text": "3. Lack of desire\n\nEroticism seems, in the end, to have very little to do with simply being unclothed: it springs instead from a promise of mutual arousal…\n\n\nSuffering sexual rejection by the person with whom we have pledged to share our life is a much odder and more humiliating experience.\n\n\n…the paucity of sex within established relationships typically has to do with the difficulty of shifting registers between the everyday and the erotic.\n\nFreud, child-parent love, taboo, children after marriage, mummy-daddy…\n\nThe solution to long-term sexual stagnation is to learn to see our lover as if we had never laid eyes on him or her before.",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "How To Think More About Sex"
+    ]
+  },
+  {
     "objectID": "notes/books/index.html",
     "href": "notes/books/index.html",
     "title": "Books",
     "section": "",
-    "text": "This is a collection of my books reading notes. I also record my reading history at librarything.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2009\n\n\nGrowing Object-Oriented Software, Guided by tests\n\n\nSteve Freeman, Nat Pryce\n\n\n\n\n2019\n\n\nSand Talk: How Indigenous Thinking Can Save the World\n\n\nTyson Yunkaporta\n\n\n\n\n2012\n\n\nSearch Inside Yourself\n\n\nChade-Meng Tan\n\n\n\n\n2008\n\n\nTrick or Treatment? Alternative Medicine on Trial\n\n\nSimon Singh, Edzard Ernst\n\n\n\n\n2004\n\n\nWorking Effectively with Legacy Code\n\n\nMichael C. Feathers\n\n\n\n\n\nNo matching items",
+    "text": "This is a collection of my books reading notes. I also record my reading history at librarything.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2009\n\n\nGrowing Object-Oriented Software, Guided by tests\n\n\nSteve Freeman, Nat Pryce\n\n\n\n\n2012\n\n\nHow To Think More About Sex\n\n\nAlain De Botton\n\n\n\n\n2019\n\n\nSand Talk: How Indigenous Thinking Can Save the World\n\n\nTyson Yunkaporta\n\n\n\n\n2012\n\n\nSearch Inside Yourself\n\n\nChade-Meng Tan\n\n\n\n\n2008\n\n\nTrick or Treatment? Alternative Medicine on Trial\n\n\nSimon Singh, Edzard Ernst\n\n\n\n\n2004\n\n\nWorking Effectively with Legacy Code\n\n\nMichael C. Feathers\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Notes",
       "Books"
