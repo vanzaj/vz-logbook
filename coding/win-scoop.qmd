@@ -1,0 +1,59 @@
+---
+title: Windows 10 Dev Env Setup
+---
+
+## Install latest Microsoft Powershell (v7.0.3 as of 9 November 2020)
+
+- Go to <https://github.com/PowerShell/PowerShell/>
+- Click on `Latest` under Releases
+- Search for `win-x64.msi`
+
+
+## Install and configure Scoop
+
+[Scoop](https://scoop.sh/) allows installing and managing familiar dev tools on Windows from the command line. It is somewhat similar to `homebrew` on Mac or `apt-get` on Ubuntu.
+
+Setup your region’s web proxy ([more info](https://scoop-docs.now.sh/docs/misc/Using-Scoop-behind-a-proxy.html))
+
+Type in the PowerShell Terminal:
+```bash
+[net.webrequest]::defaultwebproxy = new-object net.webproxy "http://proxy.COMPANY.com:8080"
+[net.webrequest]::defaultwebproxy.credentials = [net.credentialcache]::defaultcredentials
+```
+
+Install scoop.sh and git:
+```bash
+set-executionpolicy unrestricted -s cu
+iwr -useb get.scoop.sh | iex
+scoop install git win32-openssh openssl
+sudo C:\ProgramData\scoop\apps\win32-openssh\current\install-sshd.ps1
+git config --global credential.helper manager
+git config --global http.sslVerify false
+scoop config proxy 'currentuser@proxy.COMPANY.com:8080'
+scoop install busybox cacert delta pshazz sudo
+git config --global delta.side-by-side true
+```
+
+## Install development tools
+
+Scoop update and basic tools:
+```bash
+scoop config proxy 'currentuser@proxytr.huawei.com:8080'
+sudo scoop update *
+scoop install cwRsync dust everything gpg procs sysinternals vcredist2015 vcredist windows-terminal -g
+```
+
+Add buckets and install java, node, python, postman, svn...:
+```bash
+scoop bucket add extras versions java jetbrains
+scoop install zulu8 maven gradle
+scoop install IntelliJ-IDEA-Ultimate jetbrains-toolbox
+scoop install nodejs yarn python
+scoop install concfg nvim vscode curl jq postman silksvn
+```
+
+Install docker:
+```bash
+scoop bucket add Ash258 'https://github.com/Ash258/Scoop-Ash258.git'
+scoop install docker
+```

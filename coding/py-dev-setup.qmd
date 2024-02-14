@@ -1,0 +1,79 @@
+---
+title: Python dev setup
+---
+
+# Python development on OSX/Linux
+
+## pyenv + buildin virtualenv
+
+```bash
+pyenv install 3.12.1
+pyenv local 3.12.1
+python -m venv venv
+. ./venv/bin/activate
+pip install --upgrade pip
+pip install fastapi
+pip install 'uvicorn[standard]'
+pip freeze > requirements.txt
+```
+
+# Python development on Windows
+
+See [win dev setup](win-scoop.qmd) if you need to setup your box first.
+
+## Proxy setup for pip
+
+Assuming the userID=1234566 and password=s3cr3t0, type the following in the terminal:
+
+```bash
+$env:http_proxy="http://123456:s3cr3t0@proxytr.company.com:8080"
+$env:https_proxy="http://123456:s3cr3t0@proxytr.company.com:8080"
+```
+
+(NB: `http://` for `$env:https` IS correct)
+
+
+## Always work inside an isolated environment
+
+It is very hard to manage different versions of dependencies for multiple projects in one place. We need to use [virtual environments](https://realpython.com/python-virtual-environments-a-primer/). In Python 3, `virtualenv` was added to core library as `venv` module.
+
+```bash
+cd new_project
+python -m venv .\myevn
+.\myenv\Scripts\activate
+pip install requests  # installs into .\myenv\Lib\site-packages
+```
+
+For ML projects, it might be better to use `[mini]conda` as a replacement for `pip`:
+
+```bash
+scoop install miniconda3
+conda install -n root -c pscondaenvs pscondaenvs
+conda init powershell
+
+# relaunch terminal
+
+conda info         # check current env
+conda list         # which packages are available
+conda info --envs  # list of existing environments
+conda create --name myenv
+conda activate myenv
+conda install -n myenv numpy scikit-learn
+conda deactivate
+
+# Add conda forge
+conda config --set auto_update_conda False
+conda config --add channels conda-forge
+conda search psycopg2
+
+conda install --file requirements.txt
+``` 
+
+
+# Useful packages for maintaining code quality
+
+- `pytest`: most popular testing framework (including test discovery and test runner)
+- `pytest-xdist pytest-cov`: add parallel test runner and test coverage reporting
+- `flake8`: linting and PEP 8 style conformance
+- `isort`: make imports more consistent
+- `black`: uncompromising Python code formatter
