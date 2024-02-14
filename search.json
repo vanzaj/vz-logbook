@@ -1,13 +1,57 @@
 [
   {
-    "objectID": "coding/ops.html",
-    "href": "coding/ops.html",
-    "title": "Ops",
+    "objectID": "coding/win-scoop.html",
+    "href": "coding/win-scoop.html",
+    "title": "Windows 10 Dev Env Setup",
     "section": "",
-    "text": "ansible vault\necho $random_passwd &gt; .ansible-vault-password-file\nexport ANSIBLE_VAULT_PASSWORD_FILE=./.ansible-vault-password-file\nansible-vault encrypt hosts.txt\nansible-vault view hosts.txt\nansible-vault edit hosts.txt\n\n\ncrontab\n# user crontab\ncrontab -e\n5 * * * * /path/to/script\ncrontab -l # -r to remove\n\n#system crontab (run every 5 min)\necho \"*/5 * * * * bob /path/to/scrip.sh\" &gt; /etc/cron.d/bobs-script\n\n\njournalctl\njournalctl --since \"2 days ago\" -u uwsgi\njournalctl -flu uwsgi\n\n\nnginx\ntest config: nginx -T\n\n\npostfix\npostqueue -p  # emails still in queue\npostsuper -d $EMAIL_HEX_ID  # to delete\n\n\nsendmail\nssh $mgmt_box\nsendmail -t &lt;&lt;eof\nFrom: ops@foo.com\nTo: regi@registrar.com\nSubject: renew this\n\nHi, i can haz renew.\neof\n\n\nvagrant (osx)\nbrew tap caskroom/cask\nbrew cask install vagrant\nbrew cask reinstall virtualbox virtualbox-extension-pack\nvagrant init bento/ubuntu-16.04\nvim Vagrantfile\nvagrant up\nvagrant provision\nvagrant ssh",
+    "text": "Go to https://github.com/PowerShell/PowerShell/\nClick on Latest under Releases\nSearch for win-x64.msi",
     "crumbs": [
       "Coding",
-      "Ops"
+      "Windows 10 Dev Env Setup"
+    ]
+  },
+  {
+    "objectID": "coding/win-scoop.html#install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020",
+    "href": "coding/win-scoop.html#install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020",
+    "title": "Windows 10 Dev Env Setup",
+    "section": "",
+    "text": "Go to https://github.com/PowerShell/PowerShell/\nClick on Latest under Releases\nSearch for win-x64.msi",
+    "crumbs": [
+      "Coding",
+      "Windows 10 Dev Env Setup"
+    ]
+  },
+  {
+    "objectID": "coding/win-scoop.html#install-and-configure-scoop",
+    "href": "coding/win-scoop.html#install-and-configure-scoop",
+    "title": "Windows 10 Dev Env Setup",
+    "section": "Install and configure Scoop",
+    "text": "Install and configure Scoop\nScoop allows installing and managing familiar dev tools on Windows from the command line. It is somewhat similar to homebrew on Mac or apt-get on Ubuntu.\nSetup your region’s web proxy (more info)\nType in the PowerShell Terminal:\n[net.webrequest]::defaultwebproxy = new-object net.webproxy \"http://proxy.COMPANY.com:8080\"\n[net.webrequest]::defaultwebproxy.credentials = [net.credentialcache]::defaultcredentials\nInstall scoop.sh and git:\nset-executionpolicy unrestricted -s cu\niwr -useb get.scoop.sh | iex\nscoop install git win32-openssh openssl\nsudo C:\\ProgramData\\scoop\\apps\\win32-openssh\\current\\install-sshd.ps1\ngit config --global credential.helper manager\ngit config --global http.sslVerify false\nscoop config proxy 'currentuser@proxy.COMPANY.com:8080'\nscoop install busybox cacert delta pshazz sudo\ngit config --global delta.side-by-side true",
+    "crumbs": [
+      "Coding",
+      "Windows 10 Dev Env Setup"
+    ]
+  },
+  {
+    "objectID": "coding/win-scoop.html#install-development-tools",
+    "href": "coding/win-scoop.html#install-development-tools",
+    "title": "Windows 10 Dev Env Setup",
+    "section": "Install development tools",
+    "text": "Install development tools\nScoop update and basic tools:\nscoop config proxy 'currentuser@proxytr.huawei.com:8080'\nsudo scoop update *\nscoop install cwRsync dust everything gpg procs sysinternals vcredist2015 vcredist windows-terminal -g\nAdd buckets and install java, node, python, postman, svn…:\nscoop bucket add extras versions java jetbrains\nscoop install zulu8 maven gradle\nscoop install IntelliJ-IDEA-Ultimate jetbrains-toolbox\nscoop install nodejs yarn python\nscoop install concfg nvim vscode curl jq postman silksvn\nInstall docker:\nscoop bucket add Ash258 'https://github.com/Ash258/Scoop-Ash258.git'\nscoop install docker",
+    "crumbs": [
+      "Coding",
+      "Windows 10 Dev Env Setup"
+    ]
+  },
+  {
+    "objectID": "coding/docker.html",
+    "href": "coding/docker.html",
+    "title": "Docker",
+    "section": "",
+    "text": "Docker commands\ndocker\n    run $name[:$tag] [$cmd]\n    ps [-a] [$name]\n    stop $name | $id\n    rm $name | $id\n    images\n    rmi $name\n    pull $name\n    attach $id\n    logs $name\n\n\nDocker run\ndocker run -it $name  # interactive + terminal\ndocker run -d 80:8080 $name  # daemon mode, link ports $host:$container\ndocker run -v /local/dir:/container/dir $name  # mount local volume\ndocker run -e MYVAR=foobar $name  # pass env var to container\nNB: ports and volumes arguments always follow $host:$container order\n\n\nCreating an image\ncat &gt; Dockerfile &lt;&lt; EOF\nFROM ubuntu\nRUN apt-get update\nRUN apt-get install python\nRUN pip install flask flask-mysql\nCOPY . /opt/src\nENTRYPOINT FLASK_APP=/opt/src/app.py flask run\nEOF\ndocker build . -t $myname\ndocker push $myname\ndocker history $myname  # to see layers (successful RUNs in Dockerfile)\nDocker image is built from layers created from each FROM, RUN and COPY line. The layers are reused for different images.\nOther useful commands: ENV, WORKDIR, USER, CMD\n\n\nNetwork\nBy default docker uses bridge mode for containers running on the same host with default network 172.17.xxx.xxx. Other network modes are “none” (no network) and “host” (no network isolation from host).\ndocker network create --driver bridge --subnet 182.18.0.0/16 my_network\ndocker inspect $name will show full container info including network.\nDockers uses internal DNS 127.0.0.11 to resolve containers IP and containers names.\n\n\nStorage\nContainers, images, volumes are stored in /var/lib/docker. All image layers are RO. A contaier runs in a special RW container layer which gets destroyed when container is stoped. Data can be persisted in named volumes inside /var/lib/docker/volumes (volume mount) or a directory on a host (bind mount).\ndocker volume create my_volume\ndocker run -v my_volume:/var/log my_image\n\n# new explicit format for mounting volumes\ndocker run --mount type=bind,source=/data/my_image/logs,target=/var/log my_image\n\n\nDocker compose\nIt’s possible to run multiple containers and “link” them for networking. But much easier to use docker-compose to manage multi-container app.\ndocker-compose.yml\nversion: 2\n\nservices:\n  frontend:\n    build:\n      context: ./app\n      args:\n        DB_HOST: localhost:5005\n    links:\n      - db\n    volumes:\n      - logs:/var/logs\n    depends_on:\n      db:\n        condition: service_started\n\n  db:\n    image: postgres:9.4\n    ports:\n      - \"5005:5432\"\n    volumes:\n      - /data/app/postgres:/var/lib/postgres\n\nvolumes:\n  logs:\ndocker-compose up -d   #--build\ndocker-compose exec frontend ls -l\ndocker-compose logs frontend\ndocker-compose down -v",
+    "crumbs": [
+      "Coding",
+      "Docker"
     ]
   },
   {
@@ -287,14 +331,58 @@
     ]
   },
   {
-    "objectID": "coding/docker.html",
-    "href": "coding/docker.html",
-    "title": "Docker",
+    "objectID": "coding/py-dev-setup.html",
+    "href": "coding/py-dev-setup.html",
+    "title": "Python dev setup",
     "section": "",
-    "text": "Docker commands\ndocker\n    run $name[:$tag] [$cmd]\n    ps [-a] [$name]\n    stop $name | $id\n    rm $name | $id\n    images\n    rmi $name\n    pull $name\n    attach $id\n    logs $name\n\n\nDocker run\ndocker run -it $name  # interactive + terminal\ndocker run -d 80:8080 $name  # daemon mode, link ports $host:$container\ndocker run -v /local/dir:/container/dir $name  # mount local volume\ndocker run -e MYVAR=foobar $name  # pass env var to container\nNB: ports and volumes arguments always follow $host:$container order\n\n\nCreating an image\ncat &gt; Dockerfile &lt;&lt; EOF\nFROM ubuntu\nRUN apt-get update\nRUN apt-get install python\nRUN pip install flask flask-mysql\nCOPY . /opt/src\nENTRYPOINT FLASK_APP=/opt/src/app.py flask run\nEOF\ndocker build . -t $myname\ndocker push $myname\ndocker history $myname  # to see layers (successful RUNs in Dockerfile)\nDocker image is built from layers created from each FROM, RUN and COPY line. The layers are reused for different images.\nOther useful commands: ENV, WORKDIR, USER, CMD\n\n\nNetwork\nBy default docker uses bridge mode for containers running on the same host with default network 172.17.xxx.xxx. Other network modes are “none” (no network) and “host” (no network isolation from host).\ndocker network create --driver bridge --subnet 182.18.0.0/16 my_network\ndocker inspect $name will show full container info including network.\nDockers uses internal DNS 127.0.0.11 to resolve containers IP and containers names.\n\n\nStorage\nContainers, images, volumes are stored in /var/lib/docker. All image layers are RO. A contaier runs in a special RW container layer which gets destroyed when container is stoped. Data can be persisted in named volumes inside /var/lib/docker/volumes (volume mount) or a directory on a host (bind mount).\ndocker volume create my_volume\ndocker run -v my_volume:/var/log my_image\n\n# new explicit format for mounting volumes\ndocker run --mount type=bind,source=/data/my_image/logs,target=/var/log my_image\n\n\nDocker compose\nIt’s possible to run multiple containers and “link” them for networking. But much easier to use docker-compose to manage multi-container app.\ndocker-compose.yml\nversion: 2\n\nservices:\n  frontend:\n    build:\n      context: ./app\n      args:\n        DB_HOST: localhost:5005\n    links:\n      - db\n    volumes:\n      - logs:/var/logs\n    depends_on:\n      db:\n        condition: service_started\n\n  db:\n    image: postgres:9.4\n    ports:\n      - \"5005:5432\"\n    volumes:\n      - /data/app/postgres:/var/lib/postgres\n\nvolumes:\n  logs:\ndocker-compose up -d   #--build\ndocker-compose exec frontend ls -l\ndocker-compose logs frontend\ndocker-compose down -v",
+    "text": "pyenv install 3.12.1\npyenv local 3.12.1\npython -m venv venv\n. ./venv/bin/activate\npip install --upgrade pip\npip install fastapi\npip install 'uvicorn[standard]'\npip freeze &gt; requirements.txt",
     "crumbs": [
       "Coding",
-      "Docker"
+      "Python dev setup"
+    ]
+  },
+  {
+    "objectID": "coding/py-dev-setup.html#pyenv-buildin-virtualenv",
+    "href": "coding/py-dev-setup.html#pyenv-buildin-virtualenv",
+    "title": "Python dev setup",
+    "section": "",
+    "text": "pyenv install 3.12.1\npyenv local 3.12.1\npython -m venv venv\n. ./venv/bin/activate\npip install --upgrade pip\npip install fastapi\npip install 'uvicorn[standard]'\npip freeze &gt; requirements.txt",
+    "crumbs": [
+      "Coding",
+      "Python dev setup"
+    ]
+  },
+  {
+    "objectID": "coding/py-dev-setup.html#proxy-setup-for-pip",
+    "href": "coding/py-dev-setup.html#proxy-setup-for-pip",
+    "title": "Python dev setup",
+    "section": "Proxy setup for pip",
+    "text": "Proxy setup for pip\nAssuming the userID=1234566 and password=s3cr3t0, type the following in the terminal:\n$env:http_proxy=\"http://123456:s3cr3t0@proxytr.company.com:8080\"\n$env:https_proxy=\"http://123456:s3cr3t0@proxytr.company.com:8080\"\n(NB: http:// for $env:https IS correct)",
+    "crumbs": [
+      "Coding",
+      "Python dev setup"
+    ]
+  },
+  {
+    "objectID": "coding/py-dev-setup.html#always-work-inside-an-isolated-environment",
+    "href": "coding/py-dev-setup.html#always-work-inside-an-isolated-environment",
+    "title": "Python dev setup",
+    "section": "Always work inside an isolated environment",
+    "text": "Always work inside an isolated environment\nIt is very hard to manage different versions of dependencies for multiple projects in one place. We need to use virtual environments. In Python 3, virtualenv was added to core library as venv module.\ncd new_project\npython -m venv .\\myevn\n.\\myenv\\Scripts\\activate\npip install requests  # installs into .\\myenv\\Lib\\site-packages\nFor ML projects, it might be better to use [mini]conda as a replacement for pip:\nscoop install miniconda3\nconda install -n root -c pscondaenvs pscondaenvs\nconda init powershell\n\n# relaunch terminal\n\nconda info         # check current env\nconda list         # which packages are available\nconda info --envs  # list of existing environments\nconda create --name myenv\nconda activate myenv\nconda install -n myenv numpy scikit-learn\nconda deactivate\n\n# Add conda forge\nconda config --set auto_update_conda False\nconda config --add channels conda-forge\nconda search psycopg2\n\nconda install --file requirements.txt",
+    "crumbs": [
+      "Coding",
+      "Python dev setup"
+    ]
+  },
+  {
+    "objectID": "coding/ops.html",
+    "href": "coding/ops.html",
+    "title": "Ops",
+    "section": "",
+    "text": "ansible vault\necho $random_passwd &gt; .ansible-vault-password-file\nexport ANSIBLE_VAULT_PASSWORD_FILE=./.ansible-vault-password-file\nansible-vault encrypt hosts.txt\nansible-vault view hosts.txt\nansible-vault edit hosts.txt\n\n\ncrontab\n# user crontab\ncrontab -e\n5 * * * * /path/to/script\ncrontab -l # -r to remove\n\n#system crontab (run every 5 min)\necho \"*/5 * * * * bob /path/to/scrip.sh\" &gt; /etc/cron.d/bobs-script\n\n\njournalctl\njournalctl --since \"2 days ago\" -u uwsgi\njournalctl -flu uwsgi\n\n\nnginx\ntest config: nginx -T\n\n\npostfix\npostqueue -p  # emails still in queue\npostsuper -d $EMAIL_HEX_ID  # to delete\n\n\nsendmail\nssh $mgmt_box\nsendmail -t &lt;&lt;eof\nFrom: ops@foo.com\nTo: regi@registrar.com\nSubject: renew this\n\nHi, i can haz renew.\neof\n\n\nvagrant (osx)\nbrew tap caskroom/cask\nbrew cask install vagrant\nbrew cask reinstall virtualbox virtualbox-extension-pack\nvagrant init bento/ubuntu-16.04\nvim Vagrantfile\nvagrant up\nvagrant provision\nvagrant ssh",
+    "crumbs": [
+      "Coding",
+      "Ops"
     ]
   }
 ]

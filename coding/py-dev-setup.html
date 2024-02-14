@@ -6,11 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Simon Singh">
-<meta name="author" content="Edzard Ernst">
-<meta name="dcterms.date" content="2008-08-17">
 
-<title>vz-logbook - Trick or Treatment? Alternative Medicine on Trial</title>
+<title>vz-logbook - Python dev setup</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +20,59 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-sidebar floating nav-fixed">
@@ -81,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">vz-logbook</span>
     </a>
   </div>
@@ -105,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notes/books/index.html">Notes</a></li><li class="breadcrumb-item"><a href="../../notes/books/index.html">Books</a></li><li class="breadcrumb-item"><a href="../../notes/books/singh_trick-or-treatment_2008.html">Trick or Treatment? Alternative Medicine on Trial</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../coding/docker.html">Coding</a></li><li class="breadcrumb-item"><a href="../coding/py-dev-setup.html">Python dev setup</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -119,40 +150,40 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
+  <a href="../about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
  <span class="menu-text">Coding</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../coding/docker.html" class="sidebar-item-text sidebar-link">
+  <a href="../coding/docker.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Docker</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../coding/ops.html" class="sidebar-item-text sidebar-link">
+  <a href="../coding/ops.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ops</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../coding/py-dev-setup.html" class="sidebar-item-text sidebar-link">
+  <a href="../coding/py-dev-setup.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Python dev setup</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../coding/win-scoop.html" class="sidebar-item-text sidebar-link">
+  <a href="../coding/win-scoop.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Windows 10 Dev Env Setup</span></a>
   </div>
 </li>
@@ -160,7 +191,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../writings/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../writings/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Writings</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -169,13 +200,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../writings/hr-lingo.html" class="sidebar-item-text sidebar-link">
+  <a href="../writings/hr-lingo.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">HR lingo</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../writings/org-signalling.html" class="sidebar-item-text sidebar-link">
+  <a href="../writings/org-signalling.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Org signalling</span></a>
   </div>
 </li>
@@ -183,55 +214,55 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
  <span class="menu-text">Notes</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../notes/books/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../notes/books/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Books</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/de_botton-how-to-think-more-about-sex_2012.html" class="sidebar-item-text sidebar-link">
+  <a href="../notes/books/de_botton-how-to-think-more-about-sex_2012.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">How To Think More About Sex</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/feathers-legacy-code_2004.html" class="sidebar-item-text sidebar-link">
+  <a href="../notes/books/feathers-legacy-code_2004.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Working Effectively with Legacy Code</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/freeman-goos_2009.html" class="sidebar-item-text sidebar-link">
+  <a href="../notes/books/freeman-goos_2009.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Growing Object-Oriented Software, Guided by tests</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/singh_trick-or-treatment_2008.html" class="sidebar-item-text sidebar-link active">
+  <a href="../notes/books/singh_trick-or-treatment_2008.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Trick or Treatment? Alternative Medicine on Trial</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/tan-meng-search-inside-yourself_2012.html" class="sidebar-item-text sidebar-link">
+  <a href="../notes/books/tan-meng-search-inside-yourself_2012.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Search Inside Yourself</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/yunkaporta_sand-talk_2019.html" class="sidebar-item-text sidebar-link">
+  <a href="../notes/books/yunkaporta_sand-talk_2019.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Sand Talk: How Indigenous Thinking Can Save the World</span></a>
   </div>
 </li>
@@ -249,45 +280,32 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#chapter-1-how-do-you-determine-the-truth" id="toc-chapter-1-how-do-you-determine-the-truth" class="nav-link active" data-scroll-target="#chapter-1-how-do-you-determine-the-truth">Chapter 1: How do you determine the truth?</a></li>
-  <li><a href="#chapter-2-acupuncture" id="toc-chapter-2-acupuncture" class="nav-link" data-scroll-target="#chapter-2-acupuncture">Chapter 2: Acupuncture</a>
+  <li><a href="#python-development-on-osxlinux" id="toc-python-development-on-osxlinux" class="nav-link active" data-scroll-target="#python-development-on-osxlinux">Python development on OSX/Linux</a>
   <ul class="collapse">
-  <li><a href="#history-of-acupuncture" id="toc-history-of-acupuncture" class="nav-link" data-scroll-target="#history-of-acupuncture">History of acupuncture</a></li>
-  <li><a href="#placebos" id="toc-placebos" class="nav-link" data-scroll-target="#placebos">Placebos</a></li>
+  <li><a href="#pyenv-buildin-virtualenv" id="toc-pyenv-buildin-virtualenv" class="nav-link" data-scroll-target="#pyenv-buildin-virtualenv">pyenv + buildin virtualenv</a></li>
   </ul></li>
+  <li><a href="#python-development-on-windows" id="toc-python-development-on-windows" class="nav-link" data-scroll-target="#python-development-on-windows">Python development on Windows</a>
+  <ul class="collapse">
+  <li><a href="#proxy-setup-for-pip" id="toc-proxy-setup-for-pip" class="nav-link" data-scroll-target="#proxy-setup-for-pip">Proxy setup for pip</a></li>
+  <li><a href="#always-work-inside-an-isolated-environment" id="toc-always-work-inside-an-isolated-environment" class="nav-link" data-scroll-target="#always-work-inside-an-isolated-environment">Always work inside an isolated environment</a></li>
+  </ul></li>
+  <li><a href="#useful-packages-for-maintaining-code-quality" id="toc-useful-packages-for-maintaining-code-quality" class="nav-link" data-scroll-target="#useful-packages-for-maintaining-code-quality">Useful packages for maintaining code quality</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notes/books/index.html">Notes</a></li><li class="breadcrumb-item"><a href="../../notes/books/index.html">Books</a></li><li class="breadcrumb-item"><a href="../../notes/books/singh_trick-or-treatment_2008.html">Trick or Treatment? Alternative Medicine on Trial</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../coding/docker.html">Coding</a></li><li class="breadcrumb-item"><a href="../coding/py-dev-setup.html">Python dev setup</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Trick or Treatment? Alternative Medicine on Trial</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">science</div>
-    <div class="quarto-category">medicine</div>
-  </div>
-  </div>
+<h1 class="title">Python dev setup</h1>
+</div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Authors</div>
-    <div class="quarto-title-meta-contents">
-             <p>Simon Singh </p>
-             <p>Edzard Ernst </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">August 17, 2008</p>
-    </div>
-  </div>
   
     
   </div>
@@ -297,46 +315,71 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<hr>
-<section id="chapter-1-how-do-you-determine-the-truth" class="level1">
-<h1>Chapter 1: How do you determine the truth?</h1>
-<p>General chapter on what is evidence-based medicine using <em>bloodletting</em> as a historic example of how long established treatment methods can be challenged. Bloodletting was already used in ancient Greece and continued to be widely used until 1850’s as a treatment option to many conditions. In 1799 <a href="https://en.wikipedia.org/wiki/George_Washington">George_Washington</a> got pneumonia and died supposedly from extensive bloodletting. In the same year there was probably the first famous court case about medical malpractice between <a href="https://en.wikipedia.org/wiki/Benjamin_Rush">Benjamin Rush</a> and William Cobbett. Rush was a rather famous and established doctor and politician and easily won the case.</p>
-<p>At that time the idea of conducting clinical trials to establish the efficiency of treatment was not yet accepted by the medical establishment. However, first attempts to conduct such trials to have been performed by <a href="https://en.wikipedia.org/wiki/James_Lind">James Lind</a> in 1747 in an attempt to establish the treatment for scurvy. Scurvy was a disease that affected a large number of sailors (many more death due to scurvy than anything else including war injuries). Lind isolated 12 sailors, separated them in 6 pairs, gave similar diet, but different treatments. He correctly observed that citrus fruit improved patients condition. The link to vitamin C was already known at that time, but wasn’t widely accepted. Lind failed to publish his results. In 1780 Gilbert Blane repeated Lind’s experiment involving many more subjects and managed to convince the British navy to make mandatory use of lime juice to prevent scurvy (hence “<a href="https://en.wikipedia.org/wiki/Glossary_of_names_for_the_British#Limey">limey</a>”).</p>
-<p>The <a href="http://www.jameslindlibrary.org/trial_records/19th_Century/hamilton/hamilton_commentary.html">first trial</a> that questioned the efficiency of bloodletting was supposedly conducted by Alexander Lesassier Hamilton in 1809. He introduced random patient assignment between 3 doctors and showed that the mortality rates were much lower in the two groups where bloodletting wasn’t used. He failed to publish and disseminate his results. It was Pierre Charles Louis, a French physician, who reconfirmed inefficiency of bloodletting for treatment of fevers in 1828. His “numerical method” was strongly opposed by the medical community.</p>
-<p>Other examples of how evidence was used to advance medical practice are the stories of <a href="https://en.wikipedia.org/wiki/Florence_Nightingale">Florence Nightingale</a>, who demonstrated the importance of hygiene in military hospitals during Crimean war (1853-1856) using mortality statistics, and the <a href="https://en.wikipedia.org/wiki/British_Doctors_Study">British Doctors Study</a> by Hill and Doll in the early 1950’s that demonstrated the link between smoking and lung cancer (first prospective cohort study, used doctors as subjects in order to get a more homogeneous sample population).</p>
-<blockquote class="blockquote">
-<p>Evidence based medicine can be used to decide what works, what does not work, efficiency of preventive methods, and what causes the disease.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Evidence based medicine is the conscientious, explicit, and judicious use of current best evidence in making decisions about the care of individual patients. – David Sackett</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>All great truth begin as blasphemies. Not all blasphemies become great truth. –Bernard Shaw</p>
-</blockquote>
-<p>Other good source of info: <a href="http://www.jameslindlibrary.org/index.html">jameslindlibrary</a>.</p>
+<section id="python-development-on-osxlinux" class="level1">
+<h1>Python development on OSX/Linux</h1>
+<section id="pyenv-buildin-virtualenv" class="level2">
+<h2 class="anchored" data-anchor-id="pyenv-buildin-virtualenv">pyenv + buildin virtualenv</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pyenv</span> install 3.12.1</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">pyenv</span> local 3.12.1</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> venv venv</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="bu">.</span> ./venv/bin/activate</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install <span class="at">--upgrade</span> pip</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install fastapi</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install <span class="st">'uvicorn[standard]'</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> freeze <span class="op">&gt;</span> requirements.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="chapter-2-acupuncture" class="level1">
-<h1>Chapter 2: Acupuncture</h1>
-<section id="history-of-acupuncture" class="level2">
-<h2 class="anchored" data-anchor-id="history-of-acupuncture">History of acupuncture</h2>
+</section>
+<section id="python-development-on-windows" class="level1">
+<h1>Python development on Windows</h1>
+<p>See <a href="../coding/win-scoop.html">win dev setup</a> if you need to setup your box first.</p>
+<section id="proxy-setup-for-pip" class="level2">
+<h2 class="anchored" data-anchor-id="proxy-setup-for-pip">Proxy setup for pip</h2>
+<p>Assuming the userID=1234566 and password=s3cr3t0, type the following in the terminal:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="va">$env</span><span class="ex">:http_proxy=</span><span class="st">"http://123456:s3cr3t0@proxytr.company.com:8080"</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="va">$env</span><span class="ex">:https_proxy=</span><span class="st">"http://123456:s3cr3t0@proxytr.company.com:8080"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>(NB: <code>http://</code> for <code>$env:https</code> IS correct)</p>
+</section>
+<section id="always-work-inside-an-isolated-environment" class="level2">
+<h2 class="anchored" data-anchor-id="always-work-inside-an-isolated-environment">Always work inside an isolated environment</h2>
+<p>It is very hard to manage different versions of dependencies for multiple projects in one place. We need to use <a href="https://realpython.com/python-virtual-environments-a-primer/">virtual environments</a>. In Python 3, <code>virtualenv</code> was added to core library as <code>venv</code> module.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> new_project</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> venv .<span class="dt">\m</span>yevn</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="bu">.</span><span class="dt">\m</span>yenv<span class="dt">\S</span>cripts<span class="dt">\a</span>ctivate</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install requests  <span class="co"># installs into .\myenv\Lib\site-packages</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>For ML projects, it might be better to use <code>[mini]conda</code> as a replacement for <code>pip</code>:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install miniconda3</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> install <span class="at">-n</span> root <span class="at">-c</span> pscondaenvs pscondaenvs</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> init powershell</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># relaunch terminal</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> info         <span class="co"># check current env</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> list         <span class="co"># which packages are available</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> info <span class="at">--envs</span>  <span class="co"># list of existing environments</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> create <span class="at">--name</span> myenv</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> activate myenv</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> install <span class="at">-n</span> myenv numpy scikit-learn</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> deactivate</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Add conda forge</span></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> config <span class="at">--set</span> auto_update_conda False</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> config <span class="at">--add</span> channels conda-forge</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> search psycopg2</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> install <span class="at">--file</span> requirements.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+</section>
+<section id="useful-packages-for-maintaining-code-quality" class="level1">
+<h1>Useful packages for maintaining code quality</h1>
 <ul>
-<li>In 1991 two tourists discovered a 5000 y.o. body in Austrian alps (<a href="https://en.wikipedia.org/wiki/%C3%96tzi">Otzi</a>) which was covered with tattoos that correspond closely to “modern” acupuncture meridians.</li>
-<li>Acupuncture was described in Yellow Emperor’s Classic of Internal Medicine (200BC).</li>
-<li>Trade with China brought acupuncture to Europe in the end of XVII century.</li>
-<li>After 1st and 2d <a href="https://en.wikipedia.org/wiki/Opium_Wars">Opium wars</a>, acupuncture was perceived as “sinister ritual from the evil Orient”</li>
-<li>Revival of acupuncture in China in 1947 under Mao as traditional method (and cheap healthcare solution)</li>
-<li>A spectacular case of <a href="https://en.wikipedia.org/wiki/James_Reston">James Raston</a>, who was treated post appendix operation pain relieve in 1971 (During Kissinger and Nixon visit to China).</li>
+<li><code>pytest</code>: most popular testing framework (including test discovery and test runner)</li>
+<li><code>pytest-xdist pytest-cov</code>: add parallel test runner and test coverage reporting</li>
+<li><code>flake8</code>: linting and PEP 8 style conformance</li>
+<li><code>isort</code>: make imports more consistent</li>
+<li><code>black</code>: uncompromising Python code formatter</li>
 </ul>
-</section>
-<section id="placebos" class="level2">
-<h2 class="anchored" data-anchor-id="placebos">Placebos</h2>
-<p>Placebo effect was probably recognized very early.</p>
-<p><a href="https://en.wikipedia.org/wiki/John_Haygarth">John Haygarth</a> conducted a trial in 1799 on the efficiency of “Perkins’ tractors” and demonstrated that fake “tractors” were as efficient as the originals and concluded that “powerful influence upon diseases is produced by mere imagination”. He also recognized that placebo plays a role in genuine medicine as well as is dependent on factors such as doctor’s reputation, cost of the treatment, novelty…</p>
-<p>Henry Beecher’s observations regarding morphine vs saline effects during WWII.</p>
-<p>Sham surgery (Leonard Cobb, internal mammary ligation) -&gt; importance of double-blind studies.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

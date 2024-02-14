@@ -6,11 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Simon Singh">
-<meta name="author" content="Edzard Ernst">
-<meta name="dcterms.date" content="2008-08-17">
 
-<title>vz-logbook - Trick or Treatment? Alternative Medicine on Trial</title>
+<title>vz-logbook - Windows 10 Dev Env Setup</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +20,59 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-sidebar floating nav-fixed">
@@ -81,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">vz-logbook</span>
     </a>
   </div>
@@ -105,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notes/books/index.html">Notes</a></li><li class="breadcrumb-item"><a href="../../notes/books/index.html">Books</a></li><li class="breadcrumb-item"><a href="../../notes/books/singh_trick-or-treatment_2008.html">Trick or Treatment? Alternative Medicine on Trial</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../coding/docker.html">Coding</a></li><li class="breadcrumb-item"><a href="../coding/win-scoop.html">Windows 10 Dev Env Setup</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -119,40 +150,40 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
+  <a href="../about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
  <span class="menu-text">Coding</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../coding/docker.html" class="sidebar-item-text sidebar-link">
+  <a href="../coding/docker.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Docker</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../coding/ops.html" class="sidebar-item-text sidebar-link">
+  <a href="../coding/ops.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ops</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../coding/py-dev-setup.html" class="sidebar-item-text sidebar-link">
+  <a href="../coding/py-dev-setup.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Python dev setup</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../coding/win-scoop.html" class="sidebar-item-text sidebar-link">
+  <a href="../coding/win-scoop.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Windows 10 Dev Env Setup</span></a>
   </div>
 </li>
@@ -160,7 +191,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../writings/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../writings/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Writings</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -169,13 +200,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../writings/hr-lingo.html" class="sidebar-item-text sidebar-link">
+  <a href="../writings/hr-lingo.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">HR lingo</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../writings/org-signalling.html" class="sidebar-item-text sidebar-link">
+  <a href="../writings/org-signalling.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Org signalling</span></a>
   </div>
 </li>
@@ -183,55 +214,55 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
  <span class="menu-text">Notes</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../notes/books/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../notes/books/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Books</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/de_botton-how-to-think-more-about-sex_2012.html" class="sidebar-item-text sidebar-link">
+  <a href="../notes/books/de_botton-how-to-think-more-about-sex_2012.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">How To Think More About Sex</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/feathers-legacy-code_2004.html" class="sidebar-item-text sidebar-link">
+  <a href="../notes/books/feathers-legacy-code_2004.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Working Effectively with Legacy Code</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/freeman-goos_2009.html" class="sidebar-item-text sidebar-link">
+  <a href="../notes/books/freeman-goos_2009.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Growing Object-Oriented Software, Guided by tests</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/singh_trick-or-treatment_2008.html" class="sidebar-item-text sidebar-link active">
+  <a href="../notes/books/singh_trick-or-treatment_2008.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Trick or Treatment? Alternative Medicine on Trial</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/tan-meng-search-inside-yourself_2012.html" class="sidebar-item-text sidebar-link">
+  <a href="../notes/books/tan-meng-search-inside-yourself_2012.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Search Inside Yourself</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/yunkaporta_sand-talk_2019.html" class="sidebar-item-text sidebar-link">
+  <a href="../notes/books/yunkaporta_sand-talk_2019.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Sand Talk: How Indigenous Thinking Can Save the World</span></a>
   </div>
 </li>
@@ -249,45 +280,25 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#chapter-1-how-do-you-determine-the-truth" id="toc-chapter-1-how-do-you-determine-the-truth" class="nav-link active" data-scroll-target="#chapter-1-how-do-you-determine-the-truth">Chapter 1: How do you determine the truth?</a></li>
-  <li><a href="#chapter-2-acupuncture" id="toc-chapter-2-acupuncture" class="nav-link" data-scroll-target="#chapter-2-acupuncture">Chapter 2: Acupuncture</a>
-  <ul class="collapse">
-  <li><a href="#history-of-acupuncture" id="toc-history-of-acupuncture" class="nav-link" data-scroll-target="#history-of-acupuncture">History of acupuncture</a></li>
-  <li><a href="#placebos" id="toc-placebos" class="nav-link" data-scroll-target="#placebos">Placebos</a></li>
-  </ul></li>
+  <li><a href="#install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020" id="toc-install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020" class="nav-link active" data-scroll-target="#install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020">Install latest Microsoft Powershell (v7.0.3 as of 9 November 2020)</a></li>
+  <li><a href="#install-and-configure-scoop" id="toc-install-and-configure-scoop" class="nav-link" data-scroll-target="#install-and-configure-scoop">Install and configure Scoop</a></li>
+  <li><a href="#install-development-tools" id="toc-install-development-tools" class="nav-link" data-scroll-target="#install-development-tools">Install development tools</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notes/books/index.html">Notes</a></li><li class="breadcrumb-item"><a href="../../notes/books/index.html">Books</a></li><li class="breadcrumb-item"><a href="../../notes/books/singh_trick-or-treatment_2008.html">Trick or Treatment? Alternative Medicine on Trial</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../coding/docker.html">Coding</a></li><li class="breadcrumb-item"><a href="../coding/win-scoop.html">Windows 10 Dev Env Setup</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Trick or Treatment? Alternative Medicine on Trial</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">science</div>
-    <div class="quarto-category">medicine</div>
-  </div>
-  </div>
+<h1 class="title">Windows 10 Dev Env Setup</h1>
+</div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Authors</div>
-    <div class="quarto-title-meta-contents">
-             <p>Simon Singh </p>
-             <p>Edzard Ernst </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">August 17, 2008</p>
-    </div>
-  </div>
   
     
   </div>
@@ -297,46 +308,49 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<hr>
-<section id="chapter-1-how-do-you-determine-the-truth" class="level1">
-<h1>Chapter 1: How do you determine the truth?</h1>
-<p>General chapter on what is evidence-based medicine using <em>bloodletting</em> as a historic example of how long established treatment methods can be challenged. Bloodletting was already used in ancient Greece and continued to be widely used until 1850’s as a treatment option to many conditions. In 1799 <a href="https://en.wikipedia.org/wiki/George_Washington">George_Washington</a> got pneumonia and died supposedly from extensive bloodletting. In the same year there was probably the first famous court case about medical malpractice between <a href="https://en.wikipedia.org/wiki/Benjamin_Rush">Benjamin Rush</a> and William Cobbett. Rush was a rather famous and established doctor and politician and easily won the case.</p>
-<p>At that time the idea of conducting clinical trials to establish the efficiency of treatment was not yet accepted by the medical establishment. However, first attempts to conduct such trials to have been performed by <a href="https://en.wikipedia.org/wiki/James_Lind">James Lind</a> in 1747 in an attempt to establish the treatment for scurvy. Scurvy was a disease that affected a large number of sailors (many more death due to scurvy than anything else including war injuries). Lind isolated 12 sailors, separated them in 6 pairs, gave similar diet, but different treatments. He correctly observed that citrus fruit improved patients condition. The link to vitamin C was already known at that time, but wasn’t widely accepted. Lind failed to publish his results. In 1780 Gilbert Blane repeated Lind’s experiment involving many more subjects and managed to convince the British navy to make mandatory use of lime juice to prevent scurvy (hence “<a href="https://en.wikipedia.org/wiki/Glossary_of_names_for_the_British#Limey">limey</a>”).</p>
-<p>The <a href="http://www.jameslindlibrary.org/trial_records/19th_Century/hamilton/hamilton_commentary.html">first trial</a> that questioned the efficiency of bloodletting was supposedly conducted by Alexander Lesassier Hamilton in 1809. He introduced random patient assignment between 3 doctors and showed that the mortality rates were much lower in the two groups where bloodletting wasn’t used. He failed to publish and disseminate his results. It was Pierre Charles Louis, a French physician, who reconfirmed inefficiency of bloodletting for treatment of fevers in 1828. His “numerical method” was strongly opposed by the medical community.</p>
-<p>Other examples of how evidence was used to advance medical practice are the stories of <a href="https://en.wikipedia.org/wiki/Florence_Nightingale">Florence Nightingale</a>, who demonstrated the importance of hygiene in military hospitals during Crimean war (1853-1856) using mortality statistics, and the <a href="https://en.wikipedia.org/wiki/British_Doctors_Study">British Doctors Study</a> by Hill and Doll in the early 1950’s that demonstrated the link between smoking and lung cancer (first prospective cohort study, used doctors as subjects in order to get a more homogeneous sample population).</p>
-<blockquote class="blockquote">
-<p>Evidence based medicine can be used to decide what works, what does not work, efficiency of preventive methods, and what causes the disease.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Evidence based medicine is the conscientious, explicit, and judicious use of current best evidence in making decisions about the care of individual patients. – David Sackett</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>All great truth begin as blasphemies. Not all blasphemies become great truth. –Bernard Shaw</p>
-</blockquote>
-<p>Other good source of info: <a href="http://www.jameslindlibrary.org/index.html">jameslindlibrary</a>.</p>
-</section>
-<section id="chapter-2-acupuncture" class="level1">
-<h1>Chapter 2: Acupuncture</h1>
-<section id="history-of-acupuncture" class="level2">
-<h2 class="anchored" data-anchor-id="history-of-acupuncture">History of acupuncture</h2>
+<section id="install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020" class="level2">
+<h2 class="anchored" data-anchor-id="install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020">Install latest Microsoft Powershell (v7.0.3 as of 9 November 2020)</h2>
 <ul>
-<li>In 1991 two tourists discovered a 5000 y.o. body in Austrian alps (<a href="https://en.wikipedia.org/wiki/%C3%96tzi">Otzi</a>) which was covered with tattoos that correspond closely to “modern” acupuncture meridians.</li>
-<li>Acupuncture was described in Yellow Emperor’s Classic of Internal Medicine (200BC).</li>
-<li>Trade with China brought acupuncture to Europe in the end of XVII century.</li>
-<li>After 1st and 2d <a href="https://en.wikipedia.org/wiki/Opium_Wars">Opium wars</a>, acupuncture was perceived as “sinister ritual from the evil Orient”</li>
-<li>Revival of acupuncture in China in 1947 under Mao as traditional method (and cheap healthcare solution)</li>
-<li>A spectacular case of <a href="https://en.wikipedia.org/wiki/James_Reston">James Raston</a>, who was treated post appendix operation pain relieve in 1971 (During Kissinger and Nixon visit to China).</li>
+<li>Go to <a href="https://github.com/PowerShell/PowerShell/" class="uri">https://github.com/PowerShell/PowerShell/</a></li>
+<li>Click on <code>Latest</code> under Releases</li>
+<li>Search for <code>win-x64.msi</code></li>
 </ul>
 </section>
-<section id="placebos" class="level2">
-<h2 class="anchored" data-anchor-id="placebos">Placebos</h2>
-<p>Placebo effect was probably recognized very early.</p>
-<p><a href="https://en.wikipedia.org/wiki/John_Haygarth">John Haygarth</a> conducted a trial in 1799 on the efficiency of “Perkins’ tractors” and demonstrated that fake “tractors” were as efficient as the originals and concluded that “powerful influence upon diseases is produced by mere imagination”. He also recognized that placebo plays a role in genuine medicine as well as is dependent on factors such as doctor’s reputation, cost of the treatment, novelty…</p>
-<p>Henry Beecher’s observations regarding morphine vs saline effects during WWII.</p>
-<p>Sham surgery (Leonard Cobb, internal mammary ligation) -&gt; importance of double-blind studies.</p>
-
-
+<section id="install-and-configure-scoop" class="level2">
+<h2 class="anchored" data-anchor-id="install-and-configure-scoop">Install and configure Scoop</h2>
+<p><a href="https://scoop.sh/">Scoop</a> allows installing and managing familiar dev tools on Windows from the command line. It is somewhat similar to <code>homebrew</code> on Mac or <code>apt-get</code> on Ubuntu.</p>
+<p>Setup your region’s web proxy (<a href="https://scoop-docs.now.sh/docs/misc/Using-Scoop-behind-a-proxy.html">more info</a>)</p>
+<p>Type in the PowerShell Terminal:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">[net.webrequest]::defaultwebproxy</span> = new-object net.webproxy <span class="st">"http://proxy.COMPANY.com:8080"</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">[net.webrequest]::defaultwebproxy.credentials</span> = <span class="pp">[</span><span class="ss">net.credentialcache</span><span class="pp">]</span>::defaultcredentials</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Install scoop.sh and git:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">set-executionpolicy</span> unrestricted <span class="at">-s</span> cu</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">iwr</span> <span class="at">-useb</span> get.scoop.sh <span class="kw">|</span> <span class="ex">iex</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install git win32-openssh openssl</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> C:<span class="dt">\P</span>rogramData<span class="dt">\s</span>coop<span class="dt">\a</span>pps<span class="dt">\w</span>in32-openssh<span class="dt">\c</span>urrent<span class="dt">\i</span>nstall-sshd.ps1</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> credential.helper manager</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> http.sslVerify false</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> config proxy <span class="st">'currentuser@proxy.COMPANY.com:8080'</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install busybox cacert delta pshazz sudo</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> delta.side-by-side true</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
+<section id="install-development-tools" class="level2">
+<h2 class="anchored" data-anchor-id="install-development-tools">Install development tools</h2>
+<p>Scoop update and basic tools:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> config proxy <span class="st">'currentuser@proxytr.huawei.com:8080'</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> scoop update <span class="pp">*</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install cwRsync dust everything gpg procs sysinternals vcredist2015 vcredist windows-terminal <span class="at">-g</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Add buckets and install java, node, python, postman, svn…:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> bucket add extras versions java jetbrains</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install zulu8 maven gradle</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install IntelliJ-IDEA-Ultimate jetbrains-toolbox</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install nodejs yarn python</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install concfg nvim vscode curl jq postman silksvn</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Install docker:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> bucket add Ash258 <span class="st">'https://github.com/Ash258/Scoop-Ash258.git'</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install docker</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+
 </section>
 
 </main> <!-- /main -->

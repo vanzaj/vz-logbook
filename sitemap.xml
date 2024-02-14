@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://vanzaj.github.io/vz-logbook/coding/ops.html</loc>
-    <lastmod>2024-02-12T14:34:53.677Z</lastmod>
+    <loc>https://vanzaj.github.io/vz-logbook/coding/win-scoop.html</loc>
+    <lastmod>2024-02-14T12:52:50.639Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vanzaj.github.io/vz-logbook/coding/docker.html</loc>
+    <lastmod>2024-02-12T14:21:32.596Z</lastmod>
   </url>
   <url>
     <loc>https://vanzaj.github.io/vz-logbook/notes/books/tan-meng-search-inside-yourself_2012.html</loc>
@@ -53,7 +57,11 @@
     <lastmod>2024-02-14T12:13:52.524Z</lastmod>
   </url>
   <url>
-    <loc>https://vanzaj.github.io/vz-logbook/coding/docker.html</loc>
-    <lastmod>2024-02-12T14:21:32.596Z</lastmod>
+    <loc>https://vanzaj.github.io/vz-logbook/coding/py-dev-setup.html</loc>
+    <lastmod>2024-02-14T12:51:42.786Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vanzaj.github.io/vz-logbook/coding/ops.html</loc>
+    <lastmod>2024-02-12T14:34:53.677Z</lastmod>
   </url>
 </urlset>
