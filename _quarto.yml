@@ -5,17 +5,17 @@ website:
   title: "vz-logbook"
   navbar:
     background: light
-    search: true
     tools:
       - icon: github
         menu:
           - text: Source Code
             url:  https://github.com/vanzaj/vz-logbook.git
+    search: true
   sidebar:
     style: "floating"
     collapse-level: 1
     contents: auto
-
+ 
 format:
   html:
     theme: yeti

@@ -1,0 +1,17 @@
+---
+title: Now
+---
+
+Updated: 14 Feb 2024
+
+This is my [now page](https://nownownow.com/about).
+
+
+## Working on a new class: Test driven development for data scientists
+
+Why? Because many folks in data science have not been exposed to agile product development practices.
+
+
+## Starting my "digital garden"
+
+After discovering [quarto](https://quarto.org/), I want to (once again) try to have my learning notes available online.
