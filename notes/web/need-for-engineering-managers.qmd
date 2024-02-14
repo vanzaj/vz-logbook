@@ -1,0 +1,50 @@
+---
+title: "Questionable advice: My boss says we don’t need any engineering managers. Is he right?"
+author: Charity Majors
+date: 2024-01-05
+---
+
+[source](https://charity.wtf/2024/01/05/questionable-advice-my-boss-says-we-dont-need-any-engineering-managers-is-he-right/)
+
+## Why managers exist? Why org structures exist? 
+
+How does a bad org structure look like?
+Rank (position in a hierarchy) is used as a tool of oppression. Information hoarding, playing dominance games (politics). Decisions are made based on rank.
+
+Hierarchy is a property of self-organizing systems.
+
+> A system is "a network of interdependent components that work together to try to accomplish a common aim." -- W. Edward Deming.
+
+A subsystem is a collection of elements with a smaller aim inside a larger system. The sybsystems always work to support the needs of the larger system; if the sybsystem instead optimizes for its own best interest, the whole system can fail.
+
+A system is self-organizing if it has the ability to make itself more complex, by diversifying, adapting, and improving itself. As systems self-organize and their complexity increases, they tend to generate hierarchy -- an arrangement of systems and subsystems. In a stable, resilient and efficient system, sybsystems can largely take care of themselves, regulate themselves, and serve the needs of the larger system, while the larger system coordinates between subsystems and helps
+them perform better. Hierarchy minimizes the costs of coordination and reduces the amount of information that any given part of the system has to keep track of, preventing information overload. Information transfer and relationships withing a sybsystem are more more dense and have fewer delays than information transfer or relationshions between subsystems.
+
+A manager's job is to coordinate between teams and help their team perform better.
+
+Software product development organizations are socio-technical systems, but the separation between "socio/people" and "technical/engineering" is never clean. Need for "glue work".
+
+Tasks that need to be done by any functional engineering org besides writing code:
+
+- Recruiting: networking, interviewing, writing job descriptions and career ladders.
+- Project management: managing stakeholders, prioritizing backlog, estimating size and scope.
+- Running team meetings: 1x1s (growth feedback), retrospectives, writing reviews, representing the teams's needs.
+- Architecture, code reviews, capturing DORA and productivity metrics, managing burnout.
+
+
+## Engineering managers are a useful abstraction.
+
+One of the primary benefits of hierarchy is to reduce information overload.
+Engineering labor takes concentration and focus. Context switching is expensive. Management labor consist of context switching every hour or so, and being available for interruptions throughtout the day. Engineering calendar and management calendar do not coexist well.
+
+It isn't up to managers to do all the glue work, but it is a manager's job to make sure that everything that needs to get done, does gets done (requires providing necessary resources to people who do the actual work).
+
+An engineer is responsible for the software she develops, deploys, and maintains.  A manager is responsible for her team and the organization as a whole.
+
+In natural hierarchies, we look up for purpose and down for function. The above makes a complicated argument for why we need engineering managers.
+
+The simpler argument is that most engineering orgs have engineering managers. It is something that many smart people had to spend considerable time thinking about. It may sound "boring", but actually it is like with "choosing boring technology" which means "the capabilities and failure conditions are well understood". 
+
+When there is no explicit structure or hierarchy, the result is not freedom and egalitarianism (see [The Tyranny of Structureless](https://en.wikipedia.org/wiki/The_Tyranny_of_Structurelessness)). Such orgs tend to be chaotic, fragile and frustrating.
+
+No EMs because of management overhead (because managers are not supposed to do tech work) is a flawed argument. Mostly because "productivity" does not equate "lines of code".

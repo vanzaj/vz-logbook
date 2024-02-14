@@ -1,0 +1,110 @@
+---
+title: Boring Gathering, Shanghai
+date: 2024-01-08
+---
+
+# Day 1
+
+Working with Chokchai on moving refactoringmanifesto.org to kubernetes cluster (party.odd-e.com)
+
+
+# Day 2
+
+Odd-e Thailand, ODDS, Thai stock exchange.
+Odd-e Global finance (confluence page).
+
+## Categories for (improvement) goals and metrics. Bas.
+
+Context: Client insist on having dpt. improvement metrics with easy-to-hard scale of 1 to 5.
+Bas proposed to focus on creating binary metrics which can be summed up (for the scale).
+Generate, sort easy-to-hard, dot vote == engineering improvement goals:
+
+1. List of all repos and build pipelines.
+2. 75% of devs attend LeSS in Action.
+3. Reduce number of repos by 10% (by end of the year?)
+4. Every commit should trigger at least 1 e2e test
+5. Use only 1 unit-testing framework per language.
+
+Metrics categories:
+
+- Visibility (finops)
+- Education
+- Standardized technology
+- Ease of use
+- Quality
+- Speed
+- Practice (ex. code review practices, naming conventions)
+- Documentation
+- Customer (new addition)
+
+Leading vs lagging metrics (KPI, performance vs progress)
+
+Useful side effect: useful for management education
+
+## Patterns for solving tech problems, Joseph
+
+Google/GPT (poe.com) keywords, prompts.
+Know when to stop reading (Bas).
+Logs, read and understand error msg.
+RTFM, read the code (Bas).
+Debug to get more specific info/errors.
+
+read -- apply loop
+
+Focus on current (sub)problem, don't jump around rangomly.
+Stop and think.
+What exactly am I trying to solve?
+Is the problem the actual problem?
+Stop and switch (other sources of info or approach).
+
+New tools:
+- <https://tana.inc/> (team, perso PKM)
+- <https://mosh.org/> (mobile shell, keeps ssh connection on network loss)
+- <https://www.modular.com/> (managed AI infra, mojo language)
+- <https://arc.net/> (new browser)
+
+
+# Day 3
+
+Half-year scrum.
+
+Clifton/Gallup strength discussion with Chokchai.
+
+Satir mentoring & coaching program (Stanly).
+
+[12 senses](https://thesteinerconnection.com/2022/07/21/the-12-senses/) by Chokchai.
+
+
+# Day 4
+
+## LeSS Huge adoption at Jago, Viktor
+
+3 phases: Before LeSS environment, during adoption of LeSS env, after key people leave.
+
+Discuss with Bas and Yi about meta analysis of LeSS adoptions so far: case studies, questionnaires for LeSS trainers about past adoptions...
+Bas: reach out to Bastian.
+Yi: OK to help. I need to send a "research proposal" (MSc from Check uni, publish a real article)
+
+Process excellence, technical excellence, human excellence.
+
+Discuss with Lv Yi about meta analysis of LeSS case studies + questionnaires for trainers and companies
+
+
+## E2E testing, Joseph
+
+## Coaching of Wartsila, Bas
+
+
+# Day 5
+
+Asia LeSS tour with Ebaki. 1 week per country. 
+
+Org Dev by Stanly. Diagnostic vs Dialogic.
+
+Discuss odd-e.com and blog migration with Jackson.
+
+XP in startup by Joseph.
+
+Retro by Chokchai.
+Find 2 helpers using hand palm up-down game (time keeper and decider on who will take notes and summarize at the end).
+Speedboat: What where your goals/wishes for coming to the gathering? What pushed you towards them? What slowed you down? Ideas for next boring gathering. Vote by elimination (4 rounds, each participant gets 2 votes per round).

@@ -1,0 +1,21 @@
+---
+title: A Hacker's Mind. How the Powerful Bend Society’s Rules, and How to Bend them Back
+author: Bruce Schneier
+date: 2023-02-07
+---
+
+Socio-technical systems. Humans + computers.
+Complex systems are easier to hack.
+
+hacks: technical, economic, financial, legal, social, political, cognitive.
+
+Hacking is exploiting a system without breaking the system's rules but subverting rules' intent for personal gain at the expense of the other participants in the system.
+
+Good/useful hacks can be normalized (become part of the system) or patched. Non-technical hacks take years/generation to be patched.
+
+Vulnerability and exploit.
+
+Social hack: Administrative burden (make access to social benefits more difficult).
+
+Hacks by AI systems: speed, scale, sophistication. Personalized, deep & subtle fakes.
+
