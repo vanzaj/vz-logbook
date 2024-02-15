@@ -15,3 +15,8 @@ Why? Because many folks in data science have not been exposed to agile product d
 ## Starting my "digital garden"
 
 After discovering [quarto](https://quarto.org/), I want to (once again) try to have my learning notes available online.
+
+
+## First Aid training
+
+Standard First Aid + Psychological First Aid from [Singapore Red Cross](https://redcross.sg/get-trained/first-aid.html).
