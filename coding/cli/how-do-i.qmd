@@ -1,0 +1,87 @@
+---
+title: How do I ...?
+---
+
+## bash
+
+```bash
+set -euxo pipefail
+```
+
+see: [safer bash scripts](https://vaneyckt.io/posts/safer_bash_scripts_with_set_euxo_pipefail/)
+
+
+## Readline wrap
+
+```bash
+yum install rlwrap
+rlwrap sqite3 name.db
+```
+
+## Run commands when files change
+
+```bash
+find . \*.py | entr pytest
+ls tests/*.py | entr -c python manage.py test
+```
+see: [entr](https://github.com/eradman/entr)
+
+
+## Sending files btw computers
+
+```bash
+host1$ cat $file | nc -l $port
+host2$ nc $host1_ip $port > $file
+```
+
+??? `socat TCP4-LISTEN:2375,bind=192.168.217.224,fork,reuse UNIX-CONNECT:/var/run/docker.sock`
+
+
+## ssh
+
+Exit automatically on network interruption. Add to `.ssh/config`
+```bash
+ServerAliveInterval 5
+ServerAliveCountMax 1
+```
+
+Break out of the session:   `~.`
+
+checkout mosh.org: terminal that keeps session alive when network down/change.
+
+## tmux
+
+Sharing a terminal session (checkout tmate):
+
+```bash
+bob@home$ ssh bob@box
+bob@box$ tmux new -s shared
+tom@home@ ssh bob@box
+tom@home$ tmux attach -t shared
+```
+
+## OSX specific
+
+### Create bootable usb with ubuntu
+
+1. dld ubuntu-19.10-desktop-amd64.iso
+2. run `hdiutil convert -format UDRW -o ubuntu ./ubuntu-19.10-desktop-amd64.iso`
+3. insert usb disk
+4. run `diskutil list` and `diskutil unmount /dev/disk2s1`
+5. run `dd if=./ubuntu.dmg of=/dev/disk2 bs=1m`
+6. run `diskutil eject /dev/disk2`
+
+
+### Rename image files based on time-stamp
+
+```bash
+brew install exiftool
+exiftool "-FileName<CreateDate" -d "%Y%m%d_%H%M%S.%%e" .
+```
+
+## use GPG Keychain app to export gpg keys
+
+```bash
+gpg -se -u "bob@foo.com" -r "bob@foo.com" bar.txt
+gpg -d bar.txt.gpg
+```

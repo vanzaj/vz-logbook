@@ -1,0 +1,58 @@
+---
+title: OSX setup
+---
+
+updated: 2023-11-02
+
+## xcode and homebrew
+
+```bash
+zsh --version
+xcode-select --install
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/opt/homebrew/bin/brew shellenv >> /Users/ivan/.brewenv   # then copy or read it from .zshrc
+brew doctor
+
+brew install git
+git config --global core.excludesfile ~/.gitignore
+cp tmp/home-etc/git/gitconfig ~/.gitconfig
+
+brew install ack fzf neovim pyenv tmux tree wget xz zlib
+brew install --cask betterzip cheatsheet docker qlmarkdown quicklook-csv rectangle suspicious-package vlc vscodium
+```
+
+## shell
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+ln -s Library/Mobile\ Documents/com~apple~CloudDocs ~/CloudDocs
+```
+
+## python
+
+```bash
+brew install pyenv
+echo 'eval "$(pyenv init -)"' >> .zshrc
+pyenv install --list
+pyenv install 3.11.0
+```
+
+# dev repos
+
+```bash
+mkdir -p dev/work && cd dev/work
+git clone git@github.com:The-LeSS-Company/less_site.git
+git clone git@github.com:nerds-odd-e/odd-e_website.git
+cd ~
+
+mkdir dev/perso && cd dev/perso
+git clone git@github.com:vanzaj/erft.git
+git clone git@github.com:vanzaj/katas.git
+cd ~
+
+mkdir dev/community && dev/community
+git clone git@github.com:vanzaj/lizard.git
+mkdir tdd-workshops
+git clone git@github.com:tdd-workshops/tdd-getting-started.git
+git clone git@github.com:tdd-workshops/tdd-lab-login-form-python-flask.git
+```

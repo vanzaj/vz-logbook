@@ -1,0 +1,40 @@
+---
+title: Refactoring
+---
+
+## Notes from Industrial Logic course
+
+Extract example
+
+::: {.panel-tabset}
+
+### Original code
+
+``` {.python}
+def printOwing(amount):
+    printBanner()
+    print "name: %s" % name
+    print "amount: %f" % amount
+    
+def printLateNotice(amount):
+    printBanner()
+    print "name: %s" % name
+    print "amount: %f" % amount
+```
+
+### Refactored
+
+``` {.python}
+def printOwing(amount):
+    printBanner()
+    printDetails()
+    
+def printLateNotice(amount):
+    printBanner()
+    printDetails()
+
+def printDetails(amount):
+    print "name: %s" % name
+    print "amount: %f" % amount
+```
+:::

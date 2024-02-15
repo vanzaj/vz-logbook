@@ -1,0 +1,33 @@
+---
+title: pytest
+---
+
+## cli options
+
+```bash
+# run only last failed
+pytest --lf tests/
+
+# show local variables in traceback
+pytest -l tests/
+
+# enter PDB at first failure and stop test session after
+pytest -x --pdb tests/
+
+# re-run all tests starting with last failed test first
+pytest --ff tests/
+
+# run a subset of tests
+pytest -k 'foo or bar' tests/test_foobar.py
+
+# run tests in parallel (pytest-xdist)
+pytest -n 4|auto
+
+# flaky tests (pytest-rerunfailures)
+pytest -reruns 5
+```
+
+
+## examples of testing
+
+<https://github.com/neilgall/pytest-docker-flask/> (EuroPython 2018)
