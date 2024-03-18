@@ -17,7 +17,7 @@ brew install git
 git config --global core.excludesfile ~/.gitignore
 cp tmp/home-etc/git/gitconfig ~/.gitconfig
 
-brew install ack fzf neovim pyenv tmux tree wget xz zlib
+brew install ack fzf neovim pyenv tmux tree wget xz zlib bat git-delta
 brew install --cask betterzip cheatsheet docker qlmarkdown quicklook-csv rectangle suspicious-package vlc vscodium
 ```
 

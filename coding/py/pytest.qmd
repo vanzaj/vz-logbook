@@ -25,6 +25,9 @@ pytest -n 4|auto
 
 # flaky tests (pytest-rerunfailures)
 pytest -reruns 5
+
+# run tests in random order
+pip install pytest-randomly
 ```
 
 

@@ -1,0 +1,29 @@
+
+1. Create blog backup using [MT admin page](https://blog.odd-e.com/mt/mt.cgi)
+
+``` bash
+cd Downloads
+tar zxf Movable_Type-2024-02-19-08-57-14-Backup.tar.gz -C blog
+ls blog/*.xml
+blog/Movable_Type-2024-02-19-08-56-56-Backup-1.xml
+```
+
+
+2. Clone migrate repo
+
+``` bash
+git clone nerds-odde/blog-migrate
+cd blog-migrate
+# edit path to the xml file in main()
+node migrate.js
+```
+
+## check blog.json
+
+``` python
+import json
+with open("blog.json") as json_file:
+    data = json.load(json_file)
+
+print(len(data['data']['posts']))
+```

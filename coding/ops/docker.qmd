@@ -81,6 +81,16 @@ docker run --mount type=bind,source=/data/my_image/logs,target=/var/log my_image
 
 ```
 
+# Removing images
+
+```bash
+docker images
+docker rmi <image_id1> <image_id2>
+docker system prune -a
+docker volume ls
+docker volume rm <volume_name1> <volume_name2>
+```
+
 # Docker compose
 
 It's possible to run multiple containers and "link" them for networking. But much easier to use docker-compose to manage multi-container app.
