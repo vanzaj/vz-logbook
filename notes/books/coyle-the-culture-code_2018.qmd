@@ -1,0 +1,201 @@
+---
+title: The Culture Code
+author: Daniel Coyle
+date: 2018-01-30
+categories: [psychology, culture, leadership]
+---
+
+# Part 1: Build Safety
+## Ch. 1: The good apples
+
+Safety. Will Felps, Uni of South Wales. Organizational behavior. Negative archetypes (jerk, slacker, downer)
+Impact of "bad apples" (by a good actor) leads to 30-40% of group performance drop. Can be neutralized by a "good apple" who knows how to diffuse a situation with subtle behaviors (get closer, smile, listen, be curious, alert, inclusive).
+
+Highly successful groups are familial ("family", "friends"), special chemistry. We can feel it and want to be part of it.
+
+Human signaling. Alex Pentland, MIT Human Dynamics Lab. Sociometer (proximity, voice). Belonging cues. Much older than language. Answer the question: Are we safe together?
+Close proximity, eye contact, physical touch, lots of short energetic exchanges, high level of mixing, few interruptions, lots of questions, active listening, humor, small attentive gestures (thank you).
+What are we looking for: energy, individualization, future orientation.
+
+Amy Edmondson. Psychological Safety.
+
+(even people who study safety take time to realize they might need to work on their behavior to increase safety around them)
+
+
+## Ch 2: The Billion-Dollar Day When Nothing Happened
+
+Google vs Overture, AdWords engine, Jeff Dean. Constant flow of challanges in a safe group beats bigger and better funded group.
+
+Organizational Blueprints for Success in High-Tech Start-Ups: Lessons from the Stanford Project on Emerging Companies.
+James Baron and Michael Hannan. Models: star (hire the best and brightest), professional (hire most skilled), commitment (hire for culture fit).
+
+Amygdala: Scanning for danger & maintaining social connections. Belonging. We are close, we are safe, we share a future.
+
+
+## Ch 3: The Christmas Truce, the One-Hour Experiment and the Missileers
+
+1914, English-German truce on xmas. Prolonged exchange of micro-truces and belonging cues.
+
+WIPRO call center, high level of turn-over, 1 hr intervention after standard training for new employees, focus on positive and individual uniquness lead to much higher retention rates.
+
+Missileers - the opposite of belonging. (cold war, obsolete tech)
+
+
+## Ch 4: How to build Belonging
+
+Gregg Popovich, best NBA coach. Close, personal, no-bullshit truth telling.
+In challenging times, make people feel connected to a bigger purpose (players watching political documentaries).
+Connect people through food (and wine).
+
+> Food and wine aren't just food and wine. They're a vehicle for making and sustaining connections.
+
+Successful cultures are oriented less around achieving happiness than around solving hard problems together.
+High-candor feedback, uncomfortable truth-telling.
+Big failures can be used to bring the team together.
+
+
+## Ch 5: How to Design for Belonging
+
+Tony Hsieh, macgyvering through youth, Link Exchange (1998), Zappos ($1 bln in revenues in 2009, sold to Amazon)
+Downtown Project. "My job is to architect the greenhouse". High "collisions" space (connections).
+
+Allen Curve. Thomas Allen, MIT, study of "twin projects" during cold war (which team build successul solution to a similar hard problem). 8m. Proximity is an indicator of beloning. Face recognition stops at about 50m.
+
+> What mattered most in creating a successful team had less to do with intelligence and experience and more to do with where the desks happened to be located.
+
+
+## Ch 6: Ideas for Action
+
+"Overcommunicate" your listening. Lean towards, yes-uh-hum-gotcha, no interruptions.
+Express fallibility. What am I missing? I could be wrong here.
+Don't shoot the messenger. Hug them.
+Overdo Thank-You.
+Take hiring very seriously and elimitate bad apples.
+Create safe, collision-rich spaces.
+Give voice to everyone: What do you like most about this place? What do you like least? What would you change if you were in charge?
+Pick-up trash. Seek simple ways to serve the group.
+Capitalize on Threshold moments. (people pay more attention during transitions)
+Avoid giving sandwich feedback.
+
+# Part 2: Share vulnerability
+## Ch 7: Tell me what you want. I will help.
+
+United Flight 232. Communication in notifications style during emergency.
+BrainTrust at Pixar. AAR in the military.
+
+
+## Ch 8: The vulnerability loop
+
+What was your high school like? vs Is there something you've dreamt of doing for a long time? Why haven't you done it?
+Arthur and Elaine Aron. Experimental Generation of Interpersonal Closeness.
+
+Jeff Polzer, Harvard, org behavior, trust, cooperation, "insignificant" social exchanges.
+vulnerability (i need your help) comes before trust.
+
+> when it comes to creating cooperation, vulnerability is not a risk but a psychological requirement.
+
+
+## Ch 9: The Super-Cooperators
+
+Navy SEALs. Draper Kauffman, WWII, new training program for naval bomb disposal special ops teams based on observation of Corps Franc. 1st hell week (selection), always team-based (self-sufficient 6 people), no hierarchical distinction during training.
+Micro-events, communication, closeness, cooperation.
+
+
+## Ch 10: Cooperation in small groups
+
+authority bias, how to create hive mind in a team?
+
+> One of the best things I’ve found to improve a team’s cohesion is to send them to do some hard, hard training.
+
+> [AAR] It’s got to be safe to talk. Rank switched off, humility switched on. I’d say those might be the most important four words any leader can say: I screwed that up.
+
+> The real courage is seeing the truth and speaking the truth to each other.
+
+
+## Ch 11: Cooperation with Individuals
+
+Bell Labs, Harry Nyquist. Warmth, curiosity, connections (and lunches).
+IDEO, Roshi Givechi. Listen and ask "simple" questions. "Surfacing issues".
+Robert Bales. Questions comprise only 6% of verbal interactions, but generate 60% of ensuing discussions.
+Carl Marci. Neurologist, Harvard. Listening and relations (healers). measuring concordances (galvanic skin response of two people in conversation).
+
+
+## Ch 12: Ideas for action
+
+Make sure the Leader is Vulnerable first and often
+Overcommunicate Expectations (of collaboration)
+Deliver the Negative stuff in person
+When forming new teams focus on 2 critical moments: 1st vulnerability and 1st disagreement
+Listen like a trampoline. add insights, make occasional suggestions (via questions).
+Resist temptation to add value. Dig it out from people.
+Aim for candor; avoid brutal honesty. focus on smaller, more targeted things, less personal, less judgmental.
+Embrace the discomfort. (emotional pain and sense of inefficiency).
+Align language with Action. (develop "in"-vocabulary)
+Build a wall btw performance review and professional development.
+Use flash mentoring. (shadowning for a few hours).
+Make the Leader occasionally disappear.
+
+
+# Part 3: Establish purpose
+## Ch 13: Three Hundred and Eleven Words
+
+Johnson and Johnson credo: https://www.jnj.com/credo/
+1) customers, 2) employees, 3) community, 4) stakeholders
+
+> Purpose is about creating simple beacons that focus attention and engagement on the shared goal.
+
+> High-purpose environments are filled with small, vivid signals designed to create a link between the present moment and a future ideal.
+> Here is where we are. Here is where we want to go.
+
+Gabriele Oettingen, mental contrasting. 1) envision a reachable goal 2) envision the obstacles.
+
+
+## Ch 14: Taming the Hooligans
+
+2004, UEFA, Portugal, the English Disease.
+Clifford Stott, social psychology, crowd violence. Remove signs of riot gear/force. Encourage police to know enough to engage in "small talk" about football, teams/coaches, etc.
+
+"riots are born from small scale confrontations." control with an array of consistent little signals.
+
+> One of the best measures of any group's culture is its learning velocity -- how quickly it improves its performance of a new skill.
+
+Amy Edmondson, 1998, MICS study (minimally invasive cardiac surgery).
+
+Fastest learning team:
+
+  1. Framing (purpose)
+  2. Roles (individual and collective skills)
+  3. Rehearsals
+  4. Explicit encouragement to speak up
+  5. Active reflection (head-mounted camera, also Boyd pilot training)
+
+NB: the list above does not contain "years of experience", "status and structure", "organizational support".
+Communication signals could easily be viewed as obvious and redundant.
+
+> What seems like repetion is, in fact, navigation.
+
+High-purpose environment. Vision alone is not enough. You need to provide a stream of consistent, small, guiding signals.
+
+## Ch 15: How to Lead for Proficiency
+
+FnB in NY, 20% survival rate after 5 years. Good food, location, service, training, branding, leadership,...
+
+Danny Meyer, Union Square Cafe
+
+Staff priorites: colleagues, guests, community, suppliers, investors
+
+> Are you an agent or a gatekeeper?
+
+Saldago's study of Meyer's restaurants successful practices:
+
+  1. selection of employees based on emotional capabilities
+  2. respectful treatment of employees
+  3. managment through a simple set of rules that simulate complex and intricate bahaviors benefiting customers.
+
+> The road to success is paved with mistakes well handled.
+
+  1. create priorities
+  2. name key behaviours
+  3. flood the environment to link 1 and 2 (catch-phrases, "in" language)
+
+
