@@ -38,3 +38,28 @@ def printDetails(amount):
     print "amount: %f" % amount
 ```
 :::
+
+## Unlocking the Awesome Power of Refactoring
+
+by J. B. Rainsberger
+[tech excellence talk](https://www.youtube.com/watch?v=Xyv4wUffjiQ)
+
+Deliberate practice, Learned Helplessness.
+
+Nanosteps --> Microsteps --> Moves
+Repetition --> Ease --> Chunking (autonomic, subconscious, higher order thinking) --> Confidence --> Courage
+
+Pattern: Item --> Collection (ex function arg)
+  1. add extra arg `f(x)  --> f(x, xs: List)`.
+  2. modifiy calls of `f(x)` in the code base to use new signature.
+  3. modify `f(x)` to use `xs` instead of `x`.
+  4. verify that the behaviour of `f()` is the same.
+  5. remove `x` so that we are left with `f(xs)`.
+
+Start practicing now: 30min refactoring at the end of a day or even week. Throw the changes away.
+
+Practice is not performance!
+
+"Cleaning the kitchen as you cook"
+
+
