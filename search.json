@@ -1,57 +1,134 @@
 [
   {
-    "objectID": "coding/win-scoop.html",
-    "href": "coding/win-scoop.html",
-    "title": "Windows 10 Dev Env Setup",
+    "objectID": "coding/practices/refactoring.html",
+    "href": "coding/practices/refactoring.html",
+    "title": "Refactoring",
     "section": "",
-    "text": "Go to https://github.com/PowerShell/PowerShell/\nClick on Latest under Releases\nSearch for win-x64.msi",
+    "text": "Extract example\n\nOriginal codeRefactored\n\n\ndef printOwing(amount):\n    printBanner()\n    print \"name: %s\" % name\n    print \"amount: %f\" % amount\n    \ndef printLateNotice(amount):\n    printBanner()\n    print \"name: %s\" % name\n    print \"amount: %f\" % amount\n\n\ndef printOwing(amount):\n    printBanner()\n    printDetails()\n    \ndef printLateNotice(amount):\n    printBanner()\n    printDetails()\n\ndef printDetails(amount):\n    print \"name: %s\" % name\n    print \"amount: %f\" % amount",
     "crumbs": [
       "Coding",
-      "Windows 10 Dev Env Setup"
+      "Practices",
+      "Refactoring"
     ]
   },
   {
-    "objectID": "coding/win-scoop.html#install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020",
-    "href": "coding/win-scoop.html#install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020",
-    "title": "Windows 10 Dev Env Setup",
+    "objectID": "coding/practices/refactoring.html#notes-from-industrial-logic-course",
+    "href": "coding/practices/refactoring.html#notes-from-industrial-logic-course",
+    "title": "Refactoring",
     "section": "",
-    "text": "Go to https://github.com/PowerShell/PowerShell/\nClick on Latest under Releases\nSearch for win-x64.msi",
+    "text": "Extract example\n\nOriginal codeRefactored\n\n\ndef printOwing(amount):\n    printBanner()\n    print \"name: %s\" % name\n    print \"amount: %f\" % amount\n    \ndef printLateNotice(amount):\n    printBanner()\n    print \"name: %s\" % name\n    print \"amount: %f\" % amount\n\n\ndef printOwing(amount):\n    printBanner()\n    printDetails()\n    \ndef printLateNotice(amount):\n    printBanner()\n    printDetails()\n\ndef printDetails(amount):\n    print \"name: %s\" % name\n    print \"amount: %f\" % amount",
     "crumbs": [
       "Coding",
-      "Windows 10 Dev Env Setup"
+      "Practices",
+      "Refactoring"
     ]
   },
   {
-    "objectID": "coding/win-scoop.html#install-and-configure-scoop",
-    "href": "coding/win-scoop.html#install-and-configure-scoop",
-    "title": "Windows 10 Dev Env Setup",
-    "section": "Install and configure Scoop",
-    "text": "Install and configure Scoop\nScoop allows installing and managing familiar dev tools on Windows from the command line. It is somewhat similar to homebrew on Mac or apt-get on Ubuntu.\nSetup your region’s web proxy (more info)\nType in the PowerShell Terminal:\n[net.webrequest]::defaultwebproxy = new-object net.webproxy \"http://proxy.COMPANY.com:8080\"\n[net.webrequest]::defaultwebproxy.credentials = [net.credentialcache]::defaultcredentials\nInstall scoop.sh and git:\nset-executionpolicy unrestricted -s cu\niwr -useb get.scoop.sh | iex\nscoop install git win32-openssh openssl\nsudo C:\\ProgramData\\scoop\\apps\\win32-openssh\\current\\install-sshd.ps1\ngit config --global credential.helper manager\ngit config --global http.sslVerify false\nscoop config proxy 'currentuser@proxy.COMPANY.com:8080'\nscoop install busybox cacert delta pshazz sudo\ngit config --global delta.side-by-side true",
+    "objectID": "coding/practices/refactoring.html#unlocking-the-awesome-power-of-refactoring",
+    "href": "coding/practices/refactoring.html#unlocking-the-awesome-power-of-refactoring",
+    "title": "Refactoring",
+    "section": "Unlocking the Awesome Power of Refactoring",
+    "text": "Unlocking the Awesome Power of Refactoring\nby J. B. Rainsberger tech excellence talk\nDeliberate practice, Learned Helplessness.\nNanosteps –&gt; Microsteps –&gt; Moves Repetition –&gt; Ease –&gt; Chunking (autonomic, subconscious, higher order thinking) –&gt; Confidence –&gt; Courage\nPattern: Item –&gt; Collection (ex function arg) 1. add extra arg f(x)  --&gt; f(x, xs: List). 2. modifiy calls of f(x) in the code base to use new signature. 3. modify f(x) to use xs instead of x. 4. verify that the behaviour of f() is the same. 5. remove x so that we are left with f(xs).\nStart practicing now: 30min refactoring at the end of a day or even week. Throw the changes away.\nPractice is not performance!\n“Cleaning the kitchen as you cook”",
     "crumbs": [
       "Coding",
-      "Windows 10 Dev Env Setup"
+      "Practices",
+      "Refactoring"
     ]
   },
   {
-    "objectID": "coding/win-scoop.html#install-development-tools",
-    "href": "coding/win-scoop.html#install-development-tools",
-    "title": "Windows 10 Dev Env Setup",
-    "section": "Install development tools",
-    "text": "Install development tools\nScoop update and basic tools:\nscoop config proxy 'currentuser@proxytr.huawei.com:8080'\nsudo scoop update *\nscoop install cwRsync dust everything gpg procs sysinternals vcredist2015 vcredist windows-terminal -g\nAdd buckets and install java, node, python, postman, svn…:\nscoop bucket add extras versions java jetbrains\nscoop install zulu8 maven gradle\nscoop install IntelliJ-IDEA-Ultimate jetbrains-toolbox\nscoop install nodejs yarn python\nscoop install concfg nvim vscode curl jq postman silksvn\nInstall docker:\nscoop bucket add Ash258 'https://github.com/Ash258/Scoop-Ash258.git'\nscoop install docker",
-    "crumbs": [
-      "Coding",
-      "Windows 10 Dev Env Setup"
-    ]
-  },
-  {
-    "objectID": "coding/docker.html",
-    "href": "coding/docker.html",
-    "title": "Docker",
+    "objectID": "coding/ops/osx_setup.html",
+    "href": "coding/ops/osx_setup.html",
+    "title": "OSX setup",
     "section": "",
-    "text": "Docker commands\ndocker\n    run $name[:$tag] [$cmd]\n    ps [-a] [$name]\n    stop $name | $id\n    rm $name | $id\n    images\n    rmi $name\n    pull $name\n    attach $id\n    logs $name\n\n\nDocker run\ndocker run -it $name  # interactive + terminal\ndocker run -d 80:8080 $name  # daemon mode, link ports $host:$container\ndocker run -v /local/dir:/container/dir $name  # mount local volume\ndocker run -e MYVAR=foobar $name  # pass env var to container\nNB: ports and volumes arguments always follow $host:$container order\n\n\nCreating an image\ncat &gt; Dockerfile &lt;&lt; EOF\nFROM ubuntu\nRUN apt-get update\nRUN apt-get install python\nRUN pip install flask flask-mysql\nCOPY . /opt/src\nENTRYPOINT FLASK_APP=/opt/src/app.py flask run\nEOF\ndocker build . -t $myname\ndocker push $myname\ndocker history $myname  # to see layers (successful RUNs in Dockerfile)\nDocker image is built from layers created from each FROM, RUN and COPY line. The layers are reused for different images.\nOther useful commands: ENV, WORKDIR, USER, CMD\n\n\nNetwork\nBy default docker uses bridge mode for containers running on the same host with default network 172.17.xxx.xxx. Other network modes are “none” (no network) and “host” (no network isolation from host).\ndocker network create --driver bridge --subnet 182.18.0.0/16 my_network\ndocker inspect $name will show full container info including network.\nDockers uses internal DNS 127.0.0.11 to resolve containers IP and containers names.\n\n\nStorage\nContainers, images, volumes are stored in /var/lib/docker. All image layers are RO. A contaier runs in a special RW container layer which gets destroyed when container is stoped. Data can be persisted in named volumes inside /var/lib/docker/volumes (volume mount) or a directory on a host (bind mount).\ndocker volume create my_volume\ndocker run -v my_volume:/var/log my_image\n\n# new explicit format for mounting volumes\ndocker run --mount type=bind,source=/data/my_image/logs,target=/var/log my_image\n\n\nDocker compose\nIt’s possible to run multiple containers and “link” them for networking. But much easier to use docker-compose to manage multi-container app.\ndocker-compose.yml\nversion: 2\n\nservices:\n  frontend:\n    build:\n      context: ./app\n      args:\n        DB_HOST: localhost:5005\n    links:\n      - db\n    volumes:\n      - logs:/var/logs\n    depends_on:\n      db:\n        condition: service_started\n\n  db:\n    image: postgres:9.4\n    ports:\n      - \"5005:5432\"\n    volumes:\n      - /data/app/postgres:/var/lib/postgres\n\nvolumes:\n  logs:\ndocker-compose up -d   #--build\ndocker-compose exec frontend ls -l\ndocker-compose logs frontend\ndocker-compose down -v",
+    "text": "updated: 2023-11-02",
     "crumbs": [
       "Coding",
-      "Docker"
+      "Ops",
+      "OSX setup"
+    ]
+  },
+  {
+    "objectID": "coding/ops/osx_setup.html#xcode-and-homebrew",
+    "href": "coding/ops/osx_setup.html#xcode-and-homebrew",
+    "title": "OSX setup",
+    "section": "xcode and homebrew",
+    "text": "xcode and homebrew\nzsh --version\nxcode-select --install\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n/opt/homebrew/bin/brew shellenv &gt;&gt; /Users/ivan/.brewenv   # then copy or read it from .zshrc\nbrew doctor\n\nbrew install git\ngit config --global core.excludesfile ~/.gitignore\ncp tmp/home-etc/git/gitconfig ~/.gitconfig\n\nbrew install ack fzf neovim pyenv tmux tree wget xz zlib bat git-delta\nbrew install --cask betterzip cheatsheet docker qlmarkdown quicklook-csv rectangle suspicious-package vlc vscodium",
+    "crumbs": [
+      "Coding",
+      "Ops",
+      "OSX setup"
+    ]
+  },
+  {
+    "objectID": "coding/ops/osx_setup.html#shell",
+    "href": "coding/ops/osx_setup.html#shell",
+    "title": "OSX setup",
+    "section": "shell",
+    "text": "shell\nsh -c \"$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\"\nln -s Library/Mobile\\ Documents/com~apple~CloudDocs ~/CloudDocs",
+    "crumbs": [
+      "Coding",
+      "Ops",
+      "OSX setup"
+    ]
+  },
+  {
+    "objectID": "coding/ops/osx_setup.html#python",
+    "href": "coding/ops/osx_setup.html#python",
+    "title": "OSX setup",
+    "section": "python",
+    "text": "python\nbrew install pyenv\necho 'eval \"$(pyenv init -)\"' &gt;&gt; .zshrc\npyenv install --list\npyenv install 3.11.0",
+    "crumbs": [
+      "Coding",
+      "Ops",
+      "OSX setup"
+    ]
+  },
+  {
+    "objectID": "coding/ops/py-dev-setup.html",
+    "href": "coding/ops/py-dev-setup.html",
+    "title": "Python dev setup",
+    "section": "",
+    "text": "pyenv install 3.12.1\npyenv local 3.12.1\npython -m venv venv\n. ./venv/bin/activate\npip install --upgrade pip\npip install fastapi\npip install 'uvicorn[standard]'\npip freeze &gt; requirements.txt",
+    "crumbs": [
+      "Coding",
+      "Ops",
+      "Python dev setup"
+    ]
+  },
+  {
+    "objectID": "coding/ops/py-dev-setup.html#pyenv-buildin-virtualenv",
+    "href": "coding/ops/py-dev-setup.html#pyenv-buildin-virtualenv",
+    "title": "Python dev setup",
+    "section": "",
+    "text": "pyenv install 3.12.1\npyenv local 3.12.1\npython -m venv venv\n. ./venv/bin/activate\npip install --upgrade pip\npip install fastapi\npip install 'uvicorn[standard]'\npip freeze &gt; requirements.txt",
+    "crumbs": [
+      "Coding",
+      "Ops",
+      "Python dev setup"
+    ]
+  },
+  {
+    "objectID": "coding/ops/py-dev-setup.html#proxy-setup-for-pip",
+    "href": "coding/ops/py-dev-setup.html#proxy-setup-for-pip",
+    "title": "Python dev setup",
+    "section": "Proxy setup for pip",
+    "text": "Proxy setup for pip\nAssuming the userID=1234566 and password=s3cr3t0, type the following in the terminal:\n$env:http_proxy=\"http://123456:s3cr3t0@proxytr.company.com:8080\"\n$env:https_proxy=\"http://123456:s3cr3t0@proxytr.company.com:8080\"\n(NB: http:// for $env:https IS correct)",
+    "crumbs": [
+      "Coding",
+      "Ops",
+      "Python dev setup"
+    ]
+  },
+  {
+    "objectID": "coding/ops/py-dev-setup.html#always-work-inside-an-isolated-environment",
+    "href": "coding/ops/py-dev-setup.html#always-work-inside-an-isolated-environment",
+    "title": "Python dev setup",
+    "section": "Always work inside an isolated environment",
+    "text": "Always work inside an isolated environment\nIt is very hard to manage different versions of dependencies for multiple projects in one place. We need to use virtual environments. In Python 3, virtualenv was added to core library as venv module.\ncd new_project\npython -m venv .\\myevn\n.\\myenv\\Scripts\\activate\npip install requests  # installs into .\\myenv\\Lib\\site-packages\nFor ML projects, it might be better to use [mini]conda as a replacement for pip:\nscoop install miniconda3\nconda install -n root -c pscondaenvs pscondaenvs\nconda init powershell\n\n# relaunch terminal\n\nconda info         # check current env\nconda list         # which packages are available\nconda info --envs  # list of existing environments\nconda create --name myenv\nconda activate myenv\nconda install -n myenv numpy scikit-learn\nconda deactivate\n\n# Add conda forge\nconda config --set auto_update_conda False\nconda config --add channels conda-forge\nconda search psycopg2\n\nconda install --file requirements.txt",
+    "crumbs": [
+      "Coding",
+      "Ops",
+      "Python dev setup"
     ]
   },
   {
@@ -85,6 +162,16 @@
     ]
   },
   {
+    "objectID": "now.html#first-aid-training",
+    "href": "now.html#first-aid-training",
+    "title": "Now",
+    "section": "First Aid training",
+    "text": "First Aid training\nStandard First Aid + Psychological First Aid from Singapore Red Cross.",
+    "crumbs": [
+      "Now"
+    ]
+  },
+  {
     "objectID": "notes/books/freeman-goos_2009.html",
     "href": "notes/books/freeman-goos_2009.html",
     "title": "Growing Object-Oriented Software, Guided by tests",
@@ -101,10 +188,143 @@
     "href": "notes/books/index.html",
     "title": "Books",
     "section": "",
-    "text": "This is a collection of my books reading notes. I also record my reading history at librarything.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2023\n\n\nA Hacker’s Mind. How the Powerful Bend Society’s Rules, and How to Bend them Back\n\n\nBruce Schneier\n\n\n\n\n2009\n\n\nGrowing Object-Oriented Software, Guided by tests\n\n\nSteve Freeman, Nat Pryce\n\n\n\n\n2012\n\n\nHow To Think More About Sex\n\n\nAlain De Botton\n\n\n\n\n2019\n\n\nSand Talk: How Indigenous Thinking Can Save the World\n\n\nTyson Yunkaporta\n\n\n\n\n2012\n\n\nSearch Inside Yourself\n\n\nChade-Meng Tan\n\n\n\n\n2008\n\n\nTrick or Treatment? Alternative Medicine on Trial\n\n\nSimon Singh, Edzard Ernst\n\n\n\n\n2004\n\n\nWorking Effectively with Legacy Code\n\n\nMichael C. Feathers\n\n\n\n\n\nNo matching items",
+    "text": "This is a collection of my books reading notes. I also record my reading history at librarything.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2023\n\n\nA Hacker’s Mind. How the Powerful Bend Society’s Rules, and How to Bend them Back\n\n\nBruce Schneier\n\n\n\n\n2009\n\n\nGrowing Object-Oriented Software, Guided by tests\n\n\nSteve Freeman, Nat Pryce\n\n\n\n\n2012\n\n\nHow To Think More About Sex\n\n\nAlain De Botton\n\n\n\n\n2019\n\n\nSand Talk: How Indigenous Thinking Can Save the World\n\n\nTyson Yunkaporta\n\n\n\n\n2012\n\n\nSearch Inside Yourself\n\n\nChade-Meng Tan\n\n\n\n\n2018\n\n\nThe Culture Code\n\n\nDaniel Coyle\n\n\n\n\n2008\n\n\nTrick or Treatment? Alternative Medicine on Trial\n\n\nSimon Singh, Edzard Ernst\n\n\n\n\n2004\n\n\nWorking Effectively with Legacy Code\n\n\nMichael C. Feathers\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Notes",
       "Books"
+    ]
+  },
+  {
+    "objectID": "notes/books/yunkaporta_sand-talk_2019.html",
+    "href": "notes/books/yunkaporta_sand-talk_2019.html",
+    "title": "Sand Talk: How Indigenous Thinking Can Save the World",
+    "section": "",
+    "text": "Solutions to complex problems take many dissimilar minds and points of view.\n\nConnective thinking.\n\nAlbino boy\n( &lt; &gt; ) knee bend direction, “I am greater/lesser than you”\n\nContaining the excesses of malignant narcissists is a team effort… Engaging with them (narcissists) alone is futile – never wrestle a pig – as the old saying goes; you both end up covered in shit, and the pig likes it.\n\n\nThe basic protocols of Aboriginal society, like most societies, include respecting and hearing all points of view in a yarn. Narcissists demand this right, then refuse to allow other points of view on the grounds that any other opinion somehow infringes their freedom of speech or is offensive.\n\n\nEveryone is an idiot from time to time.\n\n\n\nFirst Law\n(three circles and flowers)\n\nAfter my yarns with Percy, I begin to see the uncertainty principle not as a law but as an expression of frustration about the impossibility of achieving godlike scientific objectivity.\n\n\n\nForever limited\n\nSustainable systems cannot be manufactured by individuals or appointed committees, particularly during times of intense transition and upheaval.\n\n\nIdeas can be re-engineered to serve the interests of the powerful.\n\n(chekout Larry Gross, Post Apocaliptic Stress Syndrom).\n\n\nLines in the sand\n\nPeople today will mostly focus on the points of connection, the nodes of interest like stars in the sky. But the real understanding comes in the spaces in between, in the relational forces that connect and move the points.\n\n\nSystems are heterarchical – composed of equal parts interacting together. Imposing a hierarchical model of top-down control can only destroy them. Healthy interventions can only be made by free agents within a complex system.\n\n\nOn learning another culture (cultural humility): 1) Check your ego and motives, 2) You don’t need to be an expert to understand the knowledge process of people from other cultures and enter into dialogues with them (but you need to show respect), 3) Making yourself an expert in another culture is not always appreciated by the members of that culture.\n\n\nIt is difficult to relinquish the illusions of power and delusions of exceptionalism that come with privilege. But it is strangely liberating to realise your true status as a single node in a cooperative network.\n\n\nSustainable systems cannot function without the full autonomy and unique expression of each independent part of the interdependent whole.\n\n\nSustainability agents have a few simple operating guidelines, or network protocols, or rules if you like – connect, diversify, interact and adapt.\n\n\nAn agent that is truly adaptive and changing is open to sudden eruptions of transformation.\n\n\nNot all strange attractors are benevolent (narcissist).\n\n\nAdolescent cultures always ask the same three questions. Why are we here? How should we live? What will happen when we die?\n\n\n\nOf Spirit and Spirits\n\nThere are at least four parts to your spirit from an Aboriginal point of view: your higher self (superego), ancestral spirit, living spirit and shadow spirit… Your shadow spirit is that part of you that wants things you don’t need, makes you think you’re better than other people and above the land. If the rest of your spirit is not clear and in balance, it gets away from you, causing conflict and destruction. You gossip behind people’s backs, spread uncertainty, deliver judgments, upset people, take more than you need and accumulate goods without sharing. It makes you a competitor instead of a human being.\n\n                   =     metaphors   \n                //   \\\\    \nabstract       o      o   concrete\n                \\\\   //\n                   =    metaphors\n\nThere is a spark of creation like lightning when true learning takes place, with a genetic reward of chemical pleasure released in the brain… The chemical burst of pleasure we feel when genuine knowledge transmission takes place occurs from the creation of new neural pathways. These are connections between two points that were previously unconnected. Jokes are one of the most pure examples of this neural creation event… If people are laughing, they are learning.\n\n\nThere needs to be an interaction between abstract (spirit) and concrete (physical) worlds of knowledge for this kind of complexity to develop fully.\n\n\nWithout closing the loop between abstract knowledge and reality, and without making connections between different ideas and areas of knowledge, true learning cannot occur.\n\n\nA focus on linear, abstract, declarative knowledge alone not only fails to create complex connectivity but damages the mind. We are biologically punished for this destructive behaviour with a neuro-chemical rush of lethargy and discomfort that most people call boredom.\n\n\nKnowledge transmission must connect both abstract knowledge and concrete application through meaningful metaphors to be effective.\n\n\n\nAdvanced and Fair\nTODO",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "Sand Talk: How Indigenous Thinking Can Save the World"
+    ]
+  },
+  {
+    "objectID": "notes/books/feathers-legacy-code_2004.html#ch.-2-working-with-feedback",
+    "href": "notes/books/feathers-legacy-code_2004.html#ch.-2-working-with-feedback",
+    "title": "Working Effectively with Legacy Code",
+    "section": "Ch. 2: Working with feedback",
+    "text": "Ch. 2: Working with feedback\nA test is not a unit test if:\n\nIt talks to a database.\nIt communicates across a network.\nIt touches the file system.\nYou have to do special things to your environment to run it.",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "Working Effectively with Legacy Code"
+    ]
+  },
+  {
+    "objectID": "notes/books/feathers-legacy-code_2004.html#ch.-3-sensing-and-separation",
+    "href": "notes/books/feathers-legacy-code_2004.html#ch.-3-sensing-and-separation",
+    "title": "Working Effectively with Legacy Code",
+    "section": "Ch. 3: Sensing and separation",
+    "text": "Ch. 3: Sensing and separation\n\nFake objects\nSale sale = new Sale();\nsale.scan(barcode); // scan() calls Display.showLine(item)\n\npublic interface Display\n{\n    void showLine(String line);\n}\n\npublic class Sale\n{\n    private Display display;\n\n    public Sale(Display display) {\n        this.display = display;\n    }\n\n    public void scan(String barcode) {\n        // item = get_item(barcode);\n        String lineItem = item.name() + \" \" + item.price();\n        display.showLine(lineItem);\n    }\n}\n\npublic class FakeDisplay implements Display\n{\n    private String lastLine = \"\";\n    public void showLine(String line){\n        this.lastLine = line;\n    }\n    public String getLastLine(){\n        return lastLine;\n    }\n}\n\n// test\npublic class SaleTest extends TestCase\n{\n    public void testDisplayAnItem() {\n        FakeDisplay display = new FakeDisplay();\n        Sale sale = new Sale(display);\n        sale.scan(\"1\");\n        assertEquals(\"xxx: $1.00\", display.getLastLine());\n    }\n}\n\n// test with Mock\npublic class SaleTest extends TestCase\n{\n    public void testDisplayAnItem() {\n        MockDisplay display = new MockDisplay();\n        display.setExpectation(\"showLine\", \"xxx: $1.00\")\n        Sale sale = new Sale(display);\n        sale.scan(\"1\");\n        display.verify();\n    }\n}\nA seam is a place where you can alter behavior in your program without editing in that place.",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "Working Effectively with Legacy Code"
+    ]
+  },
+  {
+    "objectID": "notes/web/need-for-engineering-managers.html",
+    "href": "notes/web/need-for-engineering-managers.html",
+    "title": "Questionable advice: My boss says we don’t need any engineering managers. Is he right?",
+    "section": "",
+    "text": "source",
+    "crumbs": [
+      "Notes",
+      "Web",
+      "Questionable advice: My boss says we don’t need any engineering managers. Is he right?"
+    ]
+  },
+  {
+    "objectID": "notes/web/need-for-engineering-managers.html#why-managers-exist-why-org-structures-exist",
+    "href": "notes/web/need-for-engineering-managers.html#why-managers-exist-why-org-structures-exist",
+    "title": "Questionable advice: My boss says we don’t need any engineering managers. Is he right?",
+    "section": "Why managers exist? Why org structures exist?",
+    "text": "Why managers exist? Why org structures exist?\nHow does a bad org structure look like? Rank (position in a hierarchy) is used as a tool of oppression. Information hoarding, playing dominance games (politics). Decisions are made based on rank.\nHierarchy is a property of self-organizing systems.\n\nA system is “a network of interdependent components that work together to try to accomplish a common aim.” – W. Edward Deming.\n\nA subsystem is a collection of elements with a smaller aim inside a larger system. The sybsystems always work to support the needs of the larger system; if the sybsystem instead optimizes for its own best interest, the whole system can fail.\nA system is self-organizing if it has the ability to make itself more complex, by diversifying, adapting, and improving itself. As systems self-organize and their complexity increases, they tend to generate hierarchy – an arrangement of systems and subsystems. In a stable, resilient and efficient system, sybsystems can largely take care of themselves, regulate themselves, and serve the needs of the larger system, while the larger system coordinates between subsystems and helps them perform better. Hierarchy minimizes the costs of coordination and reduces the amount of information that any given part of the system has to keep track of, preventing information overload. Information transfer and relationships withing a sybsystem are more more dense and have fewer delays than information transfer or relationshions between subsystems.\nA manager’s job is to coordinate between teams and help their team perform better.\nSoftware product development organizations are socio-technical systems, but the separation between “socio/people” and “technical/engineering” is never clean. Need for “glue work”.\nTasks that need to be done by any functional engineering org besides writing code:\n\nRecruiting: networking, interviewing, writing job descriptions and career ladders.\nProject management: managing stakeholders, prioritizing backlog, estimating size and scope.\nRunning team meetings: 1x1s (growth feedback), retrospectives, writing reviews, representing the teams’s needs.\nArchitecture, code reviews, capturing DORA and productivity metrics, managing burnout.",
+    "crumbs": [
+      "Notes",
+      "Web",
+      "Questionable advice: My boss says we don’t need any engineering managers. Is he right?"
+    ]
+  },
+  {
+    "objectID": "notes/web/need-for-engineering-managers.html#engineering-managers-are-a-useful-abstraction.",
+    "href": "notes/web/need-for-engineering-managers.html#engineering-managers-are-a-useful-abstraction.",
+    "title": "Questionable advice: My boss says we don’t need any engineering managers. Is he right?",
+    "section": "Engineering managers are a useful abstraction.",
+    "text": "Engineering managers are a useful abstraction.\nOne of the primary benefits of hierarchy is to reduce information overload. Engineering labor takes concentration and focus. Context switching is expensive. Management labor consist of context switching every hour or so, and being available for interruptions throughtout the day. Engineering calendar and management calendar do not coexist well.\nIt isn’t up to managers to do all the glue work, but it is a manager’s job to make sure that everything that needs to get done, does gets done (requires providing necessary resources to people who do the actual work).\nAn engineer is responsible for the software she develops, deploys, and maintains. A manager is responsible for her team and the organization as a whole.\nIn natural hierarchies, we look up for purpose and down for function. The above makes a complicated argument for why we need engineering managers.\nThe simpler argument is that most engineering orgs have engineering managers. It is something that many smart people had to spend considerable time thinking about. It may sound “boring”, but actually it is like with “choosing boring technology” which means “the capabilities and failure conditions are well understood”.\nWhen there is no explicit structure or hierarchy, the result is not freedom and egalitarianism (see The Tyranny of Structureless). Such orgs tend to be chaotic, fragile and frustrating.\nNo EMs because of management overhead (because managers are not supposed to do tech work) is a flawed argument. Mostly because “productivity” does not equate “lines of code”.",
+    "crumbs": [
+      "Notes",
+      "Web",
+      "Questionable advice: My boss says we don’t need any engineering managers. Is he right?"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "vz-logbook",
+    "section": "",
+    "text": "This is a Quarto website."
+  },
+  {
+    "objectID": "writings/hr-lingo.html",
+    "href": "writings/hr-lingo.html",
+    "title": "HR lingo",
+    "section": "",
+    "text": "language and the words you use say a lot about a culture, and that we can take steps to change culture through changing those words. – Emily Webber\n\nThe above quote is from a short and sweet “Should you call people resources?” post which resonated with me. I don’t remember when the term “resource” applied to people started to bother me. It’s been a while, but usually I didn’t do anything about it. Last year I decided to engage with an HR admin in a bank where I worked as an external consultant. She kept referring to me and my colleagues as “external resources” in emails. I’d asked her to stop calling us that, but either she had ignored my request or thought it wasn’t important and continued to call us “ER”s. I repeated my request accompanied by a small explanation why people are not resources thinking that sensible people especially working in HR would have no problem understanding it. Her reply: “but it is just a classification in our internal IT system”…\nSome of my HR friends say that the R-word is slowly disappearing from their industry’s lexicon and that organization adopt Google’s “People Operation” or similar (hopefully not just borrowing the term and being done with it). I like this development.\nWhat about “talent”? It is not as offensive as “resources”, but still might trigger “I’ve got no talents.” Or “I’m not good at this.” And isn’t talent overrated? And what about “human capital” or “human assets”? What is the benefit of using these words and constructs instead of just “people”?",
+    "crumbs": [
+      "Writings",
+      "HR lingo"
+    ]
+  },
+  {
+    "objectID": "writings/index.html",
+    "href": "writings/index.html",
+    "title": "Writings",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nSep 24, 2020\n\n\nHR lingo\n\n\n \n\n\n\n\nJul 29, 2020\n\n\nOrg signalling\n\n\n \n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Writings"
+    ]
+  },
+  {
+    "objectID": "writings/org-signalling.html",
+    "href": "writings/org-signalling.html",
+    "title": "Org signalling",
+    "section": "",
+    "text": "Just like people, organizations use signalling to communicate with the rest of the world. SEC filing, branding campaigns, industry awards are obvious mechanisms. Certifications like ISO 9001 are useful for getting contractual agreements. There are also more subtle signals. For example B-corp certification means that a for-profit organization puts social sustainability above profit, while worldblue membership signals a cultural shift from traditional command-and-control to a more progressive organization.\nBut there are also organizations that don’t bother with certifications and branding. They just focus on doing good work and leave signalling to word-of-mouth. Corporate Rebels and their bucketlist are currently the best source of information on such organizations. Happy to see Odd-e appearing in the list.",
+    "crumbs": [
+      "Writings",
+      "Org signalling"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "notes/books/schneier-a-hackers-mind_2023.html",
+    "href": "notes/books/schneier-a-hackers-mind_2023.html",
+    "title": "A Hacker’s Mind. How the Powerful Bend Society’s Rules, and How to Bend them Back",
+    "section": "",
+    "text": "Socio-technical systems. Humans + computers. Complex systems are easier to hack.\nhacks: technical, economic, financial, legal, social, political, cognitive.\nHacking is exploiting a system without breaking the system’s rules but subverting rules’ intent for personal gain at the expense of the other participants in the system.\nGood/useful hacks can be normalized (become part of the system) or patched. Non-technical hacks take years/generation to be patched.\nVulnerability and exploit.\nSocial hack: Administrative burden (make access to social benefits more difficult).\nHacks by AI systems: speed, scale, sophistication. Personalized, deep & subtle fakes.",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "A Hacker's Mind. How the Powerful Bend Society’s Rules, and How to Bend them Back"
     ]
   },
   {
@@ -204,136 +424,195 @@
     ]
   },
   {
-    "objectID": "notes/books/schneier-a-hackers-mind_2023.html",
-    "href": "notes/books/schneier-a-hackers-mind_2023.html",
-    "title": "A Hacker’s Mind. How the Powerful Bend Society’s Rules, and How to Bend them Back",
+    "objectID": "notes/books/coyle-the-culture-code_2018.html",
+    "href": "notes/books/coyle-the-culture-code_2018.html",
+    "title": "The Culture Code",
     "section": "",
-    "text": "Socio-technical systems. Humans + computers. Complex systems are easier to hack.\nhacks: technical, economic, financial, legal, social, political, cognitive.\nHacking is exploiting a system without breaking the system’s rules but subverting rules’ intent for personal gain at the expense of the other participants in the system.\nGood/useful hacks can be normalized (become part of the system) or patched. Non-technical hacks take years/generation to be patched.\nVulnerability and exploit.\nSocial hack: Administrative burden (make access to social benefits more difficult).\nHacks by AI systems: speed, scale, sophistication. Personalized, deep & subtle fakes.",
+    "text": "Safety. Will Felps, Uni of South Wales. Organizational behavior. Negative archetypes (jerk, slacker, downer) Impact of “bad apples” (by a good actor) leads to 30-40% of group performance drop. Can be neutralized by a “good apple” who knows how to diffuse a situation with subtle behaviors (get closer, smile, listen, be curious, alert, inclusive).\nHighly successful groups are familial (“family”, “friends”), special chemistry. We can feel it and want to be part of it.\nHuman signaling. Alex Pentland, MIT Human Dynamics Lab. Sociometer (proximity, voice). Belonging cues. Much older than language. Answer the question: Are we safe together? Close proximity, eye contact, physical touch, lots of short energetic exchanges, high level of mixing, few interruptions, lots of questions, active listening, humor, small attentive gestures (thank you). What are we looking for: energy, individualization, future orientation.\nAmy Edmondson. Psychological Safety.\n(even people who study safety take time to realize they might need to work on their behavior to increase safety around them)\n\n\n\nGoogle vs Overture, AdWords engine, Jeff Dean. Constant flow of challanges in a safe group beats bigger and better funded group.\nOrganizational Blueprints for Success in High-Tech Start-Ups: Lessons from the Stanford Project on Emerging Companies. James Baron and Michael Hannan. Models: star (hire the best and brightest), professional (hire most skilled), commitment (hire for culture fit).\nAmygdala: Scanning for danger & maintaining social connections. Belonging. We are close, we are safe, we share a future.\n\n\n\n1914, English-German truce on xmas. Prolonged exchange of micro-truces and belonging cues.\nWIPRO call center, high level of turn-over, 1 hr intervention after standard training for new employees, focus on positive and individual uniquness lead to much higher retention rates.\nMissileers - the opposite of belonging. (cold war, obsolete tech)\n\n\n\nGregg Popovich, best NBA coach. Close, personal, no-bullshit truth telling. In challenging times, make people feel connected to a bigger purpose (players watching political documentaries). Connect people through food (and wine).\n\nFood and wine aren’t just food and wine. They’re a vehicle for making and sustaining connections.\n\nSuccessful cultures are oriented less around achieving happiness than around solving hard problems together. High-candor feedback, uncomfortable truth-telling. Big failures can be used to bring the team together.\n\n\n\nTony Hsieh, macgyvering through youth, Link Exchange (1998), Zappos ($1 bln in revenues in 2009, sold to Amazon) Downtown Project. “My job is to architect the greenhouse”. High “collisions” space (connections).\nAllen Curve. Thomas Allen, MIT, study of “twin projects” during cold war (which team build successul solution to a similar hard problem). 8m. Proximity is an indicator of beloning. Face recognition stops at about 50m.\n\nWhat mattered most in creating a successful team had less to do with intelligence and experience and more to do with where the desks happened to be located.\n\n\n\n\n“Overcommunicate” your listening. Lean towards, yes-uh-hum-gotcha, no interruptions. Express fallibility. What am I missing? I could be wrong here. Don’t shoot the messenger. Hug them. Overdo Thank-You. Take hiring very seriously and elimitate bad apples. Create safe, collision-rich spaces. Give voice to everyone: What do you like most about this place? What do you like least? What would you change if you were in charge? Pick-up trash. Seek simple ways to serve the group. Capitalize on Threshold moments. (people pay more attention during transitions) Avoid giving sandwich feedback.",
     "crumbs": [
       "Notes",
       "Books",
-      "A Hacker's Mind. How the Powerful Bend Society’s Rules, and How to Bend them Back"
+      "The Culture Code"
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "notes/books/coyle-the-culture-code_2018.html#ch.-1-the-good-apples",
+    "href": "notes/books/coyle-the-culture-code_2018.html#ch.-1-the-good-apples",
+    "title": "The Culture Code",
     "section": "",
-    "text": "About this site",
-    "crumbs": [
-      "About"
-    ]
-  },
-  {
-    "objectID": "writings/org-signalling.html",
-    "href": "writings/org-signalling.html",
-    "title": "Org signalling",
-    "section": "",
-    "text": "Just like people, organizations use signalling to communicate with the rest of the world. SEC filing, branding campaigns, industry awards are obvious mechanisms. Certifications like ISO 9001 are useful for getting contractual agreements. There are also more subtle signals. For example B-corp certification means that a for-profit organization puts social sustainability above profit, while worldblue membership signals a cultural shift from traditional command-and-control to a more progressive organization.\nBut there are also organizations that don’t bother with certifications and branding. They just focus on doing good work and leave signalling to word-of-mouth. Corporate Rebels and their bucketlist are currently the best source of information on such organizations. Happy to see Odd-e appearing in the list.",
-    "crumbs": [
-      "Writings",
-      "Org signalling"
-    ]
-  },
-  {
-    "objectID": "writings/index.html",
-    "href": "writings/index.html",
-    "title": "Writings",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nSep 24, 2020\n\n\nHR lingo\n\n\n \n\n\n\n\nJul 29, 2020\n\n\nOrg signalling\n\n\n \n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Writings"
-    ]
-  },
-  {
-    "objectID": "writings/hr-lingo.html",
-    "href": "writings/hr-lingo.html",
-    "title": "HR lingo",
-    "section": "",
-    "text": "language and the words you use say a lot about a culture, and that we can take steps to change culture through changing those words. – Emily Webber\n\nThe above quote is from a short and sweet “Should you call people resources?” post which resonated with me. I don’t remember when the term “resource” applied to people started to bother me. It’s been a while, but usually I didn’t do anything about it. Last year I decided to engage with an HR admin in a bank where I worked as an external consultant. She kept referring to me and my colleagues as “external resources” in emails. I’d asked her to stop calling us that, but either she had ignored my request or thought it wasn’t important and continued to call us “ER”s. I repeated my request accompanied by a small explanation why people are not resources thinking that sensible people especially working in HR would have no problem understanding it. Her reply: “but it is just a classification in our internal IT system”…\nSome of my HR friends say that the R-word is slowly disappearing from their industry’s lexicon and that organization adopt Google’s “People Operation” or similar (hopefully not just borrowing the term and being done with it). I like this development.\nWhat about “talent”? It is not as offensive as “resources”, but still might trigger “I’ve got no talents.” Or “I’m not good at this.” And isn’t talent overrated? And what about “human capital” or “human assets”? What is the benefit of using these words and constructs instead of just “people”?",
-    "crumbs": [
-      "Writings",
-      "HR lingo"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "vz-logbook",
-    "section": "",
-    "text": "This is a Quarto website."
-  },
-  {
-    "objectID": "notes/web/need-for-engineering-managers.html",
-    "href": "notes/web/need-for-engineering-managers.html",
-    "title": "Questionable advice: My boss says we don’t need any engineering managers. Is he right?",
-    "section": "",
-    "text": "source",
-    "crumbs": [
-      "Notes",
-      "Web",
-      "Questionable advice: My boss says we don’t need any engineering managers. Is he right?"
-    ]
-  },
-  {
-    "objectID": "notes/web/need-for-engineering-managers.html#why-managers-exist-why-org-structures-exist",
-    "href": "notes/web/need-for-engineering-managers.html#why-managers-exist-why-org-structures-exist",
-    "title": "Questionable advice: My boss says we don’t need any engineering managers. Is he right?",
-    "section": "Why managers exist? Why org structures exist?",
-    "text": "Why managers exist? Why org structures exist?\nHow does a bad org structure look like? Rank (position in a hierarchy) is used as a tool of oppression. Information hoarding, playing dominance games (politics). Decisions are made based on rank.\nHierarchy is a property of self-organizing systems.\n\nA system is “a network of interdependent components that work together to try to accomplish a common aim.” – W. Edward Deming.\n\nA subsystem is a collection of elements with a smaller aim inside a larger system. The sybsystems always work to support the needs of the larger system; if the sybsystem instead optimizes for its own best interest, the whole system can fail.\nA system is self-organizing if it has the ability to make itself more complex, by diversifying, adapting, and improving itself. As systems self-organize and their complexity increases, they tend to generate hierarchy – an arrangement of systems and subsystems. In a stable, resilient and efficient system, sybsystems can largely take care of themselves, regulate themselves, and serve the needs of the larger system, while the larger system coordinates between subsystems and helps them perform better. Hierarchy minimizes the costs of coordination and reduces the amount of information that any given part of the system has to keep track of, preventing information overload. Information transfer and relationships withing a sybsystem are more more dense and have fewer delays than information transfer or relationshions between subsystems.\nA manager’s job is to coordinate between teams and help their team perform better.\nSoftware product development organizations are socio-technical systems, but the separation between “socio/people” and “technical/engineering” is never clean. Need for “glue work”.\nTasks that need to be done by any functional engineering org besides writing code:\n\nRecruiting: networking, interviewing, writing job descriptions and career ladders.\nProject management: managing stakeholders, prioritizing backlog, estimating size and scope.\nRunning team meetings: 1x1s (growth feedback), retrospectives, writing reviews, representing the teams’s needs.\nArchitecture, code reviews, capturing DORA and productivity metrics, managing burnout.",
-    "crumbs": [
-      "Notes",
-      "Web",
-      "Questionable advice: My boss says we don’t need any engineering managers. Is he right?"
-    ]
-  },
-  {
-    "objectID": "notes/web/need-for-engineering-managers.html#engineering-managers-are-a-useful-abstraction.",
-    "href": "notes/web/need-for-engineering-managers.html#engineering-managers-are-a-useful-abstraction.",
-    "title": "Questionable advice: My boss says we don’t need any engineering managers. Is he right?",
-    "section": "Engineering managers are a useful abstraction.",
-    "text": "Engineering managers are a useful abstraction.\nOne of the primary benefits of hierarchy is to reduce information overload. Engineering labor takes concentration and focus. Context switching is expensive. Management labor consist of context switching every hour or so, and being available for interruptions throughtout the day. Engineering calendar and management calendar do not coexist well.\nIt isn’t up to managers to do all the glue work, but it is a manager’s job to make sure that everything that needs to get done, does gets done (requires providing necessary resources to people who do the actual work).\nAn engineer is responsible for the software she develops, deploys, and maintains. A manager is responsible for her team and the organization as a whole.\nIn natural hierarchies, we look up for purpose and down for function. The above makes a complicated argument for why we need engineering managers.\nThe simpler argument is that most engineering orgs have engineering managers. It is something that many smart people had to spend considerable time thinking about. It may sound “boring”, but actually it is like with “choosing boring technology” which means “the capabilities and failure conditions are well understood”.\nWhen there is no explicit structure or hierarchy, the result is not freedom and egalitarianism (see The Tyranny of Structureless). Such orgs tend to be chaotic, fragile and frustrating.\nNo EMs because of management overhead (because managers are not supposed to do tech work) is a flawed argument. Mostly because “productivity” does not equate “lines of code”.",
-    "crumbs": [
-      "Notes",
-      "Web",
-      "Questionable advice: My boss says we don’t need any engineering managers. Is he right?"
-    ]
-  },
-  {
-    "objectID": "notes/books/feathers-legacy-code_2004.html#ch.-2-working-with-feedback",
-    "href": "notes/books/feathers-legacy-code_2004.html#ch.-2-working-with-feedback",
-    "title": "Working Effectively with Legacy Code",
-    "section": "Ch. 2: Working with feedback",
-    "text": "Ch. 2: Working with feedback\nA test is not a unit test if:\n\nIt talks to a database.\nIt communicates across a network.\nIt touches the file system.\nYou have to do special things to your environment to run it.",
+    "text": "Safety. Will Felps, Uni of South Wales. Organizational behavior. Negative archetypes (jerk, slacker, downer) Impact of “bad apples” (by a good actor) leads to 30-40% of group performance drop. Can be neutralized by a “good apple” who knows how to diffuse a situation with subtle behaviors (get closer, smile, listen, be curious, alert, inclusive).\nHighly successful groups are familial (“family”, “friends”), special chemistry. We can feel it and want to be part of it.\nHuman signaling. Alex Pentland, MIT Human Dynamics Lab. Sociometer (proximity, voice). Belonging cues. Much older than language. Answer the question: Are we safe together? Close proximity, eye contact, physical touch, lots of short energetic exchanges, high level of mixing, few interruptions, lots of questions, active listening, humor, small attentive gestures (thank you). What are we looking for: energy, individualization, future orientation.\nAmy Edmondson. Psychological Safety.\n(even people who study safety take time to realize they might need to work on their behavior to increase safety around them)",
     "crumbs": [
       "Notes",
       "Books",
-      "Working Effectively with Legacy Code"
+      "The Culture Code"
     ]
   },
   {
-    "objectID": "notes/books/feathers-legacy-code_2004.html#ch.-3-sensing-and-separation",
-    "href": "notes/books/feathers-legacy-code_2004.html#ch.-3-sensing-and-separation",
-    "title": "Working Effectively with Legacy Code",
-    "section": "Ch. 3: Sensing and separation",
-    "text": "Ch. 3: Sensing and separation\n\nFake objects\nSale sale = new Sale();\nsale.scan(barcode); // scan() calls Display.showLine(item)\n\npublic interface Display\n{\n    void showLine(String line);\n}\n\npublic class Sale\n{\n    private Display display;\n\n    public Sale(Display display) {\n        this.display = display;\n    }\n\n    public void scan(String barcode) {\n        // item = get_item(barcode);\n        String lineItem = item.name() + \" \" + item.price();\n        display.showLine(lineItem);\n    }\n}\n\npublic class FakeDisplay implements Display\n{\n    private String lastLine = \"\";\n    public void showLine(String line){\n        this.lastLine = line;\n    }\n    public String getLastLine(){\n        return lastLine;\n    }\n}\n\n// test\npublic class SaleTest extends TestCase\n{\n    public void testDisplayAnItem() {\n        FakeDisplay display = new FakeDisplay();\n        Sale sale = new Sale(display);\n        sale.scan(\"1\");\n        assertEquals(\"xxx: $1.00\", display.getLastLine());\n    }\n}\n\n// test with Mock\npublic class SaleTest extends TestCase\n{\n    public void testDisplayAnItem() {\n        MockDisplay display = new MockDisplay();\n        display.setExpectation(\"showLine\", \"xxx: $1.00\")\n        Sale sale = new Sale(display);\n        sale.scan(\"1\");\n        display.verify();\n    }\n}\nA seam is a place where you can alter behavior in your program without editing in that place.",
-    "crumbs": [
-      "Notes",
-      "Books",
-      "Working Effectively with Legacy Code"
-    ]
-  },
-  {
-    "objectID": "notes/books/yunkaporta_sand-talk_2019.html",
-    "href": "notes/books/yunkaporta_sand-talk_2019.html",
-    "title": "Sand Talk: How Indigenous Thinking Can Save the World",
+    "objectID": "notes/books/coyle-the-culture-code_2018.html#ch-2-the-billion-dollar-day-when-nothing-happened",
+    "href": "notes/books/coyle-the-culture-code_2018.html#ch-2-the-billion-dollar-day-when-nothing-happened",
+    "title": "The Culture Code",
     "section": "",
-    "text": "Solutions to complex problems take many dissimilar minds and points of view.\n\nConnective thinking.\n\nAlbino boy\n( &lt; &gt; ) knee bend direction, “I am greater/lesser than you”\n\nContaining the excesses of malignant narcissists is a team effort… Engaging with them (narcissists) alone is futile – never wrestle a pig – as the old saying goes; you both end up covered in shit, and the pig likes it.\n\n\nThe basic protocols of Aboriginal society, like most societies, include respecting and hearing all points of view in a yarn. Narcissists demand this right, then refuse to allow other points of view on the grounds that any other opinion somehow infringes their freedom of speech or is offensive.\n\n\nEveryone is an idiot from time to time.\n\n\n\nFirst Law\n(three circles and flowers)\n\nAfter my yarns with Percy, I begin to see the uncertainty principle not as a law but as an expression of frustration about the impossibility of achieving godlike scientific objectivity.\n\n\n\nForever limited\n\nSustainable systems cannot be manufactured by individuals or appointed committees, particularly during times of intense transition and upheaval.\n\n\nIdeas can be re-engineered to serve the interests of the powerful.\n\n(chekout Larry Gross, Post Apocaliptic Stress Syndrom).\n\n\nLines in the sand\n\nPeople today will mostly focus on the points of connection, the nodes of interest like stars in the sky. But the real understanding comes in the spaces in between, in the relational forces that connect and move the points.\n\n\nSystems are heterarchical – composed of equal parts interacting together. Imposing a hierarchical model of top-down control can only destroy them. Healthy interventions can only be made by free agents within a complex system.\n\n\nOn learning another culture (cultural humility): 1) Check your ego and motives, 2) You don’t need to be an expert to understand the knowledge process of people from other cultures and enter into dialogues with them (but you need to show respect), 3) Making yourself an expert in another culture is not always appreciated by the members of that culture.\n\n\nIt is difficult to relinquish the illusions of power and delusions of exceptionalism that come with privilege. But it is strangely liberating to realise your true status as a single node in a cooperative network.\n\n\nSustainable systems cannot function without the full autonomy and unique expression of each independent part of the interdependent whole.\n\n\nSustainability agents have a few simple operating guidelines, or network protocols, or rules if you like – connect, diversify, interact and adapt.\n\n\nAn agent that is truly adaptive and changing is open to sudden eruptions of transformation.\n\n\nNot all strange attractors are benevolent (narcissist).\n\n\nAdolescent cultures always ask the same three questions. Why are we here? How should we live? What will happen when we die?\n\n\n\nOf Spirit and Spirits\n\nThere are at least four parts to your spirit from an Aboriginal point of view: your higher self (superego), ancestral spirit, living spirit and shadow spirit… Your shadow spirit is that part of you that wants things you don’t need, makes you think you’re better than other people and above the land. If the rest of your spirit is not clear and in balance, it gets away from you, causing conflict and destruction. You gossip behind people’s backs, spread uncertainty, deliver judgments, upset people, take more than you need and accumulate goods without sharing. It makes you a competitor instead of a human being.\n\n                   =     metaphors   \n                //   \\\\    \nabstract       o      o   concrete\n                \\\\   //\n                   =    metaphors\n\nThere is a spark of creation like lightning when true learning takes place, with a genetic reward of chemical pleasure released in the brain… The chemical burst of pleasure we feel when genuine knowledge transmission takes place occurs from the creation of new neural pathways. These are connections between two points that were previously unconnected. Jokes are one of the most pure examples of this neural creation event… If people are laughing, they are learning.\n\n\nThere needs to be an interaction between abstract (spirit) and concrete (physical) worlds of knowledge for this kind of complexity to develop fully.\n\n\nWithout closing the loop between abstract knowledge and reality, and without making connections between different ideas and areas of knowledge, true learning cannot occur.\n\n\nA focus on linear, abstract, declarative knowledge alone not only fails to create complex connectivity but damages the mind. We are biologically punished for this destructive behaviour with a neuro-chemical rush of lethargy and discomfort that most people call boredom.\n\n\nKnowledge transmission must connect both abstract knowledge and concrete application through meaningful metaphors to be effective.\n\n\n\nAdvanced and Fair\nTODO",
+    "text": "Google vs Overture, AdWords engine, Jeff Dean. Constant flow of challanges in a safe group beats bigger and better funded group.\nOrganizational Blueprints for Success in High-Tech Start-Ups: Lessons from the Stanford Project on Emerging Companies. James Baron and Michael Hannan. Models: star (hire the best and brightest), professional (hire most skilled), commitment (hire for culture fit).\nAmygdala: Scanning for danger & maintaining social connections. Belonging. We are close, we are safe, we share a future.",
     "crumbs": [
       "Notes",
       "Books",
-      "Sand Talk: How Indigenous Thinking Can Save the World"
+      "The Culture Code"
+    ]
+  },
+  {
+    "objectID": "notes/books/coyle-the-culture-code_2018.html#ch-3-the-christmas-truce-the-one-hour-experiment-and-the-missileers",
+    "href": "notes/books/coyle-the-culture-code_2018.html#ch-3-the-christmas-truce-the-one-hour-experiment-and-the-missileers",
+    "title": "The Culture Code",
+    "section": "",
+    "text": "1914, English-German truce on xmas. Prolonged exchange of micro-truces and belonging cues.\nWIPRO call center, high level of turn-over, 1 hr intervention after standard training for new employees, focus on positive and individual uniquness lead to much higher retention rates.\nMissileers - the opposite of belonging. (cold war, obsolete tech)",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "The Culture Code"
+    ]
+  },
+  {
+    "objectID": "notes/books/coyle-the-culture-code_2018.html#ch-4-how-to-build-belonging",
+    "href": "notes/books/coyle-the-culture-code_2018.html#ch-4-how-to-build-belonging",
+    "title": "The Culture Code",
+    "section": "",
+    "text": "Gregg Popovich, best NBA coach. Close, personal, no-bullshit truth telling. In challenging times, make people feel connected to a bigger purpose (players watching political documentaries). Connect people through food (and wine).\n\nFood and wine aren’t just food and wine. They’re a vehicle for making and sustaining connections.\n\nSuccessful cultures are oriented less around achieving happiness than around solving hard problems together. High-candor feedback, uncomfortable truth-telling. Big failures can be used to bring the team together.",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "The Culture Code"
+    ]
+  },
+  {
+    "objectID": "notes/books/coyle-the-culture-code_2018.html#ch-5-how-to-design-for-belonging",
+    "href": "notes/books/coyle-the-culture-code_2018.html#ch-5-how-to-design-for-belonging",
+    "title": "The Culture Code",
+    "section": "",
+    "text": "Tony Hsieh, macgyvering through youth, Link Exchange (1998), Zappos ($1 bln in revenues in 2009, sold to Amazon) Downtown Project. “My job is to architect the greenhouse”. High “collisions” space (connections).\nAllen Curve. Thomas Allen, MIT, study of “twin projects” during cold war (which team build successul solution to a similar hard problem). 8m. Proximity is an indicator of beloning. Face recognition stops at about 50m.\n\nWhat mattered most in creating a successful team had less to do with intelligence and experience and more to do with where the desks happened to be located.",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "The Culture Code"
+    ]
+  },
+  {
+    "objectID": "notes/books/coyle-the-culture-code_2018.html#ch-6-ideas-for-action",
+    "href": "notes/books/coyle-the-culture-code_2018.html#ch-6-ideas-for-action",
+    "title": "The Culture Code",
+    "section": "",
+    "text": "“Overcommunicate” your listening. Lean towards, yes-uh-hum-gotcha, no interruptions. Express fallibility. What am I missing? I could be wrong here. Don’t shoot the messenger. Hug them. Overdo Thank-You. Take hiring very seriously and elimitate bad apples. Create safe, collision-rich spaces. Give voice to everyone: What do you like most about this place? What do you like least? What would you change if you were in charge? Pick-up trash. Seek simple ways to serve the group. Capitalize on Threshold moments. (people pay more attention during transitions) Avoid giving sandwich feedback.",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "The Culture Code"
+    ]
+  },
+  {
+    "objectID": "notes/books/coyle-the-culture-code_2018.html#ch-7-tell-me-what-you-want.-i-will-help.",
+    "href": "notes/books/coyle-the-culture-code_2018.html#ch-7-tell-me-what-you-want.-i-will-help.",
+    "title": "The Culture Code",
+    "section": "Ch 7: Tell me what you want. I will help.",
+    "text": "Ch 7: Tell me what you want. I will help.\nUnited Flight 232. Communication in notifications style during emergency. BrainTrust at Pixar. AAR in the military.",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "The Culture Code"
+    ]
+  },
+  {
+    "objectID": "notes/books/coyle-the-culture-code_2018.html#ch-8-the-vulnerability-loop",
+    "href": "notes/books/coyle-the-culture-code_2018.html#ch-8-the-vulnerability-loop",
+    "title": "The Culture Code",
+    "section": "Ch 8: The vulnerability loop",
+    "text": "Ch 8: The vulnerability loop\nWhat was your high school like? vs Is there something you’ve dreamt of doing for a long time? Why haven’t you done it? Arthur and Elaine Aron. Experimental Generation of Interpersonal Closeness.\nJeff Polzer, Harvard, org behavior, trust, cooperation, “insignificant” social exchanges. vulnerability (i need your help) comes before trust.\n\nwhen it comes to creating cooperation, vulnerability is not a risk but a psychological requirement.",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "The Culture Code"
+    ]
+  },
+  {
+    "objectID": "notes/books/coyle-the-culture-code_2018.html#ch-9-the-super-cooperators",
+    "href": "notes/books/coyle-the-culture-code_2018.html#ch-9-the-super-cooperators",
+    "title": "The Culture Code",
+    "section": "Ch 9: The Super-Cooperators",
+    "text": "Ch 9: The Super-Cooperators\nNavy SEALs. Draper Kauffman, WWII, new training program for naval bomb disposal special ops teams based on observation of Corps Franc. 1st hell week (selection), always team-based (self-sufficient 6 people), no hierarchical distinction during training. Micro-events, communication, closeness, cooperation.",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "The Culture Code"
+    ]
+  },
+  {
+    "objectID": "notes/books/coyle-the-culture-code_2018.html#ch-10-cooperation-in-small-groups",
+    "href": "notes/books/coyle-the-culture-code_2018.html#ch-10-cooperation-in-small-groups",
+    "title": "The Culture Code",
+    "section": "Ch 10: Cooperation in small groups",
+    "text": "Ch 10: Cooperation in small groups\nauthority bias, how to create hive mind in a team?\n\nOne of the best things I’ve found to improve a team’s cohesion is to send them to do some hard, hard training.\n\n\n[AAR] It’s got to be safe to talk. Rank switched off, humility switched on. I’d say those might be the most important four words any leader can say: I screwed that up.\n\n\nThe real courage is seeing the truth and speaking the truth to each other.",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "The Culture Code"
+    ]
+  },
+  {
+    "objectID": "notes/books/coyle-the-culture-code_2018.html#ch-11-cooperation-with-individuals",
+    "href": "notes/books/coyle-the-culture-code_2018.html#ch-11-cooperation-with-individuals",
+    "title": "The Culture Code",
+    "section": "Ch 11: Cooperation with Individuals",
+    "text": "Ch 11: Cooperation with Individuals\nBell Labs, Harry Nyquist. Warmth, curiosity, connections (and lunches). IDEO, Roshi Givechi. Listen and ask “simple” questions. “Surfacing issues”. Robert Bales. Questions comprise only 6% of verbal interactions, but generate 60% of ensuing discussions. Carl Marci. Neurologist, Harvard. Listening and relations (healers). measuring concordances (galvanic skin response of two people in conversation).",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "The Culture Code"
+    ]
+  },
+  {
+    "objectID": "notes/books/coyle-the-culture-code_2018.html#ch-12-ideas-for-action",
+    "href": "notes/books/coyle-the-culture-code_2018.html#ch-12-ideas-for-action",
+    "title": "The Culture Code",
+    "section": "Ch 12: Ideas for action",
+    "text": "Ch 12: Ideas for action\nMake sure the Leader is Vulnerable first and often Overcommunicate Expectations (of collaboration) Deliver the Negative stuff in person When forming new teams focus on 2 critical moments: 1st vulnerability and 1st disagreement Listen like a trampoline. add insights, make occasional suggestions (via questions). Resist temptation to add value. Dig it out from people. Aim for candor; avoid brutal honesty. focus on smaller, more targeted things, less personal, less judgmental. Embrace the discomfort. (emotional pain and sense of inefficiency). Align language with Action. (develop “in”-vocabulary) Build a wall btw performance review and professional development. Use flash mentoring. (shadowning for a few hours). Make the Leader occasionally disappear.",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "The Culture Code"
+    ]
+  },
+  {
+    "objectID": "notes/books/coyle-the-culture-code_2018.html#ch-13-three-hundred-and-eleven-words",
+    "href": "notes/books/coyle-the-culture-code_2018.html#ch-13-three-hundred-and-eleven-words",
+    "title": "The Culture Code",
+    "section": "Ch 13: Three Hundred and Eleven Words",
+    "text": "Ch 13: Three Hundred and Eleven Words\nJohnson and Johnson credo: https://www.jnj.com/credo/ 1) customers, 2) employees, 3) community, 4) stakeholders\n\nPurpose is about creating simple beacons that focus attention and engagement on the shared goal.\n\n\nHigh-purpose environments are filled with small, vivid signals designed to create a link between the present moment and a future ideal. Here is where we are. Here is where we want to go.\n\nGabriele Oettingen, mental contrasting. 1) envision a reachable goal 2) envision the obstacles.",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "The Culture Code"
+    ]
+  },
+  {
+    "objectID": "notes/books/coyle-the-culture-code_2018.html#ch-14-taming-the-hooligans",
+    "href": "notes/books/coyle-the-culture-code_2018.html#ch-14-taming-the-hooligans",
+    "title": "The Culture Code",
+    "section": "Ch 14: Taming the Hooligans",
+    "text": "Ch 14: Taming the Hooligans\n2004, UEFA, Portugal, the English Disease. Clifford Stott, social psychology, crowd violence. Remove signs of riot gear/force. Encourage police to know enough to engage in “small talk” about football, teams/coaches, etc.\n“riots are born from small scale confrontations.” control with an array of consistent little signals.\n\nOne of the best measures of any group’s culture is its learning velocity – how quickly it improves its performance of a new skill.\n\nAmy Edmondson, 1998, MICS study (minimally invasive cardiac surgery).\nFastest learning team:\n\nFraming (purpose)\nRoles (individual and collective skills)\nRehearsals\nExplicit encouragement to speak up\nActive reflection (head-mounted camera, also Boyd pilot training)\n\nNB: the list above does not contain “years of experience”, “status and structure”, “organizational support”. Communication signals could easily be viewed as obvious and redundant.\n\nWhat seems like repetion is, in fact, navigation.\n\nHigh-purpose environment. Vision alone is not enough. You need to provide a stream of consistent, small, guiding signals.",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "The Culture Code"
+    ]
+  },
+  {
+    "objectID": "notes/books/coyle-the-culture-code_2018.html#ch-15-how-to-lead-for-proficiency",
+    "href": "notes/books/coyle-the-culture-code_2018.html#ch-15-how-to-lead-for-proficiency",
+    "title": "The Culture Code",
+    "section": "Ch 15: How to Lead for Proficiency",
+    "text": "Ch 15: How to Lead for Proficiency\nFnB in NY, 20% survival rate after 5 years. Good food, location, service, training, branding, leadership,…\nDanny Meyer, Union Square Cafe\nStaff priorites: colleagues, guests, community, suppliers, investors\n\nAre you an agent or a gatekeeper?\n\nSaldago’s study of Meyer’s restaurants successful practices:\n\nselection of employees based on emotional capabilities\nrespectful treatment of employees\nmanagment through a simple set of rules that simulate complex and intricate bahaviors benefiting customers.\n\n\nThe road to success is paved with mistakes well handled.\n\n\ncreate priorities\nname key behaviours\nflood the environment to link 1 and 2 (catch-phrases, “in” language)",
+    "crumbs": [
+      "Notes",
+      "Books",
+      "The Culture Code"
     ]
   },
   {
@@ -409,58 +688,75 @@
     ]
   },
   {
-    "objectID": "coding/py-dev-setup.html",
-    "href": "coding/py-dev-setup.html",
-    "title": "Python dev setup",
-    "section": "",
-    "text": "pyenv install 3.12.1\npyenv local 3.12.1\npython -m venv venv\n. ./venv/bin/activate\npip install --upgrade pip\npip install fastapi\npip install 'uvicorn[standard]'\npip freeze &gt; requirements.txt",
-    "crumbs": [
-      "Coding",
-      "Python dev setup"
-    ]
-  },
-  {
-    "objectID": "coding/py-dev-setup.html#pyenv-buildin-virtualenv",
-    "href": "coding/py-dev-setup.html#pyenv-buildin-virtualenv",
-    "title": "Python dev setup",
-    "section": "",
-    "text": "pyenv install 3.12.1\npyenv local 3.12.1\npython -m venv venv\n. ./venv/bin/activate\npip install --upgrade pip\npip install fastapi\npip install 'uvicorn[standard]'\npip freeze &gt; requirements.txt",
-    "crumbs": [
-      "Coding",
-      "Python dev setup"
-    ]
-  },
-  {
-    "objectID": "coding/py-dev-setup.html#proxy-setup-for-pip",
-    "href": "coding/py-dev-setup.html#proxy-setup-for-pip",
-    "title": "Python dev setup",
-    "section": "Proxy setup for pip",
-    "text": "Proxy setup for pip\nAssuming the userID=1234566 and password=s3cr3t0, type the following in the terminal:\n$env:http_proxy=\"http://123456:s3cr3t0@proxytr.company.com:8080\"\n$env:https_proxy=\"http://123456:s3cr3t0@proxytr.company.com:8080\"\n(NB: http:// for $env:https IS correct)",
-    "crumbs": [
-      "Coding",
-      "Python dev setup"
-    ]
-  },
-  {
-    "objectID": "coding/py-dev-setup.html#always-work-inside-an-isolated-environment",
-    "href": "coding/py-dev-setup.html#always-work-inside-an-isolated-environment",
-    "title": "Python dev setup",
-    "section": "Always work inside an isolated environment",
-    "text": "Always work inside an isolated environment\nIt is very hard to manage different versions of dependencies for multiple projects in one place. We need to use virtual environments. In Python 3, virtualenv was added to core library as venv module.\ncd new_project\npython -m venv .\\myevn\n.\\myenv\\Scripts\\activate\npip install requests  # installs into .\\myenv\\Lib\\site-packages\nFor ML projects, it might be better to use [mini]conda as a replacement for pip:\nscoop install miniconda3\nconda install -n root -c pscondaenvs pscondaenvs\nconda init powershell\n\n# relaunch terminal\n\nconda info         # check current env\nconda list         # which packages are available\nconda info --envs  # list of existing environments\nconda create --name myenv\nconda activate myenv\nconda install -n myenv numpy scikit-learn\nconda deactivate\n\n# Add conda forge\nconda config --set auto_update_conda False\nconda config --add channels conda-forge\nconda search psycopg2\n\nconda install --file requirements.txt",
-    "crumbs": [
-      "Coding",
-      "Python dev setup"
-    ]
-  },
-  {
-    "objectID": "coding/ops.html",
-    "href": "coding/ops.html",
-    "title": "Ops",
+    "objectID": "coding/ops/tools.html",
+    "href": "coding/ops/tools.html",
+    "title": "Tools",
     "section": "",
     "text": "ansible vault\necho $random_passwd &gt; .ansible-vault-password-file\nexport ANSIBLE_VAULT_PASSWORD_FILE=./.ansible-vault-password-file\nansible-vault encrypt hosts.txt\nansible-vault view hosts.txt\nansible-vault edit hosts.txt\n\n\ncrontab\n# user crontab\ncrontab -e\n5 * * * * /path/to/script\ncrontab -l # -r to remove\n\n#system crontab (run every 5 min)\necho \"*/5 * * * * bob /path/to/scrip.sh\" &gt; /etc/cron.d/bobs-script\n\n\njournalctl\njournalctl --since \"2 days ago\" -u uwsgi\njournalctl -flu uwsgi\n\n\nnginx\ntest config: nginx -T\n\n\npostfix\npostqueue -p  # emails still in queue\npostsuper -d $EMAIL_HEX_ID  # to delete\n\n\nsendmail\nssh $mgmt_box\nsendmail -t &lt;&lt;eof\nFrom: ops@foo.com\nTo: regi@registrar.com\nSubject: renew this\n\nHi, i can haz renew.\neof\n\n\nvagrant (osx)\nbrew tap caskroom/cask\nbrew cask install vagrant\nbrew cask reinstall virtualbox virtualbox-extension-pack\nvagrant init bento/ubuntu-16.04\nvim Vagrantfile\nvagrant up\nvagrant provision\nvagrant ssh",
     "crumbs": [
       "Coding",
-      "Ops"
+      "Ops",
+      "Tools"
+    ]
+  },
+  {
+    "objectID": "coding/ops/docker.html",
+    "href": "coding/ops/docker.html",
+    "title": "Docker",
+    "section": "",
+    "text": "Docker commands\ndocker\n    run $name[:$tag] [$cmd]\n    ps [-a] [$name]\n    stop $name | $id\n    rm $name | $id\n    images\n    rmi $name\n    pull $name\n    attach $id\n    logs $name\n\n\nDocker run\ndocker run -it $name  # interactive + terminal\ndocker run -d 80:8080 $name  # daemon mode, link ports $host:$container\ndocker run -v /local/dir:/container/dir $name  # mount local volume\ndocker run -e MYVAR=foobar $name  # pass env var to container\nNB: ports and volumes arguments always follow $host:$container order\n\n\nCreating an image\ncat &gt; Dockerfile &lt;&lt; EOF\nFROM ubuntu\nRUN apt-get update\nRUN apt-get install python\nRUN pip install flask flask-mysql\nCOPY . /opt/src\nENTRYPOINT FLASK_APP=/opt/src/app.py flask run\nEOF\ndocker build . -t $myname\ndocker push $myname\ndocker history $myname  # to see layers (successful RUNs in Dockerfile)\nDocker image is built from layers created from each FROM, RUN and COPY line. The layers are reused for different images.\nOther useful commands: ENV, WORKDIR, USER, CMD\n\n\nNetwork\nBy default docker uses bridge mode for containers running on the same host with default network 172.17.xxx.xxx. Other network modes are “none” (no network) and “host” (no network isolation from host).\ndocker network create --driver bridge --subnet 182.18.0.0/16 my_network\ndocker inspect $name will show full container info including network.\nDockers uses internal DNS 127.0.0.11 to resolve containers IP and containers names.\n\n\nStorage\nContainers, images, volumes are stored in /var/lib/docker. All image layers are RO. A contaier runs in a special RW container layer which gets destroyed when container is stoped. Data can be persisted in named volumes inside /var/lib/docker/volumes (volume mount) or a directory on a host (bind mount).\ndocker volume create my_volume\ndocker run -v my_volume:/var/log my_image\n\n# new explicit format for mounting volumes\ndocker run --mount type=bind,source=/data/my_image/logs,target=/var/log my_image\n\n\nRemoving images\ndocker images\ndocker rmi &lt;image_id1&gt; &lt;image_id2&gt;\ndocker system prune -a\ndocker volume ls\ndocker volume rm &lt;volume_name1&gt; &lt;volume_name2&gt;\n\n\nDocker compose\nIt’s possible to run multiple containers and “link” them for networking. But much easier to use docker-compose to manage multi-container app.\ndocker-compose.yml\nversion: 2\n\nservices:\n  frontend:\n    build:\n      context: ./app\n      args:\n        DB_HOST: localhost:5005\n    links:\n      - db\n    volumes:\n      - logs:/var/logs\n    depends_on:\n      db:\n        condition: service_started\n\n  db:\n    image: postgres:9.4\n    ports:\n      - \"5005:5432\"\n    volumes:\n      - /data/app/postgres:/var/lib/postgres\n\nvolumes:\n  logs:\ndocker-compose up -d   #--build\ndocker-compose exec frontend ls -l\ndocker-compose logs frontend\ndocker-compose down -v",
+    "crumbs": [
+      "Coding",
+      "Ops",
+      "Docker"
+    ]
+  },
+  {
+    "objectID": "coding/ops/win-scoop.html",
+    "href": "coding/ops/win-scoop.html",
+    "title": "Windows 10 Dev Env Setup",
+    "section": "",
+    "text": "Go to https://github.com/PowerShell/PowerShell/\nClick on Latest under Releases\nSearch for win-x64.msi",
+    "crumbs": [
+      "Coding",
+      "Ops",
+      "Windows 10 Dev Env Setup"
+    ]
+  },
+  {
+    "objectID": "coding/ops/win-scoop.html#install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020",
+    "href": "coding/ops/win-scoop.html#install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020",
+    "title": "Windows 10 Dev Env Setup",
+    "section": "",
+    "text": "Go to https://github.com/PowerShell/PowerShell/\nClick on Latest under Releases\nSearch for win-x64.msi",
+    "crumbs": [
+      "Coding",
+      "Ops",
+      "Windows 10 Dev Env Setup"
+    ]
+  },
+  {
+    "objectID": "coding/ops/win-scoop.html#install-and-configure-scoop",
+    "href": "coding/ops/win-scoop.html#install-and-configure-scoop",
+    "title": "Windows 10 Dev Env Setup",
+    "section": "Install and configure Scoop",
+    "text": "Install and configure Scoop\nScoop allows installing and managing familiar dev tools on Windows from the command line. It is somewhat similar to homebrew on Mac or apt-get on Ubuntu.\nSetup your region’s web proxy (more info)\nType in the PowerShell Terminal:\n[net.webrequest]::defaultwebproxy = new-object net.webproxy \"http://proxy.COMPANY.com:8080\"\n[net.webrequest]::defaultwebproxy.credentials = [net.credentialcache]::defaultcredentials\nInstall scoop.sh and git:\nset-executionpolicy unrestricted -s cu\niwr -useb get.scoop.sh | iex\nscoop install git win32-openssh openssl\nsudo C:\\ProgramData\\scoop\\apps\\win32-openssh\\current\\install-sshd.ps1\ngit config --global credential.helper manager\ngit config --global http.sslVerify false\nscoop config proxy 'currentuser@proxy.COMPANY.com:8080'\nscoop install busybox cacert delta pshazz sudo\ngit config --global delta.side-by-side true",
+    "crumbs": [
+      "Coding",
+      "Ops",
+      "Windows 10 Dev Env Setup"
+    ]
+  },
+  {
+    "objectID": "coding/ops/win-scoop.html#install-development-tools",
+    "href": "coding/ops/win-scoop.html#install-development-tools",
+    "title": "Windows 10 Dev Env Setup",
+    "section": "Install development tools",
+    "text": "Install development tools\nScoop update and basic tools:\nscoop config proxy 'currentuser@proxytr.huawei.com:8080'\nsudo scoop update *\nscoop install cwRsync dust everything gpg procs sysinternals vcredist2015 vcredist windows-terminal -g\nAdd buckets and install java, node, python, postman, svn…:\nscoop bucket add extras versions java jetbrains\nscoop install zulu8 maven gradle\nscoop install IntelliJ-IDEA-Ultimate jetbrains-toolbox\nscoop install nodejs yarn python\nscoop install concfg nvim vscode curl jq postman silksvn\nInstall docker:\nscoop bucket add Ash258 'https://github.com/Ash258/Scoop-Ash258.git'\nscoop install docker",
+    "crumbs": [
+      "Coding",
+      "Ops",
+      "Windows 10 Dev Env Setup"
     ]
   }
 ]

@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.4.552">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>vz-logbook - Ops</title>
+<title>vz-logbook - Refactoring</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -57,22 +57,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -102,7 +102,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-sidebar floating nav-fixed">
@@ -112,11 +112,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">vz-logbook</span>
     </a>
   </div>
-        <div class="quarto-navbar-tools">
+        <div class="quarto-navbar-tools tools-end">
     <div class="dropdown">
       <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
       <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
@@ -136,7 +136,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../coding/docker.html">Coding</a></li><li class="breadcrumb-item"><a href="../coding/ops.html">Ops</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Coding</li><li class="breadcrumb-item"><a href="../../coding/practices/refactoring.html">Practices</a></li><li class="breadcrumb-item"><a href="../../coding/practices/refactoring.html">Refactoring</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -150,13 +150,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../about.html" class="sidebar-item-text sidebar-link">
+  <a href="../../about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../now.html" class="sidebar-item-text sidebar-link">
+  <a href="../../now.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Now</span></a>
   </div>
 </li>
@@ -169,50 +169,84 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+ <span class="menu-text">Ops</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../coding/docker.html" class="sidebar-item-text sidebar-link">
+  <a href="../../coding/ops/docker.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Docker</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../coding/ops.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Ops</span></a>
+  <a href="../../coding/ops/osx_setup.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">OSX setup</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../coding/py-dev-setup.html" class="sidebar-item-text sidebar-link">
+  <a href="../../coding/ops/py-dev-setup.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Python dev setup</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../coding/win-scoop.html" class="sidebar-item-text sidebar-link">
+  <a href="../../coding/ops/tools.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tools</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../coding/ops/win-scoop.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Windows 10 Dev Env Setup</span></a>
   </div>
 </li>
       </ul>
   </li>
-        <li class="sidebar-item sidebar-item-section">
+          <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../writings/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Writings</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">Practices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../writings/hr-lingo.html" class="sidebar-item-text sidebar-link">
+  <a href="../../coding/practices/refactoring.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Refactoring</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../writings/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Writings</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../writings/hr-lingo.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">HR lingo</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../writings/org-signalling.html" class="sidebar-item-text sidebar-link">
+  <a href="../../writings/org-signalling.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Org signalling</span></a>
   </div>
 </li>
@@ -220,61 +254,67 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">
  <span class="menu-text">Notes</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../notes/books/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../notes/books/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Books</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../notes/books/de_botton-how-to-think-more-about-sex_2012.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/books/coyle-the-culture-code_2018.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Culture Code</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../notes/books/de_botton-how-to-think-more-about-sex_2012.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">How To Think More About Sex</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../notes/books/feathers-legacy-code_2004.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/books/feathers-legacy-code_2004.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Working Effectively with Legacy Code</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../notes/books/freeman-goos_2009.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/books/freeman-goos_2009.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Growing Object-Oriented Software, Guided by tests</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../notes/books/schneier-a-hackers-mind_2023.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/books/schneier-a-hackers-mind_2023.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">A Hacker’s Mind. How the Powerful Bend Society’s Rules, and How to Bend them Back</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../notes/books/singh_trick-or-treatment_2008.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/books/singh_trick-or-treatment_2008.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Trick or Treatment? Alternative Medicine on Trial</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../notes/books/tan-meng-search-inside-yourself_2012.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/books/tan-meng-search-inside-yourself_2012.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Search Inside Yourself</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../notes/books/yunkaporta_sand-talk_2019.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/books/yunkaporta_sand-talk_2019.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Sand Talk: How Indigenous Thinking Can Save the World</span></a>
   </div>
 </li>
@@ -282,16 +322,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="false">
  <span class="menu-text">Web</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../notes/web/need-for-engineering-managers.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/web/need-for-engineering-managers.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Questionable advice: My boss says we don’t need any engineering managers. Is he right?</span></a>
   </div>
 </li>
@@ -309,22 +349,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#ansible-vault" id="toc-ansible-vault" class="nav-link active" data-scroll-target="#ansible-vault">ansible vault</a></li>
-  <li><a href="#crontab" id="toc-crontab" class="nav-link" data-scroll-target="#crontab">crontab</a></li>
-  <li><a href="#journalctl" id="toc-journalctl" class="nav-link" data-scroll-target="#journalctl">journalctl</a></li>
-  <li><a href="#nginx" id="toc-nginx" class="nav-link" data-scroll-target="#nginx">nginx</a></li>
-  <li><a href="#postfix" id="toc-postfix" class="nav-link" data-scroll-target="#postfix">postfix</a></li>
-  <li><a href="#sendmail" id="toc-sendmail" class="nav-link" data-scroll-target="#sendmail">sendmail</a></li>
-  <li><a href="#vagrant-osx" id="toc-vagrant-osx" class="nav-link" data-scroll-target="#vagrant-osx">vagrant (osx)</a></li>
+  <li><a href="#notes-from-industrial-logic-course" id="toc-notes-from-industrial-logic-course" class="nav-link active" data-scroll-target="#notes-from-industrial-logic-course">Notes from Industrial Logic course</a></li>
+  <li><a href="#unlocking-the-awesome-power-of-refactoring" id="toc-unlocking-the-awesome-power-of-refactoring" class="nav-link" data-scroll-target="#unlocking-the-awesome-power-of-refactoring">Unlocking the Awesome Power of Refactoring</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../coding/docker.html">Coding</a></li><li class="breadcrumb-item"><a href="../coding/ops.html">Ops</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Coding</li><li class="breadcrumb-item"><a href="../../coding/practices/refactoring.html">Practices</a></li><li class="breadcrumb-item"><a href="../../coding/practices/refactoring.html">Refactoring</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Ops</h1>
+<h1 class="title">Refactoring</h1>
 </div>
 
 
@@ -341,59 +376,48 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="ansible-vault" class="level1">
-<h1>ansible vault</h1>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="va">$random_passwd</span> <span class="op">&gt;</span> .ansible-vault-password-file</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="bu">export</span> <span class="va">ANSIBLE_VAULT_PASSWORD_FILE</span><span class="op">=</span>./.ansible-vault-password-file</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">ansible-vault</span> encrypt hosts.txt</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ex">ansible-vault</span> view hosts.txt</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ex">ansible-vault</span> edit hosts.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="notes-from-industrial-logic-course" class="level2">
+<h2 class="anchored" data-anchor-id="notes-from-industrial-logic-course">Notes from Industrial Logic course</h2>
+<p>Extract example</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Original code</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Refactored</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> printOwing(amount):</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    printBanner()</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span> <span class="st">"name: </span><span class="sc">%s</span><span class="st">"</span> <span class="op">%</span> name</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span> <span class="st">"amount: </span><span class="sc">%f</span><span class="st">"</span> <span class="op">%</span> amount</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> printLateNotice(amount):</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    printBanner()</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span> <span class="st">"name: </span><span class="sc">%s</span><span class="st">"</span> <span class="op">%</span> name</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span> <span class="st">"amount: </span><span class="sc">%f</span><span class="st">"</span> <span class="op">%</span> amount</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> printOwing(amount):</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    printBanner()</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    printDetails()</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> printLateNotice(amount):</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    printBanner()</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    printDetails()</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> printDetails(amount):</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span> <span class="st">"name: </span><span class="sc">%s</span><span class="st">"</span> <span class="op">%</span> name</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span> <span class="st">"amount: </span><span class="sc">%f</span><span class="st">"</span> <span class="op">%</span> amount</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
 </section>
-<section id="crontab" class="level1">
-<h1>crontab</h1>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># user crontab</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">crontab</span> <span class="at">-e</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ex">5</span> <span class="pp">*</span> <span class="pp">*</span> <span class="pp">*</span> <span class="pp">*</span> /path/to/script</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">crontab</span> <span class="at">-l</span> <span class="co"># -r to remove</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="co">#system crontab (run every 5 min)</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"*/5 * * * * bob /path/to/scrip.sh"</span> <span class="op">&gt;</span> /etc/cron.d/bobs-script</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="journalctl" class="level1">
-<h1>journalctl</h1>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">journalctl</span> <span class="at">--since</span> <span class="st">"2 days ago"</span> <span class="at">-u</span> uwsgi</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ex">journalctl</span> <span class="at">-flu</span> uwsgi</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="nginx" class="level1">
-<h1>nginx</h1>
-<p>test config: <code>nginx -T</code></p>
-</section>
-<section id="postfix" class="level1">
-<h1>postfix</h1>
-<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">postqueue</span> <span class="at">-p</span>  <span class="co"># emails still in queue</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">postsuper</span> <span class="at">-d</span> <span class="va">$EMAIL_HEX_ID</span>  <span class="co"># to delete</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="sendmail" class="level1">
-<h1>sendmail</h1>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh</span> <span class="va">$mgmt_box</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">sendmail</span> <span class="at">-t</span> <span class="op">&lt;&lt;eof</span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="st">From: ops@foo.com</span></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="st">To: regi@registrar.com</span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="st">Subject: renew this</span></span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="st">Hi, i can haz renew.</span></span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="op">eof</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="vagrant-osx" class="level1">
-<h1>vagrant (osx)</h1>
-<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> tap caskroom/cask</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> cask install vagrant</span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> cask reinstall virtualbox virtualbox-extension-pack</span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="ex">vagrant</span> init bento/ubuntu-16.04</span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="ex">vim</span> Vagrantfile</span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="ex">vagrant</span> up</span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="ex">vagrant</span> provision</span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="ex">vagrant</span> ssh</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="unlocking-the-awesome-power-of-refactoring" class="level2">
+<h2 class="anchored" data-anchor-id="unlocking-the-awesome-power-of-refactoring">Unlocking the Awesome Power of Refactoring</h2>
+<p>by J. B. Rainsberger <a href="https://www.youtube.com/watch?v=Xyv4wUffjiQ">tech excellence talk</a></p>
+<p>Deliberate practice, Learned Helplessness.</p>
+<p>Nanosteps –&gt; Microsteps –&gt; Moves Repetition –&gt; Ease –&gt; Chunking (autonomic, subconscious, higher order thinking) –&gt; Confidence –&gt; Courage</p>
+<p>Pattern: Item –&gt; Collection (ex function arg) 1. add extra arg <code>f(x)  --&gt; f(x, xs: List)</code>. 2. modifiy calls of <code>f(x)</code> in the code base to use new signature. 3. modify <code>f(x)</code> to use <code>xs</code> instead of <code>x</code>. 4. verify that the behaviour of <code>f()</code> is the same. 5. remove <code>x</code> so that we are left with <code>f(xs)</code>.</p>
+<p>Start practicing now: 30min refactoring at the end of a day or even week. Throw the changes away.</p>
+<p>Practice is not performance!</p>
+<p>“Cleaning the kitchen as you cook”</p>
 
 
 </section>
@@ -478,6 +502,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/vanzaj\.github\.io\/vz-logbook\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -512,7 +554,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
