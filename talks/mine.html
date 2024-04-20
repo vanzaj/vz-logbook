@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2024-04-20">
 
-<title>vz-logbook - Python dev setup</title>
+<title>vz-logbook - My talks</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,59 +21,25 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -102,7 +69,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-sidebar floating nav-fixed">
@@ -112,7 +79,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">vz-logbook</span>
     </a>
   </div>
@@ -136,7 +103,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Coding</li><li class="breadcrumb-item"><a href="../../coding/ops/docker.html">Ops</a></li><li class="breadcrumb-item"><a href="../../coding/ops/py-dev-setup.html">Python dev setup</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../talks/index.html">Talks</a></li><li class="breadcrumb-item"><a href="../talks/mine.html">My talks</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -150,61 +117,61 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
+  <a href="../about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../now.html" class="sidebar-item-text sidebar-link">
+  <a href="../now.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Now</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
  <span class="menu-text">Coding</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
  <span class="menu-text">Ops</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../coding/ops/docker.html" class="sidebar-item-text sidebar-link">
+  <a href="../coding/ops/docker.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Docker</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../coding/ops/osx_setup.html" class="sidebar-item-text sidebar-link">
+  <a href="../coding/ops/osx_setup.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">OSX setup</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../coding/ops/py-dev-setup.html" class="sidebar-item-text sidebar-link active">
+  <a href="../coding/ops/py-dev-setup.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Python dev setup</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../coding/ops/tools.html" class="sidebar-item-text sidebar-link">
+  <a href="../coding/ops/tools.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tools</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../coding/ops/win-scoop.html" class="sidebar-item-text sidebar-link">
+  <a href="../coding/ops/win-scoop.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Windows 10 Dev Env Setup</span></a>
   </div>
 </li>
@@ -221,7 +188,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../coding/practices/refactoring.html" class="sidebar-item-text sidebar-link">
+  <a href="../coding/practices/refactoring.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Refactoring</span></a>
   </div>
 </li>
@@ -231,7 +198,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../writings/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../writings/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Writings</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -240,13 +207,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../writings/hr-lingo.html" class="sidebar-item-text sidebar-link">
+  <a href="../writings/hr-lingo.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">HR lingo</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../writings/org-signalling.html" class="sidebar-item-text sidebar-link">
+  <a href="../writings/org-signalling.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Org signalling</span></a>
   </div>
 </li>
@@ -254,16 +221,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../talks/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../talks/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Talks</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../talks/mine.html" class="sidebar-item-text sidebar-link">
+  <a href="../talks/mine.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">My talks</span></a>
   </div>
 </li>
@@ -280,7 +247,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../notes/books/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../notes/books/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Books</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -289,49 +256,49 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/coyle-the-culture-code_2018.html" class="sidebar-item-text sidebar-link">
+  <a href="../notes/books/coyle-the-culture-code_2018.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">The Culture Code</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/de_botton-how-to-think-more-about-sex_2012.html" class="sidebar-item-text sidebar-link">
+  <a href="../notes/books/de_botton-how-to-think-more-about-sex_2012.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">How To Think More About Sex</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/feathers-legacy-code_2004.html" class="sidebar-item-text sidebar-link">
+  <a href="../notes/books/feathers-legacy-code_2004.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Working Effectively with Legacy Code</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/freeman-goos_2009.html" class="sidebar-item-text sidebar-link">
+  <a href="../notes/books/freeman-goos_2009.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Growing Object-Oriented Software, Guided by tests</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/schneier-a-hackers-mind_2023.html" class="sidebar-item-text sidebar-link">
+  <a href="../notes/books/schneier-a-hackers-mind_2023.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">A Hacker’s Mind. How the Powerful Bend Society’s Rules, and How to Bend them Back</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/singh_trick-or-treatment_2008.html" class="sidebar-item-text sidebar-link">
+  <a href="../notes/books/singh_trick-or-treatment_2008.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Trick or Treatment? Alternative Medicine on Trial</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/tan-meng-search-inside-yourself_2012.html" class="sidebar-item-text sidebar-link">
+  <a href="../notes/books/tan-meng-search-inside-yourself_2012.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Search Inside Yourself</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/yunkaporta_sand-talk_2019.html" class="sidebar-item-text sidebar-link">
+  <a href="../notes/books/yunkaporta_sand-talk_2019.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Sand Talk: How Indigenous Thinking Can Save the World</span></a>
   </div>
 </li>
@@ -348,7 +315,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/web/need-for-engineering-managers.html" class="sidebar-item-text sidebar-link">
+  <a href="../notes/web/need-for-engineering-managers.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Questionable advice: My boss says we don’t need any engineering managers. Is he right?</span></a>
   </div>
 </li>
@@ -362,29 +329,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#python-development-on-osxlinux" id="toc-python-development-on-osxlinux" class="nav-link active" data-scroll-target="#python-development-on-osxlinux">Python development on OSX/Linux</a>
-  <ul class="collapse">
-  <li><a href="#pyenv-buildin-virtualenv" id="toc-pyenv-buildin-virtualenv" class="nav-link" data-scroll-target="#pyenv-buildin-virtualenv">pyenv + buildin virtualenv</a></li>
-  </ul></li>
-  <li><a href="#python-development-on-windows" id="toc-python-development-on-windows" class="nav-link" data-scroll-target="#python-development-on-windows">Python development on Windows</a>
-  <ul class="collapse">
-  <li><a href="#proxy-setup-for-pip" id="toc-proxy-setup-for-pip" class="nav-link" data-scroll-target="#proxy-setup-for-pip">Proxy setup for pip</a></li>
-  <li><a href="#always-work-inside-an-isolated-environment" id="toc-always-work-inside-an-isolated-environment" class="nav-link" data-scroll-target="#always-work-inside-an-isolated-environment">Always work inside an isolated environment</a></li>
-  </ul></li>
-  <li><a href="#useful-packages-for-maintaining-code-quality" id="toc-useful-packages-for-maintaining-code-quality" class="nav-link" data-scroll-target="#useful-packages-for-maintaining-code-quality">Useful packages for maintaining code quality</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Coding</li><li class="breadcrumb-item"><a href="../../coding/ops/docker.html">Ops</a></li><li class="breadcrumb-item"><a href="../../coding/ops/py-dev-setup.html">Python dev setup</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../talks/index.html">Talks</a></li><li class="breadcrumb-item"><a href="../talks/mine.html">My talks</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Python dev setup</h1>
+<h1 class="title">My talks</h1>
 </div>
 
 
@@ -392,6 +344,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 20, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -401,72 +359,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="python-development-on-osxlinux" class="level1">
-<h1>Python development on OSX/Linux</h1>
-<section id="pyenv-buildin-virtualenv" class="level2">
-<h2 class="anchored" data-anchor-id="pyenv-buildin-virtualenv">pyenv + buildin virtualenv</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pyenv</span> install 3.12.1</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">pyenv</span> local 3.12.1</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> venv venv</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="bu">.</span> ./venv/bin/activate</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install <span class="at">--upgrade</span> pip</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install fastapi</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install <span class="st">'uvicorn[standard]'</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> freeze <span class="op">&gt;</span> requirements.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-</section>
-<section id="python-development-on-windows" class="level1">
-<h1>Python development on Windows</h1>
-<p>See <a href="../../coding/ops/win-scoop.html">win dev setup</a> if you need to setup your box first.</p>
-<section id="proxy-setup-for-pip" class="level2">
-<h2 class="anchored" data-anchor-id="proxy-setup-for-pip">Proxy setup for pip</h2>
-<p>Assuming the userID=1234566 and password=s3cr3t0, type the following in the terminal:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="va">$env</span><span class="ex">:http_proxy=</span><span class="st">"http://123456:s3cr3t0@proxytr.company.com:8080"</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="va">$env</span><span class="ex">:https_proxy=</span><span class="st">"http://123456:s3cr3t0@proxytr.company.com:8080"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>(NB: <code>http://</code> for <code>$env:https</code> IS correct)</p>
-</section>
-<section id="always-work-inside-an-isolated-environment" class="level2">
-<h2 class="anchored" data-anchor-id="always-work-inside-an-isolated-environment">Always work inside an isolated environment</h2>
-<p>It is very hard to manage different versions of dependencies for multiple projects in one place. We need to use <a href="https://realpython.com/python-virtual-environments-a-primer/">virtual environments</a>. In Python 3, <code>virtualenv</code> was added to core library as <code>venv</code> module.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> new_project</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> venv .<span class="dt">\m</span>yevn</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="bu">.</span><span class="dt">\m</span>yenv<span class="dt">\S</span>cripts<span class="dt">\a</span>ctivate</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install requests  <span class="co"># installs into .\myenv\Lib\site-packages</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>For ML projects, it might be better to use <code>[mini]conda</code> as a replacement for <code>pip</code>:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install miniconda3</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> install <span class="at">-n</span> root <span class="at">-c</span> pscondaenvs pscondaenvs</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> init powershell</span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># relaunch terminal</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> info         <span class="co"># check current env</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> list         <span class="co"># which packages are available</span></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> info <span class="at">--envs</span>  <span class="co"># list of existing environments</span></span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> create <span class="at">--name</span> myenv</span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> activate myenv</span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> install <span class="at">-n</span> myenv numpy scikit-learn</span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> deactivate</span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Add conda forge</span></span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> config <span class="at">--set</span> auto_update_conda False</span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> config <span class="at">--add</span> channels conda-forge</span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> search psycopg2</span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> install <span class="at">--file</span> requirements.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-</section>
-<section id="useful-packages-for-maintaining-code-quality" class="level1">
-<h1>Useful packages for maintaining code quality</h1>
-<ul>
-<li><code>pytest</code>: most popular testing framework (including test discovery and test runner)</li>
-<li><code>pytest-xdist pytest-cov</code>: add parallel test runner and test coverage reporting</li>
-<li><code>flake8</code>: linting and PEP 8 style conformance</li>
-<li><code>isort</code>: make imports more consistent</li>
-<li><code>black</code>: uncompromising Python code formatter</li>
-</ul>
+<p><a href="https://www.youtube.com/watch?v=P1N4AXdR31g">Moving to Larger Implementation of Agile</a>, talk at the <a href="https://www.iss.nus.edu.sg/learning-festival/digital-academy">Learning Festival 2022, NUS-ISS</a> (2022-08-26).</p>
+<p><a href="https://www.infoq.com/presentations/growing-as-a-developer/">Developing Developers</a>, talk at the <a href="https://less.works/conferenza/conferences/2019-less-conference-munich-5">2019 LeSS Conference</a> (2019-09-12).</p>
+<p><a href="https://speakerdeck.com/vanzaj/professional-software-development-can-it-be-taught">Professional Software Development. Can it be taught?</a>, talk at <a href="https://pycon.sg/edu-summit/">PyCon SG Edu Summit</a> (2019-06-25).</p>
+<p><a href="https://www.youtube.com/watch?v=hu0KKxCbr3o">Data Science and Agile, Can or Not?</a>, panel discussion at Stack conference (2018-10-03).</p>
+<p><a href="https://www.youtube.com/watch?v=s4jsOiWXil0">Mob Programming</a>, talk (in russian) at <a href="https://msk18.agiledays.ru/">ag;)e days 2018</a> (2018-03-22).<br> <a href="https://speakerdeck.com/vanzaj/mob-programming">Slides</a> in English.</p>
+<p><a href="https://engineers.sg/video/cluster-failure-why-fmri-inferences-have-inflated-false-positive-rates-papers-we-love-022--1038">Cluster failure: Why fMRI inferences have inflated false positive rates</a>, talk at “Papers We Love #022” (2016-08-29). <a href="https://speakerdeck.com/vanzaj/cluster-failure-fmri-data-analysis-paper">Slides</a>.</p>
+<p><a href="https://www.youtube.com/watch?v=nua-fStrQJ0">Software Carpentry</a>, lightning talk at <a href="https://pycon.sg/archive/2016/">PyCon SG 2016</a> (2016-06-23).</p>
+<p><a href="https://vanzaj.github.io/2016-06-11-ntu/">Software Carpentry: Python programming and Scientific python</a>, tutorial at NTU Learning Studio (2016-06-11).</p>
+<p><a href="https://speakerdeck.com/vanzaj/software-carpentry-training-model">Software Carpentry training model</a>, talk at EduCamp SG (2015-04-02).</p>
+<p><a href="https://github.com/vanzaj/pyconsg2014-tutorial-cli">CLI until it CLIcks</a> tutorial at <a href="https://pycon.sg/archive/2014/schedule/presentation/3/">PyCon SG 2014</a> (2014-06-18).</p>
+<p><a href="https://github.com/vanzaj/pytalks/tree/master/20130822_I2R-tutorial_intro-python-scipy">Introduction to Python and SciPy</a> for A-STAR’s I2R (2013-08-22).</p>
+<p><a href="https://www.youtube.com/watch?v=WmGuQ8JaNto">Dacets: research data management for individual scientists</a>, talk at <a href="https://pycon.sg/archive/2013/schedule/presentation/18/">PyCon SG 2013</a> (2013-06-14).</p>
+<p><a href="https://github.com/vanzaj/pytalks/tree/master/20130613-pyconsg-tutorial-scipy">Introduction to data processing with Python</a>, tutorial at <a href="https://pycon.sg/archive/2013/schedule/presentation/22/">PyCon SG 2013</a> (2013-06-13).</p>
+<p><a href="https://speakerdeck.com/vanzaj/open-science">Open Science</a> talk at Open Science Barcamp @ NUS (2013-03-08).</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
