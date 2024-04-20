@@ -1,0 +1,121 @@
+[4/4/24, 17:38:09] Singtel: ‎This business uses a secure service from Meta to manage this chat. Click to learn more.
+[4/4/24, 17:38:09] vanzaj: connect me to agent now
+[4/4/24, 17:38:15] Singtel: *Shirley*
+Hello there! I had just chatted with you on Singtel.com. My colleague will assist on your enquiry, but will need some time before coming back. Look out for our notification through WhatsApp on your phone.
+[4/4/24, 17:39:12] Singtel: *Givanni*
+Hi! You are now chatting with Givan, your Singtel Mobile Postpaid Customer Care Officer. Let me assist you with your concern today.
+[4/4/24, 17:39:21] Singtel: *Givanni*
+Please tell us more about your concern. Thank you!
+[4/4/24, 17:39:56] vanzaj: Hi Givan. My latest bill has negative amount. What does that mean?
+[4/4/24, 17:52:13] vanzaj: hello?
+[4/4/24, 18:05:26] Singtel: *Givanni*
+I do apologize for the long wait. I have  latency on retrieving infos.
+[4/4/24, 18:05:39] Singtel: *Givanni*
+I can help you to check on that, for me to further assist you on your concern I will be sending you verification form, i will be grateful if you do answer the verification form.
+[4/4/24, 18:06:15] vanzaj: please do
+[4/4/24, 18:06:30] Singtel: *Givanni*
+Verification Form: https://chat.singtel.com/le_unified_window/c.htm?t=a3ByOFZ2amtXTDpzeS53aGF0c2FwcC1ndw==
+[4/4/24, 18:07:34] Singtel: The following Secure Form has been submitted: Verification Form
+[4/4/24, 18:07:52] Singtel: *Givanni*
+Thank you so much for providing the necessary details and fully verifying your account. Allow me to pull up and check on your account for a few minutes. I'll be back in a bit.
+[4/4/24, 18:10:59] Singtel: *Givanni*
+$34.66?
+[4/4/24, 18:11:31] vanzaj: yes, negative $34.66
+[4/4/24, 18:12:24] Singtel: *Givanni*
+if it states negative amount that means it is an over payment.
+[4/4/24, 18:13:07] vanzaj: ok, does it mean it will be credited back?
+[4/4/24, 18:13:19] vanzaj: I’ve moved to another provider
+[4/4/24, 18:14:49] Singtel: *Givanni*
+Kindly wait for a final bill. If after the final bill the amount is still negative chat us back and we will process a refund.
+[4/4/24, 18:15:09] vanzaj: this should be the final bill
+[4/4/24, 18:15:24] vanzaj: i’ve moved at the beginning of march
+[4/4/24, 18:16:11] Singtel: *Givanni*
+I am gonna check you account.
+[4/4/24, 18:17:14] Singtel: *Givanni*
+I have just confirmed that yes, that is indeed the final bill.
+[4/4/24, 18:20:53] vanzaj: so, what shall i do with that bill?
+[4/4/24, 18:22:17] Singtel: *Givanni*
+we can request for a refund. Just to set your expectation it will take 3-4 weeks.
+[4/4/24, 18:23:03] vanzaj: Ok. Where will the refund go?
+[4/4/24, 18:32:13] vanzaj: Will someone contact me about refund?
+[4/4/24, 19:15:51] Singtel: *Givanni*
+I am sorry for the long wait. I am just getting all the info that I will need to process the refund.
+[4/4/24, 19:24:20] Singtel: *Givanni*
+I will need a couple of information to process the chargeback on the credit card used.
+[4/4/24, 19:29:12] vanzaj: yes? tell me.
+[4/4/24, 19:29:52] Singtel: *Givanni*
+Could you provide:
+
+Card type (Master/Visa/etc):
+Last 4 digit Credit Card Number:
+Contact No:
+[4/4/24, 19:30:51] vanzaj: Visa, 9827, 97850903
+[4/4/24, 19:31:22] Singtel: *Givanni*
+I got it let me just document it.
+[4/4/24, 20:01:02] Singtel: *Givanni*
+For Us to continue the process we will need you to upload a copy of your NRIC at help.singtel.com/forms.
+[4/4/24, 20:01:33] vanzaj: wow, seriously people…
+[4/4/24, 20:02:22] Singtel: *Givanni*
+For security purpose.
+[4/4/24, 20:02:59] vanzaj: you already have it. i’ve been with singtel for 10+ years
+[4/4/24, 20:04:37] vanzaj: let me be difficult and not do it, because i don’t really care about 30 bucks, but it will cost singtel’s accounting a few hours of headache.
+[4/4/24, 20:04:40] Singtel: *Givanni*
+This is for processing the refund.
+[4/4/24, 20:04:58] vanzaj: yeah, follow the process.
+[4/4/24, 20:06:25] vanzaj: btw, to get into this chat, i had to use singpass, so you must know who i am.
+[4/4/24, 20:07:03] vanzaj: i hope you will forward this chat to your superiors.
+[4/4/24, 20:08:24] Singtel: *Givanni*
+This is for security purposes as well and my superiors is the one who will approve it as well.
+[4/4/24, 20:09:35] vanzaj: sorry, i am not doing it.
+[4/4/24, 20:13:04] Singtel: *Givanni*
+I understand. Are you still able to receive SMS on the telephone number ending in 0903?
+[4/4/24, 20:16:23] vanzaj: yes
+[4/4/24, 20:18:47] Singtel: *Givanni*
+I will be sending a reference ID to the mobile number registered on this account. Please provide once received so we can continue with your request.
+[4/4/24, 20:22:33] Singtel: *Givanni*
+I have sent the reference ID
+[4/4/24, 20:26:21] vanzaj: 540883
+[4/4/24, 20:28:08] vanzaj: sorry for being difficult. i hope you will soon find a better employer.
+[4/4/24, 20:29:18] Singtel: *Givanni*
+I understand the importance of the ID. I am processing it now.
+[4/4/24, 20:29:44] Singtel: *Givanni*
+I will update you as soon as I have submitted the request.
+[4/4/24, 20:29:57] vanzaj: hope you are not doing overtime for this
+[4/4/24, 20:31:08] Singtel: *Givanni*
+Not really, it is still within my shift. And I am attending to a bundle of chat at the moment that is why I thank you for your patience.
+[4/4/24, 20:31:56] vanzaj: yeah, i can imagine. good luck.
+[4/4/24, 20:35:17] Singtel: *Givanni*
+I have already successfully submitted the request. Kindly monitor any update on the phone number you provided.
+[4/4/24, 20:35:43] vanzaj: thanks
+[4/4/24, 20:36:10] Singtel: *Givanni*
+You are most welcome.
+[4/4/24, 20:36:32] Singtel: *Givanni*
+would there be anything else you need assistance with?
+[4/4/24, 20:40:16] Singtel: *Givanni*
+We hope that your enquiries has already been answered and resolved, Feel free to contact us again if you need some further assistance. We will be glad to assist you. We will closed this conversation for now, kindly message us if you have another query thanks. Have an excellent day ahead and stay safe!
+[4/4/24, 21:19:43] Singtel: How would you rate your recent chat experience with our Singtel Customer Care Officer?
+ 
+Reply to the survey with your rating of 5 to 1. 
+
+5 = Excellent 
+4 = Good 
+3 = Average 
+2 = Poor 
+1 = Very Poor 
+
+If you want to skip the survey, please reply Skip
+[4/4/24, 21:20:47] vanzaj: 5 for SCCO, 1 for SingTel.
+[4/4/24, 21:20:49] Singtel: How would you rate your recent chat experience with our Singtel Customer Care Officer?
+ 
+Reply to the survey with your rating of 5 to 1. 
+
+5 = Excellent 
+4 = Good 
+3 = Average 
+2 = Poor 
+1 = Very Poor 
+
+If you want to skip the survey, please reply Skip
+[4/4/24, 21:20:49] Singtel: That’s not what I was expecting, please select from one of these options
+[4/4/24, 21:20:56] vanzaj: lol
+[4/4/24, 21:20:59] Singtel: Sorry I’m having difficulties understanding you right now. The survey will now close. Sorry for the inconvenience
