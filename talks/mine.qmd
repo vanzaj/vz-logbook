@@ -1,0 +1,46 @@
+---
+title: My talks
+date: 2024-04-20
+---
+
+[Moving to Larger Implementation of Agile](https://www.youtube.com/watch?v=P1N4AXdR31g), talk at the [Learning Festival 2022, NUS-ISS](https://www.iss.nus.edu.sg/learning-festival/digital-academy) (2022-08-26).
+
+
+[Developing Developers](https://www.infoq.com/presentations/growing-as-a-developer/), talk at the [2019 LeSS Conference](https://less.works/conferenza/conferences/2019-less-conference-munich-5) (2019-09-12).
+
+
+[Professional Software Development. Can it be taught?](https://speakerdeck.com/vanzaj/professional-software-development-can-it-be-taught), talk at [PyCon SG Edu Summit](https://pycon.sg/edu-summit/) (2019-06-25).
+
+
+[Data Science and Agile, Can or Not? ](https://www.youtube.com/watch?v=hu0KKxCbr3o), panel discussion at Stack conference (2018-10-03).
+
+
+[Mob Programming](https://www.youtube.com/watch?v=s4jsOiWXil0), talk (in russian) at [ag;)e days 2018](https://msk18.agiledays.ru/) (2018-03-22).<br/>
+[Slides](https://speakerdeck.com/vanzaj/mob-programming) in English.
+
+
+[Cluster failure: Why fMRI inferences have inflated false positive rates](https://engineers.sg/video/cluster-failure-why-fmri-inferences-have-inflated-false-positive-rates-papers-we-love-022--1038), talk at "Papers We Love #022" (2016-08-29). [Slides](https://speakerdeck.com/vanzaj/cluster-failure-fmri-data-analysis-paper).
+
+
+[Software Carpentry](https://www.youtube.com/watch?v=nua-fStrQJ0), lightning talk at [PyCon SG 2016](https://pycon.sg/archive/2016/) (2016-06-23).
+
+
+[Software Carpentry: Python programming and Scientific python](https://vanzaj.github.io/2016-06-11-ntu/), tutorial at NTU Learning Studio (2016-06-11).
+
+
+[Software Carpentry training model](https://speakerdeck.com/vanzaj/software-carpentry-training-model), talk at EduCamp SG (2015-04-02).
+
+
+[CLI until it CLIcks](https://github.com/vanzaj/pyconsg2014-tutorial-cli) tutorial at [PyCon SG 2014](https://pycon.sg/archive/2014/schedule/presentation/3/) (2014-06-18).
+
+
+[Introduction to Python and SciPy](https://github.com/vanzaj/pytalks/tree/master/20130822_I2R-tutorial_intro-python-scipy) for A-STAR's I2R (2013-08-22).
+
+
+[Dacets: research data management for individual scientists](https://www.youtube.com/watch?v=WmGuQ8JaNto), talk at [PyCon SG 2013](https://pycon.sg/archive/2013/schedule/presentation/18/) (2013-06-14).
+
+
+[Introduction to data processing with Python](https://github.com/vanzaj/pytalks/tree/master/20130613-pyconsg-tutorial-scipy), tutorial at [PyCon SG 2013](https://pycon.sg/archive/2013/schedule/presentation/22/) (2013-06-13).
+
+[Open Science](https://speakerdeck.com/vanzaj/open-science) talk at Open Science Barcamp @ NUS (2013-03-08).
+

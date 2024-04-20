@@ -1,0 +1,7 @@
+---
+title: Talks
+---
+
+### [My Talks and tutorials](./mine.html)
+
+Slides, github repos, and video recordings of talks at various conferences from 2013 to present.
