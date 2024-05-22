@@ -2,21 +2,33 @@
 title: Now
 ---
 
-Updated: 14 Feb 2024
+Updated: 22 May 2024
 
 This is my [now page](https://nownownow.com/about).
 
 
-## Working on a new class: Test driven development for data scientists
+## Work
+
+### New course: Test driven development for data scientists
 
 Why? Because many folks in data science have not been exposed to agile product development practices.
+The 1st iteration is done (trialed on a small class with 4 people). Feedback is good, but day 2 needs some improvements (API testing, mocking).
+
+### Redesign odd-e.com
+
+1. It is too dark and obviously "designed" without UX expert help.
+2. Not mobile friendly.
 
 
-## Starting my "digital garden"
+## Establishing weekly routine
 
-After discovering [quarto](https://quarto.org/), I want to (once again) try to have my learning notes available online.
+1. Weekly plan using spreadsheet. Monday morning: make a plan for upcoming week. Friday afternoon: review the week.
+2. Start "self-reflection journal" using [We are not really strangers](https://www.werenotreallystrangers.com/collections/games/products/self-reflection-kit) cards (1 hour, 1/week).
+3. Add/update my [digital garden](https://vanzaj.github.io/vz-logbook/) (1 hour, 1/week)
 
 
-## First Aid training
+## Learning
 
-Standard First Aid + Psychological First Aid from [Singapore Red Cross](https://redcross.sg/get-trained/first-aid.html).
+1. A Philosophy of Software Design (2ed).
+2. [Introduction to Complexity](https://www.complexityexplorer.org/courses/165-introduction-to-complexity).
+3. Chess by Garry Kasparov on masterclass.com.
