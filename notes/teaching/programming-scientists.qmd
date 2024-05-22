@@ -1,0 +1,26 @@
+---
+title: "Teaching programming to science students"
+author: Ivan Zimine
+date: 2024-05-22
+---
+
+## Basics
+
+1. [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) (MIT, `shell, vim, git`)
+1. [Software Development for Data Scientists](https://uwseds.github.io/syllabus.html) (University of Washington)
+1. [Software Carpentry](https://software-carpentry.org/lessons/)
+1. [Research Software Engineering with Python](https://alan-turing-institute.github.io/rse-course/html/index.html)
+
+
+## Staff nobody teaches
+
+1. TDD & Refactoring
+1. Documentation as code
+1. Infrastructure as code
+
+
+## Related
+
+1. [The Carpentries](https://carpentries.org/)
+1. [Society of Research Software Engineers (UK)](https://society-rse.org/)
+
