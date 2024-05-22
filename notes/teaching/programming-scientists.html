@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Ivan Zimine">
+<meta name="dcterms.date" content="2024-05-22">
 
-<title>vz-logbook - OSX setup</title>
+<title>vz-logbook - Teaching programming to science students</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +21,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -136,7 +104,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Coding</li><li class="breadcrumb-item"><a href="../../coding/ops/docker.html">Ops</a></li><li class="breadcrumb-item"><a href="../../coding/ops/osx_setup.html">OSX setup</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notes/books/index.html">Notes</a></li><li class="breadcrumb-item"><a href="../../notes/teaching/programming-scientists.html">Teaching</a></li><li class="breadcrumb-item"><a href="../../notes/teaching/programming-scientists.html">Teaching programming to science students</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -162,22 +130,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
  <span class="menu-text">Coding</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
  <span class="menu-text">Ops</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../coding/ops/docker.html" class="sidebar-item-text sidebar-link">
@@ -186,7 +154,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../coding/ops/osx_setup.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../coding/ops/osx_setup.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">OSX setup</span></a>
   </div>
 </li>
@@ -271,13 +239,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
  <span class="menu-text">Notes</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../notes/books/index.html" class="sidebar-item-text sidebar-link">
@@ -339,16 +307,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="true">
  <span class="menu-text">Teaching</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/teaching/programming-scientists.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/teaching/programming-scientists.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Teaching programming to science students</span></a>
   </div>
 </li>
@@ -383,26 +351,37 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#xcode-and-homebrew" id="toc-xcode-and-homebrew" class="nav-link active" data-scroll-target="#xcode-and-homebrew">xcode and homebrew</a></li>
-  <li><a href="#shell" id="toc-shell" class="nav-link" data-scroll-target="#shell">shell</a></li>
-  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python">python</a></li>
-  <li><a href="#dev-repos" id="toc-dev-repos" class="nav-link" data-scroll-target="#dev-repos">dev repos</a></li>
+  <li><a href="#basics" id="toc-basics" class="nav-link active" data-scroll-target="#basics">Basics</a></li>
+  <li><a href="#staff-nobody-teaches" id="toc-staff-nobody-teaches" class="nav-link" data-scroll-target="#staff-nobody-teaches">Staff nobody teaches</a></li>
+  <li><a href="#related" id="toc-related" class="nav-link" data-scroll-target="#related">Related</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Coding</li><li class="breadcrumb-item"><a href="../../coding/ops/docker.html">Ops</a></li><li class="breadcrumb-item"><a href="../../coding/ops/osx_setup.html">OSX setup</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notes/books/index.html">Notes</a></li><li class="breadcrumb-item"><a href="../../notes/teaching/programming-scientists.html">Teaching</a></li><li class="breadcrumb-item"><a href="../../notes/teaching/programming-scientists.html">Teaching programming to science students</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">OSX setup</h1>
+<h1 class="title">Teaching programming to science students</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Ivan Zimine </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 22, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -412,51 +391,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>updated: 2023-11-02</p>
-<section id="xcode-and-homebrew" class="level2">
-<h2 class="anchored" data-anchor-id="xcode-and-homebrew">xcode and homebrew</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">zsh</span> <span class="at">--version</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">xcode-select</span> <span class="at">--install</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">/bin/bash</span> <span class="at">-c</span> <span class="st">"</span><span class="va">$(</span><span class="ex">curl</span> <span class="at">-fsSL</span> https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="va">)</span><span class="st">"</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ex">/opt/homebrew/bin/brew</span> shellenv <span class="op">&gt;&gt;</span> /Users/ivan/.brewenv   <span class="co"># then copy or read it from .zshrc</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> doctor</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> install git</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> core.excludesfile ~/.gitignore</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">cp</span> tmp/home-etc/git/gitconfig ~/.gitconfig</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> install ack fzf neovim pyenv tmux tree wget xz zlib bat git-delta</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> install <span class="at">--cask</span> betterzip cheatsheet docker qlmarkdown quicklook-csv rectangle suspicious-package vlc vscodium</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="basics" class="level2">
+<h2 class="anchored" data-anchor-id="basics">Basics</h2>
+<ol type="1">
+<li><a href="https://missing.csail.mit.edu/">The Missing Semester of Your CS Education</a> (MIT, <code>shell, vim, git</code>)</li>
+<li><a href="https://uwseds.github.io/syllabus.html">Software Development for Data Scientists</a> (University of Washington)</li>
+<li><a href="https://software-carpentry.org/lessons/">Software Carpentry</a></li>
+<li><a href="https://alan-turing-institute.github.io/rse-course/html/index.html">Research Software Engineering with Python</a></li>
+</ol>
 </section>
-<section id="shell" class="level2">
-<h2 class="anchored" data-anchor-id="shell">shell</h2>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sh</span> <span class="at">-c</span> <span class="st">"</span><span class="va">$(</span><span class="ex">curl</span> <span class="at">-fsSL</span> https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span class="va">)</span><span class="st">"</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ln</span> <span class="at">-s</span> Library/Mobile\ Documents/com~apple~CloudDocs ~/CloudDocs</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="staff-nobody-teaches" class="level2">
+<h2 class="anchored" data-anchor-id="staff-nobody-teaches">Staff nobody teaches</h2>
+<ol type="1">
+<li>TDD &amp; Refactoring</li>
+<li>Documentation as code</li>
+<li>Infrastructure as code</li>
+</ol>
 </section>
-<section id="python" class="level2">
-<h2 class="anchored" data-anchor-id="python">python</h2>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> install pyenv</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">'eval "$(pyenv init -)"'</span> <span class="op">&gt;&gt;</span> .zshrc</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="ex">pyenv</span> install <span class="at">--list</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="ex">pyenv</span> install 3.11.0</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="dev-repos" class="level1">
-<h1>dev repos</h1>
-<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="at">-p</span> dev/work <span class="kw">&amp;&amp;</span> <span class="bu">cd</span> dev/work</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone git@github.com:The-LeSS-Company/less_site.git</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone git@github.com:nerds-odd-e/odd-e_website.git</span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ~</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> dev/perso <span class="kw">&amp;&amp;</span> <span class="bu">cd</span> dev/perso</span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone git@github.com:vanzaj/erft.git</span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone git@github.com:vanzaj/katas.git</span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ~</span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> dev/community <span class="kw">&amp;&amp;</span> <span class="ex">dev/community</span></span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone git@github.com:vanzaj/lizard.git</span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> tdd-workshops</span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone git@github.com:tdd-workshops/tdd-getting-started.git</span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone git@github.com:tdd-workshops/tdd-lab-login-form-python-flask.git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="related" class="level2">
+<h2 class="anchored" data-anchor-id="related">Related</h2>
+<ol type="1">
+<li><a href="https://carpentries.org/">The Carpentries</a></li>
+<li><a href="https://society-rse.org/">Society of Research Software Engineers (UK)</a></li>
+</ol>
 
 
 </section>
