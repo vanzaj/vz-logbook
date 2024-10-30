@@ -15,7 +15,7 @@ pyenv local 3.12.7
 poetry init
 poetry env show
 poetry add fastapi uvicorn
-poetry add pytest --group
+poetry add pytest pytest-cov --group test
 ```
 
 ## pyenv + buildin virtualenv
