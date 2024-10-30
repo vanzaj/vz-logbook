@@ -1,8 +1,22 @@
 ---
 title: Python dev setup
+date: 2024-10-30
 ---
 
 # Python development on OSX/Linux
+
+## pyenv + poetry
+
+```bash
+brew install pipx
+pipx install poetry
+cd $new_project
+pyenv local 3.12.7
+poetry init
+poetry env show
+poetry add fastapi uvicorn
+poetry add pytest --group
+```
 
 ## pyenv + buildin virtualenv
 
@@ -18,6 +32,8 @@ pip freeze > requirements.txt
 ```
 
 # Python development on Windows
+
+(updated: dec 2022)
 
 See [win dev setup](win-scoop.qmd) if you need to setup your box first.
 
