@@ -2,7 +2,7 @@
 title: Now
 ---
 
-Updated: 22 May 2024
+Updated: 9 Nov 2024
 
 This is my [now page](https://nownownow.com/about).
 
@@ -29,6 +29,7 @@ The 1st iteration is done (trialed on a small class with 4 people). Feedback is 
 
 ## Learning
 
-1. A Philosophy of Software Design (2ed).
-2. [Introduction to Complexity](https://www.complexityexplorer.org/courses/165-introduction-to-complexity).
-3. Chess by Garry Kasparov on masterclass.com.
+1. [Full Stack LLM Bootcamp](https://fullstackdeeplearning.com/llm-bootcamp/)
+2. Larman's "Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development" (3ed)
+3. [Introduction to Complexity](https://www.complexityexplorer.org/courses/165-introduction-to-complexity).
+4. Chess by Garry Kasparov on masterclass.com.
