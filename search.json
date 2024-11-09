@@ -148,7 +148,7 @@
     "href": "now.html",
     "title": "Now",
     "section": "",
-    "text": "Updated: 22 May 2024\nThis is my now page.",
+    "text": "Updated: 9 Nov 2024\nThis is my now page.",
     "crumbs": [
       "Now"
     ]
@@ -178,7 +178,7 @@
     "href": "now.html#learning",
     "title": "Now",
     "section": "Learning",
-    "text": "Learning\n\nA Philosophy of Software Design (2ed).\nIntroduction to Complexity.\nChess by Garry Kasparov on masterclass.com.",
+    "text": "Learning\n\nFull Stack LLM Bootcamp\nLarman’s “Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development” (3ed)\nIntroduction to Complexity.\nChess by Garry Kasparov on masterclass.com.",
     "crumbs": [
       "Now"
     ]
