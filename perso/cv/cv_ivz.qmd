@@ -1,0 +1,288 @@
+---
+format: 
+  pdf: 
+    documentclass: article
+    geometry:
+      - top=10mm
+      - left=15mm
+      - right=15mm
+      - bottom=5mm
+      - heightrounded
+    fontfamily: libertine
+    colorlinks: true
+    fontsize: '16'
+    include-in-header: 
+      text: |
+        \usepackage{multicol}
+        \usepackage{lipsum}
+        \usepackage{hyperref}
+        \usepackage{libertine}
+        \pagestyle{empty}
+        \setlength{\multicolsep}{2pt plus 1.0pt minus 0.75pt}% 50% of original values
+        \setlength{\columnsep}{3em}
+---
+\begin{huge}\begin{center}{\bf Ivan Zimine}\end{center}\end{huge}
+
+\vspace{5mm}
+
+<!-- CONTACT -->
+\begin{center}\href{mailto:ivan@odd-e.com}{ivan@odd-e.com} | \href{https://odd-e.com/about/ivan.html}{About} | \href{https://www.linkedin.com/in/ivanzimine/}{LinkedIn} | \href{https://scholar.google.com/citations?user=Xq7f6loAAAAJ}{Google Scholar} | \href{https://github.com/vanzaj}{Github} 
+\end{center}
+
+\vspace{5mm}
+
+<!-- EXPERIENCE -->
+\begin{large}{\bf EXPERIENCE}
+  \vspace{2mm} \hrule \vspace{5mm}
+
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://www.odd-e.com/}{Odd-e}}\end{flushleft}
+    \begin{flushright}2017-Present\end{flushright}
+  \end{multicols}
+
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Technical (XP) coach, trainer, Scrum Master}\end{flushleft}
+    \begin{flushright}Singapore, onsite/remote\end{flushright}\end
+  {multicols}
+\end{large}
+
+* Technical trainer (Certified Scrum Developer, LeSS in Action, 2017 - present)
+* Technical/Agile coach at Jago/DKatalis (Aug 2022 - Feb 2022, hybrid)
+* Technical/Agile coach at Huawei Turkey R&D center (Aug 2020 - Feb 2022, remote)
+* Developer/Scrum master at Credit Swiss private banking department (Jan - Dec 2019)
+* Lead/facilitated numerous TDD/Refactoring/Product development trainings (2017-present)
+* SW developer of the \href{https://less.works}{LeSS website} (2017-2018)
+* Conducted numerous (20+) 1-3 days basic Scrum trappings (2017-present)
+
+\vspace{5mm}
+
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://www.ofs.edu.sg/}{Overseas Family School (OFS)}}\end{flushleft}
+    \begin{flushright} Apr 2014 - Jun 2017\end{flushright}
+  \end{multicols}
+
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Technology Research Analyst}\end
+    {flushleft}\begin{flushright}Singapore\end
+    {flushright}
+  \end{multicols}
+\end{large}
+
+* Part of core IT team involved in migrating whole school's IT infrastructure to a new campus (3'000 students, 500 staff).
+* Initiated education research @ OFS. Projects: 1) researched the impact of chess practice and its' impact on academic achievements, 2)&nbsp;promoted John Hattie's "Visible Learning" for teacher's professional development, 3) initiated coding classes in the middle school using Scratch and Python.
+
+\vspace{5mm}
+
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://hackerspace.sg/}{Startups}}\end{flushleft}
+    \begin{flushright} May 2010 - May 2014\end{flushright}
+  \end{multicols}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Co-founder}\end
+    {flushleft}\begin{flushright}Singapore\end
+    {flushright}
+  \end{multicols}
+\end{large}
+
+* \href{https://ondelo.com/}{Ondelo Pte. Ltd.} Network services (high density WiFi, sales, marketing)
+* Teralogy/\href{https://www.youtube.com/watch?v=WmGuQ8JaNto}{Dacets}. Scientific data management ("git" for raw data)
+* PythonIO. Consulting and training (NumPy, SciPy, Django, Flask)
+
+\vspace{5mm}
+
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://www.usa.philips.com/healthcare/solutions/magnetic-resonance}{Philips Healthcare}}\end{flushleft}
+    \begin{flushright} May 2007 - May 2010\end{flushright}
+  \end{multicols}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{MRI clinical scientist}\end
+    {flushleft}\begin{flushright}Tokyo, Japan\end
+    {flushright}
+  \end{multicols}
+\end{large}
+* Supported research groups in top-tier Universities in Japan to adopt advanced neuro-imaging techniques into clinical practice (ASL, fMRI, DTI). 
+* Developed custom MR image processing \href{https://github.com/vanzaj/mri_idl}{tools} (IDL, Matlab, C/C++)
+ 
+\vspace{5mm}
+
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://www.nni.com.sg/}{National Neuroscience Institute}}\end{flushleft}
+    \begin{flushright} Oct 2004 - May 2007\end{flushright}
+  \end{multicols}
+
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Post-doctoral fellow}\end
+    {flushleft}\begin{flushright}Singapore\end
+    {flushright}
+  \end{multicols}
+\end{large}
+
+* Worked on advanced neuro-imaging techniques (fMRI, ASL,territorial ASL, quantitative ASL).
+* Mentored NTU/NUS students pursuing bachelor or masters of science in the field of bio-imaging.
+* Served as a reviewer for International Magnetic Resonance in Medicine conference, Magnetic Resonance in Medicine and NeuroImage journals.
+
+\vspace{5mm}
+
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://www.hug.ch/en}{Geneva University Hospitals}}\end{flushleft}
+    \begin{flushright} Aug 2003 - Sep 2004\end{flushright}
+  \end{multicols}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Post-doctoral fellow}\end
+    {flushleft}\begin{flushright}Geneva, Switzerland\end
+    {flushright}
+  \end{multicols}
+\end{large}
+* Worked on advanced neuro-imaging techniques (fMRI, ASL,territorial ASL, quantitative ASL).
+* Mentored UniGE/EPFL students pursuing bachelor or masters of science in the field of bio-imaging.
+* Served as a reviewer for the International Magnetic Resonance in Medicine conference, Magnetic Resonance in Medicine and NeuroImage journals.
+* SysAdmin of shared research workstations (Linux and Solaris).
+* Built a NAS for managing MRI research data (3TB, RAID0, hot-swapable IDE discs, Red Hat Linux. Saved the department >30K CHF for an equivalent commercial solution).
+
+\vspace{5mm}
+
+<!-- EDUCATION -->
+\begin{large}{\bf Education}
+  \vspace{2mm} \hrule \vspace{5mm}
+
+  \begin{multicols}{2}
+      \begin{flushleft}{\bf \href{https://www.unige.ch/sciences/physique/}{University of Geneva}}\end{flushleft}
+      \begin{flushright}1998 - 2003\end{flushright}
+  \end{multicols}
+
+  \begin{multicols}{2}
+      \begin{flushleft}\textit{Research fellow}\end{flushleft}
+      \begin{flushright}Geneva, Switzerland\end{flushright}
+  \end{multicols}
+\end{large}
+
+* PhD thesis: Epileptic Focus Localization Using EEG-triggered Functional MRI.
+* Technical support for imaging research projects from the faculty of medicine (experiment design, data acquisition, image analysis. Anatomist/BrainVISA, MEDx, custom IDL).
+
+\vspace{5mm}
+
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://www.unige.ch/sciences/physique/}{University of Geneva}}\end{flushleft}
+    \begin{flushright}1997 - 1998\end{flushright}
+  \end{multicols}
+
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{MSc, physics}\end{flushleft}
+    \begin{flushright}Geneva, Switzerland\end{flushright}
+  \end{multicols}
+\end{large}
+
+* Thesis: Motion correction in Functional Magnetic Resonance Imaging.
+
+\vspace{5mm}
+
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://www.unige.ch/sciences/physique/}{University of Geneva}}\end{flushleft}
+    \begin{flushright}1993 - 1997\end{flushright}
+  \end{multicols}
+
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{BSc, physics}\end{flushleft}
+    \begin{flushright}Geneva, Switzerland\end{flushright}
+  \end{multicols}
+\end{large}
+
+* Thesis: Study of doping effects by Fluorine on Bi(2212) high temperature superconductor, powder and mono-crystals).
+
+\vspace{5mm}
+
+<!-- COMUNITY WORK -->
+\begin{large}{\bf Community Work}
+\vspace{2mm} \hrule \vspace{5mm}
+
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://pugs.org.sg/}{Python User Group Singapore}}\end{flushleft}
+    \begin{flushright}2010 - present\end{flushright}
+  \end{multicols}
+
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Paying member}\end{flushleft}
+    \begin{flushright}Singapore\end{flushright}
+  \end{multicols}
+\end{large}
+
+* Member of the organizing committee for PyCon APAC and SG (2010 - 2017, 2025).
+* Assumed the following roles in the society: Secretary (2011-1013), Vice-President (2013-2015), President (2015-2017).
+* Developed and maintained https://pugs.org.sg (2013-2017).
+* Organizer/host of [PUGS meetups](https://www.meetup.com/singapore-python-user-group/) (2010-2017).
+
+\vspace{5mm}
+
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://hackerspace.sg/}{Hackerspace Singapore}}\end{flushleft}
+    \begin{flushright}2010 - 2017\end{flushright}
+  \end{multicols}
+
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Paying member}\end{flushleft}
+    \begin{flushright}Singapore\end{flushright}
+  \end{multicols}
+\end{large}
+
+* Technical meetups organizer/host 
+* Co-host of [papers we love](https://paperswelove.org/chapter/singapore/).
+
+\vspace{5mm}
+
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://hackaday.io/hackerspace/1881-tokyohackerspace}{Tokyo Hackerspace}}\end{flushleft}
+    \begin{flushright}2008 - 2010\end{flushright}
+  \end{multicols}
+
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Paying member}\end{flushleft}
+    \begin{flushright}Tokyo, Japan\end{flushright}
+  \end{multicols}
+\end{large}
+
+* Founding member.
+* Treasurer of the legal entity.
+* Technical meetups organizer/host.
+
+\vspace{5mm}
+
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://ieee.org}{Institute of Electrical and Electronics Engineers (IEEE)}}\end{flushleft}
+    \begin{flushright}2008 - 2014\end{flushright}
+  \end{multicols}
+
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Paying member}\end{flushleft}
+    \begin{flushright}Global society\end{flushright}
+  \end{multicols}
+\end{large}
+
+* Reviewer for IEEE Engineering in Medicine and Biology (2008-2010)
+
+\vspace{5mm}
+
+\begin{large}
+  \begin{multicols}{2}
+  \begin{flushleft}{\bf \href{https://ismrm.org}{International Society for Magnetic Resonance in Medicine}}\end{flushleft}
+    \begin{flushright}1998 - 2010\end{flushright}
+  \end{multicols}
+
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Paying member}\end{flushleft}
+    \begin{flushright}Global society\end{flushright}
+  \end{multicols}
+\end{large}
+
+* Student member, then regular member.
+* Reviewer of conference papers submissions (2005-2010)
+
