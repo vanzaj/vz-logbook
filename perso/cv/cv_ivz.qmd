@@ -26,7 +26,8 @@ format:
 \vspace{5mm}
 
 <!-- CONTACT -->
-\begin{center}\href{mailto:ivan@odd-e.com}{ivan@odd-e.com} | \href{https://odd-e.com/about/ivan.html}{About} | \href{https://www.linkedin.com/in/ivanzimine/}{LinkedIn} | \href{https://scholar.google.com/citations?user=Xq7f6loAAAAJ}{Google Scholar} | \href{https://github.com/vanzaj}{Github} 
+
+\begin{center}\href{https://odd-e.com/about/ivan.html}{About} | \href{mailto:ivan@odd-e.com}{Email} | \href{https://github.com/vanzaj}{Github} | \href{https://scholar.google.com/citations?user=Xq7f6loAAAAJ}{Google Scholar} | \href{https://www.linkedin.com/in/ivanzimine/}{LinkedIn} | \href{tel:97850903}{Tel}
 \end{center}
 
 \vspace{5mm}
@@ -42,17 +43,17 @@ format:
 
   \begin{multicols}{2}
     \begin{flushleft}\textit{Technical (XP) coach, trainer, Scrum Master}\end{flushleft}
-    \begin{flushright}Singapore, onsite/remote\end{flushright}\end
+    \begin{flushright}Singapore\end{flushright}\end
   {multicols}
 \end{large}
 
-* Technical trainer (Certified Scrum Developer, LeSS in Action, 2017 - present)
+* Technical trainer (2017 - present, Certified Scrum Developer, LeSS in Action, hybrid)
 * Technical/Agile coach at Jago/DKatalis (Aug 2022 - Feb 2022, hybrid)
 * Technical/Agile coach at Huawei Turkey R&D center (Aug 2020 - Feb 2022, remote)
-* Developer/Scrum master at Credit Swiss private banking department (Jan - Dec 2019)
-* Lead/facilitated numerous TDD/Refactoring/Product development trainings (2017-present)
+* Conducted regular TDD/Refactoring/Product development trainings (2017-present)
+* Conducted regular 1-3 days basic Scrum courses (2017-present)
+* SW developer/Scrum Master at Credit Swiss private banking section (Jan - Dec 2019)
 * SW developer of the \href{https://less.works}{LeSS website} (2017-2018)
-* Conducted numerous (20+) 1-3 days basic Scrum trappings (2017-present)
 
 \vspace{5mm}
 
@@ -86,9 +87,9 @@ format:
   \end{multicols}
 \end{large}
 
-* \href{https://ondelo.com/}{Ondelo Pte. Ltd.} Network services (high density WiFi, sales, marketing)
-* Teralogy/\href{https://www.youtube.com/watch?v=WmGuQ8JaNto}{Dacets}. Scientific data management ("git" for raw data)
-* PythonIO. Consulting and training (NumPy, SciPy, Django, Flask)
+* \href{https://ondelo.com/}{Ondelo Pte. Ltd.} Network services (high density WiFi for tech conferences and events). Assumed sales and marketing role in addition to doing the technical work.
+* Teralogy/\href{https://www.youtube.com/watch?v=WmGuQ8JaNto}{Dacets}. Scientific data management ("git" for raw data). Raised \textasciitilde 50K Euros from French tech incubator, but had to shutdown the company and return the money due to a conflict among founders.
+* PythonIO. Training and consulting for startups and SMEs (NumPy, SciPy, Django, Flask).
 
 \vspace{5mm}
 
@@ -99,12 +100,14 @@ format:
   \end{multicols}
   \begin{multicols}{2}
     \begin{flushleft}\textit{MRI clinical scientist}\end
-    {flushleft}\begin{flushright}Tokyo, Japan\end
+    {flushleft}\begin{flushright}Japan\end
     {flushright}
   \end{multicols}
 \end{large}
-* Supported research groups in top-tier Universities in Japan to adopt advanced neuro-imaging techniques into clinical practice (ASL, fMRI, DTI). 
-* Developed custom MR image processing \href{https://github.com/vanzaj/mri_idl}{tools} (IDL, Matlab, C/C++)
+
+* Supported research groups in top universities in Japan to adopt advanced neuro-imaging techniques into clinical practice (ASL, fMRI, DTI). 
+* Developed custom MR image processing \href{https://github.com/vanzaj/mri_idl}{tools} (IDL, Matlab, C/C++).
+* Provided editorial support for paper submissions to international conferences and peer reviewed journals.
  
 \vspace{5mm}
 
@@ -122,8 +125,8 @@ format:
 \end{large}
 
 * Worked on advanced neuro-imaging techniques (fMRI, ASL,territorial ASL, quantitative ASL).
-* Mentored NTU/NUS students pursuing bachelor or masters of science in the field of bio-imaging.
-* Served as a reviewer for International Magnetic Resonance in Medicine conference, Magnetic Resonance in Medicine and NeuroImage journals.
+* Developed custom MR image processing \href{https://github.com/vanzaj/mri_idl}{tools} (IDL, Matlab, C/C++).
+* Mentored NTU/NUS students pursuing bachelor or masters of science in the field of biomedical imaging.
 
 \vspace{5mm}
 
@@ -134,15 +137,15 @@ format:
   \end{multicols}
   \begin{multicols}{2}
     \begin{flushleft}\textit{Post-doctoral fellow}\end
-    {flushleft}\begin{flushright}Geneva, Switzerland\end
+    {flushleft}\begin{flushright}Switzerland\end
     {flushright}
   \end{multicols}
 \end{large}
 * Worked on advanced neuro-imaging techniques (fMRI, ASL,territorial ASL, quantitative ASL).
-* Mentored UniGE/EPFL students pursuing bachelor or masters of science in the field of bio-imaging.
-* Served as a reviewer for the International Magnetic Resonance in Medicine conference, Magnetic Resonance in Medicine and NeuroImage journals.
-* SysAdmin of shared research workstations (Linux and Solaris).
-* Built a NAS for managing MRI research data (3TB, RAID0, hot-swapable IDE discs, Red Hat Linux. Saved the department >30K CHF for an equivalent commercial solution).
+* Mentored UniGE/EPFL students pursuing bachelor or masters of science in the field of biomedical imaging.
+* Developed custom MR image processing \href{https://github.com/vanzaj/mri_idl}{tools} (IDL, Matlab, C/C++).
+* System administrator of 5 shared research workstations (Linux and Solaris).
+* Built a NAS for managing MRI research data (3TB, RAID-0, hot-swapable IDE discs, Red Hat Linux. NB: This allowed a saving of \textasciitilde 30K CHF of public money; the cost of an equivalent commercial solution).
 
 \vspace{5mm}
 
@@ -157,12 +160,13 @@ format:
 
   \begin{multicols}{2}
       \begin{flushleft}\textit{Research fellow}\end{flushleft}
-      \begin{flushright}Geneva, Switzerland\end{flushright}
+      \begin{flushright}Switzerland\end{flushright}
   \end{multicols}
 \end{large}
 
 * PhD thesis: Epileptic Focus Localization Using EEG-triggered Functional MRI.
-* Technical support for imaging research projects from the faculty of medicine (experiment design, data acquisition, image analysis. Anatomist/BrainVISA, MEDx, custom IDL).
+* Developed custom MR image processing \href{https://github.com/vanzaj/mri_idl}{tools} (IDL, Matlab, C/C++).
+* Technical support for imaging research projects from the faculty of medicine (experiment design, data acquisition, image analysis. Anatomist/BrainVISA, MEDx, custom IDL development).
 
 \vspace{5mm}
 
@@ -174,11 +178,11 @@ format:
 
   \begin{multicols}{2}
     \begin{flushleft}\textit{MSc, physics}\end{flushleft}
-    \begin{flushright}Geneva, Switzerland\end{flushright}
+    \begin{flushright}Switzerland\end{flushright}
   \end{multicols}
 \end{large}
 
-* Thesis: Motion correction in Functional Magnetic Resonance Imaging.
+* MSc thesis: Motion correction in Functional Magnetic Resonance Imaging.
 
 \vspace{5mm}
 
@@ -190,16 +194,16 @@ format:
 
   \begin{multicols}{2}
     \begin{flushleft}\textit{BSc, physics}\end{flushleft}
-    \begin{flushright}Geneva, Switzerland\end{flushright}
+    \begin{flushright}Switzerland\end{flushright}
   \end{multicols}
 \end{large}
 
-* Thesis: Study of doping effects by Fluorine on Bi(2212) high temperature superconductor, powder and mono-crystals).
+* BSc thesis: Study of doping effects by Fluorine on Bi(2212) high temperature superconductors in powder and mono-crystalline forms.
 
 \vspace{5mm}
 
 <!-- COMUNITY WORK -->
-\begin{large}{\bf Community Work}
+\begin{large}{\bf Professional and technical communities}
 \vspace{2mm} \hrule \vspace{5mm}
 
   \begin{multicols}{2}
@@ -213,9 +217,9 @@ format:
   \end{multicols}
 \end{large}
 
-* Member of the organizing committee for PyCon APAC and SG (2010 - 2017, 2025).
+* Member of the organizing committee for PyCon-APAC and PyCon-Singapore (2010 - 2017, 2025).
 * Assumed the following roles in the society: Secretary (2011-1013), Vice-President (2013-2015), President (2015-2017).
-* Developed and maintained https://pugs.org.sg (2013-2017).
+* Developed and maintained [PUGS website](https://pugs.org.sg) (2013-2017).
 * Organizer/host of [PUGS meetups](https://www.meetup.com/singapore-python-user-group/) (2010-2017).
 
 \vspace{5mm}
@@ -232,8 +236,8 @@ format:
   \end{multicols}
 \end{large}
 
-* Technical meetups organizer/host 
-* Co-host of [papers we love](https://paperswelove.org/chapter/singapore/).
+* Technical meetups organizer/host. 
+* Co-host of [Papers We Love](https://paperswelove.org/chapter/singapore/).
 
 \vspace{5mm}
 
@@ -245,7 +249,7 @@ format:
 
   \begin{multicols}{2}
     \begin{flushleft}\textit{Paying member}\end{flushleft}
-    \begin{flushright}Tokyo, Japan\end{flushright}
+    \begin{flushright}Japan\end{flushright}
   \end{multicols}
 \end{large}
 
@@ -263,7 +267,6 @@ format:
 
   \begin{multicols}{2}
     \begin{flushleft}\textit{Paying member}\end{flushleft}
-    \begin{flushright}Global society\end{flushright}
   \end{multicols}
 \end{large}
 
@@ -273,16 +276,16 @@ format:
 
 \begin{large}
   \begin{multicols}{2}
-  \begin{flushleft}{\bf \href{https://ismrm.org}{International Society for Magnetic Resonance in Medicine}}\end{flushleft}
+  \begin{flushleft}{\bf \href{https://ismrm.org}{International Society for Magnetic Resonance in Medicine (ISMRM)}}\end{flushleft}
     \begin{flushright}1998 - 2010\end{flushright}
   \end{multicols}
 
   \begin{multicols}{2}
     \begin{flushleft}\textit{Paying member}\end{flushleft}
-    \begin{flushright}Global society\end{flushright}
   \end{multicols}
 \end{large}
 
 * Student member, then regular member.
-* Reviewer of conference papers submissions (2005-2010)
+* Reviewer of the ISMRM conference abstracts submissions (2005-2010)
+* Reviewer of the associated Magnetic Resonance in Medicine and Journal of Magnetic Resonance Imaging (2005-2010).
 
