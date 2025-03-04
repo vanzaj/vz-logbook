@@ -2,23 +2,25 @@
 title: Now
 ---
 
-Updated: 9 Nov 2024
+Updated: 4 Mar 2025
 
 This is my [now page](https://nownownow.com/about).
 
 
-## Work
+## Meta analysis of LeSS adoption case studies
 
-### New course: Test driven development for data scientists
+Why? To see if there are common patterns of success and failures among all [published studies](https://less.works/case-studies).
+
+
+## PyConSG 2025
+
+Help organizing [PyConSG 2025](https://pycon.sg). Focus on the program, talks and workshops.
+
+
+## New course: Test driven development for data scientists
 
 Why? Because many folks in data science have not been exposed to agile product development practices.
-The 1st iteration is done (trialed on a small class with 4 people). Feedback is good, but day 2 needs some improvements (API testing, mocking).
-
-### Redesign odd-e.com
-
-1. It is too dark and obviously "designed" without UX expert help.
-2. Not mobile friendly.
-
+The 1st iteration is done (trialed on a small class with 4 people). Feedback is good, but day 2 needs some improvements (API testing, mocking). Add material from Allen Downey books and courses.
 
 ## Establishing weekly routine
 
@@ -29,7 +31,6 @@ The 1st iteration is done (trialed on a small class with 4 people). Feedback is 
 
 ## Learning
 
+1. "OpenAI GPT For Python Developers" by Aymen El Amri
 1. [Full Stack LLM Bootcamp](https://fullstackdeeplearning.com/llm-bootcamp/)
-2. Larman's "Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development" (3ed)
-3. [Introduction to Complexity](https://www.complexityexplorer.org/courses/165-introduction-to-complexity).
-4. Chess by Garry Kasparov on masterclass.com.
+1. Larman's "Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development" (3ed)
