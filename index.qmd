@@ -2,6 +2,7 @@
 title: "vz-logbook"
 ---
 
-This is my attempt at [digital gardening](https://lyz-code.github.io/blue-book/digital_garden/).
-Build using [Quarto](https://quarto.org/).
+This is [my](about.qmd) attempt at [digital gardening](https://lyz-code.github.io/blue-book/digital_garden/). Some people use the term [bliki](https://martinfowler.com/bliki/WhatIsaBliki.html) to describe this kind of information curation.
 
+
+Currently, I am focusing on the [following](now.qmd).
