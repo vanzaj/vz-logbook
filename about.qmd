@@ -2,12 +2,17 @@
 title: "About"
 ---
 
-I call myself a *scingineer* - a programmer, trainer and technical coach (XP, LeSS) working at [Odd-e](https://odd-e.com). In [my previous life](https://www.researchgate.net/profile/Ivan-Zimine), I used to study human brain using MRI (focusing on fMRI and ASL).
+I call myself a *scingineer* - a programmer, trainer and technical coach (XP, LeSS) working at [Odd-e](https://odd-e.com). In  my ["previous life"](https://www.researchgate.net/profile/Ivan-Zimine), I used to study human brain using MRI (focusing on fMRI and ASL).
 
 I write [code](https://github.com/vanzaj), read [books](https://www.librarything.com/catalog/vanzaj), listen to [music](https://open.spotify.com/user/1182446969?si=a4c839ac02704397), juggle, cycle, do some [martial arts](https://en.wikipedia.org/wiki/Baguazhang) and [free dive](https://zenfreediving.org). Topics that get my attention: brain, psychology, complex systems, open science, linguistics, and unconventional business practices. 
 
+## Links
 
-# Time line
+- [LinkedIn](https://www.linkedin.com/in/ivanzimine/)
+- [Google Scholar](https://scholar.google.com/citations?user=Xq7f6loAAAAJ)
+- [CV](assets/cv_ivz.pdf)
+
+## Time line
 
 - **1975:** Born in Tomsk, USSR
 - **1978:** Moved to Dubna, USSR; home to ["Soviet CERN"](https://www.jinr.ru/main-en/)
