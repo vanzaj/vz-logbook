@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Gary Hamel">
+<meta name="dcterms.date" content="2007-09-07">
 
-<title>Windows 10 Dev Env Setup – vz-logbook</title>
+<title>The Future of Management – vz-logbook</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +21,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -136,7 +104,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Coding</li><li class="breadcrumb-item"><a href="../../coding/ops/docker.html">Ops</a></li><li class="breadcrumb-item"><a href="../../coding/ops/win-scoop.html">Windows 10 Dev Env Setup</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notes/books/index.html">Notes</a></li><li class="breadcrumb-item"><a href="../../notes/books/index.html">Books</a></li><li class="breadcrumb-item"><a href="../../notes/books/hamel-the-future-of-management_2007.html">The Future of Management</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -162,22 +130,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
  <span class="menu-text">Coding</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
  <span class="menu-text">Ops</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../coding/ops/docker.html" class="sidebar-item-text sidebar-link">
@@ -204,7 +172,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../coding/ops/win-scoop.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../coding/ops/win-scoop.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Windows 10 Dev Env Setup</span></a>
   </div>
 </li>
@@ -271,22 +239,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
  <span class="menu-text">Notes</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../notes/books/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Books</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../notes/books/coyle-the-culture-code_2018.html" class="sidebar-item-text sidebar-link">
@@ -313,7 +281,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/hamel-the-future-of-management_2007.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/books/hamel-the-future-of-management_2007.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">The Future of Management</span></a>
   </div>
 </li>
@@ -390,30 +358,37 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020" id="toc-install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020" class="nav-link active" data-scroll-target="#install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020">Install latest Microsoft Powershell (v7.0.3 as of 9 November 2020)</a></li>
-  <li><a href="#install-and-configure-scoop" id="toc-install-and-configure-scoop" class="nav-link" data-scroll-target="#install-and-configure-scoop">Install and configure Scoop</a></li>
-  <li><a href="#install-development-tools" id="toc-install-development-tools" class="nav-link" data-scroll-target="#install-development-tools">Install development tools</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Coding</li><li class="breadcrumb-item"><a href="../../coding/ops/docker.html">Ops</a></li><li class="breadcrumb-item"><a href="../../coding/ops/win-scoop.html">Windows 10 Dev Env Setup</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notes/books/index.html">Notes</a></li><li class="breadcrumb-item"><a href="../../notes/books/index.html">Books</a></li><li class="breadcrumb-item"><a href="../../notes/books/hamel-the-future-of-management_2007.html">The Future of Management</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Windows 10 Dev Env Setup</h1>
-</div>
+<h1 class="title">The Future of Management</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">leadership</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Gary Hamel </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 7, 2007</p>
+    </div>
+  </div>
   
     
   </div>
@@ -423,50 +398,42 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020" class="level2">
-<h2 class="anchored" data-anchor-id="install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020">Install latest Microsoft Powershell (v7.0.3 as of 9 November 2020)</h2>
+<p>Management innovation is at least as important as technical innovation.</p>
+<p>Examples:</p>
 <ul>
-<li>Go to <a href="https://github.com/PowerShell/PowerShell/" class="uri">https://github.com/PowerShell/PowerShell/</a></li>
-<li>Click on <code>Latest</code> under Releases</li>
-<li>Search for <code>win-x64.msi</code></li>
+<li>Whole Food - community of purpose</li>
+<li>Gore Tex - innovation democracy</li>
+<li>Google - evolutionary advantage</li>
 </ul>
-</section>
-<section id="install-and-configure-scoop" class="level2">
-<h2 class="anchored" data-anchor-id="install-and-configure-scoop">Install and configure Scoop</h2>
-<p><a href="https://scoop.sh/">Scoop</a> allows installing and managing familiar dev tools on Windows from the command line. It is somewhat similar to <code>homebrew</code> on Mac or <code>apt-get</code> on Ubuntu.</p>
-<p>Setup your region’s web proxy (<a href="https://scoop-docs.now.sh/docs/misc/Using-Scoop-behind-a-proxy.html">more info</a>)</p>
-<p>Type in the PowerShell Terminal:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">[net.webrequest]::defaultwebproxy</span> = new-object net.webproxy <span class="st">"http://proxy.COMPANY.com:8080"</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">[net.webrequest]::defaultwebproxy.credentials</span> = <span class="pp">[</span><span class="ss">net.credentialcache</span><span class="pp">]</span>::defaultcredentials</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Install scoop.sh and git:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">set-executionpolicy</span> unrestricted <span class="at">-s</span> cu</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">iwr</span> <span class="at">-useb</span> get.scoop.sh <span class="kw">|</span> <span class="ex">iex</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install git win32-openssh openssl</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> C:<span class="dt">\P</span>rogramData<span class="dt">\s</span>coop<span class="dt">\a</span>pps<span class="dt">\w</span>in32-openssh<span class="dt">\c</span>urrent<span class="dt">\i</span>nstall-sshd.ps1</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> credential.helper manager</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> http.sslVerify false</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> config proxy <span class="st">'currentuser@proxy.COMPANY.com:8080'</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install busybox cacert delta pshazz sudo</span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> delta.side-by-side true</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="install-development-tools" class="level2">
-<h2 class="anchored" data-anchor-id="install-development-tools">Install development tools</h2>
-<p>Scoop update and basic tools:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> config proxy <span class="st">'currentuser@proxytr.huawei.com:8080'</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> scoop update <span class="pp">*</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install cwRsync dust everything gpg procs sysinternals vcredist2015 vcredist windows-terminal <span class="at">-g</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Add buckets and install java, node, python, postman, svn…:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> bucket add extras versions java jetbrains</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install zulu8 maven gradle</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install IntelliJ-IDEA-Ultimate jetbrains-toolbox</span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install nodejs yarn python</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install concfg nvim vscode curl jq postman silksvn</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Install docker:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> bucket add Ash258 <span class="st">'https://github.com/Ash258/Scoop-Ash258.git'</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install docker</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>New management practices:</p>
+<ul>
+<li>generating options and selecting the best ones (Life, evolution).</li>
+<li>routing of resourses (capital, talent, markets efficiency).</li>
+<li>no feelings (apolitical).</li>
+<li>diversity, open critique (democracy).</li>
+</ul>
+<p>religion: unlike science it tries to provide an answer to “who am i” and “why am i here”.</p>
+<blockquote class="blockquote">
+<p>Most companies have a roughly similar management hierarchy, have analogous control systems, HR practices, planning rituals, and comparable reporting structures and review systems.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>What ultimately constrains the performance of your organization is not its operating model, nor its business model, but its management model.</p>
+</blockquote>
+<p>What is it that managers do?</p>
+<ul>
+<li>Setting and programming objectives</li>
+<li>Motivating and aligning effort</li>
+<li>Coordinating and controling activities</li>
+<li>Developing and assigning talent</li>
+<li>Accumulating and applying knowledge</li>
+<li>Amassing and alocating resources</li>
+<li>Building and nurturing relationships</li>
+<li>Balancing and meeting stakeholder demands</li>
+</ul>
+<p>Operational innovation: improving business processes, procurement, manufacturing, marketing, order fulfilment, customer service</p>
+<p>Managment innovation: improving managment processes, strategic planning, capital budgeting, project management, hiring and promotion, compensation, training, internal communication, knowledge managment.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
