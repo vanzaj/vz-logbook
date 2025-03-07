@@ -2,9 +2,9 @@
 title: "About"
 ---
 
-I call myself a *scingineer* - a programmer, trainer and technical coach (XP, LeSS) working at [Odd-e](https://odd-e.com). In  my ["previous life"](https://www.researchgate.net/profile/Ivan-Zimine), I used to study human brain using MRI (focusing on fMRI and ASL).
+I call myself a *scingineer* - an amalgamation of "scientist" and "engineer". In  my ["previous life"](https://www.researchgate.net/profile/Ivan-Zimine), I used to study human brain using Magnetic Resonance Imaging (with fMRI, ASL, DTI and anatomical imaging). I got tired of "publish or perish" and switched to software development. Now I work as a programmer, trainer and technical coach (XP, LeSS) working at [Odd-e](https://odd-e.com).
 
-I write [code](https://github.com/vanzaj), read [books](https://www.librarything.com/catalog/vanzaj), listen to [music](https://open.spotify.com/user/1182446969?si=a4c839ac02704397), juggle, cycle, do some [martial arts](https://en.wikipedia.org/wiki/Baguazhang) and [free dive](https://zenfreediving.org). Topics that get my attention: brain, psychology, complex systems, open science, linguistics, and unconventional business practices. 
+I write [code](https://github.com/vanzaj), read [books](https://www.librarything.com/catalog/vanzaj), listen to [music](https://open.spotify.com/user/1182446969?si=a4c839ac02704397), juggle, cycle, do some [martial arts](https://en.wikipedia.org/wiki/Baguazhang) and [free dive](https://zenfreediving.org). Topics that get my attention: brain, psychology, learning, education, complex systems, open science, linguistics, and unconventional business practices. 
 
 ## Links
 
@@ -15,23 +15,44 @@ I write [code](https://github.com/vanzaj), read [books](https://www.librarything
 ## Time line
 
 - **1975:** Born in Tomsk, USSR
+
 - **1978:** Moved to Dubna, USSR; home to ["Soviet CERN"](https://www.jinr.ru/main-en/)
+
 - **1986:** Got first computer, [Yamaha MSX](https://en.wikipedia.org/wiki/MSX). Gaming and self-intro to programming in BASIC.
+
 - **1991:** Moved to Geneva, CH (Jan 1991).
+
 - **1993:** Enrolled at the University of Geneva, faculty of Science, [Physics](https://www.unige.ch/sciences/physique/physics-section/section/).
-- **1995:** Part-time work at UniGE as "monitor", assistant to PhD students running physics labs. Wrote 1st non-trivial application to support "electrical components" lab (Windows 3.11, Delphi, C).
+
+- **1995:**  Became interested in "brain" and "complex systems".
+<br />
+Part-time work at UniGE as a "monitor", assistant to PhD students running physics labs. Wrote 1st non-trivial application to support "electrical components" lab (Windows 3.11, Delphi, C).  
+
 - **1996:** Summer job at the [CERN's Library](https://catalogue.library.cern/). Started learning UNIX (Digital and SunOS) and shell scripting (ksh, tcsh) with Emacs. Created an HTML "app" for visual navigation of the library's collection (with Mosaic browser).
+
 - **1997:** Obtained *Licence ès sciences physiques* (BSc). Final research project: "Study of doping effects by Fluorine on Bi(2212) high temperature superconductors in powder and mono-crystalline forms."
-- **1998:** Obtained *Diplôme en physique* (MSc). Thesis: "Motion correction in Functional Magnetic Resonance Imaging". 
-Started learning [IDL](https://en.wikipedia.org/wiki/IDL_(programming_language)), TeX/LaTeX.
-Entered PhD program at the [Group of Applied Physics](https://web.archive.org/web/20031008212325/http://www.unige.ch/gap-b/welcome.html) under Prof. Pierre Descouts and Dr. François Lazeyras from the Dpt. of Radiology at [HUG](https://www.hug.ch/en/radiology).   
-Became SysAdmin of all UNIX research workstations (DEC-Alpha, Sun Ultra). Introduced Linux as a cheaper and viable (able to run specialized software tools) alternative to commercial UNIX workstations.
-- **2003:** Defended *PhD thesis*: "Epileptic Focus Localization Using EEG-triggered Functional MRI". Continued work at the Dpt. of Radiology at HUG as a postdoctoral fellow.
+
+- **1998:** Obtained *Diplôme en physique* (MSc). Thesis: "Motion correction in Functional Magnetic Resonance Imaging".
+<br />
+Started using [IDL](https://en.wikipedia.org/wiki/IDL_(programming_language)) and TeX/LaTeX.
+<br />
+Entered PhD program at the [Group of Applied Physics](https://web.archive.org/web/20031008212325/http://www.unige.ch/gap-b/welcome.html) under Prof. [Pierre Descouts](https://scholargps.com/scholars/29557804716750/pierre-descouts) and Dr. [François Lazeyras](https://scholar.google.com/citations?user=e1sM6ccAAAAJ) from the Dpt. of Radiology at [HUG](https://www.hug.ch/en/radiology).   
+<br />
+Became sysadmin of all UNIX research workstations (DEC-Alpha, Sun Ultra). Introduced Linux as a cheaper and viable (able to run specialized software tools) alternative to commercial UNIX workstations.
+
+- **2003:** Defended *PhD thesis*: "Epileptic Focus Localization Using EEG-triggered Functional MRI". Continued work at the Dpt. of Radiology at HUG as a postdoctoral fellow.  
+<br />
+During my PhD and later, I estimate that 60 to 70% of my time was spent on writing software; IDL for [image processing](https://github.com/vanzaj/mri_idl), C for new MRI pulse sequences, bash/perl/python for scripting. I've also built and administered a 3TB file server to store all our research data (RAID-0 with hot-swapable IDE discs using experimental 3ware controller) saving ~30kCHF of public money.
 
 - **2004:** Moved to Singapore to work at the [National Neuroscience Institute](https://www.nni.com.sg/) as a postdoctoral fellow under Prof. [Xavier Golay](https://scholar.google.com/citations?user=TsqRcDwAAAAJ).
+
 - **2007:** Moved to Tokyo, Japan. Joined Philips Healthcare, MRI clinical science team. Joined Tokyo Linux Users Group. Co-founded Tokyo Hackerspace.
+
 - **2010:** Moved back to Singapore. Quit Philips. 6 months sabbatical. Joined [hackerspace.SG](https://hackerspace.sg) and [Python User Group SG](https://pugs.org.sg/).
+
 - **2011:** Got bitten by "startups bug". Co-founded [Ondelo](https://ondelo.com/) (network services) and Teralogy/dacets (scientific data management, "git/github" for research data).
+
 - **2014:** Joined [Overseas Family School](https://ofs.edu.sg/) as education and technology research analyst.
+
 - **2016:** Joined [Odd-e](https://odd-e.com).
 
