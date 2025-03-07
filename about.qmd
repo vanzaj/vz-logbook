@@ -20,12 +20,15 @@ I write [code](https://github.com/vanzaj), read [books](https://www.librarything
 - **1991:** Moved to Geneva, CH (Jan 1991).
 - **1993:** Enrolled at the University of Geneva, faculty of Science, [Physics](https://www.unige.ch/sciences/physique/physics-section/section/).
 - **1995:** Part-time work at UniGE as "monitor", assistant to PhD students running physics labs. Wrote 1st non-trivial application to support "electrical components" lab (Windows 3.11, Delphi, C).
-- **1996:** Summer job at the [CERN's Library](https://catalogue.library.cern/). Started learning UNIX. Created an HTML "app" for visual navigation  of the library's collection (with Mosaic browser).
+- **1996:** Summer job at the [CERN's Library](https://catalogue.library.cern/). Started learning UNIX (Digital and SunOS) and shell scripting (ksh, tcsh) with Emacs. Created an HTML "app" for visual navigation of the library's collection (with Mosaic browser).
 - **1997:** Obtained *Licence ès sciences physiques* (BSc). Final research project: "Study of doping effects by Fluorine on Bi(2212) high temperature superconductors in powder and mono-crystalline forms."
-- **1998:** Obtained *Diplôme en physique* (MSc). Thesis: "Motion correction in Functional Magnetic Resonance Imaging".  
-Entered PhD program at the [Group of Applied Physics](https://web.archive.org/web/20031008212325/http://www.unige.ch/gap-b/welcome.html) under Prof. Pierre Descouts and Dr. François Lazeyras. 
-- **2003:** Defended *PhD thesis*: "Epileptic Focus Localization Using EEG-triggered Functional MRI".
-- **2004:** Moved to Singapore. Post-doc at the [National Neuroscience Institute](https://www.nni.com.sg/) under Prof. Xavier Golay.
+- **1998:** Obtained *Diplôme en physique* (MSc). Thesis: "Motion correction in Functional Magnetic Resonance Imaging". 
+Started learning [IDL](https://en.wikipedia.org/wiki/IDL_(programming_language)), TeX/LaTeX.
+Entered PhD program at the [Group of Applied Physics](https://web.archive.org/web/20031008212325/http://www.unige.ch/gap-b/welcome.html) under Prof. Pierre Descouts and Dr. François Lazeyras from the Dpt. of Radiology at [HUG](https://www.hug.ch/en/radiology).   
+Became SysAdmin of all UNIX research workstations (DEC-Alpha, Sun Ultra). Introduced Linux as a cheaper and viable (able to run specialized software tools) alternative to commercial UNIX workstations.
+- **2003:** Defended *PhD thesis*: "Epileptic Focus Localization Using EEG-triggered Functional MRI". Continued work at the Dpt. of Radiology at HUG as a postdoctoral fellow.
+
+- **2004:** Moved to Singapore to work at the [National Neuroscience Institute](https://www.nni.com.sg/) as a postdoctoral fellow under Prof. [Xavier Golay](https://scholar.google.com/citations?user=TsqRcDwAAAAJ).
 - **2007:** Moved to Tokyo, Japan. Joined Philips Healthcare, MRI clinical science team. Joined Tokyo Linux Users Group. Co-founded Tokyo Hackerspace.
 - **2010:** Moved back to Singapore. Quit Philips. 6 months sabbatical. Joined [hackerspace.SG](https://hackerspace.sg) and [Python User Group SG](https://pugs.org.sg/).
 - **2011:** Got bitten by "startups bug". Co-founded [Ondelo](https://ondelo.com/) (network services) and Teralogy/dacets (scientific data management, "git/github" for research data).
