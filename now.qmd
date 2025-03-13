@@ -31,6 +31,6 @@ The 1st iteration is done (trialed on a small class with 4 people). Feedback is 
 
 ## Learning
 
-1. "OpenAI GPT For Python Developers" by Aymen El Amri
+1. [OrgTopologies online class](https://www.orgtopologies.com/) for LeSS studies meta-analysis.
 1. [Full Stack LLM Bootcamp](https://fullstackdeeplearning.com/llm-bootcamp/)
 1. Larman's "Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development" (3ed)
