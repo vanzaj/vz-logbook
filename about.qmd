@@ -48,11 +48,15 @@ During my PhD and later, I estimate that 60 to 70% of my time was spent on writi
 
 - **2007:** Moved to Tokyo, Japan. Joined Philips Healthcare, MRI clinical science team. Joined Tokyo Linux Users Group. Co-founded Tokyo Hackerspace.
 
-- **2010:** Moved back to Singapore. Quit Philips. 6 months sabbatical. Joined [hackerspace.SG](https://hackerspace.sg) and [Python User Group SG](https://pugs.org.sg/).
+- **2010:** Moved back to Singapore. Quit Philips. 6 months sabbatical. Joined [hackerspace.sg](https://hackerspace.sg) and [Python User Group SG](https://pugs.org.sg/). Started helping organising [PyCon-APAC/SG](https://pycon.sg).
 
 - **2011:** Got bitten by "startups bug". Co-founded [Ondelo](https://ondelo.com/) (network services) and Teralogy/dacets (scientific data management, "git/github" for research data).
 
 - **2014:** Joined [Overseas Family School](https://ofs.edu.sg/) as education and technology research analyst.
 
-- **2016:** Joined [Odd-e](https://odd-e.com).
+- **2016:** Joined [Odd-e](https://odd-e.com). Started learning technical coaching (TDD/BDD, pair/mob programming, continuous integration,..). Joined the development team working on the [LeSS site](https://less.works).
+
+- **2019:** Full time embedded developer/technical coach/scrum master at Credit Suiss Singapore.
+
+- **2021:** Full time technical coach/scrum master at Huawei R&D center in Europe (remote).
 
