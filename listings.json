@@ -1,12 +1,5 @@
 [
   {
-    "listing": "/writings/index.html",
-    "items": [
-      "/writings/hr-lingo.html",
-      "/writings/org-signalling.html"
-    ]
-  },
-  {
     "listing": "/notes/books/index.html",
     "items": [
       "/notes/books/schneier-a-hackers-mind_2023.html",
@@ -18,7 +11,15 @@
       "/notes/books/coyle-the-culture-code_2018.html",
       "/notes/books/hamel-the-future-of-management_2007.html",
       "/notes/books/singh_trick-or-treatment_2008.html",
+      "/notes/books/walker-why-we-sleep_2017.html",
       "/notes/books/feathers-legacy-code_2004.html"
+    ]
+  },
+  {
+    "listing": "/writings/index.html",
+    "items": [
+      "/writings/hr-lingo.html",
+      "/writings/org-signalling.html"
     ]
   }
 ]
