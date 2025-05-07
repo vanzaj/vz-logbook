@@ -12,11 +12,6 @@ This is my [now page](https://nownownow.com/about).
 Why? To see if there are common patterns of success and failures among all [published studies](https://less.works/case-studies).
 
 
-## PyConSG 2025
-
-Help organizing [PyConSG 2025](https://pycon.sg). Focus on the program, talks and workshops.
-
-
 ## New course: Test driven development for data scientists
 
 Why? Because many folks in data science have not been exposed to agile product development practices.

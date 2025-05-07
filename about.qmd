@@ -56,7 +56,7 @@ During my PhD and later, I estimate that 60 to 70% of my time was spent on writi
 
 - **2016:** Joined [Odd-e](https://odd-e.com). Started learning technical coaching (TDD/BDD, pair/mob programming, continuous integration,..). Joined the development team working on the [LeSS site](https://less.works).
 
-- **2019:** Full time embedded developer/technical coach/scrum master at Credit Suiss Singapore.
+- **2019:** Full time embedded developer/technical coach/scrum master at Credit Suisse Singapore.
 
 - **2021:** Full time technical coach/scrum master at Huawei R&D center in Europe (remote).
 
