@@ -2,19 +2,14 @@
 title: Now
 ---
 
-Updated: 4 Mar 2025
+Updated: 13 Oct 2025
 
 This is my [now page](https://nownownow.com/about).
 
 
-## Meta analysis of LeSS adoption case studies
-
-Why? To see if there are common patterns of success and failures among all [published studies](https://less.works/case-studies).
-
-
 ## New course: Test driven development for data scientists
 
-Why? Because many folks in data science have not been exposed to agile product development practices.
+Why? Because many folks in data science have not been exposed to good product development practices (XP + BDD).
 The 1st iteration is done (trialed on a small class with 4 people). Feedback is good, but day 2 needs some improvements (API testing, mocking). Add material from Allen Downey books and courses.
 
 ## Establishing weekly routine
@@ -26,6 +21,11 @@ The 1st iteration is done (trialed on a small class with 4 people). Feedback is 
 
 ## Learning
 
-1. [OrgTopologies online class](https://www.orgtopologies.com/) for LeSS studies meta-analysis.
+1. [FastAI course 22](https://course.fast.ai/)
 1. [Full Stack LLM Bootcamp](https://fullstackdeeplearning.com/llm-bootcamp/)
-1. Larman's "Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development" (3ed)
+
+
+## Reading
+
+1. Surrounded by Idiots by Thomas Erikson 
+2. Tiny Experiments by Anne-Laure Le Cunff
