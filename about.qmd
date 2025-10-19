@@ -4,7 +4,7 @@ title: "About"
 
 I call myself a *scingineer* - an amalgamation of "scientist" and "engineer". In my ["previous life"](https://www.researchgate.net/profile/Ivan-Zimine), I used to study human brain using Magnetic Resonance Imaging (with fMRI, ASL, DTI and anatomical imaging). I got tired of "publish or perish" and switched to software development. Now I work as a programmer, trainer and technical coach (XP, LeSS) at [Odd-e](https://odd-e.com).
 
-I write [code](https://github.com/vanzaj), read [books](https://www.librarything.com/catalog/vanzaj), listen to [music](https://open.spotify.com/user/1182446969?si=a4c839ac02704397), juggle, cycle, do some [martial arts](https://en.wikipedia.org/wiki/Baguazhang) and [free dive](https://zenfreediving.org). Topics that get my attention: brain, psychology, learning, education, complex systems, open science, linguistics, and unconventional business practices. 
+I write [code](https://github.com/vanzaj), read [books](https://www.librarything.com/catalog/vanzaj), listen to [music](https://open.spotify.com/user/1182446969?si=a4c839ac02704397), juggle, cycle, do some [martial arts](https://en.wikipedia.org/wiki/Baguazhang) and [free dive](https://zenfreediving.org). Topics that get my attention: brain, psychology, learning, education, complex systems, open science, linguistics, and unconventional [organizational](https://www.corporate-rebels.com/) and [business](https://www.humanocracy.com/) practices. 
 
 ## Links
 
@@ -61,4 +61,6 @@ During my PhD and later, I estimate that 60 to 70% of my time was spent on writi
 - **2021-2022:** Technical coach/scrum master at Huawei R&D center in Europe (remote).
 <br />
 LeSS friendly coach at [Jago/DKatalis](https://www.dkatalis.com/) (hybrid).
+- **2025:** Still with Odd-e and not planning to change.
+<br />
 
