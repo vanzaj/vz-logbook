@@ -40,7 +40,7 @@ Entered PhD program at the [Group of Applied Physics](https://web.archive.org/we
 <br />
 Became sysadmin of all UNIX research workstations (DEC-Alpha, Sun Ultra). Introduced Linux as a cheaper and viable (able to run specialized software tools) alternative to commercial UNIX workstations.
 
-- **2003:** Defended *PhD thesis*: "Epileptic Focus Localization Using EEG-triggered Functional MRI". Continued work at the Dpt. of Radiology at HUG as a postdoctoral fellow.  
+- **2003:** Defended *PhD thesis*: "Epileptic Focus Localization Using EEG-triggered Functional MRI". Continued work at the Dpt. of Radiology at HUG as a postdoctoral fellow. ([thesis](assets/iz_th3441.pdf))  
 <br />
 During my PhD and later, I estimate that 60 to 70% of my time was spent on writing software; IDL for [image processing](https://github.com/vanzaj/mri_idl), C for new MRI pulse sequences, bash/perl/python for scripting. I've also built and administered a 3TB file server to store all our research data (RAID-0 with hot-swapable IDE discs using experimental 3ware controller) saving ~30kCHF of public money.
 

@@ -50,6 +50,7 @@ Nanosteps --> Microsteps --> Moves
 Repetition --> Ease --> Chunking (autonomic, subconscious, higher order thinking) --> Confidence --> Courage
 
 Pattern: Item --> Collection (ex function arg)
+
   1. add extra arg `f(x)  --> f(x, xs: List)`.
   2. modifiy calls of `f(x)` in the code base to use new signature.
   3. modify `f(x)` to use `xs` instead of `x`.
