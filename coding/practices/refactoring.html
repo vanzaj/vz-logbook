@@ -475,7 +475,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>by J. B. Rainsberger <a href="https://www.youtube.com/watch?v=Xyv4wUffjiQ">tech excellence talk</a></p>
 <p>Deliberate practice, Learned Helplessness.</p>
 <p>Nanosteps –&gt; Microsteps –&gt; Moves Repetition –&gt; Ease –&gt; Chunking (autonomic, subconscious, higher order thinking) –&gt; Confidence –&gt; Courage</p>
-<p>Pattern: Item –&gt; Collection (ex function arg) 1. add extra arg <code>f(x)  --&gt; f(x, xs: List)</code>. 2. modifiy calls of <code>f(x)</code> in the code base to use new signature. 3. modify <code>f(x)</code> to use <code>xs</code> instead of <code>x</code>. 4. verify that the behaviour of <code>f()</code> is the same. 5. remove <code>x</code> so that we are left with <code>f(xs)</code>.</p>
+<p>Pattern: Item –&gt; Collection (ex function arg)</p>
+<ol type="1">
+<li>add extra arg <code>f(x)  --&gt; f(x, xs: List)</code>.</li>
+<li>modifiy calls of <code>f(x)</code> in the code base to use new signature.</li>
+<li>modify <code>f(x)</code> to use <code>xs</code> instead of <code>x</code>.</li>
+<li>verify that the behaviour of <code>f()</code> is the same.</li>
+<li>remove <code>x</code> so that we are left with <code>f(xs)</code>.</li>
+</ol>
 <p>Start practicing now: 30min refactoring at the end of a day or even week. Throw the changes away.</p>
 <p>Practice is not performance!</p>
 <p>“Cleaning the kitchen as you cook”</p>
