@@ -1,11 +1,33 @@
 ---
 title: Python dev setup
-date: 2024-10-30
+date: 2025-10-28
 ---
 
 # Python development on OSX/Linux
 
+## uv
+
+These days I use `uv`.
+
+```bash
+brew install uv
+cd $proj_dir
+uv init myapp && cd myapp
+uv python list
+uv python install 3.12.11
+uv python pin 3.12.11        # update .python_version
+uv run main.py
+uv add pytest
+uv lock --upgrade-package pytest  # uv lock -U  to update all deps
+uv sync  # to update .venv
+uv export --format requirements-txt > requirements.txt
+
+uv run pip freeze --local
+```
+
 ## pyenv + poetry
+
+(updated: oct 2024)
 
 ```bash
 brew install pipx
