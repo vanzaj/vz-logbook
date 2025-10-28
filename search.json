@@ -88,7 +88,19 @@
     "href": "coding/ops/py-dev-setup.html",
     "title": "Python dev setup",
     "section": "",
-    "text": "brew install pipx\npipx install poetry\ncd $new_project\npyenv local 3.12.7\npoetry init\npoetry env show\npoetry add fastapi uvicorn\npoetry add pytest pytest-cov --group test\n\n\n\npyenv install 3.12.1\npyenv local 3.12.1\npython -m venv venv\n. ./venv/bin/activate\npip install --upgrade pip\npip install fastapi\npip install 'uvicorn[standard]'\npip freeze &gt; requirements.txt",
+    "text": "These days I use uv.\nbrew install uv\ncd $proj_dir\nuv init myapp && cd myapp\nuv python list\nuv python install 3.12.11\nuv python pin 3.12.11        # update .python_version\nuv run main.py\nuv add pytest\nuv lock --upgrade-package pytest  # uv lock -U  to update all deps\nuv sync  # to update .venv\nuv export --format requirements-txt &gt; requirements.txt\n\nuv run pip freeze --local\n\n\n\n(updated: oct 2024)\nbrew install pipx\npipx install poetry\ncd $new_project\npyenv local 3.12.7\npoetry init\npoetry env show\npoetry add fastapi uvicorn\npoetry add pytest pytest-cov --group test\n\n\n\npyenv install 3.12.1\npyenv local 3.12.1\npython -m venv venv\n. ./venv/bin/activate\npip install --upgrade pip\npip install fastapi\npip install 'uvicorn[standard]'\npip freeze &gt; requirements.txt",
+    "crumbs": [
+      "Coding",
+      "Ops",
+      "Python dev setup"
+    ]
+  },
+  {
+    "objectID": "coding/ops/py-dev-setup.html#uv",
+    "href": "coding/ops/py-dev-setup.html#uv",
+    "title": "Python dev setup",
+    "section": "",
+    "text": "These days I use uv.\nbrew install uv\ncd $proj_dir\nuv init myapp && cd myapp\nuv python list\nuv python install 3.12.11\nuv python pin 3.12.11        # update .python_version\nuv run main.py\nuv add pytest\nuv lock --upgrade-package pytest  # uv lock -U  to update all deps\nuv sync  # to update .venv\nuv export --format requirements-txt &gt; requirements.txt\n\nuv run pip freeze --local",
     "crumbs": [
       "Coding",
       "Ops",
@@ -100,7 +112,7 @@
     "href": "coding/ops/py-dev-setup.html#pyenv-poetry",
     "title": "Python dev setup",
     "section": "",
-    "text": "brew install pipx\npipx install poetry\ncd $new_project\npyenv local 3.12.7\npoetry init\npoetry env show\npoetry add fastapi uvicorn\npoetry add pytest pytest-cov --group test",
+    "text": "(updated: oct 2024)\nbrew install pipx\npipx install poetry\ncd $new_project\npyenv local 3.12.7\npoetry init\npoetry env show\npoetry add fastapi uvicorn\npoetry add pytest pytest-cov --group test",
     "crumbs": [
       "Coding",
       "Ops",
