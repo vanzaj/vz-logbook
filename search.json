@@ -148,7 +148,7 @@
     "href": "now.html",
     "title": "Now",
     "section": "",
-    "text": "Updated: 13 Oct 2025\nThis is my now page.",
+    "text": "Updated: 28 Oct 2025\nThis is my now page.",
     "crumbs": [
       "Now"
     ]
@@ -168,7 +168,7 @@
     "href": "now.html#establishing-weekly-routine",
     "title": "Now",
     "section": "Establishing weekly routine",
-    "text": "Establishing weekly routine\n\nWeekly plan using spreadsheet. Monday morning: make a plan for upcoming week. Friday afternoon: review the week.\nStart “self-reflection journal” using We are not really strangers cards (1 hour, 1/week).\nAdd/update my digital garden (1 hour, 1/week)",
+    "text": "Establishing weekly routine\n\nWeekly plan. Monday morning: make a plan for upcoming week. Friday afternoon: review the week.\nStart “self-reflection journal” using We are not really strangers cards (1 hour/week).\nAdd/update my digital garden (1 hour/week).",
     "crumbs": [
       "Now"
     ]
@@ -178,7 +178,7 @@
     "href": "now.html#learning",
     "title": "Now",
     "section": "Learning",
-    "text": "Learning\n\nFastAI course 22\nFull Stack LLM Bootcamp",
+    "text": "Learning\n\nBuild a Large Language Model\nFull Stack LLM Bootcamp",
     "crumbs": [
       "Now"
     ]
@@ -188,7 +188,7 @@
     "href": "now.html#reading",
     "title": "Now",
     "section": "Reading",
-    "text": "Reading\n\nSurrounded by Idiots by Thomas Erikson\nTiny Experiments by Anne-Laure Le Cunff",
+    "text": "Reading\n\nTiny Experiments by Anne-Laure Le Cunff",
     "crumbs": [
       "Now"
     ]
