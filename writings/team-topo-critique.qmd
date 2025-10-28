@@ -1,0 +1,88 @@
+---
+title: Team Topologies
+date: 2025-10-24
+draft: true
+---
+
+_Team Topologies_ by Matthew Skelton and Manuel Pais is a pretty popular book. 4.18 stars from 5374 ratings on [goodread.com](https://www.goodreads.com/book/show/44135420-team-topologies) and similar ranking on Amazon.
+
+I haven't read it, but today I decided to learn a bit more about it using Gemini 2.5 Pro.
+
+----
+
+**Me**: Please give me a summary of Team Topologies: Organizing Business and Technology Teams for Fast Flow Book by Manuel Pais and Matthew Skelton.
+
+----
+
+**Gemini**: Here's a summary of the book *Team Topologies: Organizing Business and Technology Teams for Fast Flow* by Manuel Pais and Matthew Skelton.
+
+The book provides a practical and adaptive model for organizing technology and business teams. Its primary goal is to help organizations achieve a fast flow of software delivery by optimizing team structures to reduce dependencies, improve communication, and, most importantly, manage **team cognitive load**.
+
+#### The Core Problem: Cognitive Load
+
+The central concept of the book is **Team Cognitive Load**. This refers to the total amount of mental effort a team is using at any given time. The authors, drawing on psychologist John Sweller's work, argue that a team, like an individual, has a finite cognitive capacity.
+
+If a team is responsible for too many different things (e.g., multiple complex business domains, intricate infrastructure, testing, operations, and user support), its cognitive load becomes too high. This overload is the main blocker to a fast flow of value, leading to:
+
+  - Slow delivery
+  - Poor-quality work
+  - Team burnout
+  - An inability to innovate
+
+The entire *Team Topologies* model is designed to explicitly limit and manage the cognitive load of each team.
+
+#### The Four Fundamental Team Topologies
+
+The book proposes that instead of functional silos (like "dev," "ops," "QA"), organizations should use only four fundamental types of teams.
+
+1. **Stream-aligned Team**: This is the primary team type. It's a cross-functional team aligned to a single, valuable "stream" of work, such as a product, a service, a user journey, or a specific business capability. They are empowered to build, run, and own their service end-to-end, from idea to production and back. The majority of teams in an organization should be stream-aligned.
+
+2. **Platform Team**: The purpose of a platform team is to enable stream-aligned teams to deliver their work with more autonomy and less effort. They provide internal services and tools (e.g., CI/CD pipelines, monitoring dashboards, self-service infrastructure) as an internal "product." This reduces the cognitive load on stream-aligned teams, as they don't have to be experts in (for example) Kubernetes orchestration.
+
+3. **Enabling Team**: This is a team of specialists (e.g., in security, test automation, or a new technology) who help stream-aligned teams acquire missing capabilities. Their goal is not to do the work for other teams but to "teach them how to fish." They are temporary and move on once the stream-aligned team is self-sufficient in that area.
+
+4. **Complicated-subsystem Team**: This team is only created when a specific part of the system is so complex that it requires deep, specialized knowledge (e.g., a real-time video processing engine, a complex financial-modeling algorithm). This team builds and maintains that one subsystem, hiding its complexity from other teams (usually platform or stream-aligned) who consume it as a service.
+
+#### The Three Team Interaction Modes
+
+The book also defines three specific ways these teams should interact. Using these explicit modes makes communication and dependencies clear, avoiding messy, undefined "coordination."
+
+1. **Collaboration**: Two teams work closely together for a defined, temporary period. This mode is used for rapid discovery and innovation, such as when a stream-aligned team and a platform team are figuring out a new API. It is high-bandwidth but creates a high cognitive load, so it should be used sparingly and with a clear goal.
+
+2. **X-as-a-Service**: This is the most common and desirable mode. One team consumes a service, tool, or API from another (like a platform team) with minimal interaction. This mode works best when the service is reliable, well-documented, and easy to use, as it minimizes the cognitive load on the consuming team.
+
+3. **Facilitating**: One team (usually an enabling team) helps and mentors another team to clear an obstacle or learn a new skill. The goal is to grow the capabilities of the team being facilitated. This is a temporary interaction.
+
+#### Key Principles and Goals
+
+- **Fast Flow**: The ultimate goal is to optimize the organization for a fast, smooth flow of change into production. The topologies and interaction modes are all in service of this goal.
+
+- **Reverse Conway's Law**: The book heavily references [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law), which states that organizations design systems that mirror their own communication structures. *Team Topologies* advises organizations to use this as a tool: "First, design the organization you want, and the system architecture will follow." By creating small, autonomous, stream-aligned teams, you are intentionally designing your organization to produce a loosely coupled, modular software architecture.
+
+- **Team-First Approach**: The team is the fundamental unit of delivery. The model emphasizes creating long-lived, stable teams and giving them the autonomy and cognitive space to own their work and "build the right thing" and "build the thing right."
+
+----
+
+**Me**: How is 'team cognitive load' defined in the book?
+
+----
+
+**Gemini**:
+
+In Team Topologies, 'team cognitive load' is defined as the total **mental effort and capacity** being used by a team at any given time to get their work done.
+
+The authors, Manuel Pais and Matthew Skelton, adapt this concept from psychologist John Sweller's Cognitive Load Theory. They argue that a team, just like an individual, has a finite mental capacity. If a team is responsible for too much, their performance plummets.
+
+The book breaks this load down into three specific types:
+
+- **Intrinsic Cognitive Load**: The "good" or necessary complexity related to the team's core domain. For example, the effort required to understand the specific business rules of a payment processing system.
+
+- **Extraneous Cognitive Load**: The "bad" or wasteful complexity. This is the mental effort spent on non-value-adding tasks, such as fighting with deployment tools, navigating complex environments, or trying to understand another team's confusing API.
+
+- **Germane Cognitive Load**: The "value-adding" complexity. This is the effort dedicated to learning, improving, and innovating within the core domain, such as discovering better ways to solve a business problem or improving the system's architecture.
+
+The central goal of the Team Topologies model is to **minimize extraneous cognitive load** (by using things like Platform teams) and keep the intrinsic load manageable. This frees up the team's mental capacity for the **germane load**, which is where true innovation and "fast flow" happen.
+
+(end of conversation)
+
+----
