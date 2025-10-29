@@ -2,7 +2,7 @@
 title: Now
 ---
 
-Updated: 28 Oct 2025
+Updated: 29 Oct 2025
 
 This is my [now page](https://nownownow.com/about).
 
@@ -15,8 +15,9 @@ The 1st iteration is done (trialed on a small class with 4 people). Feedback is 
 ## Establishing weekly routine
 
 1. Weekly plan. Monday morning: make a plan for upcoming week. Friday afternoon: review the week.
-2. Start "self-reflection journal" using [We are not really strangers](https://www.werenotreallystrangers.com/collections/games/products/self-reflection-kit) cards (1 hour/week).
-3. Add/update my [digital garden](https://vanzaj.github.io/vz-logbook/) (1 hour/week).
+1. Daily morning mental exercises for 30min. Learn a new language, flashcard, brilliant.org, ...
+1. Start "self-reflection journal" using [We are not really strangers](https://www.werenotreallystrangers.com/collections/games/products/self-reflection-kit) cards (1 hour/week).
+1. Add/update my [digital garden](https://vanzaj.github.io/vz-logbook/) (1 hour/week).
 
 
 ## Learning
