@@ -1,0 +1,17 @@
+---
+title: "Resources on cognitive load"
+author: Ivan Zimine
+date: 2022-10-25
+---
+
+
+A friend asked me if I had any reading resources on cognitive load. Here are some:
+
+Entry points:
+
+- [On Ness Labs](https://nesslabs.com/productive-cognitive-load).
+- [on Less Wrong](https://www.lesswrong.com/posts/phSk7LNnChpv6RqWe/cognitive-load-and-effective-donation)
+  (when you see something like "(Bednar et al. 2012) show that when playing two games simultaneously", the name and year in the brackets is a citation reference. You can try to search on [Google scholar](https://scholar.google.com/) with that name and year and a few keywords from the paragraph that talks about a specific topic).
+- [Book recommendation](https://www.learningandthebrain.com/blog/the-best-book-on-cognitive-load-theory-ollie-lovell-to-the-rescue/) (which I haven't read yet :) )
+- [Actual science](https://scholar.google.com/scholar?hl=en&q=cognitive+load)
+  When choosing which article to read, pay attention to "Cited by N". More citations == more endorsements == higher quality)
