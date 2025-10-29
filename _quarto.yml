@@ -21,4 +21,8 @@ format:
     theme: yeti
     css: styles.css
     toc: true
+    includes:
+      body-footer: |
+        <script data-goatcounter="https://vanzaj.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
 
