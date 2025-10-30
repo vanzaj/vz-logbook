@@ -3,3 +3,6 @@ publish:
 
 preview:
 	quarto preview
+
+spell:
+	bash ./spellcheck.sh
