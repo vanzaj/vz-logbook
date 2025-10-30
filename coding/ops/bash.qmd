@@ -1,0 +1,44 @@
+---
+title: Bash
+date: 2024-10-10
+---
+
+## Unit testing
+
+One option is to use [Bach](https://bach.sh/) by the amazing [Chai Feng](https://github.com/chaifeng).
+
+## Safer scripts
+
+```bash
+#!/usr/bin/env bash
+
+set -euxo pipefail
+```
+
+- '-e' exit immediately on command fail
+- '-u' treat unset variables as an error and exit immediately
+
+- '-x' print each command before executing it
+- '-o pipefail' sets the exit code of a pipeline to that of the rightmost command to exit with a non-zero status.
+
+see: [safer bash scripts](https://vaneyckt.io/posts/safer_bash_scripts_with_set_euxo_pipefail/)
+
+Also, always quote all variables.
+
+
+## List uniq file extensions in a dir
+
+```bash
+for f in *; do echo ${f##*.}; done | sort | uniq`
+```
+
+## Heredoc
+
+```bash
+$ cat << END | wc -l
+one
+two
+three
+END
+3
+```

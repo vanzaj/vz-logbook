@@ -7,7 +7,7 @@ date: 2025-10-28
 
 ## uv
 
-These days I use `uv`.
+These days (2025) I use `uv`.
 
 ```bash
 brew install uv
