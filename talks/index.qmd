@@ -4,4 +4,4 @@ title: Talks
 
 ### [My Talks and tutorials](./mine.html)
 
-Slides, github repos, and video recordings of talks at various conferences from 2013 to present.
+Slides, GitHub repos, and video recordings of talks at various conferences from 2011 to present. Before that my talks where mostly about boring fMRI, ASL, and MRI image processing; mostly presented at [ISMRM](https://www.ismrm.org/) and related conferences.
