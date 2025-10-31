@@ -49,32 +49,36 @@
     <lastmod>2024-02-14T15:45:07.477Z</lastmod>
   </url>
   <url>
-    <loc>https://vanzaj.github.io/vz-logbook/index.html</loc>
-    <lastmod>2025-10-13T07:17:14.523Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vanzaj.github.io/vz-logbook/talks/mine.html</loc>
-    <lastmod>2025-10-30T04:21:43.156Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vanzaj.github.io/vz-logbook/writings/hr-lingo.html</loc>
-    <lastmod>2024-02-13T07:46:11.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vanzaj.github.io/vz-logbook/writings/index.html</loc>
-    <lastmod>2024-02-13T08:49:10.249Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vanzaj.github.io/vz-logbook/writings/org-signalling.html</loc>
-    <lastmod>2024-02-13T08:53:23.773Z</lastmod>
+    <loc>https://vanzaj.github.io/vz-logbook/about.html</loc>
+    <lastmod>2025-10-30T07:10:46.113Z</lastmod>
   </url>
   <url>
     <loc>https://vanzaj.github.io/vz-logbook/talks/index.html</loc>
     <lastmod>2025-10-30T04:20:36.356Z</lastmod>
   </url>
   <url>
-    <loc>https://vanzaj.github.io/vz-logbook/about.html</loc>
-    <lastmod>2025-10-30T07:10:46.113Z</lastmod>
+    <loc>https://vanzaj.github.io/vz-logbook/writings/org-signalling.html</loc>
+    <lastmod>2024-02-13T08:53:23.773Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vanzaj.github.io/vz-logbook/writings/index.html</loc>
+    <lastmod>2024-02-13T08:49:10.249Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vanzaj.github.io/vz-logbook/writings/hr-lingo.html</loc>
+    <lastmod>2024-02-13T07:46:11.731Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vanzaj.github.io/vz-logbook/talks/mine.html</loc>
+    <lastmod>2025-10-30T04:21:43.156Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vanzaj.github.io/vz-logbook/index.html</loc>
+    <lastmod>2025-10-13T07:17:14.523Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vanzaj.github.io/vz-logbook/notes/bots/bionic_reading.html</loc>
+    <lastmod>2025-10-31T04:51:09.211Z</lastmod>
   </url>
   <url>
     <loc>https://vanzaj.github.io/vz-logbook/notes/books/schneier-a-hackers-mind_2023.html</loc>
