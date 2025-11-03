@@ -10,6 +10,7 @@ date: 2024-05-22
 1. [Software Development for Data Scientists](https://uwseds.github.io/syllabus.html) (University of Washington)
 1. [Software Carpentry](https://software-carpentry.org/lessons/)
 1. [Research Software Engineering with Python](https://alan-turing-institute.github.io/rse-course/html/index.html)
+1. [Introduction to hacking](https://introtohacking.github.io/) (Princeton, Charlie Marsh)
 
 
 ## Staff nobody teaches
