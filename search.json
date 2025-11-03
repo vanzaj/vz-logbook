@@ -1050,7 +1050,7 @@
     "href": "notes/teaching/programming-scientists.html",
     "title": "Teaching programming to science students",
     "section": "",
-    "text": "The Missing Semester of Your CS Education (MIT, shell, vim, git)\nSoftware Development for Data Scientists (University of Washington)\nSoftware Carpentry\nResearch Software Engineering with Python",
+    "text": "The Missing Semester of Your CS Education (MIT, shell, vim, git)\nSoftware Development for Data Scientists (University of Washington)\nSoftware Carpentry\nResearch Software Engineering with Python\nIntroduction to hacking (Princeton, Charlie Marsh)",
     "crumbs": [
       "Notes",
       "Teaching",
@@ -1062,7 +1062,7 @@
     "href": "notes/teaching/programming-scientists.html#basics",
     "title": "Teaching programming to science students",
     "section": "",
-    "text": "The Missing Semester of Your CS Education (MIT, shell, vim, git)\nSoftware Development for Data Scientists (University of Washington)\nSoftware Carpentry\nResearch Software Engineering with Python",
+    "text": "The Missing Semester of Your CS Education (MIT, shell, vim, git)\nSoftware Development for Data Scientists (University of Washington)\nSoftware Carpentry\nResearch Software Engineering with Python\nIntroduction to hacking (Princeton, Charlie Marsh)",
     "crumbs": [
       "Notes",
       "Teaching",
