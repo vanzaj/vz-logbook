@@ -1,0 +1,14 @@
+---
+title: On rivets and touching grass
+date: 2025-11-03
+draft: true
+---
+
+A couple of weeks ago I've learned about "touch grass", a GenZ's phrase to convey the message that it is good to disconnect from the digital world and to engage with the real world, especially reconnecting with nature. I've asked a few people of my generation, and none of them have heard the phrase. We are too old and not spending much time on Reddit, Instagram, TikTok et al. I guess we were "touch grass" all the time because we grew up without computers and mobile phones.
+
+Then, today I had lunch with someone who was very active in the Makers/FabLab communities in Singapore, while I was spending my time at the [Hackerspace.SG](https://hackerspace.sg/) in 2010-2014 and [Tokyo Hackerspace](https://www.tokyohackerspace.jp/) before that. What differenciates these tech communities from others like local Linux/BSD users groups or Java/PHP users groups is the desire to work/hack on physical projects (3D printing, ham radio, wearable electronics, open source phones) rather than pure software arifacts.
+
+Our discussion drifted into what kids learn in schools and unis today. Practical skills vs pure academics. Who goes to [NUS](https://nus.edu.sg/) or [NTU](https://www.ntu.edu.sg/), and who goes to [SIT](https://www.singaporetech.edu.sg/) and polytechs. There is a 35% cap on the former and the rest *MUST* do the later. System/society "design" decision from 1980th. I didn't know how bad it was in a country that positions itself as "outcomes oriented".
+
+I grew up in the USSR in 1970s-80s in a "normal" family, same appartment, same school, same lifestyle as all my peers. Despite the fact that my dad worked at USSR's equivalent of [CERN](https://home.cern/) (which, of course, I had no idea about). My grand-parents were quite traditional.
+
