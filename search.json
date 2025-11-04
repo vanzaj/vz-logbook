@@ -1,5 +1,41 @@
 [
   {
+    "objectID": "coding/practices/katas_for_ds.html",
+    "href": "coding/practices/katas_for_ds.html",
+    "title": "TDD katas for Data Scientists",
+    "section": "",
+    "text": "Whenever I talk about TDD to data science and data engineering folks they say either 1) TDD is not working for algorithmic work, or 2) I’ve tried FizzBuzz and it is not fun. I can understand. Most katas in places like kata-log are more CS/SW dev oriented.\nSo, I’ve dicided to come up with some katas that might be more intersting for DS folks. Here they are.",
+    "crumbs": [
+      "Coding",
+      "Practices",
+      "TDD katas for Data Scientists"
+    ]
+  },
+  {
+    "objectID": "coding/practices/katas_for_ds.html#modplus-algo",
+    "href": "coding/practices/katas_for_ds.html#modplus-algo",
+    "title": "TDD katas for Data Scientists",
+    "section": "ModPlus (algo)",
+    "text": "ModPlus (algo)\nModPlus is a simple hashing algorithm. It takes in a positive integer X and returns a combinatorial sum of a binary representation of X after it is split into chunks of given length.\nFor example, modplus(12, chunk_length=3) should return 6.",
+    "crumbs": [
+      "Coding",
+      "Practices",
+      "TDD katas for Data Scientists"
+    ]
+  },
+  {
+    "objectID": "coding/practices/katas_for_ds.html#d-vector-design",
+    "href": "coding/practices/katas_for_ds.html#d-vector-design",
+    "title": "TDD katas for Data Scientists",
+    "section": "2D vector (design)",
+    "text": "2D vector (design)\nImagine you are working for Khan Academy (KA). KA wants to modernize their basic math classes, especially the display. Implement a cartesian 2D Vector class, that supports scalar multiplication, addition with another Vector and norm (magnitude) (see vector).",
+    "crumbs": [
+      "Coding",
+      "Practices",
+      "TDD katas for Data Scientists"
+    ]
+  },
+  {
     "objectID": "coding/practices/refactoring.html",
     "href": "coding/practices/refactoring.html",
     "title": "Refactoring",
@@ -410,16 +446,6 @@
     ]
   },
   {
-    "objectID": "writings/index.html",
-    "href": "writings/index.html",
-    "title": "Writings",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nAuthor\n\n\n\n\n\n\n\n\nSep 24, 2020\n\n\nHR lingo\n\n\n \n\n\n\n\n\n\nJul 29, 2020\n\n\nOrg signalling\n\n\n \n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Writings"
-    ]
-  },
-  {
     "objectID": "writings/hr-lingo.html",
     "href": "writings/hr-lingo.html",
     "title": "HR lingo",
@@ -428,6 +454,16 @@
     "crumbs": [
       "Writings",
       "HR lingo"
+    ]
+  },
+  {
+    "objectID": "writings/index.html",
+    "href": "writings/index.html",
+    "title": "Writings",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nAuthor\n\n\n\n\n\n\n\n\nSep 24, 2020\n\n\nHR lingo\n\n\n \n\n\n\n\n\n\nJul 29, 2020\n\n\nOrg signalling\n\n\n \n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Writings"
     ]
   },
   {

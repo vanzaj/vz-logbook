@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://vanzaj.github.io/vz-logbook/coding/practices/katas_for_ds.html</loc>
+    <lastmod>2025-11-04T12:08:44.248Z</lastmod>
+  </url>
+  <url>
     <loc>https://vanzaj.github.io/vz-logbook/coding/practices/refactoring.html</loc>
     <lastmod>2025-10-23T16:06:28.110Z</lastmod>
   </url>
@@ -61,12 +65,12 @@
     <lastmod>2024-02-13T08:53:23.773Z</lastmod>
   </url>
   <url>
-    <loc>https://vanzaj.github.io/vz-logbook/writings/index.html</loc>
-    <lastmod>2024-02-13T08:49:10.249Z</lastmod>
-  </url>
-  <url>
     <loc>https://vanzaj.github.io/vz-logbook/writings/hr-lingo.html</loc>
     <lastmod>2024-02-13T07:46:11.731Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vanzaj.github.io/vz-logbook/writings/index.html</loc>
+    <lastmod>2024-02-13T08:49:10.249Z</lastmod>
   </url>
   <url>
     <loc>https://vanzaj.github.io/vz-logbook/talks/mine.html</loc>
