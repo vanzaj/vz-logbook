@@ -8,15 +8,20 @@ Whenever I talk about TDD to data science and data engineering folks they say ei
 So, I've dicided to come up with some katas that might be more intersting for DS folks. Here they are.
 
 
-## ModPlus (algo)
+## ModPlus
 
 ModPlus is a simple hashing algorithm. It takes in a positive integer X and returns a combinatorial sum of a binary representation of X after it is split into chunks of given length.
 
 For example, `modplus(12, chunk_length=3)` should return 6.
 
+Variation: ModPlusDot. Instead of combinatorial sum, use a combination of binary AND and OR when combining chunks.
 
-## 2D vector (design)
+(Simple enough for an algorithmic problem. Skills to practice: splitting the problems into smaller problems, naming things, simplify by extraction, refactoring while in green, make it work first).
+
+
+## 2D vector
 
 Imagine you are working for Khan Academy (KA). KA wants to modernize their basic math classes, especially the display.
-Implement a cartesian 2D `Vector` class, that supports scalar multiplication, addition with another `Vector` and norm (magnitude) (see [vector](https://mathworld.wolfram.com/Vector.html)).
+Implement a cartesian 2D `Vector` class, that supports scalar multiplication, addition with another `Vector`, norm (magnitude) and dot product between 2 vectors(see [vector](https://mathworld.wolfram.com/Vector.html)).
 
+(This is more of a design kata, but still requires to implement a couple of formulas).

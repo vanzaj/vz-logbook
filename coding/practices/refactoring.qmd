@@ -1,5 +1,6 @@
 ---
 title: Refactoring
+date: 2024-11-05
 ---
 
 ## Notes from Industrial Logic course
@@ -61,6 +62,5 @@ Start practicing now: 30min refactoring at the end of a day or even week. Throw 
 
 Practice is not performance!
 
-"Cleaning the kitchen as you cook"
-
+"Cleaning the kitchen as you cook".
 

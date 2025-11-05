@@ -1,0 +1,25 @@
+---
+title: SW engineering practices
+date: 2025-11-05
+draft: true
+---
+
+## Pair and mob programming
+
+## Test Driven Development
+
+## Behavior Driven Development
+
+## Continous Integration
+
+## Continous Delivery
+
+## Modeling
+
+## Trunk based development
+
+## Documentation
+
+## Code quality metrics
+
+## Splitting
