@@ -23,3 +23,7 @@ draft: true
 ## Code quality metrics
 
 ## Splitting
+
+## Design
+
+https://martinfowler.com/bliki/BeckDesignRules.html
