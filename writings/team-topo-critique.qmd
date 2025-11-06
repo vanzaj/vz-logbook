@@ -86,3 +86,7 @@ The central goal of the Team Topologies model is to **minimize extraneous cognit
 (end of conversation)
 
 ----
+
+So, "team topologies" are basically advocating for *component teams*, teams that are narrowly specialized in either business (value-streams) or technology domains, and effort must be made to ensure they are as independent as possible, as few dependencies as possible; i.e team work in isolation. So, they recognize the value of cross-functionality within the team, but reject the same idea for several teams working in the same product area. 
+
+
