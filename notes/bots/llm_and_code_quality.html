@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Daniel Coyle">
-<meta name="dcterms.date" content="2018-01-30">
+<meta name="dcterms.date" content="2025-09-15">
 
-<title>The Culture Code – vz-logbook</title>
+<title>LLM and code quality – vz-logbook</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -108,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Notes</li><li class="breadcrumb-item"><a href="../../notes/books/index.html">Books</a></li><li class="breadcrumb-item"><a href="../../notes/books/coyle-the-culture-code_2018.html">The Culture Code</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Notes</li><li class="breadcrumb-item"><a href="../../notes/bots/bionic_reading.html">Bots</a></li><li class="breadcrumb-item"><a href="../../notes/bots/llm_and_code_quality.html">LLM and code quality</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -268,13 +267,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
  <span class="menu-text">Bots</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../notes/bots/bionic_reading.html" class="sidebar-item-text sidebar-link">
@@ -289,7 +288,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/bots/llm_and_code_quality.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/bots/llm_and_code_quality.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">LLM and code quality</span></a>
   </div>
 </li>
@@ -299,14 +298,14 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../notes/books/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Books</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/coyle-the-culture-code_2018.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../notes/books/coyle-the-culture-code_2018.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">The Culture Code</span></a>
   </div>
 </li>
@@ -424,61 +423,31 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#part-1-build-safety" id="toc-part-1-build-safety" class="nav-link active" data-scroll-target="#part-1-build-safety">Part 1: Build Safety</a>
-  <ul class="collapse">
-  <li><a href="#ch.-1-the-good-apples" id="toc-ch.-1-the-good-apples" class="nav-link" data-scroll-target="#ch.-1-the-good-apples">Ch. 1: The good apples</a></li>
-  <li><a href="#ch-2-the-billion-dollar-day-when-nothing-happened" id="toc-ch-2-the-billion-dollar-day-when-nothing-happened" class="nav-link" data-scroll-target="#ch-2-the-billion-dollar-day-when-nothing-happened">Ch 2: The Billion-Dollar Day When Nothing Happened</a></li>
-  <li><a href="#ch-3-the-christmas-truce-the-one-hour-experiment-and-the-missileers" id="toc-ch-3-the-christmas-truce-the-one-hour-experiment-and-the-missileers" class="nav-link" data-scroll-target="#ch-3-the-christmas-truce-the-one-hour-experiment-and-the-missileers">Ch 3: The Christmas Truce, the One-Hour Experiment and the Missileers</a></li>
-  <li><a href="#ch-4-how-to-build-belonging" id="toc-ch-4-how-to-build-belonging" class="nav-link" data-scroll-target="#ch-4-how-to-build-belonging">Ch 4: How to build Belonging</a></li>
-  <li><a href="#ch-5-how-to-design-for-belonging" id="toc-ch-5-how-to-design-for-belonging" class="nav-link" data-scroll-target="#ch-5-how-to-design-for-belonging">Ch 5: How to Design for Belonging</a></li>
-  <li><a href="#ch-6-ideas-for-action" id="toc-ch-6-ideas-for-action" class="nav-link" data-scroll-target="#ch-6-ideas-for-action">Ch 6: Ideas for Action</a></li>
-  </ul></li>
-  <li><a href="#part-2-share-vulnerability" id="toc-part-2-share-vulnerability" class="nav-link" data-scroll-target="#part-2-share-vulnerability">Part 2: Share vulnerability</a>
-  <ul class="collapse">
-  <li><a href="#ch-7-tell-me-what-you-want.-i-will-help." id="toc-ch-7-tell-me-what-you-want.-i-will-help." class="nav-link" data-scroll-target="#ch-7-tell-me-what-you-want.-i-will-help.">Ch 7: Tell me what you want. I will help.</a></li>
-  <li><a href="#ch-8-the-vulnerability-loop" id="toc-ch-8-the-vulnerability-loop" class="nav-link" data-scroll-target="#ch-8-the-vulnerability-loop">Ch 8: The vulnerability loop</a></li>
-  <li><a href="#ch-9-the-super-cooperators" id="toc-ch-9-the-super-cooperators" class="nav-link" data-scroll-target="#ch-9-the-super-cooperators">Ch 9: The Super-Cooperators</a></li>
-  <li><a href="#ch-10-cooperation-in-small-groups" id="toc-ch-10-cooperation-in-small-groups" class="nav-link" data-scroll-target="#ch-10-cooperation-in-small-groups">Ch 10: Cooperation in small groups</a></li>
-  <li><a href="#ch-11-cooperation-with-individuals" id="toc-ch-11-cooperation-with-individuals" class="nav-link" data-scroll-target="#ch-11-cooperation-with-individuals">Ch 11: Cooperation with Individuals</a></li>
-  <li><a href="#ch-12-ideas-for-action" id="toc-ch-12-ideas-for-action" class="nav-link" data-scroll-target="#ch-12-ideas-for-action">Ch 12: Ideas for action</a></li>
-  </ul></li>
-  <li><a href="#part-3-establish-purpose" id="toc-part-3-establish-purpose" class="nav-link" data-scroll-target="#part-3-establish-purpose">Part 3: Establish purpose</a>
-  <ul class="collapse">
-  <li><a href="#ch-13-three-hundred-and-eleven-words" id="toc-ch-13-three-hundred-and-eleven-words" class="nav-link" data-scroll-target="#ch-13-three-hundred-and-eleven-words">Ch 13: Three Hundred and Eleven Words</a></li>
-  <li><a href="#ch-14-taming-the-hooligans" id="toc-ch-14-taming-the-hooligans" class="nav-link" data-scroll-target="#ch-14-taming-the-hooligans">Ch 14: Taming the Hooligans</a></li>
-  <li><a href="#ch-15-how-to-lead-for-proficiency" id="toc-ch-15-how-to-lead-for-proficiency" class="nav-link" data-scroll-target="#ch-15-how-to-lead-for-proficiency">Ch 15: How to Lead for Proficiency</a></li>
-  </ul></li>
+  <li><a href="#what-quality-means-in-software" id="toc-what-quality-means-in-software" class="nav-link active" data-scroll-target="#what-quality-means-in-software">What “quality” means in software</a></li>
+  <li><a href="#positive-influences-of-llms-on-code-quality" id="toc-positive-influences-of-llms-on-code-quality" class="nav-link" data-scroll-target="#positive-influences-of-llms-on-code-quality">Positive influences of LLMs on code quality</a></li>
+  <li><a href="#risks-limitations-and-negative-impacts" id="toc-risks-limitations-and-negative-impacts" class="nav-link" data-scroll-target="#risks-limitations-and-negative-impacts">Risks, limitations, and negative impacts</a></li>
+  <li><a href="#overall-tradeoffs-conditions-for-success" id="toc-overall-tradeoffs-conditions-for-success" class="nav-link" data-scroll-target="#overall-tradeoffs-conditions-for-success">Overall tradeoffs &amp; conditions for success</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Notes</li><li class="breadcrumb-item"><a href="../../notes/books/index.html">Books</a></li><li class="breadcrumb-item"><a href="../../notes/books/coyle-the-culture-code_2018.html">The Culture Code</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Notes</li><li class="breadcrumb-item"><a href="../../notes/bots/bionic_reading.html">Bots</a></li><li class="breadcrumb-item"><a href="../../notes/bots/llm_and_code_quality.html">LLM and code quality</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">The Culture Code</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">psychology</div>
-    <div class="quarto-category">culture</div>
-    <div class="quarto-category">leadership</div>
-  </div>
-  </div>
+<h1 class="title">LLM and code quality</h1>
+</div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Daniel Coyle </p>
-          </div>
-  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 30, 2018</p>
+      <p class="date">September 15, 2025</p>
     </div>
   </div>
   
@@ -490,149 +459,175 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="part-1-build-safety" class="level1">
-<h1>Part 1: Build Safety</h1>
-<section id="ch.-1-the-good-apples" class="level2">
-<h2 class="anchored" data-anchor-id="ch.-1-the-good-apples">Ch. 1: The good apples</h2>
-<p>Safety. Will Felps, Uni of South Wales. Organizational behavior. Negative archetypes (jerk, slacker, downer) Impact of “bad apples” (by a good actor) leads to 30-40% of group performance drop. Can be neutralized by a “good apple” who knows how to diffuse a situation with subtle behaviors (get closer, smile, listen, be curious, alert, inclusive).</p>
-<p>Highly successful groups are familial (“family”, “friends”), special chemistry. We can feel it and want to be part of it.</p>
-<p>Human signaling. Alex Pentland, MIT Human Dynamics Lab. Sociometer (proximity, voice). Belonging cues. Much older than language. Answer the question: Are we safe together? Close proximity, eye contact, physical touch, lots of short energetic exchanges, high level of mixing, few interruptions, lots of questions, active listening, humor, small attentive gestures (thank you). What are we looking for: energy, individualization, future orientation.</p>
-<p>Amy Edmondson. Psychological Safety.</p>
-<p>(even people who study safety take time to realize they might need to work on their behavior to increase safety around them)</p>
+<p>Q to ChatGPT5: How does the use of LLM for coding influence quality?</p>
+<hr>
+<p>Here’s a structured breakdown of how using large language models (LLMs) for coding can influence code quality – both beneficial effects and risks – based on recent studies and empirical evidence.</p>
+<section id="what-quality-means-in-software" class="level3">
+<h3 class="anchored" data-anchor-id="what-quality-means-in-software">What “quality” means in software</h3>
+<p>Before diving in, it’s helpful to clarify what we mean by <em>code quality</em>. Common (but not exhaustive) dimensions include:</p>
+<ul>
+<li>Functional correctness (the code does what it’s supposed to do)</li>
+<li>Readability / maintainability (clear structure, naming, documentation)</li>
+<li>Reliability / robustness (handles edge cases, errors, unexpected inputs)</li>
+<li>Performance / efficiency (reasonable resource use)</li>
+<li>Security / absence of vulnerabilities</li>
+<li>Adherence to architectural and style constraints / consistency</li>
+</ul>
+<p>An LLM-based coding assist can affect each of these in different ways.</p>
 </section>
-<section id="ch-2-the-billion-dollar-day-when-nothing-happened" class="level2">
-<h2 class="anchored" data-anchor-id="ch-2-the-billion-dollar-day-when-nothing-happened">Ch 2: The Billion-Dollar Day When Nothing Happened</h2>
-<p>Google vs Overture, AdWords engine, Jeff Dean. Constant flow of challanges in a safe group beats bigger and better funded group.</p>
-<p>Organizational Blueprints for Success in High-Tech Start-Ups: Lessons from the Stanford Project on Emerging Companies. James Baron and Michael Hannan. Models: star (hire the best and brightest), professional (hire most skilled), commitment (hire for culture fit).</p>
-<p>Amygdala: Scanning for danger &amp; maintaining social connections. Belonging. We are close, we are safe, we share a future.</p>
-</section>
-<section id="ch-3-the-christmas-truce-the-one-hour-experiment-and-the-missileers" class="level2">
-<h2 class="anchored" data-anchor-id="ch-3-the-christmas-truce-the-one-hour-experiment-and-the-missileers">Ch 3: The Christmas Truce, the One-Hour Experiment and the Missileers</h2>
-<p>1914, English-German truce on xmas. Prolonged exchange of micro-truces and belonging cues.</p>
-<p>WIPRO call center, high level of turn-over, 1 hr intervention after standard training for new employees, focus on positive and individual uniquness lead to much higher retention rates.</p>
-<p>Missileers - the opposite of belonging. (cold war, obsolete tech)</p>
-</section>
-<section id="ch-4-how-to-build-belonging" class="level2">
-<h2 class="anchored" data-anchor-id="ch-4-how-to-build-belonging">Ch 4: How to build Belonging</h2>
-<p>Gregg Popovich, best NBA coach. Close, personal, no-bullshit truth telling. In challenging times, make people feel connected to a bigger purpose (players watching political documentaries). Connect people through food (and wine).</p>
-<blockquote class="blockquote">
-<p>Food and wine aren’t just food and wine. They’re a vehicle for making and sustaining connections.</p>
-</blockquote>
-<p>Successful cultures are oriented less around achieving happiness than around solving hard problems together. High-candor feedback, uncomfortable truth-telling. Big failures can be used to bring the team together.</p>
-</section>
-<section id="ch-5-how-to-design-for-belonging" class="level2">
-<h2 class="anchored" data-anchor-id="ch-5-how-to-design-for-belonging">Ch 5: How to Design for Belonging</h2>
-<p>Tony Hsieh, macgyvering through youth, Link Exchange (1998), Zappos ($1 bln in revenues in 2009, sold to Amazon) Downtown Project. “My job is to architect the greenhouse”. High “collisions” space (connections).</p>
-<p>Allen Curve. Thomas Allen, MIT, study of “twin projects” during cold war (which team build successul solution to a similar hard problem). 8m. Proximity is an indicator of beloning. Face recognition stops at about 50m.</p>
-<blockquote class="blockquote">
-<p>What mattered most in creating a successful team had less to do with intelligence and experience and more to do with where the desks happened to be located.</p>
-</blockquote>
-</section>
-<section id="ch-6-ideas-for-action" class="level2">
-<h2 class="anchored" data-anchor-id="ch-6-ideas-for-action">Ch 6: Ideas for Action</h2>
-<p>“Overcommunicate” your listening. Lean towards, yes-uh-hum-gotcha, no interruptions. Express fallibility. What am I missing? I could be wrong here. Don’t shoot the messenger. Hug them. Overdo Thank-You. Take hiring very seriously and elimitate bad apples. Create safe, collision-rich spaces. Give voice to everyone: What do you like most about this place? What do you like least? What would you change if you were in charge? Pick-up trash. Seek simple ways to serve the group. Capitalize on Threshold moments. (people pay more attention during transitions) Avoid giving sandwich feedback.</p>
-</section>
-</section>
-<section id="part-2-share-vulnerability" class="level1">
-<h1>Part 2: Share vulnerability</h1>
-<section id="ch-7-tell-me-what-you-want.-i-will-help." class="level2">
-<h2 class="anchored" data-anchor-id="ch-7-tell-me-what-you-want.-i-will-help.">Ch 7: Tell me what you want. I will help.</h2>
-<p>United Flight 232. Communication in notifications style during emergency. BrainTrust at Pixar. AAR in the military.</p>
-</section>
-<section id="ch-8-the-vulnerability-loop" class="level2">
-<h2 class="anchored" data-anchor-id="ch-8-the-vulnerability-loop">Ch 8: The vulnerability loop</h2>
-<p>What was your high school like? vs Is there something you’ve dreamt of doing for a long time? Why haven’t you done it? Arthur and Elaine Aron. Experimental Generation of Interpersonal Closeness.</p>
-<p>Jeff Polzer, Harvard, org behavior, trust, cooperation, “insignificant” social exchanges. vulnerability (i need your help) comes before trust.</p>
-<blockquote class="blockquote">
-<p>when it comes to creating cooperation, vulnerability is not a risk but a psychological requirement.</p>
-</blockquote>
-</section>
-<section id="ch-9-the-super-cooperators" class="level2">
-<h2 class="anchored" data-anchor-id="ch-9-the-super-cooperators">Ch 9: The Super-Cooperators</h2>
-<p>Navy SEALs. Draper Kauffman, WWII, new training program for naval bomb disposal special ops teams based on observation of Corps Franc. 1st hell week (selection), always team-based (self-sufficient 6 people), no hierarchical distinction during training. Micro-events, communication, closeness, cooperation.</p>
-</section>
-<section id="ch-10-cooperation-in-small-groups" class="level2">
-<h2 class="anchored" data-anchor-id="ch-10-cooperation-in-small-groups">Ch 10: Cooperation in small groups</h2>
-<p>authority bias, how to create hive mind in a team?</p>
-<blockquote class="blockquote">
-<p>One of the best things I’ve found to improve a team’s cohesion is to send them to do some hard, hard training.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>[AAR] It’s got to be safe to talk. Rank switched off, humility switched on. I’d say those might be the most important four words any leader can say: I screwed that up.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>The real courage is seeing the truth and speaking the truth to each other.</p>
-</blockquote>
-</section>
-<section id="ch-11-cooperation-with-individuals" class="level2">
-<h2 class="anchored" data-anchor-id="ch-11-cooperation-with-individuals">Ch 11: Cooperation with Individuals</h2>
-<p>Bell Labs, Harry Nyquist. Warmth, curiosity, connections (and lunches). IDEO, Roshi Givechi. Listen and ask “simple” questions. “Surfacing issues”. Robert Bales. Questions comprise only 6% of verbal interactions, but generate 60% of ensuing discussions. Carl Marci. Neurologist, Harvard. Listening and relations (healers). measuring concordances (galvanic skin response of two people in conversation).</p>
-</section>
-<section id="ch-12-ideas-for-action" class="level2">
-<h2 class="anchored" data-anchor-id="ch-12-ideas-for-action">Ch 12: Ideas for action</h2>
-<p>Make sure the Leader is Vulnerable first and often Overcommunicate Expectations (of collaboration) Deliver the Negative stuff in person When forming new teams focus on 2 critical moments: 1st vulnerability and 1st disagreement Listen like a trampoline. add insights, make occasional suggestions (via questions). Resist temptation to add value. Dig it out from people. Aim for candor; avoid brutal honesty. focus on smaller, more targeted things, less personal, less judgmental. Embrace the discomfort. (emotional pain and sense of inefficiency). Align language with Action. (develop “in”-vocabulary) Build a wall btw performance review and professional development. Use flash mentoring. (shadowning for a few hours). Make the Leader occasionally disappear.</p>
-</section>
-</section>
-<section id="part-3-establish-purpose" class="level1">
-<h1>Part 3: Establish purpose</h1>
-<section id="ch-13-three-hundred-and-eleven-words" class="level2">
-<h2 class="anchored" data-anchor-id="ch-13-three-hundred-and-eleven-words">Ch 13: Three Hundred and Eleven Words</h2>
-<p>Johnson and Johnson credo: https://www.jnj.com/credo/ 1) customers, 2) employees, 3) community, 4) stakeholders</p>
-<blockquote class="blockquote">
-<p>Purpose is about creating simple beacons that focus attention and engagement on the shared goal.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>High-purpose environments are filled with small, vivid signals designed to create a link between the present moment and a future ideal. Here is where we are. Here is where we want to go.</p>
-</blockquote>
-<p>Gabriele Oettingen, mental contrasting. 1) envision a reachable goal 2) envision the obstacles.</p>
-</section>
-<section id="ch-14-taming-the-hooligans" class="level2">
-<h2 class="anchored" data-anchor-id="ch-14-taming-the-hooligans">Ch 14: Taming the Hooligans</h2>
-<p>2004, UEFA, Portugal, the English Disease. Clifford Stott, social psychology, crowd violence. Remove signs of riot gear/force. Encourage police to know enough to engage in “small talk” about football, teams/coaches, etc.</p>
-<p>“riots are born from small scale confrontations.” control with an array of consistent little signals.</p>
-<blockquote class="blockquote">
-<p>One of the best measures of any group’s culture is its learning velocity – how quickly it improves its performance of a new skill.</p>
-</blockquote>
-<p>Amy Edmondson, 1998, MICS study (minimally invasive cardiac surgery).</p>
-<p>Fastest learning team:</p>
+<section id="positive-influences-of-llms-on-code-quality" class="level3">
+<h3 class="anchored" data-anchor-id="positive-influences-of-llms-on-code-quality">Positive influences of LLMs on code quality</h3>
+<p>Here are mechanisms by which LLMs (e.g.&nbsp;Copilot, Code Llama, ChatGPT, etc.) may enhance quality, along with supporting evidence.</p>
 <ol type="1">
-<li>Framing (purpose)</li>
-<li>Roles (individual and collective skills)</li>
-<li>Rehearsals</li>
-<li>Explicit encouragement to speak up</li>
-<li>Active reflection (head-mounted camera, also Boyd pilot training)</li>
+<li><strong>Reducing boilerplate / mechanical errors</strong></li>
 </ol>
-<p>NB: the list above does not contain “years of experience”, “status and structure”, “organizational support”. Communication signals could easily be viewed as obvious and redundant.</p>
-<blockquote class="blockquote">
-<p>What seems like repetion is, in fact, navigation.</p>
-</blockquote>
-<p>High-purpose environment. Vision alone is not enough. You need to provide a stream of consistent, small, guiding signals.</p>
+<ul>
+<li>LLMs excel at generating repetitive code patterns (e.g.&nbsp;CRUD routines, input validation, serialization). By automating mundane code scaffolding, they reduce opportunities for human typo or boilerplate mistakes, letting the human focus on logic and design.</li>
+<li>In empirical experiments, Copilot-assisted developers had a <strong>53.2% greater chance</strong> of passing all unit tests in a controlled task (versus those without it) — indicating an increase in functional correctness at least in that context. ￼</li>
+<li>Similarly, GitHub’s internal “Quantifying Copilot” study found gains in readability, reliability, maintainability, and conciseness (though modest in magnitude) for Copilot-assisted code.</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Improving readability / consistency</strong></li>
+</ol>
+<ul>
+<li>Because LLMs have seen a vast corpus of code, they often generate code that follows common idioms and stylistic patterns. This can produce more consistent naming, formatting, and structural patterns.</li>
+<li>In code review assessments from the Copilot experiments, code written with Copilot had <strong>fewer readability errors</strong> in blind review, on average.</li>
+<li>Beyond code generation, LLMs are also being used to revise code quality issues (e.g.&nbsp;take an input source and propose refactorings or fixes). For example, Microsoft’s “CORE” system uses a proposer + ranker LLM framework to suggest revisions based on static analysis outputs, thereby resolving code quality issues.</li>
+</ul>
+<ol start="3" type="1">
+<li><strong>Faster iteration, freeing cognitive bandwidth</strong></li>
+</ol>
+<ul>
+<li>With LLMs handling trivial or repetitive parts, developers can devote more attention to higher-level design, edge-case handling, and architecture — tasks that more strongly affect long-term code quality.</li>
+<li>GitHub’s Copilot telemetry/usage studies show that developers report lower mental fatigue, faster completion times, and happier workflows with Copilot assistance.</li>
+<li>In enterprise settings (e.g.&nbsp;Accenture), adoption of Copilot corresponded with more pull requests and higher merge rates (which implies fewer blockers in code review) — suggesting that code written with AI help still met quality gates.</li>
+</ul>
+<ol start="4" type="1">
+<li><strong>Discovering nonlocal patterns / detecting anti-patterns</strong></li>
+</ol>
+<ul>
+<li>LLMs (especially large ones) can “see” across code context (within their context window) and suggest refactorings or warn about patterns that are not locally obvious (e.g.&nbsp;suggesting a shared helper, factoring duplicated logic, etc.).</li>
+<li>More broadly, reviews of LLMs applied to source code highlight their strength in recognizing structural patterns and correlations that might escape a human glancing at only a few files.</li>
+</ul>
+<ol start="5" type="1">
+<li><strong>Augmenting or automating code review / linting / static-analysis</strong></li>
+</ol>
+<ul>
+<li>LLMs are being integrated into code review pipelines, providing inline suggestions or catching issues before human review. This can reduce the backlog of simple review feedback and allow human reviewers to focus on architectural/semantic matters.</li>
+<li>They are also used to generate or repair tests, suggest documentation, and enforce consistency constraints.</li>
+</ul>
 </section>
-<section id="ch-15-how-to-lead-for-proficiency" class="level2">
-<h2 class="anchored" data-anchor-id="ch-15-how-to-lead-for-proficiency">Ch 15: How to Lead for Proficiency</h2>
-<p>FnB in NY, 20% survival rate after 5 years. Good food, location, service, training, branding, leadership,…</p>
-<p>Danny Meyer, Union Square Cafe</p>
-<p>Staff priorites: colleagues, guests, community, suppliers, investors</p>
-<blockquote class="blockquote">
-<p>Are you an agent or a gatekeeper?</p>
-</blockquote>
-<p>Saldago’s study of Meyer’s restaurants successful practices:</p>
+<section id="risks-limitations-and-negative-impacts" class="level3">
+<h3 class="anchored" data-anchor-id="risks-limitations-and-negative-impacts">Risks, limitations, and negative impacts</h3>
+<p>While LLMs have promise, they are not magic, and can degrade quality (or induce new classes of defects) if used carelessly.</p>
 <ol type="1">
-<li>selection of employees based on emotional capabilities</li>
-<li>respectful treatment of employees</li>
-<li>managment through a simple set of rules that simulate complex and intricate bahaviors benefiting customers.</li>
+<li><strong>Code smells and architectural debt</strong></li>
 </ol>
-<blockquote class="blockquote">
-<p>The road to success is paved with mistakes well handled.</p>
-</blockquote>
+<ul>
+<li>The latest work “<em>Investigating the Smells of LLM Generated Code</em>” (2025) finds that LLM-generated code exhibits substantially more code smells compared to human-written reference code. On average, the smell rate increased by ~63% (across various complexity levels).</li>
+<li>Smells include both <em>implementation smells</em> (e.g.&nbsp;duplicated logic, long methods) and <em>design smells</em> (e.g.&nbsp;poor modularization) — particularly in more complex tasks or advanced object-oriented designs.</li>
+<li>Because LLMs are pattern-based, they may favor more “local” fixes rather than holistic refactorings. Over time, this can accumulate technical debt, lower consistency across modules, or hamper maintainability.</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Security vulnerabilities</strong></li>
+</ol>
+<ul>
+<li>In empirical audits, <em>Security Weaknesses of Copilot-Generated Code in GitHub Projects</em> found that a nontrivial portion of LLM-generated snippets contain security flaws. Specifically, 29.5% of Python and 24.2% of JavaScript snippets exhibited at least one weakness according to CWE metrics.</li>
+<li>Common weakness classes included use of insufficient randomness, code injection, cross-site scripting, and improper control of generated code.</li>
+<li>On the mitigation side, combining static analyzers with LLM-based fixes (via Copilot Chat prompts) could remediate up to ~55.5% of those flagged vulnerabilities in some experiments.</li>
+</ul>
+<ol start="3" type="1">
+<li><strong>Overconfidence, complacency, and human error propagation</strong></li>
+</ol>
+<ul>
+<li>Because the model seems “smart,” there is a risk developers might overtrust suggestions and insufficiently vet them, especially in less familiar domains or critical code (e.g.&nbsp;security, concurrency, performance-sensitive code).</li>
+<li>In educational settings, a recent controlled study with undergraduates found that Copilot use can lead to overreliance and superficial understanding (i.e.&nbsp;students accept suggestions without fully reasoning about them).</li>
+<li>The same study noted that while task completion time decreased, there were subtle regressions in learning and debugging skills.</li>
+</ul>
+<ol start="4" type="1">
+<li><strong>Context / domain mismatch, hallucinations, stale knowledge</strong></li>
+</ol>
+<ul>
+<li>LLMs are trained on large corpora, but may not reflect your specific project’s architecture, domain logic, or constraints. A suggestion might violate invariants or assumptions not visible to the model.</li>
+<li>Hallucinated code (i.e.&nbsp;syntactically plausible but semantically incorrect) is still a well-known risk.</li>
+<li>For domain-specific or cutting-edge code (e.g.&nbsp;new libraries, novel algorithms), the LLM’s training may not fully cover the space, leading to weak suggestions or misleading completions.</li>
+</ul>
+<ol start="5" type="1">
+<li><strong>Fragmentation / consistency drift</strong></li>
+</ol>
+<ul>
+<li>Over time, different parts of the codebase might get generated or touched with different “flavors” of LLM suggestions, introducing inconsistent patterns, naming conventions, or architectural styles, unless there is strict oversight and linting.</li>
+<li>Some developers report that LLMs are weaker at refactoring and maintaining cohesive architecture in large codebases. “LLMs make it easy to write code, but aren’t as good at refactoring and maintaining a cohesive architecture.”</li>
+</ul>
+<ol start="6" type="1">
+<li><strong>Downward pressure on quality in large codebases</strong></li>
+</ol>
+<ul>
+<li>Some commentary and analyses (e.g.&nbsp;“Downward Pressure on Code Quality” articles) warn that faster coding enabled by LLMs might tempt teams to accept more “quick and dirty” changes, deferring refactorings and increasing technical debt over time.</li>
+<li>These arguments are more cautionary than definitive; the effect likely depends on team discipline, reviews, and development culture.</li>
+</ul>
+<ol start="7" type="1">
+<li><strong>Effect on maintainers / onboarding / future edits</strong></li>
+</ol>
+<ul>
+<li>If generated code is opaque or non‐idiomatic, future maintainers may struggle to understand, debug, or extend it — especially if the LLM suggestion lacks comments, rationale, or clear logic.</li>
+<li>The “explainability” of LLM output is limited; often not accompanied by reasoning or formal guarantees, making review more difficult.</li>
+</ul>
+</section>
+<section id="overall-tradeoffs-conditions-for-success" class="level3">
+<h3 class="anchored" data-anchor-id="overall-tradeoffs-conditions-for-success">Overall tradeoffs &amp; conditions for success</h3>
+<p>Given the dual nature of benefits and risks, the net effect of LLM use on code quality depends heavily on how it’s integrated into the development process. Some key moderating factors:</p>
 <ol type="1">
-<li>create priorities</li>
-<li>name key behaviours</li>
-<li>flood the environment to link 1 and 2 (catch-phrases, “in” language)</li>
+<li><strong>Developer skill and domain knowledge</strong></li>
 </ol>
+<ul>
+<li>Strong developers are more capable of vetting, refining, and adapting LLM suggestions; they can correct mistakes or steer the model. Novice users may blindly accept suboptimal output.</li>
+<li>For well-known patterns, LLMs can be very helpful; for novel or domain-specific components, human insight is still critical.</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Review / quality gates</strong></li>
+</ol>
+<ul>
+<li>Rigorous code review, static analysis, testing, and security audits must remain — LLM usage should not replace these quality safeguards, but augment them.</li>
+<li>A good strategy is to treat LLM-generated code as a first draft to be improved, rather than a final deliverable.</li>
+</ul>
+<ol start="3" type="1">
+<li><strong>Prompt design / context provision</strong></li>
+</ol>
+<ul>
+<li>Better prompts (with overviews, constraints, tests, style guides) lead to better suggestions. The LLM must “know” your expectations and context.</li>
+<li>Where possible, giving the model feedback (e.g.&nbsp;“fix this,” “make this more modular,” etc.) can steer it toward higher-quality code.</li>
+</ul>
+<ol start="4" type="1">
+<li><strong>Incremental adoption and monitoring</strong></li>
+</ol>
+<ul>
+<li>Gradual adoption lets teams monitor metrics (defects, review comments, churn, security bugs) and detect regressions early.</li>
+<li>Some organizations perform their own A/B or causal analyses to isolate the effect of the LLM on quality (as seen in Faros’ analysis of Copilot usage).</li>
+</ul>
+<ol start="5" type="1">
+<li><strong>Specialization &amp; dividing tasks</strong></li>
+</ol>
+<ul>
+<li>Use LLMs for tasks where they shine (scaffolding, boilerplate, test generation, simple functions) while retaining human control over architecture, core business logic, security/critical paths, and system integration.</li>
+</ul>
+<ol start="6" type="1">
+<li><strong>Continuous improvement / retraining</strong></li>
+</ol>
+<ul>
+<li>Capturing patterns of accepted suggestions, feedback loops (i.e.&nbsp;learning from corrections), and internal fine-tuning can improve future suggestions to better align with project style and domain constraints.</li>
+</ul>
+</section>
+<section id="summary" class="level3">
+<h3 class="anchored" data-anchor-id="summary">Summary</h3>
+<ul>
+<li><strong>Net effect is neither guaranteed positive nor negative</strong> — using LLMs can improve code quality (especially in functional correctness, readability, and iteration speed) if used thoughtfully, but also introduces additional risk vectors (smells, security flaws, architectural drift, overreliance).</li>
+<li>Empirical and controlled studies suggest modest but statistically significant improvements in many quality dimensions for LLM-assisted coding under experimental conditions. ￼</li>
+<li>But emerging research (e.g.&nbsp;on code smells) is raising caution flags about the quality of generated code, particularly in complex scenarios.</li>
+<li>The key is <strong>governance</strong>: strong review processes, prompt engineering, domain expertise, and monitoring are essential to ensuring LLM use leads to net quality gains.</li>
+</ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

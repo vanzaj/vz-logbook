@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Daniel Coyle">
-<meta name="dcterms.date" content="2018-01-30">
+<meta name="dcterms.date" content="2025-10-20">
 
-<title>The Culture Code – vz-logbook</title>
+<title>Elevator Control Algorithm – vz-logbook</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -108,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Notes</li><li class="breadcrumb-item"><a href="../../notes/books/index.html">Books</a></li><li class="breadcrumb-item"><a href="../../notes/books/coyle-the-culture-code_2018.html">The Culture Code</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Notes</li><li class="breadcrumb-item"><a href="../../notes/bots/bionic_reading.html">Bots</a></li><li class="breadcrumb-item"><a href="../../notes/bots/elevator_control_algo.html">Elevator Control Algorithm</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -268,13 +296,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
  <span class="menu-text">Bots</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../notes/bots/bionic_reading.html" class="sidebar-item-text sidebar-link">
@@ -283,7 +311,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/bots/elevator_control_algo.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/bots/elevator_control_algo.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Elevator Control Algorithm</span></a>
   </div>
 </li>
@@ -299,14 +327,14 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../notes/books/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Books</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/coyle-the-culture-code_2018.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../notes/books/coyle-the-culture-code_2018.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">The Culture Code</span></a>
   </div>
 </li>
@@ -424,61 +452,32 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#part-1-build-safety" id="toc-part-1-build-safety" class="nav-link active" data-scroll-target="#part-1-build-safety">Part 1: Build Safety</a>
-  <ul class="collapse">
-  <li><a href="#ch.-1-the-good-apples" id="toc-ch.-1-the-good-apples" class="nav-link" data-scroll-target="#ch.-1-the-good-apples">Ch. 1: The good apples</a></li>
-  <li><a href="#ch-2-the-billion-dollar-day-when-nothing-happened" id="toc-ch-2-the-billion-dollar-day-when-nothing-happened" class="nav-link" data-scroll-target="#ch-2-the-billion-dollar-day-when-nothing-happened">Ch 2: The Billion-Dollar Day When Nothing Happened</a></li>
-  <li><a href="#ch-3-the-christmas-truce-the-one-hour-experiment-and-the-missileers" id="toc-ch-3-the-christmas-truce-the-one-hour-experiment-and-the-missileers" class="nav-link" data-scroll-target="#ch-3-the-christmas-truce-the-one-hour-experiment-and-the-missileers">Ch 3: The Christmas Truce, the One-Hour Experiment and the Missileers</a></li>
-  <li><a href="#ch-4-how-to-build-belonging" id="toc-ch-4-how-to-build-belonging" class="nav-link" data-scroll-target="#ch-4-how-to-build-belonging">Ch 4: How to build Belonging</a></li>
-  <li><a href="#ch-5-how-to-design-for-belonging" id="toc-ch-5-how-to-design-for-belonging" class="nav-link" data-scroll-target="#ch-5-how-to-design-for-belonging">Ch 5: How to Design for Belonging</a></li>
-  <li><a href="#ch-6-ideas-for-action" id="toc-ch-6-ideas-for-action" class="nav-link" data-scroll-target="#ch-6-ideas-for-action">Ch 6: Ideas for Action</a></li>
-  </ul></li>
-  <li><a href="#part-2-share-vulnerability" id="toc-part-2-share-vulnerability" class="nav-link" data-scroll-target="#part-2-share-vulnerability">Part 2: Share vulnerability</a>
-  <ul class="collapse">
-  <li><a href="#ch-7-tell-me-what-you-want.-i-will-help." id="toc-ch-7-tell-me-what-you-want.-i-will-help." class="nav-link" data-scroll-target="#ch-7-tell-me-what-you-want.-i-will-help.">Ch 7: Tell me what you want. I will help.</a></li>
-  <li><a href="#ch-8-the-vulnerability-loop" id="toc-ch-8-the-vulnerability-loop" class="nav-link" data-scroll-target="#ch-8-the-vulnerability-loop">Ch 8: The vulnerability loop</a></li>
-  <li><a href="#ch-9-the-super-cooperators" id="toc-ch-9-the-super-cooperators" class="nav-link" data-scroll-target="#ch-9-the-super-cooperators">Ch 9: The Super-Cooperators</a></li>
-  <li><a href="#ch-10-cooperation-in-small-groups" id="toc-ch-10-cooperation-in-small-groups" class="nav-link" data-scroll-target="#ch-10-cooperation-in-small-groups">Ch 10: Cooperation in small groups</a></li>
-  <li><a href="#ch-11-cooperation-with-individuals" id="toc-ch-11-cooperation-with-individuals" class="nav-link" data-scroll-target="#ch-11-cooperation-with-individuals">Ch 11: Cooperation with Individuals</a></li>
-  <li><a href="#ch-12-ideas-for-action" id="toc-ch-12-ideas-for-action" class="nav-link" data-scroll-target="#ch-12-ideas-for-action">Ch 12: Ideas for action</a></li>
-  </ul></li>
-  <li><a href="#part-3-establish-purpose" id="toc-part-3-establish-purpose" class="nav-link" data-scroll-target="#part-3-establish-purpose">Part 3: Establish purpose</a>
-  <ul class="collapse">
-  <li><a href="#ch-13-three-hundred-and-eleven-words" id="toc-ch-13-three-hundred-and-eleven-words" class="nav-link" data-scroll-target="#ch-13-three-hundred-and-eleven-words">Ch 13: Three Hundred and Eleven Words</a></li>
-  <li><a href="#ch-14-taming-the-hooligans" id="toc-ch-14-taming-the-hooligans" class="nav-link" data-scroll-target="#ch-14-taming-the-hooligans">Ch 14: Taming the Hooligans</a></li>
-  <li><a href="#ch-15-how-to-lead-for-proficiency" id="toc-ch-15-how-to-lead-for-proficiency" class="nav-link" data-scroll-target="#ch-15-how-to-lead-for-proficiency">Ch 15: How to Lead for Proficiency</a></li>
-  </ul></li>
+  <li><a href="#why-its-surprisingly-hard" id="toc-why-its-surprisingly-hard" class="nav-link active" data-scroll-target="#why-its-surprisingly-hard">Why it’s (surprisingly) hard</a></li>
+  <li><a href="#whats-usually-done-and-good-enough-for-210" id="toc-whats-usually-done-and-good-enough-for-210" class="nav-link" data-scroll-target="#whats-usually-done-and-good-enough-for-210">What’s usually done (and good enough for 2×10)</a></li>
+  <li><a href="#how-optimal-gets-hard" id="toc-how-optimal-gets-hard" class="nav-link" data-scroll-target="#how-optimal-gets-hard">How “optimal” gets hard</a></li>
+  <li><a href="#a-practical-recipe-for-2-lifts-10-floors" id="toc-a-practical-recipe-for-2-lifts-10-floors" class="nav-link" data-scroll-target="#a-practical-recipe-for-2-lifts-10-floors">A practical recipe for 2 lifts × 10 floors</a></li>
+  <li><a href="#if-you-want-to-go-beyond-heuristics" id="toc-if-you-want-to-go-beyond-heuristics" class="nav-link" data-scroll-target="#if-you-want-to-go-beyond-heuristics">If you want to go beyond heuristics</a></li>
+  <li><a href="#primary-sources-to-start-from" id="toc-primary-sources-to-start-from" class="nav-link" data-scroll-target="#primary-sources-to-start-from">Primary sources to start from</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Notes</li><li class="breadcrumb-item"><a href="../../notes/books/index.html">Books</a></li><li class="breadcrumb-item"><a href="../../notes/books/coyle-the-culture-code_2018.html">The Culture Code</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Notes</li><li class="breadcrumb-item"><a href="../../notes/bots/bionic_reading.html">Bots</a></li><li class="breadcrumb-item"><a href="../../notes/bots/elevator_control_algo.html">Elevator Control Algorithm</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">The Culture Code</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">psychology</div>
-    <div class="quarto-category">culture</div>
-    <div class="quarto-category">leadership</div>
-  </div>
-  </div>
+<h1 class="title">Elevator Control Algorithm</h1>
+</div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Daniel Coyle </p>
-          </div>
-  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 30, 2018</p>
+      <p class="date">October 20, 2025</p>
     </div>
   </div>
   
@@ -490,149 +489,62 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="part-1-build-safety" class="level1">
-<h1>Part 1: Build Safety</h1>
-<section id="ch.-1-the-good-apples" class="level2">
-<h2 class="anchored" data-anchor-id="ch.-1-the-good-apples">Ch. 1: The good apples</h2>
-<p>Safety. Will Felps, Uni of South Wales. Organizational behavior. Negative archetypes (jerk, slacker, downer) Impact of “bad apples” (by a good actor) leads to 30-40% of group performance drop. Can be neutralized by a “good apple” who knows how to diffuse a situation with subtle behaviors (get closer, smile, listen, be curious, alert, inclusive).</p>
-<p>Highly successful groups are familial (“family”, “friends”), special chemistry. We can feel it and want to be part of it.</p>
-<p>Human signaling. Alex Pentland, MIT Human Dynamics Lab. Sociometer (proximity, voice). Belonging cues. Much older than language. Answer the question: Are we safe together? Close proximity, eye contact, physical touch, lots of short energetic exchanges, high level of mixing, few interruptions, lots of questions, active listening, humor, small attentive gestures (thank you). What are we looking for: energy, individualization, future orientation.</p>
-<p>Amy Edmondson. Psychological Safety.</p>
-<p>(even people who study safety take time to realize they might need to work on their behavior to increase safety around them)</p>
+<p>Q to ChatGPT5: How hard is elevator control software algoritms for 2 lifts and 10 floors?</p>
+<hr>
+<p>Short answer: for a small mid-rise (2 cars, 10 floors), a competent engineer can build a good dispatcher with standard heuristics; building a provably optimal or generally state-of-the-art controller is a hard stochastic control problem that researchers still publish on.</p>
+<section id="why-its-surprisingly-hard" class="level3">
+<h3 class="anchored" data-anchor-id="why-its-surprisingly-hard">Why it’s (surprisingly) hard</h3>
+<ul>
+<li><strong>It’s a stochastic, multi-objective, multi-agent control problem.</strong> Arrivals vary by time (up-peak, lunch, down-peak), goals conflict (waiting time vs.&nbsp;ride time vs.&nbsp;energy), and decisions are coupled across cars. Classic work in RL framed elevator dispatching as a partially observable, nonstationary decision process.</li>
+<li><strong>Combinatorics explode.</strong> Even for 2×10: positions (10²), directions (3²), door states (2²), hall-call lamps (18 buttons → 2¹⁸), in-car buttons (2×10 → 2²⁰). Multiplying these gives ~9.9×10¹⁴ distinct (coarse) states – before modelling loads or travel times.</li>
+<li><strong>“Obvious” rules interact badly.</strong> Simple “nearest car” or even ETA-only dispatch can cause bunching and unfairness without extra logic (zoning, penalties, lookahead). ￼</li>
+</ul>
 </section>
-<section id="ch-2-the-billion-dollar-day-when-nothing-happened" class="level2">
-<h2 class="anchored" data-anchor-id="ch-2-the-billion-dollar-day-when-nothing-happened">Ch 2: The Billion-Dollar Day When Nothing Happened</h2>
-<p>Google vs Overture, AdWords engine, Jeff Dean. Constant flow of challanges in a safe group beats bigger and better funded group.</p>
-<p>Organizational Blueprints for Success in High-Tech Start-Ups: Lessons from the Stanford Project on Emerging Companies. James Baron and Michael Hannan. Models: star (hire the best and brightest), professional (hire most skilled), commitment (hire for culture fit).</p>
-<p>Amygdala: Scanning for danger &amp; maintaining social connections. Belonging. We are close, we are safe, we share a future.</p>
-</section>
-<section id="ch-3-the-christmas-truce-the-one-hour-experiment-and-the-missileers" class="level2">
-<h2 class="anchored" data-anchor-id="ch-3-the-christmas-truce-the-one-hour-experiment-and-the-missileers">Ch 3: The Christmas Truce, the One-Hour Experiment and the Missileers</h2>
-<p>1914, English-German truce on xmas. Prolonged exchange of micro-truces and belonging cues.</p>
-<p>WIPRO call center, high level of turn-over, 1 hr intervention after standard training for new employees, focus on positive and individual uniquness lead to much higher retention rates.</p>
-<p>Missileers - the opposite of belonging. (cold war, obsolete tech)</p>
-</section>
-<section id="ch-4-how-to-build-belonging" class="level2">
-<h2 class="anchored" data-anchor-id="ch-4-how-to-build-belonging">Ch 4: How to build Belonging</h2>
-<p>Gregg Popovich, best NBA coach. Close, personal, no-bullshit truth telling. In challenging times, make people feel connected to a bigger purpose (players watching political documentaries). Connect people through food (and wine).</p>
-<blockquote class="blockquote">
-<p>Food and wine aren’t just food and wine. They’re a vehicle for making and sustaining connections.</p>
-</blockquote>
-<p>Successful cultures are oriented less around achieving happiness than around solving hard problems together. High-candor feedback, uncomfortable truth-telling. Big failures can be used to bring the team together.</p>
-</section>
-<section id="ch-5-how-to-design-for-belonging" class="level2">
-<h2 class="anchored" data-anchor-id="ch-5-how-to-design-for-belonging">Ch 5: How to Design for Belonging</h2>
-<p>Tony Hsieh, macgyvering through youth, Link Exchange (1998), Zappos ($1 bln in revenues in 2009, sold to Amazon) Downtown Project. “My job is to architect the greenhouse”. High “collisions” space (connections).</p>
-<p>Allen Curve. Thomas Allen, MIT, study of “twin projects” during cold war (which team build successul solution to a similar hard problem). 8m. Proximity is an indicator of beloning. Face recognition stops at about 50m.</p>
-<blockquote class="blockquote">
-<p>What mattered most in creating a successful team had less to do with intelligence and experience and more to do with where the desks happened to be located.</p>
-</blockquote>
-</section>
-<section id="ch-6-ideas-for-action" class="level2">
-<h2 class="anchored" data-anchor-id="ch-6-ideas-for-action">Ch 6: Ideas for Action</h2>
-<p>“Overcommunicate” your listening. Lean towards, yes-uh-hum-gotcha, no interruptions. Express fallibility. What am I missing? I could be wrong here. Don’t shoot the messenger. Hug them. Overdo Thank-You. Take hiring very seriously and elimitate bad apples. Create safe, collision-rich spaces. Give voice to everyone: What do you like most about this place? What do you like least? What would you change if you were in charge? Pick-up trash. Seek simple ways to serve the group. Capitalize on Threshold moments. (people pay more attention during transitions) Avoid giving sandwich feedback.</p>
-</section>
-</section>
-<section id="part-2-share-vulnerability" class="level1">
-<h1>Part 2: Share vulnerability</h1>
-<section id="ch-7-tell-me-what-you-want.-i-will-help." class="level2">
-<h2 class="anchored" data-anchor-id="ch-7-tell-me-what-you-want.-i-will-help.">Ch 7: Tell me what you want. I will help.</h2>
-<p>United Flight 232. Communication in notifications style during emergency. BrainTrust at Pixar. AAR in the military.</p>
-</section>
-<section id="ch-8-the-vulnerability-loop" class="level2">
-<h2 class="anchored" data-anchor-id="ch-8-the-vulnerability-loop">Ch 8: The vulnerability loop</h2>
-<p>What was your high school like? vs Is there something you’ve dreamt of doing for a long time? Why haven’t you done it? Arthur and Elaine Aron. Experimental Generation of Interpersonal Closeness.</p>
-<p>Jeff Polzer, Harvard, org behavior, trust, cooperation, “insignificant” social exchanges. vulnerability (i need your help) comes before trust.</p>
-<blockquote class="blockquote">
-<p>when it comes to creating cooperation, vulnerability is not a risk but a psychological requirement.</p>
-</blockquote>
-</section>
-<section id="ch-9-the-super-cooperators" class="level2">
-<h2 class="anchored" data-anchor-id="ch-9-the-super-cooperators">Ch 9: The Super-Cooperators</h2>
-<p>Navy SEALs. Draper Kauffman, WWII, new training program for naval bomb disposal special ops teams based on observation of Corps Franc. 1st hell week (selection), always team-based (self-sufficient 6 people), no hierarchical distinction during training. Micro-events, communication, closeness, cooperation.</p>
-</section>
-<section id="ch-10-cooperation-in-small-groups" class="level2">
-<h2 class="anchored" data-anchor-id="ch-10-cooperation-in-small-groups">Ch 10: Cooperation in small groups</h2>
-<p>authority bias, how to create hive mind in a team?</p>
-<blockquote class="blockquote">
-<p>One of the best things I’ve found to improve a team’s cohesion is to send them to do some hard, hard training.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>[AAR] It’s got to be safe to talk. Rank switched off, humility switched on. I’d say those might be the most important four words any leader can say: I screwed that up.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>The real courage is seeing the truth and speaking the truth to each other.</p>
-</blockquote>
-</section>
-<section id="ch-11-cooperation-with-individuals" class="level2">
-<h2 class="anchored" data-anchor-id="ch-11-cooperation-with-individuals">Ch 11: Cooperation with Individuals</h2>
-<p>Bell Labs, Harry Nyquist. Warmth, curiosity, connections (and lunches). IDEO, Roshi Givechi. Listen and ask “simple” questions. “Surfacing issues”. Robert Bales. Questions comprise only 6% of verbal interactions, but generate 60% of ensuing discussions. Carl Marci. Neurologist, Harvard. Listening and relations (healers). measuring concordances (galvanic skin response of two people in conversation).</p>
-</section>
-<section id="ch-12-ideas-for-action" class="level2">
-<h2 class="anchored" data-anchor-id="ch-12-ideas-for-action">Ch 12: Ideas for action</h2>
-<p>Make sure the Leader is Vulnerable first and often Overcommunicate Expectations (of collaboration) Deliver the Negative stuff in person When forming new teams focus on 2 critical moments: 1st vulnerability and 1st disagreement Listen like a trampoline. add insights, make occasional suggestions (via questions). Resist temptation to add value. Dig it out from people. Aim for candor; avoid brutal honesty. focus on smaller, more targeted things, less personal, less judgmental. Embrace the discomfort. (emotional pain and sense of inefficiency). Align language with Action. (develop “in”-vocabulary) Build a wall btw performance review and professional development. Use flash mentoring. (shadowning for a few hours). Make the Leader occasionally disappear.</p>
-</section>
-</section>
-<section id="part-3-establish-purpose" class="level1">
-<h1>Part 3: Establish purpose</h1>
-<section id="ch-13-three-hundred-and-eleven-words" class="level2">
-<h2 class="anchored" data-anchor-id="ch-13-three-hundred-and-eleven-words">Ch 13: Three Hundred and Eleven Words</h2>
-<p>Johnson and Johnson credo: https://www.jnj.com/credo/ 1) customers, 2) employees, 3) community, 4) stakeholders</p>
-<blockquote class="blockquote">
-<p>Purpose is about creating simple beacons that focus attention and engagement on the shared goal.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>High-purpose environments are filled with small, vivid signals designed to create a link between the present moment and a future ideal. Here is where we are. Here is where we want to go.</p>
-</blockquote>
-<p>Gabriele Oettingen, mental contrasting. 1) envision a reachable goal 2) envision the obstacles.</p>
-</section>
-<section id="ch-14-taming-the-hooligans" class="level2">
-<h2 class="anchored" data-anchor-id="ch-14-taming-the-hooligans">Ch 14: Taming the Hooligans</h2>
-<p>2004, UEFA, Portugal, the English Disease. Clifford Stott, social psychology, crowd violence. Remove signs of riot gear/force. Encourage police to know enough to engage in “small talk” about football, teams/coaches, etc.</p>
-<p>“riots are born from small scale confrontations.” control with an array of consistent little signals.</p>
-<blockquote class="blockquote">
-<p>One of the best measures of any group’s culture is its learning velocity – how quickly it improves its performance of a new skill.</p>
-</blockquote>
-<p>Amy Edmondson, 1998, MICS study (minimally invasive cardiac surgery).</p>
-<p>Fastest learning team:</p>
+<section id="whats-usually-done-and-good-enough-for-210" class="level3">
+<h3 class="anchored" data-anchor-id="whats-usually-done-and-good-enough-for-210">What’s usually done (and good enough for 2×10)</h3>
 <ol type="1">
-<li>Framing (purpose)</li>
-<li>Roles (individual and collective skills)</li>
-<li>Rehearsals</li>
-<li>Explicit encouragement to speak up</li>
-<li>Active reflection (head-mounted camera, also Boyd pilot training)</li>
+<li>Collective control with ETA cost (a.k.a. “nearest/soonest car with smarts”): Assign each new hall call to the car that minimizes a cost like</li>
 </ol>
-<p>NB: the list above does not contain “years of experience”, “status and structure”, “organizational support”. Communication signals could easily be viewed as obvious and redundant.</p>
-<blockquote class="blockquote">
-<p>What seems like repetion is, in fact, navigation.</p>
-</blockquote>
-<p>High-purpose environment. Vision alone is not enough. You need to provide a stream of consistent, small, guiding signals.</p>
+<p><span class="math inline">\(J = w_{wait} \times \Delta(estimated\ wait) + w_{incar} \times \Delta(stops\ added) + w_{dir} \times (direction\ mismatch) + w_{load} \times (load\ factor)\)</span></p>
+<p>with small lookahead (simulate inserting the stop in each car’s queue). This, plus anti-bunching (small penalty if cars are within N floors) and simple peak-mode switches, yields robust performance in a small building. 2. Lightweight zoning/sectoring during peaks (e.g., car A favors floors 1–5, car B favors 6–10, but either can “steal” if much better). Helps fairness and reduces ping-ponging. 3. Destination control (DCS) (passengers key in floor before boarding) is often overkill for 2×10 but useful when traffic is bursty; it batches similar destinations and avoids unnecessary stops. Beware “reverse journeys” edge cases and good UI. ￼</p>
 </section>
-<section id="ch-15-how-to-lead-for-proficiency" class="level2">
-<h2 class="anchored" data-anchor-id="ch-15-how-to-lead-for-proficiency">Ch 15: How to Lead for Proficiency</h2>
-<p>FnB in NY, 20% survival rate after 5 years. Good food, location, service, training, branding, leadership,…</p>
-<p>Danny Meyer, Union Square Cafe</p>
-<p>Staff priorites: colleagues, guests, community, suppliers, investors</p>
-<blockquote class="blockquote">
-<p>Are you an agent or a gatekeeper?</p>
-</blockquote>
-<p>Saldago’s study of Meyer’s restaurants successful practices:</p>
-<ol type="1">
-<li>selection of employees based on emotional capabilities</li>
-<li>respectful treatment of employees</li>
-<li>managment through a simple set of rules that simulate complex and intricate bahaviors benefiting customers.</li>
-</ol>
-<blockquote class="blockquote">
-<p>The road to success is paved with mistakes well handled.</p>
-</blockquote>
-<ol type="1">
-<li>create priorities</li>
-<li>name key behaviours</li>
-<li>flood the environment to link 1 and 2 (catch-phrases, “in” language)</li>
-</ol>
+<section id="how-optimal-gets-hard" class="level3">
+<h3 class="anchored" data-anchor-id="how-optimal-gets-hard">How “optimal” gets hard</h3>
+<ul>
+<li>Exact optimal control is intractable in practice due to the state/action explosion and uncertain arrivals. Research uses simulation optimization, multi-objective/metaheuristics, and RL to beat hand-tuned heuristics—mostly on larger groups (e.g., 4+ cars, 15–40 floors).</li>
+<li>Destination-dispatch assignment itself is a nontrivial combinatorial routing/assignment problem with time-dependent costs and constraints.</li>
+</ul>
+</section>
+<section id="a-practical-recipe-for-2-lifts-10-floors" class="level3">
+<h3 class="anchored" data-anchor-id="a-practical-recipe-for-2-lifts-10-floors">A practical recipe for 2 lifts × 10 floors</h3>
+<ul>
+<li>Traffic modes: up-peak, inter-floor, down-peak, off-peak; switch weights (w_wait, w_incar, w_dir) by mode (time-of-day + simple real-time triggers). ￼</li>
+<li>Costed ETA assignment with 1–2 stop lookahead, door-open/close timing and jerk-limited motion model.</li>
+<li>Anti-bunching &amp; parking: mild penalties when cars are close; when idle, park cars at strategic “home” floors (e.g., 3 and 8).</li>
+<li>Fairness: cap maximum predicted wait; if exceeded, allow “stealing” across zones.</li>
+<li>Diagnostics: log predicted vs.&nbsp;actual waits/ride times to tune weights.</li>
+<li>(Optional) DCS kiosk prototype for peak-hour batching if your building can accept it.</li>
+</ul>
+</section>
+<section id="if-you-want-to-go-beyond-heuristics" class="level3">
+<h3 class="anchored" data-anchor-id="if-you-want-to-go-beyond-heuristics">If you want to go beyond heuristics</h3>
+<ul>
+<li>Reinforcement learning: Crites &amp; Barto showed RL can beat strong heuristics in simulation; modern variants continue to appear (but require careful state design and simulators).</li>
+<li>Multi-objective optimization: explicitly balance average/percentile wait, ride time, and energy; evolutionary/submodular approaches exist.</li>
+</ul>
+</section>
+<section id="primary-sources-to-start-from" class="level2">
+<h2 class="anchored" data-anchor-id="primary-sources-to-start-from">Primary sources to start from</h2>
+<ul>
+<li>Crites, R.H., &amp; Barto, A.G. “Improving Elevator Performance Using Reinforcement Learning.” NeurIPS (1995/1996). Seminal RL treatment; clear statement of elevator-control challenges. ￼</li>
+<li>Fernández, J.R., &amp; Cortés, P. “A Survey of Elevator Group Control Systems for Vertical Transportation.” IEEE Control Systems Magazine 35(4), 2015. Authoritative survey of heuristics and advanced methods. ￼</li>
+<li>Koehler, J., &amp; Ottiger, D. “An AI-Based Approach to Destination Control in Elevators.” AI Magazine 23(3), 2002. Classic DCS ideas and batching rationale. ￼</li>
+<li>Ruokokoski, M., et al.&nbsp;“Assignment formulation for the Elevator Dispatching Problem in destination controls.” European Journal of Operational Research (2016). Formal assignment formulations. ￼</li>
+<li>Peters Research note on dispatching heuristics (nearest car, ETA, bunching) — concise practitioner overview. ￼</li>
+</ul>
+<p><strong>Bottom line:</strong> For 2 cars and 10 floors, you can get very good service with a well-tuned ETA-based heuristic plus a dash of zoning and anti-bunching. The difficulty ramps up quickly if you chase theoretical optimality, add destination dispatch, or require strong guarantees across all traffic regimes – which is why it remains an active research area.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
