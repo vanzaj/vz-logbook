@@ -1,0 +1,110 @@
+---
+title: LLM and code quality
+date: 2025-09-15
+---
+
+Q to ChatGPT5: How does the use of LLM for coding influence quality?
+
+---
+
+Here's a structured breakdown of how using large language models (LLMs) for coding can influence code quality -- both beneficial effects and risks -- based on recent studies and empirical evidence.
+
+### What “quality” means in software
+
+Before diving in, it's helpful to clarify what we mean by _code quality_. Common (but not exhaustive) dimensions include:
+
+-	Functional correctness (the code does what it's supposed to do)
+-	Readability / maintainability (clear structure, naming, documentation)
+-	Reliability / robustness (handles edge cases, errors, unexpected inputs)
+-	Performance / efficiency (reasonable resource use)
+-	Security / absence of vulnerabilities
+-	Adherence to architectural and style constraints / consistency
+
+An LLM-based coding assist can affect each of these in different ways.
+
+
+### Positive influences of LLMs on code quality
+
+Here are mechanisms by which LLMs (e.g. Copilot, Code Llama, ChatGPT, etc.) may enhance quality, along with supporting evidence.
+
+1. **Reducing boilerplate / mechanical errors**
+  - LLMs excel at generating repetitive code patterns (e.g. CRUD routines, input validation, serialization). By automating mundane code scaffolding, they reduce opportunities for human typo or boilerplate mistakes, letting the human focus on logic and design.
+  - In empirical experiments, Copilot-assisted developers had a **53.2% greater chance** of passing all unit tests in a controlled task (versus those without it) — indicating an increase in functional correctness at least in that context.  ￼
+  - Similarly, GitHub's internal "Quantifying Copilot" study found gains in readability, reliability, maintainability, and conciseness (though modest in magnitude) for Copilot-assisted code.
+2. **Improving readability / consistency**
+  - Because LLMs have seen a vast corpus of code, they often generate code that follows common idioms and stylistic patterns. This can produce more consistent naming, formatting, and structural patterns.
+  - In code review assessments from the Copilot experiments, code written with Copilot had **fewer readability errors** in blind review, on average.
+  - Beyond code generation, LLMs are also being used to revise code quality issues (e.g. take an input source and propose refactorings or fixes). For example, Microsoft's "CORE" system uses a proposer + ranker LLM framework to suggest revisions based on static analysis outputs, thereby resolving code quality issues.
+3. **Faster iteration, freeing cognitive bandwidth**
+  - With LLMs handling trivial or repetitive parts, developers can devote more attention to higher-level design, edge-case handling, and architecture — tasks that more strongly affect long-term code quality.
+  - GitHub’s Copilot telemetry/usage studies show that developers report lower mental fatigue, faster completion times, and happier workflows with Copilot assistance.
+  - In enterprise settings (e.g. Accenture), adoption of Copilot corresponded with more pull requests and higher merge rates (which implies fewer blockers in code review) — suggesting that code written with AI help still met quality gates.
+4. **Discovering nonlocal patterns / detecting anti-patterns**
+  - LLMs (especially large ones) can "see" across code context (within their context window) and suggest refactorings or warn about patterns that are not locally obvious (e.g. suggesting a shared helper, factoring duplicated logic, etc.).
+  - More broadly, reviews of LLMs applied to source code highlight their strength in recognizing structural patterns and correlations that might escape a human glancing at only a few files.
+5. **Augmenting or automating code review / linting / static-analysis**
+  - LLMs are being integrated into code review pipelines, providing inline suggestions or catching issues before human review. This can reduce the backlog of simple review feedback and allow human reviewers to focus on architectural/semantic matters.
+  - They are also used to generate or repair tests, suggest documentation, and enforce consistency constraints.
+
+
+### Risks, limitations, and negative impacts
+
+While LLMs have promise, they are not magic, and can degrade quality (or induce new classes of defects) if used carelessly.
+
+1. **Code smells and architectural debt**
+  - The latest work "_Investigating the Smells of LLM Generated Code_" (2025) finds that LLM-generated code exhibits substantially more code smells compared to human-written reference code. On average, the smell rate increased by ~63% (across various complexity levels).
+  - Smells include both _implementation smells_ (e.g. duplicated logic, long methods) and _design smells_ (e.g. poor modularization) — particularly in more complex tasks or advanced object-oriented designs.
+  - Because LLMs are pattern-based, they may favor more "local" fixes rather than holistic refactorings. Over time, this can accumulate technical debt, lower consistency across modules, or hamper maintainability.
+2. **Security vulnerabilities**
+  - In empirical audits, _Security Weaknesses of Copilot-Generated Code in GitHub Projects_ found that a nontrivial portion of LLM-generated snippets contain security flaws. Specifically, 29.5% of Python and 24.2% of JavaScript snippets exhibited at least one weakness according to CWE metrics.
+  - Common weakness classes included use of insufficient randomness, code injection, cross-site scripting, and improper control of generated code.
+  - On the mitigation side, combining static analyzers with LLM-based fixes (via Copilot Chat prompts) could remediate up to ~55.5% of those flagged vulnerabilities in some experiments.
+3. **Overconfidence, complacency, and human error propagation**
+  - Because the model seems "smart," there is a risk developers might overtrust suggestions and insufficiently vet them, especially in less familiar domains or critical code (e.g. security, concurrency, performance-sensitive code).
+  - In educational settings, a recent controlled study with undergraduates found that Copilot use can lead to overreliance and superficial understanding (i.e. students accept suggestions without fully reasoning about them).
+  - The same study noted that while task completion time decreased, there were subtle regressions in learning and debugging skills.
+4. **Context / domain mismatch, hallucinations, stale knowledge**
+  - LLMs are trained on large corpora, but may not reflect your specific project’s architecture, domain logic, or constraints. A suggestion might violate invariants or assumptions not visible to the model.
+  - Hallucinated code (i.e. syntactically plausible but semantically incorrect) is still a well-known risk.
+  - For domain-specific or cutting-edge code (e.g. new libraries, novel algorithms), the LLM’s training may not fully cover the space, leading to weak suggestions or misleading completions.
+5. **Fragmentation / consistency drift**
+  - Over time, different parts of the codebase might get generated or touched with different "flavors" of LLM suggestions, introducing inconsistent patterns, naming conventions, or architectural styles, unless there is strict oversight and linting.
+  - Some developers report that LLMs are weaker at refactoring and maintaining cohesive architecture in large codebases.
+    "LLMs make it easy to write code, but aren’t as good at refactoring and maintaining a cohesive architecture."
+6. **Downward pressure on quality in large codebases**
+  - Some commentary and analyses (e.g. "Downward Pressure on Code Quality" articles) warn that faster coding enabled by LLMs might tempt teams to accept more "quick and dirty" changes, deferring refactorings and increasing technical debt over time.
+  - These arguments are more cautionary than definitive; the effect likely depends on team discipline, reviews, and development culture.
+7. **Effect on maintainers / onboarding / future edits**
+  - If generated code is opaque or non‐idiomatic, future maintainers may struggle to understand, debug, or extend it — especially if the LLM suggestion lacks comments, rationale, or clear logic.
+  - The "explainability" of LLM output is limited; often not accompanied by reasoning or formal guarantees, making review more difficult.
+
+
+### Overall tradeoffs & conditions for success
+
+Given the dual nature of benefits and risks, the net effect of LLM use on code quality depends heavily on how it’s integrated into the development process. Some key moderating factors:
+
+1. **Developer skill and domain knowledge**
+  - Strong developers are more capable of vetting, refining, and adapting LLM suggestions; they can correct mistakes or steer the model. Novice users may blindly accept suboptimal output.
+  - For well-known patterns, LLMs can be very helpful; for novel or domain-specific components, human insight is still critical.
+2. **Review / quality gates**
+  - Rigorous code review, static analysis, testing, and security audits must remain — LLM usage should not replace these quality safeguards, but augment them.
+  - A good strategy is to treat LLM-generated code as a first draft to be improved, rather than a final deliverable.
+3. **Prompt design / context provision**
+  - Better prompts (with overviews, constraints, tests, style guides) lead to better suggestions. The LLM must "know" your expectations and context.
+  - Where possible, giving the model feedback (e.g. "fix this," "make this more modular," etc.) can steer it toward higher-quality code.
+4. **Incremental adoption and monitoring**
+  - Gradual adoption lets teams monitor metrics (defects, review comments, churn, security bugs) and detect regressions early.
+  - Some organizations perform their own A/B or causal analyses to isolate the effect of the LLM on quality (as seen in Faros’ analysis of Copilot usage).
+5. **Specialization & dividing tasks**
+  - Use LLMs for tasks where they shine (scaffolding, boilerplate, test generation, simple functions) while retaining human control over architecture, core business logic, security/critical paths, and system integration.
+6. **Continuous improvement / retraining**
+  - Capturing patterns of accepted suggestions, feedback loops (i.e. learning from corrections), and internal fine-tuning can improve future suggestions to better align with project style and domain constraints.
+
+
+### Summary
+
+- **Net effect is neither guaranteed positive nor negative** — using LLMs can improve code quality (especially in functional correctness, readability, and iteration speed) if used thoughtfully, but also introduces additional risk vectors (smells, security flaws, architectural drift, overreliance).
+- Empirical and controlled studies suggest modest but statistically significant improvements in many quality dimensions for LLM-assisted coding under experimental conditions.  ￼
+ - But emerging research (e.g. on code smells) is raising caution flags about the quality of generated code, particularly in complex scenarios.
+- The key is **governance**: strong review processes, prompt engineering, domain expertise, and monitoring are essential to ensuring LLM use leads to net quality gains.
+
