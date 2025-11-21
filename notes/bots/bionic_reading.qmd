@@ -5,7 +5,7 @@ author: ChatGPT5
 ---
 
 
-Q: What do you know about Bionic Reading? Are there any scientific studies supporting this method?
+## Q: What do you know about Bionic Reading? Are there any scientific studies supporting this method?
 
 ---
 

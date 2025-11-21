@@ -4,7 +4,7 @@ date: 2025-09-15
 author: ChatGPT5
 ---
 
-Q: How does the use of LLM for coding influence quality?
+## Q: How does the use of LLM for coding influence quality?
 
 ---
 
