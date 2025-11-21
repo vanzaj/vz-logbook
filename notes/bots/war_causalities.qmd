@@ -1,0 +1,54 @@
+---
+title: War Causalities
+date: 2025-11-21
+author: Perplexity
+---
+
+
+## Q1: What are verified causalities figures in the current Ukrainian-Russian war?
+
+The verified casualty figures for the current Ukrainian-Russian war indicate extremely high losses on both sides, with substantial military and civilian deaths and injuries reported throughout 2025. The estimates below reflect the most current numbers from reputable organizations and official statements.
+
+### Russian Military Casualties
+- As of mid-November 2025, Russia has sustained between 226,000 and 327,000 confirmed military deaths, based on BBC analysis of Russian servicemen and contractors only [1][2].
+- The total Russian casualties (killed, wounded, missing), according to UK Defense Intelligence and ISW reports from October 2025, exceed 1.1 million since the full-scale invasion began, with 332,000 casualties reported just in 2025 [1].
+- Ukrainian military intelligence estimates 86,744 Russian soldiers killed and 33,996 missing in the first eight months of 2025 [3].
+- Russia continues to experience over 1,000 daily casualties in the later months of 2025[1].
+
+### Ukrainian Military Casualties
+- Ukraine confirmed 43,000 military deaths as of December 2024, though Western analysts believe this is likely an undercount[2].
+- As of October 2025, projects cross-referencing Ukrainian military fatalities have documented 79,213 Ukrainian fighters killed by name and 81,728 missing in action, totaling 160,941 dead or missing[1].
+- Estimates from Western sources place Ukrainian losses between 60,000 and 100,000 killed and up to 400,000 wounded[1].
+- President Zelenskyy stated in February 2025 that over 46,000 Ukrainians had been killed and 380,000 wounded since the war began[1].
+
+### Civilian Casualties
+- The United Nations verified at least 13,883 civilian deaths and 35,548 injuries since the start of the full-scale invasion[4][5].
+- Monthly civilian casualties in 2025 were significantly higher than in 2024, with July 2025 marking the highest death toll since May 2022[5].
+- Civilian death tolls surpassed 13,800 by July 2025, according to OHCHR[4].
+- The most recent attacks resulted in 25–26 people killed and nearly 100 injured, including children, in overnight Russian strikes across Ukraine[6][7][8][9].
+
+### Summary Table
+
+| Group                | Deaths (estimate)     | Wounded (estimate)    | Missing            | Civilian Deaths   |
+|----------------------|----------------------|-----------------------|--------------------|-------------------|
+| Russian Forces       | 226,000 – 327,000 | ~730,000 – 1 million | ~34,000     | N/A               |
+| Ukrainian Forces     | 46,000 – 100,000 | Up to 400,000 | ~81,700     | N/A               |
+| Civilians (Ukraine)  | N/A                  | N/A                   | N/A                | 13,883 – 13,800+ |
+
+These figures are based on the latest available reports and should be viewed as minimum estimates, since the actual casualty numbers may be higher due to the fog of war and incomplete reporting [1][6][8][2][4][5][9].
+
+### Sources
+[1] Casualties of the Russo-Ukrainian war https://en.wikipedia.org/wiki/Casualties_of_the_Russo-Ukrainian_war
+[2] Ukraine in maps: Tracking the war with Russia https://www.bbc.com/news/articles/c0l0k4389g2o
+[3] Russia inches ahead in Ukraine as report says ... https://www.aljazeera.com/news/2025/10/9/russia-says-hopes-for-peace-wane-as-ukraine-strangles-its-fuel-supply
+[4] Ukraine civilian war casualties 2025 https://www.statista.com/statistics/1293492/ukraine-war-casualties/
+[5] Number of civilians killed and injured in Ukraine reaches three ... https://ukraine.ohchr.org/en/Number-of-civilians-killed-and-injured-in-Ukraine-reaches-three-year-monthly-high-in-July-2025-UN-human-rights-monitors-say
+[6] Civilian deaths in Ukraine surge past last year's toll as winter ... https://news.un.org/en/story/2025/11/1166419
+[7] Russian attack on Ternopil kills 26 in one of deadliest ... https://www.bbc.com/news/articles/cy0yere4k0zo
+[8] At least 25 killed in Russian attacks on war-torn Ukraine's ... https://www.aljazeera.com/news/2025/11/19/children-among-the-36-wounded-in-russias-overnight-attacks-on-ukraine
+[9] Russian Offensive Campaign Assessment, Nov. 19, 2025 https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-november-19-2025/
+[10] Casualties of Russia in Ukraine - official data https://index.minfin.com.ua/en/russian-invading/casualties/
+
+
+---
+
