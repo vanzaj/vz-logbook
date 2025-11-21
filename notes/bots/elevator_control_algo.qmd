@@ -1,9 +1,10 @@
 ---
 title: Elevator Control Algorithm
 date: 2025-10-20
+author: ChatGPT5
 ---
 
-Q to ChatGPT5: How hard is elevator control software algoritms for 2 lifts and 10 floors? 
+Q: How hard is elevator control software algoritms for 2 lifts and 10 floors? 
 
 ---
 

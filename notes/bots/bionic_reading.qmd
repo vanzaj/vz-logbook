@@ -1,10 +1,11 @@
 ---
 title: Bionic Reading
 date: 2025-10-31
+author: ChatGPT5
 ---
 
 
-Q to ChatGPT5: What do you know about Bionic Reading? Are there any scientific studies supporting this method?
+Q: What do you know about Bionic Reading? Are there any scientific studies supporting this method?
 
 ---
 
@@ -81,6 +82,4 @@ From a cognitive/neurological perspective:
   - For reading‑disability populations the affective/motivational benefits might be worthwhile to explore further.  
   - If you’re considering research: designing an eye‑tracking + EEG/fMRI study comparing normal vs bolded‑format reading (with conditions controlling for word‑length, frequency, fixation/saccade patterns) would be valuable.  
   - The metric of “reading speed” should be carefully defined (words per minute, fixation count, saccade length) and “comprehension” needs to be tested with valid comprehension tasks, not just subject ratings.
-
----
 
