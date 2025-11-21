@@ -1,139 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://vanzaj.github.io/vz-logbook/coding/practices/katas_for_ds.html</loc>
-    <lastmod>2025-11-05T06:31:27.057Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vanzaj.github.io/vz-logbook/coding/practices/refactoring.html</loc>
-    <lastmod>2025-11-05T06:32:44.401Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vanzaj.github.io/vz-logbook/coding/ops/win-scoop.html</loc>
-    <lastmod>2024-02-14T12:52:50.639Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vanzaj.github.io/vz-logbook/coding/ops/docker.html</loc>
-    <lastmod>2025-11-03T07:11:34.834Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vanzaj.github.io/vz-logbook/coding/ops/tools.html</loc>
-    <lastmod>2024-02-15T04:16:44.418Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vanzaj.github.io/vz-logbook/now.html</loc>
-    <lastmod>2025-11-05T06:20:12.102Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vanzaj.github.io/vz-logbook/notes/teaching/programming-scientists.html</loc>
-    <lastmod>2025-11-03T03:14:01.482Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vanzaj.github.io/vz-logbook/notes/books/tan-meng-search-inside-yourself_2012.html</loc>
-    <lastmod>2024-02-14T12:15:01.501Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vanzaj.github.io/vz-logbook/notes/books/walker-why-we-sleep_2017.html</loc>
-    <lastmod>2025-03-13T11:59:30.897Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vanzaj.github.io/vz-logbook/notes/books/weinberg-becoming-a-technical-leader.html</loc>
-    <lastmod>2025-03-07T11:51:26.199Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vanzaj.github.io/vz-logbook/notes/books/coyle-the-culture-code_2018.html</loc>
-    <lastmod>2024-04-01T08:54:16.424Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vanzaj.github.io/vz-logbook/notes/books/de_botton-how-to-think-more-about-sex_2012.html</loc>
-    <lastmod>2024-02-14T12:15:51.672Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vanzaj.github.io/vz-logbook/notes/books/schneier-a-hackers-mind_2023.html</loc>
-    <lastmod>2024-02-14T14:46:29.969Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vanzaj.github.io/vz-logbook/notes/bots/elevator_control_algo.html</loc>
-    <lastmod>2025-11-06T08:35:58.226Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vanzaj.github.io/vz-logbook/notes/bots/llm_and_code_quality.html</loc>
-    <lastmod>2025-11-06T09:14:22.006Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vanzaj.github.io/vz-logbook/index.html</loc>
-    <lastmod>2025-10-13T07:17:14.523Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vanzaj.github.io/vz-logbook/talks/mine.html</loc>
-    <lastmod>2025-10-30T04:21:43.156Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vanzaj.github.io/vz-logbook/writings/index.html</loc>
-    <lastmod>2024-02-13T08:49:10.249Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vanzaj.github.io/vz-logbook/writings/hr-lingo.html</loc>
-    <lastmod>2024-02-13T07:46:11.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vanzaj.github.io/vz-logbook/writings/org-signalling.html</loc>
+    <loc>https://sansans.net/writings/org-signalling.html</loc>
     <lastmod>2024-02-13T08:53:23.773Z</lastmod>
   </url>
   <url>
-    <loc>https://vanzaj.github.io/vz-logbook/talks/index.html</loc>
+    <loc>https://sansans.net/writings/hr-lingo.html</loc>
+    <lastmod>2024-02-13T07:46:11.731Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/writings/index.html</loc>
+    <lastmod>2024-02-13T08:49:10.249Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/tech/ops/osx_setup.html</loc>
+    <lastmod>2025-11-21T06:42:52.965Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/tech/ops/py-dev-setup.html</loc>
+    <lastmod>2025-11-21T06:42:52.966Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/tech/ops/bash.html</loc>
+    <lastmod>2025-11-21T06:42:52.965Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/tech/mgmt/need-for-engineering-managers.html</loc>
+    <lastmod>2025-11-21T06:42:52.965Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/talks/index.html</loc>
     <lastmod>2025-10-30T04:20:36.356Z</lastmod>
   </url>
   <url>
-    <loc>https://vanzaj.github.io/vz-logbook/about.html</loc>
+    <loc>https://sansans.net/now.html</loc>
+    <lastmod>2025-11-05T06:20:12.102Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/notes/teaching/programming-scientists.html</loc>
+    <lastmod>2025-11-03T03:14:01.482Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/notes/books/tan-meng-search-inside-yourself_2012.html</loc>
+    <lastmod>2024-02-14T12:15:01.501Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/notes/books/walker-why-we-sleep_2017.html</loc>
+    <lastmod>2025-03-13T11:59:30.897Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/notes/books/weinberg-becoming-a-technical-leader.html</loc>
+    <lastmod>2025-03-07T11:51:26.199Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/notes/books/coyle-the-culture-code_2018.html</loc>
+    <lastmod>2024-04-01T08:54:16.424Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/notes/books/de_botton-how-to-think-more-about-sex_2012.html</loc>
+    <lastmod>2024-02-14T12:15:51.672Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/notes/books/schneier-a-hackers-mind_2023.html</loc>
+    <lastmod>2024-02-14T14:46:29.969Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/notes/bots/elevator_control_algo.html</loc>
+    <lastmod>2025-11-06T08:35:58.226Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/notes/bots/llm_and_code_quality.html</loc>
+    <lastmod>2025-11-06T09:14:22.006Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/about.html</loc>
     <lastmod>2025-10-30T07:10:46.113Z</lastmod>
   </url>
   <url>
-    <loc>https://vanzaj.github.io/vz-logbook/notes/bots/bionic_reading.html</loc>
+    <loc>https://sansans.net/index.html</loc>
+    <lastmod>2025-10-13T07:17:14.523Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/notes/bots/bionic_reading.html</loc>
     <lastmod>2025-10-31T04:51:09.211Z</lastmod>
   </url>
   <url>
-    <loc>https://vanzaj.github.io/vz-logbook/notes/web/need-for-engineering-managers.html</loc>
-    <lastmod>2024-02-14T15:45:07.477Z</lastmod>
+    <loc>https://sansans.net/notes/web/effective-learning-kaufman.html</loc>
+    <lastmod>2025-11-21T06:42:52.964Z</lastmod>
   </url>
   <url>
-    <loc>https://vanzaj.github.io/vz-logbook/notes/books/feathers-legacy-code_2004.html</loc>
+    <loc>https://sansans.net/notes/books/feathers-legacy-code_2004.html</loc>
     <lastmod>2024-02-14T12:13:25.964Z</lastmod>
   </url>
   <url>
-    <loc>https://vanzaj.github.io/vz-logbook/notes/books/yunkaporta_sand-talk_2019.html</loc>
+    <loc>https://sansans.net/notes/books/yunkaporta_sand-talk_2019.html</loc>
     <lastmod>2024-02-13T14:58:00.637Z</lastmod>
   </url>
   <url>
-    <loc>https://vanzaj.github.io/vz-logbook/notes/books/index.html</loc>
+    <loc>https://sansans.net/notes/books/index.html</loc>
     <lastmod>2024-02-13T09:00:57.769Z</lastmod>
   </url>
   <url>
-    <loc>https://vanzaj.github.io/vz-logbook/notes/books/singh_trick-or-treatment_2008.html</loc>
+    <loc>https://sansans.net/notes/books/singh_trick-or-treatment_2008.html</loc>
     <lastmod>2024-02-13T14:58:25.495Z</lastmod>
   </url>
   <url>
-    <loc>https://vanzaj.github.io/vz-logbook/notes/books/freeman-goos_2009.html</loc>
+    <loc>https://sansans.net/notes/books/freeman-goos_2009.html</loc>
     <lastmod>2024-02-14T12:13:52.524Z</lastmod>
   </url>
   <url>
-    <loc>https://vanzaj.github.io/vz-logbook/notes/books/hamel-the-future-of-management_2007.html</loc>
+    <loc>https://sansans.net/notes/books/hamel-the-future-of-management_2007.html</loc>
     <lastmod>2025-03-07T12:07:02.655Z</lastmod>
   </url>
   <url>
-    <loc>https://vanzaj.github.io/vz-logbook/notes/teaching/cognitive-load.html</loc>
+    <loc>https://sansans.net/notes/teaching/cognitive-load.html</loc>
     <lastmod>2025-10-29T04:23:13.320Z</lastmod>
   </url>
   <url>
-    <loc>https://vanzaj.github.io/vz-logbook/coding/ops/bash.html</loc>
-    <lastmod>2025-10-30T08:37:03.084Z</lastmod>
+    <loc>https://sansans.net/talks/mine.html</loc>
+    <lastmod>2025-10-30T04:21:43.156Z</lastmod>
   </url>
   <url>
-    <loc>https://vanzaj.github.io/vz-logbook/coding/ops/py-dev-setup.html</loc>
-    <lastmod>2025-10-30T08:23:49.274Z</lastmod>
+    <loc>https://sansans.net/tech/mgmt/cto-checklist.html</loc>
+    <lastmod>2025-11-21T06:42:52.964Z</lastmod>
   </url>
   <url>
-    <loc>https://vanzaj.github.io/vz-logbook/coding/ops/osx_setup.html</loc>
-    <lastmod>2024-02-16T14:12:18.240Z</lastmod>
+    <loc>https://sansans.net/tech/programming/python2-notes.html</loc>
+    <lastmod>2025-11-21T06:42:52.967Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/tech/ops/tools.html</loc>
+    <lastmod>2025-11-21T06:42:52.966Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/tech/ops/docker.html</loc>
+    <lastmod>2025-11-21T06:42:52.965Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/tech/ops/win-scoop.html</loc>
+    <lastmod>2025-11-21T06:42:52.966Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/tech/practices/refactoring.html</loc>
+    <lastmod>2025-11-21T06:42:52.967Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/tech/practices/katas_for_ds.html</loc>
+    <lastmod>2025-11-21T06:42:52.966Z</lastmod>
   </url>
 </urlset>

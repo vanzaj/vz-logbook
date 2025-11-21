@@ -2,13 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-11-04">
+<meta name="author" content="Charity Majors">
+<meta name="dcterms.date" content="2024-01-05">
 
-<title>TDD katas for Data Scientists – vz-logbook</title>
+<title>Questionable advice: My boss says we don’t need any engineering managers. Is he right? – vz-logbook</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -38,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-f3e87e0bb0765aae0ce4da68b988dce5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -81,8 +82,6 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">vz-logbook</span>
     </a>
@@ -107,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Coding</li><li class="breadcrumb-item"><a href="../../coding/practices/eng_practices.html">Practices</a></li><li class="breadcrumb-item"><a href="../../coding/practices/katas_for_ds.html">TDD katas for Data Scientists</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Tech</li><li class="breadcrumb-item"><a href="../../tech/mgmt/cto-checklist.html">Mgmt</a></li><li class="breadcrumb-item"><a href="../../tech/mgmt/need-for-engineering-managers.html">Questionable advice: My boss says we don’t need any engineering managers. Is he right?</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -117,10 +116,6 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-      <a href="../../index.html" class="sidebar-logo-link">
-      </a>
-      </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
@@ -137,94 +132,30 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Coding</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <a href="../../talks/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Talks</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
- <span class="menu-text">Ops</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../coding/ops/bash.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Bash</span></a>
+  <a href="../../talks/mine.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Talks and tutorials</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../coding/ops/docker.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Docker</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../coding/ops/osx_setup.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">OSX setup</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../coding/ops/py-dev-setup.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Python dev setup</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../coding/ops/tools.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Tools</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../coding/ops/win-scoop.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Windows 10 Dev Env Setup</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">Practices</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../coding/practices/katas_for_ds.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">TDD katas for Data Scientists</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../coding/practices/refactoring.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Refactoring</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../writings/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Writings</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../writings/hr-lingo.html" class="sidebar-item-text sidebar-link">
@@ -241,39 +172,22 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../talks/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Talks</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../talks/mine.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Talks and tutorials</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
  <span class="menu-text">Notes</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
  <span class="menu-text">Bots</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../notes/bots/bionic_reading.html" class="sidebar-item-text sidebar-link">
@@ -298,11 +212,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../notes/books/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Books</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../notes/books/coyle-the-culture-code_2018.html" class="sidebar-item-text sidebar-link">
@@ -373,13 +287,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
  <span class="menu-text">Teaching</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../notes/teaching/cognitive-load.html" class="sidebar-item-text sidebar-link">
@@ -396,8 +310,59 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
  <span class="menu-text">Web</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../notes/web/effective-learning-kaufman.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Effective learning</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true">
+ <span class="menu-text">Tech</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true">
+ <span class="menu-text">Mgmt</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tech/mgmt/cto-checklist.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CTO checklist</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tech/mgmt/need-for-engineering-managers.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Questionable advice: My boss says we don’t need any engineering managers. Is he right?</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false">
+ <span class="menu-text">Ops</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -405,8 +370,78 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/web/need-for-engineering-managers.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Questionable advice: My boss says we don’t need any engineering managers. Is he right?</span></a>
+  <a href="../../tech/ops/bash.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bash</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tech/ops/docker.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Docker</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tech/ops/osx_setup.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">OSX setup</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tech/ops/py-dev-setup.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Python dev setup</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tech/ops/tools.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tools</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tech/ops/win-scoop.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Windows 10 Dev Env Setup</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false">
+ <span class="menu-text">Practices</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tech/practices/katas_for_ds.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TDD katas for Data Scientists</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tech/practices/refactoring.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Refactoring</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false">
+ <span class="menu-text">Programming</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tech/programming/python2-notes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Notes on Python 2 (2014)</span></a>
   </div>
 </li>
       </ul>
@@ -423,28 +458,34 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#modplus" id="toc-modplus" class="nav-link active" data-scroll-target="#modplus">ModPlus</a></li>
-  <li><a href="#d-vector" id="toc-d-vector" class="nav-link" data-scroll-target="#d-vector">2D vector</a></li>
+  <li><a href="#why-managers-exist-why-org-structures-exist" id="toc-why-managers-exist-why-org-structures-exist" class="nav-link active" data-scroll-target="#why-managers-exist-why-org-structures-exist">Why managers exist? Why org structures exist?</a></li>
+  <li><a href="#engineering-managers-are-a-useful-abstraction." id="toc-engineering-managers-are-a-useful-abstraction." class="nav-link" data-scroll-target="#engineering-managers-are-a-useful-abstraction.">Engineering managers are a useful abstraction.</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Coding</li><li class="breadcrumb-item"><a href="../../coding/practices/eng_practices.html">Practices</a></li><li class="breadcrumb-item"><a href="../../coding/practices/katas_for_ds.html">TDD katas for Data Scientists</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Tech</li><li class="breadcrumb-item"><a href="../../tech/mgmt/cto-checklist.html">Mgmt</a></li><li class="breadcrumb-item"><a href="../../tech/mgmt/need-for-engineering-managers.html">Questionable advice: My boss says we don’t need any engineering managers. Is he right?</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">TDD katas for Data Scientists</h1>
+<h1 class="title">Questionable advice: My boss says we don’t need any engineering managers. Is he right?</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Charity Majors </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 4, 2025</p>
+      <p class="date">January 5, 2024</p>
     </div>
   </div>
   
@@ -456,24 +497,41 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Whenever I talk about TDD to data science and data engineering folks they say either 1) TDD is not working for algorithmic work, or 2) I’ve tried FizzBuzz and it is not fun. I can understand. Most katas in places like <a href="https://kata-log.rocks/">kata-log</a> are more CS/SW dev oriented.</p>
-<p>So, I’ve dicided to come up with some katas that might be more intersting for DS folks. Here they are.</p>
-<section id="modplus" class="level2">
-<h2 class="anchored" data-anchor-id="modplus">ModPlus</h2>
-<p>ModPlus is a simple hashing algorithm. It takes in a positive integer X and returns a combinatorial sum of a binary representation of X after it is split into chunks of given length.</p>
-<p>For example, <code>modplus(12, chunk_length=3)</code> should return 6.</p>
-<p>Variation: ModPlusDot. Instead of combinatorial sum, use a combination of binary AND and OR when combining chunks.</p>
-<p>(Simple enough for an algorithmic problem. Skills to practice: splitting the problems into smaller problems, naming things, simplify by extraction, refactoring while in green, make it work first).</p>
+<p><a href="https://charity.wtf/2024/01/05/questionable-advice-my-boss-says-we-dont-need-any-engineering-managers-is-he-right/">source</a></p>
+<section id="why-managers-exist-why-org-structures-exist" class="level2">
+<h2 class="anchored" data-anchor-id="why-managers-exist-why-org-structures-exist">Why managers exist? Why org structures exist?</h2>
+<p>How does a bad org structure look like? Rank (position in a hierarchy) is used as a tool of oppression. Information hoarding, playing dominance games (politics). Decisions are made based on rank.</p>
+<p>Hierarchy is a property of self-organizing systems.</p>
+<blockquote class="blockquote">
+<p>A system is “a network of interdependent components that work together to try to accomplish a common aim.” – W. Edward Deming.</p>
+</blockquote>
+<p>A subsystem is a collection of elements with a smaller aim inside a larger system. The sybsystems always work to support the needs of the larger system; if the sybsystem instead optimizes for its own best interest, the whole system can fail.</p>
+<p>A system is self-organizing if it has the ability to make itself more complex, by diversifying, adapting, and improving itself. As systems self-organize and their complexity increases, they tend to generate hierarchy – an arrangement of systems and subsystems. In a stable, resilient and efficient system, sybsystems can largely take care of themselves, regulate themselves, and serve the needs of the larger system, while the larger system coordinates between subsystems and helps them perform better. Hierarchy minimizes the costs of coordination and reduces the amount of information that any given part of the system has to keep track of, preventing information overload. Information transfer and relationships withing a sybsystem are more more dense and have fewer delays than information transfer or relationshions between subsystems.</p>
+<p>A manager’s job is to coordinate between teams and help their team perform better.</p>
+<p>Software product development organizations are socio-technical systems, but the separation between “socio/people” and “technical/engineering” is never clean. Need for “glue work”.</p>
+<p>Tasks that need to be done by any functional engineering org besides writing code:</p>
+<ul>
+<li>Recruiting: networking, interviewing, writing job descriptions and career ladders.</li>
+<li>Project management: managing stakeholders, prioritizing backlog, estimating size and scope.</li>
+<li>Running team meetings: 1x1s (growth feedback), retrospectives, writing reviews, representing the teams’s needs.</li>
+<li>Architecture, code reviews, capturing DORA and productivity metrics, managing burnout.</li>
+</ul>
 </section>
-<section id="d-vector" class="level2">
-<h2 class="anchored" data-anchor-id="d-vector">2D vector</h2>
-<p>Imagine you are working for Khan Academy (KA). KA wants to modernize their basic math classes, especially the display. Implement a cartesian 2D <code>Vector</code> class, that supports scalar multiplication, addition with another <code>Vector</code>, norm (magnitude) and dot product between 2 vectors(see <a href="https://mathworld.wolfram.com/Vector.html">vector</a>).</p>
-<p>(This is more of a design kata, but still requires to implement a couple of formulas).</p>
+<section id="engineering-managers-are-a-useful-abstraction." class="level2">
+<h2 class="anchored" data-anchor-id="engineering-managers-are-a-useful-abstraction.">Engineering managers are a useful abstraction.</h2>
+<p>One of the primary benefits of hierarchy is to reduce information overload. Engineering labor takes concentration and focus. Context switching is expensive. Management labor consist of context switching every hour or so, and being available for interruptions throughtout the day. Engineering calendar and management calendar do not coexist well.</p>
+<p>It isn’t up to managers to do all the glue work, but it is a manager’s job to make sure that everything that needs to get done, does gets done (requires providing necessary resources to people who do the actual work).</p>
+<p>An engineer is responsible for the software she develops, deploys, and maintains. A manager is responsible for her team and the organization as a whole.</p>
+<p>In natural hierarchies, we look up for purpose and down for function. The above makes a complicated argument for why we need engineering managers.</p>
+<p>The simpler argument is that most engineering orgs have engineering managers. It is something that many smart people had to spend considerable time thinking about. It may sound “boring”, but actually it is like with “choosing boring technology” which means “the capabilities and failure conditions are well understood”.</p>
+<p>When there is no explicit structure or hierarchy, the result is not freedom and egalitarianism (see <a href="https://en.wikipedia.org/wiki/The_Tyranny_of_Structurelessness">The Tyranny of Structureless</a>). Such orgs tend to be chaotic, fragile and frustrating.</p>
+<p>No EMs because of management overhead (because managers are not supposed to do tech work) is a flawed argument. Mostly because “productivity” does not equate “lines of code”.</p>
 
 
 </section>
 
 </main> <!-- /main -->
+<script data-goatcounter="https://vanzaj.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -547,7 +605,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/vanzaj\.github\.io\/vz-logbook\/");
+        var filterRegex = new RegExp("https:\/\/sansans\.net");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

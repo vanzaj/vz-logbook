@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Docker – vz-logbook</title>
+<title>warp – vz-logbook</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -58,24 +58,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-f3e87e0bb0765aae0ce4da68b988dce5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-f3e87e0bb0765aae0ce4da68b988dce5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -105,7 +105,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating nav-fixed quarto-light">
@@ -115,9 +115,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    </a>
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">vz-logbook</span>
     </a>
   </div>
@@ -141,7 +139,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Coding</li><li class="breadcrumb-item"><a href="../../coding/ops/bash.html">Ops</a></li><li class="breadcrumb-item"><a href="../../coding/ops/docker.html">Docker</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./WARP.html">WARP.md</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -151,140 +149,97 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-      <a href="../../index.html" class="sidebar-logo-link">
-      </a>
-      </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
+  <a href="./about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../now.html" class="sidebar-item-text sidebar-link">
+  <a href="./now.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Now</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./WARP.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">WARP.md</span></a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Coding</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Ops</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../coding/ops/bash.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Bash</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../coding/ops/docker.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Docker</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../coding/ops/osx_setup.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">OSX setup</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../coding/ops/py-dev-setup.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Python dev setup</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../coding/ops/tools.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Tools</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../coding/ops/win-scoop.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Windows 10 Dev Env Setup</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
- <span class="menu-text">Practices</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../coding/practices/katas_for_ds.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">TDD katas for Data Scientists</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../coding/practices/refactoring.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Refactoring</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../writings/index.html" class="sidebar-item-text sidebar-link">
+            <a href="./writings/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Writings</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../writings/hr-lingo.html" class="sidebar-item-text sidebar-link">
+  <a href="./writings/bipolar.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bipolar disorder</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./writings/black-and-white-thinking.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Binary thinking</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./writings/hr-lingo.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">HR lingo</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../writings/org-signalling.html" class="sidebar-item-text sidebar-link">
+  <a href="./writings/juggling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Juggling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./writings/org-signalling.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Org signalling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./writings/power_tools.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Power Tools</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./writings/riveting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">On rivets and touching grass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./writings/team-topo-critique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Team Topologies</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../talks/index.html" class="sidebar-item-text sidebar-link">
+            <a href="./talks/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Talks</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../talks/mine.html" class="sidebar-item-text sidebar-link">
+  <a href="./talks/mine.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Talks and tutorials</span></a>
   </div>
 </li>
@@ -292,37 +247,37 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
  <span class="menu-text">Notes</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
  <span class="menu-text">Bots</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/bots/bionic_reading.html" class="sidebar-item-text sidebar-link">
+  <a href="./notes/bots/bionic_reading.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Bionic Reading</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/bots/elevator_control_algo.html" class="sidebar-item-text sidebar-link">
+  <a href="./notes/bots/elevator_control_algo.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Elevator Control Algorithm</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/bots/llm_and_code_quality.html" class="sidebar-item-text sidebar-link">
+  <a href="./notes/bots/llm_and_code_quality.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">LLM and code quality</span></a>
   </div>
 </li>
@@ -330,76 +285,76 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../notes/books/index.html" class="sidebar-item-text sidebar-link">
+            <a href="./notes/books/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Books</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/coyle-the-culture-code_2018.html" class="sidebar-item-text sidebar-link">
+  <a href="./notes/books/coyle-the-culture-code_2018.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">The Culture Code</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/de_botton-how-to-think-more-about-sex_2012.html" class="sidebar-item-text sidebar-link">
+  <a href="./notes/books/de_botton-how-to-think-more-about-sex_2012.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">How To Think More About Sex</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/feathers-legacy-code_2004.html" class="sidebar-item-text sidebar-link">
+  <a href="./notes/books/feathers-legacy-code_2004.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Working Effectively with Legacy Code</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/freeman-goos_2009.html" class="sidebar-item-text sidebar-link">
+  <a href="./notes/books/freeman-goos_2009.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Growing Object-Oriented Software, Guided by tests</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/hamel-the-future-of-management_2007.html" class="sidebar-item-text sidebar-link">
+  <a href="./notes/books/hamel-the-future-of-management_2007.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">The Future of Management</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/schneier-a-hackers-mind_2023.html" class="sidebar-item-text sidebar-link">
+  <a href="./notes/books/schneier-a-hackers-mind_2023.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">A Hacker’s Mind. How the Powerful Bend Society’s Rules, and How to Bend them Back</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/singh_trick-or-treatment_2008.html" class="sidebar-item-text sidebar-link">
+  <a href="./notes/books/singh_trick-or-treatment_2008.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Trick or Treatment? Alternative Medicine on Trial</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/tan-meng-search-inside-yourself_2012.html" class="sidebar-item-text sidebar-link">
+  <a href="./notes/books/tan-meng-search-inside-yourself_2012.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Search Inside Yourself</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/walker-why-we-sleep_2017.html" class="sidebar-item-text sidebar-link">
+  <a href="./notes/books/walker-why-we-sleep_2017.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Why We Sleep</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/weinberg-becoming-a-technical-leader.html" class="sidebar-item-text sidebar-link">
+  <a href="./notes/books/weinberg-becoming-a-technical-leader.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Becoming a Technical Leader</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/yunkaporta_sand-talk_2019.html" class="sidebar-item-text sidebar-link">
+  <a href="./notes/books/yunkaporta_sand-talk_2019.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Sand Talk: How Indigenous Thinking Can Save the World</span></a>
   </div>
 </li>
@@ -407,22 +362,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
  <span class="menu-text">Teaching</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/teaching/cognitive-load.html" class="sidebar-item-text sidebar-link">
+  <a href="./notes/teaching/cognitive-load.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Resources on cognitive load</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/teaching/programming-scientists.html" class="sidebar-item-text sidebar-link">
+  <a href="./notes/teaching/programming-scientists.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Teaching programming to science students</span></a>
   </div>
 </li>
@@ -430,8 +385,59 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
  <span class="menu-text">Web</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./notes/web/effective-learning-kaufman.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Effective learning</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false">
+ <span class="menu-text">Tech</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false">
+ <span class="menu-text">Mgmt</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tech/mgmt/cto-checklist.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CTO checklist</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tech/mgmt/need-for-engineering-managers.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Questionable advice: My boss says we don’t need any engineering managers. Is he right?</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false">
+ <span class="menu-text">Ops</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -439,8 +445,90 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/web/need-for-engineering-managers.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Questionable advice: My boss says we don’t need any engineering managers. Is he right?</span></a>
+  <a href="./tech/ops/bash.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bash</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tech/ops/docker.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Docker</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tech/ops/osx_setup.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">OSX setup</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tech/ops/py-dev-setup.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Python dev setup</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tech/ops/tools.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tools</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tech/ops/win-scoop.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Windows 10 Dev Env Setup</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false">
+ <span class="menu-text">Practices</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tech/practices/eng_practices.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">SW engineering practices</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tech/practices/katas_for_ds.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TDD katas for Data Scientists</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tech/practices/refactoring.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Refactoring</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tech/practices/tdd.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Test Driven Development</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false">
+ <span class="menu-text">Programming</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tech/programming/python2-notes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Notes on Python 2 (2014)</span></a>
   </div>
 </li>
       </ul>
@@ -457,137 +545,136 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#docker-commands" id="toc-docker-commands" class="nav-link active" data-scroll-target="#docker-commands">Docker commands</a></li>
-  <li><a href="#docker-run" id="toc-docker-run" class="nav-link" data-scroll-target="#docker-run">Docker run</a></li>
-  <li><a href="#creating-an-image" id="toc-creating-an-image" class="nav-link" data-scroll-target="#creating-an-image">Creating an image</a></li>
-  <li><a href="#network" id="toc-network" class="nav-link" data-scroll-target="#network">Network</a></li>
-  <li><a href="#storage" id="toc-storage" class="nav-link" data-scroll-target="#storage">Storage</a></li>
-  <li><a href="#removing-images" id="toc-removing-images" class="nav-link" data-scroll-target="#removing-images">Removing images</a></li>
-  <li><a href="#docker-compose" id="toc-docker-compose" class="nav-link" data-scroll-target="#docker-compose">Docker compose</a></li>
+  <li><a href="#warp.md" id="toc-warp.md" class="nav-link active" data-scroll-target="#warp.md">WARP.md</a>
+  <ul class="collapse">
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link" data-scroll-target="#project-overview">Project Overview</a></li>
+  <li><a href="#essential-commands" id="toc-essential-commands" class="nav-link" data-scroll-target="#essential-commands">Essential Commands</a>
+  <ul class="collapse">
+  <li><a href="#build-and-preview" id="toc-build-and-preview" class="nav-link" data-scroll-target="#build-and-preview">Build and Preview</a></li>
+  <li><a href="#publishing" id="toc-publishing" class="nav-link" data-scroll-target="#publishing">Publishing</a></li>
+  <li><a href="#quality-checks" id="toc-quality-checks" class="nav-link" data-scroll-target="#quality-checks">Quality Checks</a></li>
+  </ul></li>
+  <li><a href="#content-architecture" id="toc-content-architecture" class="nav-link" data-scroll-target="#content-architecture">Content Architecture</a>
+  <ul class="collapse">
+  <li><a href="#directory-structure" id="toc-directory-structure" class="nav-link" data-scroll-target="#directory-structure">Directory Structure</a></li>
+  <li><a href="#content-workflow" id="toc-content-workflow" class="nav-link" data-scroll-target="#content-workflow">Content Workflow</a></li>
+  </ul></li>
+  <li><a href="#quarto-configuration" id="toc-quarto-configuration" class="nav-link" data-scroll-target="#quarto-configuration">Quarto Configuration</a></li>
+  <li><a href="#custom-dictionary" id="toc-custom-dictionary" class="nav-link" data-scroll-target="#custom-dictionary">Custom Dictionary</a></li>
+  <li><a href="#publishing-flow" id="toc-publishing-flow" class="nav-link" data-scroll-target="#publishing-flow">Publishing Flow</a></li>
+  <li><a href="#file-naming-conventions" id="toc-file-naming-conventions" class="nav-link" data-scroll-target="#file-naming-conventions">File Naming Conventions</a></li>
+  <li><a href="#writing-style" id="toc-writing-style" class="nav-link" data-scroll-target="#writing-style">Writing Style</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Coding</li><li class="breadcrumb-item"><a href="../../coding/ops/bash.html">Ops</a></li><li class="breadcrumb-item"><a href="../../coding/ops/docker.html">Docker</a></li></ol></nav>
-<div class="quarto-title">
-<h1 class="title">Docker</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="docker-commands" class="level1">
-<h1>Docker commands</h1>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="ex">run</span> <span class="va">$name</span><span class="pp">[</span><span class="ss">:$tag</span><span class="pp">]</span> <span class="pp">[</span><span class="ss">$cmd</span><span class="pp">]</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">ps</span> <span class="pp">[-</span><span class="ss">a</span><span class="pp">]</span> <span class="pp">[</span><span class="ss">$name</span><span class="pp">]</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="ex">stop</span> <span class="va">$name</span> <span class="kw">|</span> <span class="va">$id</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">rm</span> <span class="va">$name</span> <span class="kw">|</span> <span class="va">$id</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="ex">images</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="ex">rmi</span> <span class="va">$name</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="ex">pull</span> <span class="va">$name</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="ex">attach</span> <span class="va">$id</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="ex">logs</span> <span class="va">$name</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="warp.md" class="level1">
+<h1>WARP.md</h1>
+<p>This file provides guidance to WARP (warp.dev) when working with code in this repository.</p>
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
+<p>This is a personal digital garden/knols collection built with Quarto. It’s a static website published to GitHub Pages that contains notes from books, articles, tutorials, and personal writings. The content is written in Quarto Markdown (.qmd files).</p>
 </section>
-<section id="docker-run" class="level1">
-<h1>Docker run</h1>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run <span class="at">-it</span> <span class="va">$name</span>  <span class="co"># interactive + terminal</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run <span class="at">-p</span> 8008:80 <span class="va">$name</span>  <span class="co"># daemon mode, link ports $host:$container</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run <span class="at">-v</span> /local/dir:/container/dir <span class="va">$name</span>  <span class="co"># mount local volume</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run <span class="at">-e</span> MYVAR=foobar <span class="va">$name</span>  <span class="co"># pass env var to container</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>NB: ports and volumes arguments always follow <code>$host:$container</code> order</p>
+<section id="essential-commands" class="level2">
+<h2 class="anchored" data-anchor-id="essential-commands">Essential Commands</h2>
+<section id="build-and-preview" class="level3">
+<h3 class="anchored" data-anchor-id="build-and-preview">Build and Preview</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Live preview with hot reload (recommended for local development)</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Or use Makefile shortcut</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">make</span> preview</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="creating-an-image" class="level1">
-<h1>Creating an image</h1>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> <span class="op">&gt;</span> Dockerfile <span class="op">&lt;&lt; EOF</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="st">FROM ubuntu</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="st">RUN apt-get update</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="st">RUN apt-get install python</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="st">RUN pip install flask flask-mysql</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="st">COPY . /opt/src</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="st">ENTRYPOINT FLASK_APP=/opt/src/app.py flask run</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="op">EOF</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> build . <span class="at">-t</span> <span class="va">$myname</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> push <span class="va">$myname</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> history <span class="va">$myname</span>  <span class="co"># to see layers (successful RUNs in Dockerfile)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Docker image is built from layers created from each <code>FROM, RUN and COPY</code> line. The layers are reused for different images.</p>
-<p>Other useful commands: <code>ENV, WORKDIR, USER, CMD</code></p>
+<section id="publishing" class="level3">
+<h3 class="anchored" data-anchor-id="publishing">Publishing</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Publish to GitHub Pages</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Or use Makefile shortcut</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">make</span> publish</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="network" class="level1">
-<h1>Network</h1>
-<p>By default docker uses bridge mode for containers running on the same host with default network 172.17.xxx.xxx. Other network modes are “none” (no network) and “host” (no network isolation from host).</p>
-<p><code>docker network create --driver bridge --subnet 182.18.0.0/16 my_network</code></p>
-<p><code>docker inspect $name</code> will show full container info including network.</p>
-<p>Dockers uses internal DNS 127.0.0.11 to resolve containers IP and containers names.</p>
+<section id="quality-checks" class="level3">
+<h3 class="anchored" data-anchor-id="quality-checks">Quality Checks</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Run spell check on all .qmd files</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">make</span> spell</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Or directly</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> ./spellcheck.sh</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>The spell checker uses <code>aspell</code> with British English (<code>en_GB</code>) and a custom dictionary (<code>_ignore.pws</code>) for technical terms and names.</p>
 </section>
-<section id="storage" class="level1">
-<h1>Storage</h1>
-<p>Containers, images, volumes are stored in <code>/var/lib/docker</code>. All image layers are RO. A contaier runs in a special RW container layer which gets destroyed when container is stoped. Data can be persisted in named volumes inside <code>/var/lib/docker/volumes</code> (volume mount) or a directory on a host (bind mount).</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> volume create my_volume</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run <span class="at">-v</span> my_volume:/var/log my_image</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># new explicit format for mounting volumes</span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run <span class="at">--mount</span> type=bind,source=/data/my_image/logs,target=/var/log my_image</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="removing-images" class="level1">
-<h1>Removing images</h1>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> images</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> rmi <span class="op">&lt;</span>image_id1<span class="op">&gt;</span> <span class="op">&lt;</span>image_id2<span class="op">&gt;</span></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> system prune <span class="at">-a</span></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> volume ls</span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> volume rm <span class="op">&lt;</span>volume_name1<span class="op">&gt;</span> <span class="op">&lt;</span>volume_name2<span class="op">&gt;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="content-architecture" class="level2">
+<h2 class="anchored" data-anchor-id="content-architecture">Content Architecture</h2>
+<section id="directory-structure" class="level3">
+<h3 class="anchored" data-anchor-id="directory-structure">Directory Structure</h3>
+<ul>
+<li><strong>Root level</strong>: Main pages (<code>index.qmd</code>, <code>about.qmd</code>, <code>now.qmd</code>)</li>
+<li><strong><code>writings/</code></strong>: Personal essays and opinion pieces</li>
+<li><strong><code>notes/</code></strong>: Notes organized by source type:
+<ul>
+<li><code>notes/books/</code> - Book summaries and notes</li>
+<li><code>notes/bots/</code> - LLM-generated content</li>
+<li><code>notes/web/</code> - Web articles and tutorials</li>
+<li><code>notes/teaching/</code> - Teaching-related notes</li>
+</ul></li>
+<li><strong><code>tech/</code></strong>: Technical content:
+<ul>
+<li><code>tech/ops/</code> - DevOps, tools, setup guides</li>
+<li><code>tech/practices/</code> - Software engineering practices</li>
+<li><code>tech/mgmt/</code> - Engineering management</li>
+</ul></li>
+<li><strong><code>talks/</code></strong>: Talk notes and references</li>
+<li><strong><code>assets/</code></strong>: Images, PDFs, and other static files</li>
+<li><strong><code>_inbox.qmd</code></strong>: Temporary storage for new learnings</li>
+<li><strong><code>_site/</code></strong>: Generated static site (gitignored)</li>
+</ul>
 </section>
-<section id="docker-compose" class="level1">
-<h1>Docker compose</h1>
-<p>It’s possible to run multiple containers and “link” them for networking. But much easier to use docker-compose to manage multi-container app.</p>
-<p>docker-compose.yml</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">version</span><span class="kw">:</span><span class="at"> </span><span class="dv">2</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="fu">services</span><span class="kw">:</span></span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">frontend</span><span class="kw">:</span></span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">build</span><span class="kw">:</span></span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">context</span><span class="kw">:</span><span class="at"> ./app</span></span>
-<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">args</span><span class="kw">:</span></span>
-<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">DB_HOST</span><span class="kw">:</span><span class="at"> localhost:5005</span></span>
-<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">links</span><span class="kw">:</span></span>
-<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> db</span></span>
-<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">volumes</span><span class="kw">:</span></span>
-<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> logs:/var/logs</span></span>
-<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">depends_on</span><span class="kw">:</span></span>
-<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">db</span><span class="kw">:</span></span>
-<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">condition</span><span class="kw">:</span><span class="at"> service_started</span></span>
-<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">db</span><span class="kw">:</span></span>
-<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">image</span><span class="kw">:</span><span class="at"> postgres:9.4</span></span>
-<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">ports</span><span class="kw">:</span></span>
-<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="st">"5005:5432"</span></span>
-<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">volumes</span><span class="kw">:</span></span>
-<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> /data/app/postgres:/var/lib/postgres</span></span>
-<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a><span class="fu">volumes</span><span class="kw">:</span></span>
-<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">logs</span><span class="kw">:</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker-compose</span> up <span class="at">-d</span>   <span class="co">#--build</span></span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="ex">docker-compose</span> exec frontend ls <span class="at">-l</span></span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="ex">docker-compose</span> logs frontend</span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="ex">docker-compose</span> down <span class="at">-v</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="content-workflow" class="level3">
+<h3 class="anchored" data-anchor-id="content-workflow">Content Workflow</h3>
+<ol type="1">
+<li>New content often starts in <code>_inbox.qmd</code> before being organized</li>
+<li>Each .qmd file should have YAML frontmatter with at minimum a <code>title</code></li>
+<li>Quarto automatically generates navigation from directory structure</li>
+<li>The site uses floating sidebar with auto-generated contents</li>
+</ol>
+</section>
+</section>
+<section id="quarto-configuration" class="level2">
+<h2 class="anchored" data-anchor-id="quarto-configuration">Quarto Configuration</h2>
+<p>Configuration is in <code>_quarto.yml</code>: - <strong>Theme</strong>: yeti - <strong>Search</strong>: enabled - <strong>Sidebar</strong>: floating style, auto-generated from directory structure - <strong>Analytics</strong>: GoatCounter tracking - <strong>Format</strong>: HTML with table of contents</p>
+</section>
+<section id="custom-dictionary" class="level2">
+<h2 class="anchored" data-anchor-id="custom-dictionary">Custom Dictionary</h2>
+<p>When adding new technical terms, names, or specialized vocabulary that triggers spell check errors, add them to <code>_ignore.pws</code> (one word per line).</p>
+</section>
+<section id="publishing-flow" class="level2">
+<h2 class="anchored" data-anchor-id="publishing-flow">Publishing Flow</h2>
+<p>The site is published to GitHub Pages. The <code>quarto publish gh-pages</code> command: 1. Renders the site to <code>_site/</code> 2. Pushes content to the <code>gh-pages</code> branch 3. GitHub Pages serves from that branch</p>
+</section>
+<section id="file-naming-conventions" class="level2">
+<h2 class="anchored" data-anchor-id="file-naming-conventions">File Naming Conventions</h2>
+<ul>
+<li>Use lowercase with hyphens for multi-word filenames: <code>black-and-white-thinking.qmd</code></li>
+<li>Book notes follow pattern: <code>author-title_year.qmd</code></li>
+<li>Keep filenames descriptive but concise</li>
+</ul>
+</section>
+<section id="writing-style" class="level2">
+<h2 class="anchored" data-anchor-id="writing-style">Writing Style</h2>
+<p>Based on existing content: - Casual, personal tone - Mix of bullet points and paragraphs - Callout blocks for emphasis: <code>:::{.callout}</code> - Links to external sources and cross-references - Date stamps on time-sensitive content (like <code>now.qmd</code>)</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
+<script data-goatcounter="https://vanzaj.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -661,7 +748,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/vanzaj\.github\.io\/vz-logbook\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

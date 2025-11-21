@@ -1,146 +1,260 @@
 [
   {
-    "objectID": "coding/practices/katas_for_ds.html",
-    "href": "coding/practices/katas_for_ds.html",
-    "title": "TDD katas for Data Scientists",
+    "objectID": "writings/org-signalling.html",
+    "href": "writings/org-signalling.html",
+    "title": "Org signalling",
     "section": "",
-    "text": "Whenever I talk about TDD to data science and data engineering folks they say either 1) TDD is not working for algorithmic work, or 2) I’ve tried FizzBuzz and it is not fun. I can understand. Most katas in places like kata-log are more CS/SW dev oriented.\nSo, I’ve dicided to come up with some katas that might be more intersting for DS folks. Here they are.",
+    "text": "Just like people, organizations use signalling to communicate with the rest of the world. SEC filing, branding campaigns, industry awards are obvious mechanisms. Certifications like ISO 9001 are useful for getting contractual agreements. There are also more subtle signals. For example B-corp certification means that a for-profit organization puts social sustainability above profit, while worldblue membership signals a cultural shift from traditional command-and-control to a more progressive organization.\nBut there are also organizations that don’t bother with certifications and branding. They just focus on doing good work and leave signalling to word-of-mouth. Corporate Rebels and their bucketlist are currently the best source of information on such organizations. Happy to see Odd-e appearing in the list.",
     "crumbs": [
-      "Coding",
-      "Practices",
-      "TDD katas for Data Scientists"
+      "Writings",
+      "Org signalling"
     ]
   },
   {
-    "objectID": "coding/practices/katas_for_ds.html#modplus",
-    "href": "coding/practices/katas_for_ds.html#modplus",
-    "title": "TDD katas for Data Scientists",
-    "section": "ModPlus",
-    "text": "ModPlus\nModPlus is a simple hashing algorithm. It takes in a positive integer X and returns a combinatorial sum of a binary representation of X after it is split into chunks of given length.\nFor example, modplus(12, chunk_length=3) should return 6.\nVariation: ModPlusDot. Instead of combinatorial sum, use a combination of binary AND and OR when combining chunks.\n(Simple enough for an algorithmic problem. Skills to practice: splitting the problems into smaller problems, naming things, simplify by extraction, refactoring while in green, make it work first).",
-    "crumbs": [
-      "Coding",
-      "Practices",
-      "TDD katas for Data Scientists"
-    ]
-  },
-  {
-    "objectID": "coding/practices/katas_for_ds.html#d-vector",
-    "href": "coding/practices/katas_for_ds.html#d-vector",
-    "title": "TDD katas for Data Scientists",
-    "section": "2D vector",
-    "text": "2D vector\nImagine you are working for Khan Academy (KA). KA wants to modernize their basic math classes, especially the display. Implement a cartesian 2D Vector class, that supports scalar multiplication, addition with another Vector, norm (magnitude) and dot product between 2 vectors(see vector).\n(This is more of a design kata, but still requires to implement a couple of formulas).",
-    "crumbs": [
-      "Coding",
-      "Practices",
-      "TDD katas for Data Scientists"
-    ]
-  },
-  {
-    "objectID": "coding/practices/refactoring.html",
-    "href": "coding/practices/refactoring.html",
-    "title": "Refactoring",
+    "objectID": "writings/hr-lingo.html",
+    "href": "writings/hr-lingo.html",
+    "title": "HR lingo",
     "section": "",
-    "text": "Extract example\n\nOriginal codeRefactored\n\n\ndef printOwing(amount):\n    printBanner()\n    print \"name: %s\" % name\n    print \"amount: %f\" % amount\n    \ndef printLateNotice(amount):\n    printBanner()\n    print \"name: %s\" % name\n    print \"amount: %f\" % amount\n\n\ndef printOwing(amount):\n    printBanner()\n    printDetails()\n    \ndef printLateNotice(amount):\n    printBanner()\n    printDetails()\n\ndef printDetails(amount):\n    print \"name: %s\" % name\n    print \"amount: %f\" % amount",
+    "text": "language and the words you use say a lot about a culture, and that we can take steps to change culture through changing those words. – Emily Webber\n\nThe above quote is from a short and sweet “Should you call people resources?” post which resonated with me. I don’t remember when the term “resource” applied to people started to bother me. It’s been a while, but usually I didn’t do anything about it. Last year I decided to engage with an HR admin in a bank where I worked as an external consultant. She kept referring to me and my colleagues as “external resources” in emails. I’d asked her to stop calling us that, but either she had ignored my request or thought it wasn’t important and continued to call us “ER”s. I repeated my request accompanied by a small explanation why people are not resources thinking that sensible people especially working in HR would have no problem understanding it. Her reply: “but it is just a classification in our internal IT system”…\nSome of my HR friends say that the R-word is slowly disappearing from their industry’s lexicon and that organization adopt Google’s “People Operation” or similar (hopefully not just borrowing the term and being done with it). I like this development.\nWhat about “talent”? It is not as offensive as “resources”, but still might trigger “I’ve got no talents.” Or “I’m not good at this.” And isn’t talent overrated? And what about “human capital” or “human assets”? What is the benefit of using these words and constructs instead of just “people”?",
     "crumbs": [
-      "Coding",
-      "Practices",
-      "Refactoring"
+      "Writings",
+      "HR lingo"
     ]
   },
   {
-    "objectID": "coding/practices/refactoring.html#notes-from-industrial-logic-course",
-    "href": "coding/practices/refactoring.html#notes-from-industrial-logic-course",
-    "title": "Refactoring",
+    "objectID": "writings/index.html",
+    "href": "writings/index.html",
+    "title": "Writings",
     "section": "",
-    "text": "Extract example\n\nOriginal codeRefactored\n\n\ndef printOwing(amount):\n    printBanner()\n    print \"name: %s\" % name\n    print \"amount: %f\" % amount\n    \ndef printLateNotice(amount):\n    printBanner()\n    print \"name: %s\" % name\n    print \"amount: %f\" % amount\n\n\ndef printOwing(amount):\n    printBanner()\n    printDetails()\n    \ndef printLateNotice(amount):\n    printBanner()\n    printDetails()\n\ndef printDetails(amount):\n    print \"name: %s\" % name\n    print \"amount: %f\" % amount",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nAuthor\n\n\n\n\n\n\n\n\nSep 24, 2020\n\n\nHR lingo\n\n\n \n\n\n\n\n\n\nJul 29, 2020\n\n\nOrg signalling\n\n\n \n\n\n\n\n\n\nNo matching items",
     "crumbs": [
-      "Coding",
-      "Practices",
-      "Refactoring"
+      "Writings"
     ]
   },
   {
-    "objectID": "coding/practices/refactoring.html#unlocking-the-awesome-power-of-refactoring",
-    "href": "coding/practices/refactoring.html#unlocking-the-awesome-power-of-refactoring",
-    "title": "Refactoring",
-    "section": "Unlocking the Awesome Power of Refactoring",
-    "text": "Unlocking the Awesome Power of Refactoring\nby J. B. Rainsberger tech excellence talk\nDeliberate practice, Learned Helplessness.\nNanosteps –&gt; Microsteps –&gt; Moves Repetition –&gt; Ease –&gt; Chunking (autonomic, subconscious, higher order thinking) –&gt; Confidence –&gt; Courage\nPattern: Item –&gt; Collection (ex function arg)\n\nadd extra arg f(x)  --&gt; f(x, xs: List).\nmodifiy calls of f(x) in the code base to use new signature.\nmodify f(x) to use xs instead of x.\nverify that the behaviour of f() is the same.\nremove x so that we are left with f(xs).\n\nStart practicing now: 30min refactoring at the end of a day or even week. Throw the changes away.\nPractice is not performance!\n“Cleaning the kitchen as you cook”.",
-    "crumbs": [
-      "Coding",
-      "Practices",
-      "Refactoring"
-    ]
-  },
-  {
-    "objectID": "coding/ops/win-scoop.html",
-    "href": "coding/ops/win-scoop.html",
-    "title": "Windows 10 Dev Env Setup",
+    "objectID": "tech/ops/osx_setup.html",
+    "href": "tech/ops/osx_setup.html",
+    "title": "OSX setup",
     "section": "",
-    "text": "Go to https://github.com/PowerShell/PowerShell/\nClick on Latest under Releases\nSearch for win-x64.msi",
+    "text": "updated: 2023-11-02",
     "crumbs": [
-      "Coding",
+      "Tech",
       "Ops",
-      "Windows 10 Dev Env Setup"
+      "OSX setup"
     ]
   },
   {
-    "objectID": "coding/ops/win-scoop.html#install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020",
-    "href": "coding/ops/win-scoop.html#install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020",
-    "title": "Windows 10 Dev Env Setup",
+    "objectID": "tech/ops/osx_setup.html#xcode-and-homebrew",
+    "href": "tech/ops/osx_setup.html#xcode-and-homebrew",
+    "title": "OSX setup",
+    "section": "xcode and homebrew",
+    "text": "xcode and homebrew\nzsh --version\nxcode-select --install\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n/opt/homebrew/bin/brew shellenv &gt;&gt; /Users/ivan/.brewenv   # then copy or read it from .zshrc\nbrew doctor\n\nbrew install git\ngit config --global core.excludesfile ~/.gitignore\ncp tmp/home-etc/git/gitconfig ~/.gitconfig\n\nbrew install ack fzf neovim pyenv tmux tree wget xz zlib bat git-delta\nbrew install --cask betterzip cheatsheet docker qlmarkdown quicklook-csv rectangle suspicious-package vlc vscodium",
+    "crumbs": [
+      "Tech",
+      "Ops",
+      "OSX setup"
+    ]
+  },
+  {
+    "objectID": "tech/ops/osx_setup.html#shell",
+    "href": "tech/ops/osx_setup.html#shell",
+    "title": "OSX setup",
+    "section": "shell",
+    "text": "shell\nsh -c \"$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\"\nln -s Library/Mobile\\ Documents/com~apple~CloudDocs ~/CloudDocs",
+    "crumbs": [
+      "Tech",
+      "Ops",
+      "OSX setup"
+    ]
+  },
+  {
+    "objectID": "tech/ops/osx_setup.html#python",
+    "href": "tech/ops/osx_setup.html#python",
+    "title": "OSX setup",
+    "section": "python",
+    "text": "python\nbrew install pyenv\necho 'eval \"$(pyenv init -)\"' &gt;&gt; .zshrc\npyenv install --list\npyenv install 3.11.0",
+    "crumbs": [
+      "Tech",
+      "Ops",
+      "OSX setup"
+    ]
+  },
+  {
+    "objectID": "tech/ops/py-dev-setup.html",
+    "href": "tech/ops/py-dev-setup.html",
+    "title": "Python dev setup",
     "section": "",
-    "text": "Go to https://github.com/PowerShell/PowerShell/\nClick on Latest under Releases\nSearch for win-x64.msi",
+    "text": "These days (2025) I use uv.\nbrew install uv\ncd $proj_dir\nuv init myapp && cd myapp\nuv python list\nuv python install 3.12.11\nuv python pin 3.12.11        # update .python_version\nuv run main.py\nuv add pytest\nuv lock --upgrade-package pytest  # uv lock -U  to update all deps\nuv sync  # to update .venv\nuv export --format requirements-txt &gt; requirements.txt\n\nuv run pip freeze --local\n\n\n\n(updated: oct 2024)\nbrew install pipx\npipx install poetry\ncd $new_project\npyenv local 3.12.7\npoetry init\npoetry env show\npoetry add fastapi uvicorn\npoetry add pytest pytest-cov --group test\n\n\n\npyenv install 3.12.1\npyenv local 3.12.1\npython -m venv venv\n. ./venv/bin/activate\npip install --upgrade pip\npip install fastapi\npip install 'uvicorn[standard]'\npip freeze &gt; requirements.txt",
     "crumbs": [
-      "Coding",
+      "Tech",
       "Ops",
-      "Windows 10 Dev Env Setup"
+      "Python dev setup"
     ]
   },
   {
-    "objectID": "coding/ops/win-scoop.html#install-and-configure-scoop",
-    "href": "coding/ops/win-scoop.html#install-and-configure-scoop",
-    "title": "Windows 10 Dev Env Setup",
-    "section": "Install and configure Scoop",
-    "text": "Install and configure Scoop\nScoop allows installing and managing familiar dev tools on Windows from the command line. It is somewhat similar to homebrew on Mac or apt-get on Ubuntu.\nSetup your region’s web proxy (more info)\nType in the PowerShell Terminal:\n[net.webrequest]::defaultwebproxy = new-object net.webproxy \"http://proxy.COMPANY.com:8080\"\n[net.webrequest]::defaultwebproxy.credentials = [net.credentialcache]::defaultcredentials\nInstall scoop.sh and git:\nset-executionpolicy unrestricted -s cu\niwr -useb get.scoop.sh | iex\nscoop install git win32-openssh openssl\nsudo C:\\ProgramData\\scoop\\apps\\win32-openssh\\current\\install-sshd.ps1\ngit config --global credential.helper manager\ngit config --global http.sslVerify false\nscoop config proxy 'currentuser@proxy.COMPANY.com:8080'\nscoop install busybox cacert delta pshazz sudo\ngit config --global delta.side-by-side true",
-    "crumbs": [
-      "Coding",
-      "Ops",
-      "Windows 10 Dev Env Setup"
-    ]
-  },
-  {
-    "objectID": "coding/ops/win-scoop.html#install-development-tools",
-    "href": "coding/ops/win-scoop.html#install-development-tools",
-    "title": "Windows 10 Dev Env Setup",
-    "section": "Install development tools",
-    "text": "Install development tools\nScoop update and basic tools:\nscoop config proxy 'currentuser@proxytr.huawei.com:8080'\nsudo scoop update *\nscoop install cwRsync dust everything gpg procs sysinternals vcredist2015 vcredist windows-terminal -g\nAdd buckets and install java, node, python, postman, svn…:\nscoop bucket add extras versions java jetbrains\nscoop install zulu8 maven gradle\nscoop install IntelliJ-IDEA-Ultimate jetbrains-toolbox\nscoop install nodejs yarn python\nscoop install concfg nvim vscode curl jq postman silksvn\nInstall docker:\nscoop bucket add Ash258 'https://github.com/Ash258/Scoop-Ash258.git'\nscoop install docker",
-    "crumbs": [
-      "Coding",
-      "Ops",
-      "Windows 10 Dev Env Setup"
-    ]
-  },
-  {
-    "objectID": "coding/ops/docker.html",
-    "href": "coding/ops/docker.html",
-    "title": "Docker",
+    "objectID": "tech/ops/py-dev-setup.html#uv",
+    "href": "tech/ops/py-dev-setup.html#uv",
+    "title": "Python dev setup",
     "section": "",
-    "text": "Docker commands\ndocker\n    run $name[:$tag] [$cmd]\n    ps [-a] [$name]\n    stop $name | $id\n    rm $name | $id\n    images\n    rmi $name\n    pull $name\n    attach $id\n    logs $name\n\n\nDocker run\ndocker run -it $name  # interactive + terminal\ndocker run -p 8008:80 $name  # daemon mode, link ports $host:$container\ndocker run -v /local/dir:/container/dir $name  # mount local volume\ndocker run -e MYVAR=foobar $name  # pass env var to container\nNB: ports and volumes arguments always follow $host:$container order\n\n\nCreating an image\ncat &gt; Dockerfile &lt;&lt; EOF\nFROM ubuntu\nRUN apt-get update\nRUN apt-get install python\nRUN pip install flask flask-mysql\nCOPY . /opt/src\nENTRYPOINT FLASK_APP=/opt/src/app.py flask run\nEOF\ndocker build . -t $myname\ndocker push $myname\ndocker history $myname  # to see layers (successful RUNs in Dockerfile)\nDocker image is built from layers created from each FROM, RUN and COPY line. The layers are reused for different images.\nOther useful commands: ENV, WORKDIR, USER, CMD\n\n\nNetwork\nBy default docker uses bridge mode for containers running on the same host with default network 172.17.xxx.xxx. Other network modes are “none” (no network) and “host” (no network isolation from host).\ndocker network create --driver bridge --subnet 182.18.0.0/16 my_network\ndocker inspect $name will show full container info including network.\nDockers uses internal DNS 127.0.0.11 to resolve containers IP and containers names.\n\n\nStorage\nContainers, images, volumes are stored in /var/lib/docker. All image layers are RO. A contaier runs in a special RW container layer which gets destroyed when container is stoped. Data can be persisted in named volumes inside /var/lib/docker/volumes (volume mount) or a directory on a host (bind mount).\ndocker volume create my_volume\ndocker run -v my_volume:/var/log my_image\n\n# new explicit format for mounting volumes\ndocker run --mount type=bind,source=/data/my_image/logs,target=/var/log my_image\n\n\nRemoving images\ndocker images\ndocker rmi &lt;image_id1&gt; &lt;image_id2&gt;\ndocker system prune -a\ndocker volume ls\ndocker volume rm &lt;volume_name1&gt; &lt;volume_name2&gt;\n\n\nDocker compose\nIt’s possible to run multiple containers and “link” them for networking. But much easier to use docker-compose to manage multi-container app.\ndocker-compose.yml\nversion: 2\n\nservices:\n  frontend:\n    build:\n      context: ./app\n      args:\n        DB_HOST: localhost:5005\n    links:\n      - db\n    volumes:\n      - logs:/var/logs\n    depends_on:\n      db:\n        condition: service_started\n\n  db:\n    image: postgres:9.4\n    ports:\n      - \"5005:5432\"\n    volumes:\n      - /data/app/postgres:/var/lib/postgres\n\nvolumes:\n  logs:\ndocker-compose up -d   #--build\ndocker-compose exec frontend ls -l\ndocker-compose logs frontend\ndocker-compose down -v",
+    "text": "These days (2025) I use uv.\nbrew install uv\ncd $proj_dir\nuv init myapp && cd myapp\nuv python list\nuv python install 3.12.11\nuv python pin 3.12.11        # update .python_version\nuv run main.py\nuv add pytest\nuv lock --upgrade-package pytest  # uv lock -U  to update all deps\nuv sync  # to update .venv\nuv export --format requirements-txt &gt; requirements.txt\n\nuv run pip freeze --local",
     "crumbs": [
-      "Coding",
+      "Tech",
       "Ops",
-      "Docker"
+      "Python dev setup"
     ]
   },
   {
-    "objectID": "coding/ops/tools.html",
-    "href": "coding/ops/tools.html",
-    "title": "Tools",
+    "objectID": "tech/ops/py-dev-setup.html#pyenv-poetry",
+    "href": "tech/ops/py-dev-setup.html#pyenv-poetry",
+    "title": "Python dev setup",
     "section": "",
-    "text": "ansible vault\necho $random_passwd &gt; .ansible-vault-password-file\nexport ANSIBLE_VAULT_PASSWORD_FILE=./.ansible-vault-password-file\nansible-vault encrypt hosts.txt\nansible-vault view hosts.txt\nansible-vault edit hosts.txt\n\n\ncrontab\n# user crontab\ncrontab -e\n5 * * * * /path/to/script\ncrontab -l # -r to remove\n\n#system crontab (run every 5 min)\necho \"*/5 * * * * bob /path/to/scrip.sh\" &gt; /etc/cron.d/bobs-script\n\n\njournalctl\njournalctl --since \"2 days ago\" -u uwsgi\njournalctl -flu uwsgi\n\n\nnginx\ntest config: nginx -T\n\n\npostfix\npostqueue -p  # emails still in queue\npostsuper -d $EMAIL_HEX_ID  # to delete\n\n\nsendmail\nssh $mgmt_box\nsendmail -t &lt;&lt;eof\nFrom: ops@foo.com\nTo: regi@registrar.com\nSubject: renew this\n\nHi, i can haz renew.\neof\n\n\nvagrant (osx)\nbrew tap caskroom/cask\nbrew cask install vagrant\nbrew cask reinstall virtualbox virtualbox-extension-pack\nvagrant init bento/ubuntu-16.04\nvim Vagrantfile\nvagrant up\nvagrant provision\nvagrant ssh",
+    "text": "(updated: oct 2024)\nbrew install pipx\npipx install poetry\ncd $new_project\npyenv local 3.12.7\npoetry init\npoetry env show\npoetry add fastapi uvicorn\npoetry add pytest pytest-cov --group test",
     "crumbs": [
-      "Coding",
+      "Tech",
       "Ops",
-      "Tools"
+      "Python dev setup"
+    ]
+  },
+  {
+    "objectID": "tech/ops/py-dev-setup.html#pyenv-buildin-virtualenv",
+    "href": "tech/ops/py-dev-setup.html#pyenv-buildin-virtualenv",
+    "title": "Python dev setup",
+    "section": "",
+    "text": "pyenv install 3.12.1\npyenv local 3.12.1\npython -m venv venv\n. ./venv/bin/activate\npip install --upgrade pip\npip install fastapi\npip install 'uvicorn[standard]'\npip freeze &gt; requirements.txt",
+    "crumbs": [
+      "Tech",
+      "Ops",
+      "Python dev setup"
+    ]
+  },
+  {
+    "objectID": "tech/ops/py-dev-setup.html#proxy-setup-for-pip",
+    "href": "tech/ops/py-dev-setup.html#proxy-setup-for-pip",
+    "title": "Python dev setup",
+    "section": "Proxy setup for pip",
+    "text": "Proxy setup for pip\nAssuming the userID=1234566 and password=s3cr3t0, type the following in the terminal:\n$env:http_proxy=\"http://123456:s3cr3t0@proxytr.company.com:8080\"\n$env:https_proxy=\"http://123456:s3cr3t0@proxytr.company.com:8080\"\n(NB: http:// for $env:https IS correct)",
+    "crumbs": [
+      "Tech",
+      "Ops",
+      "Python dev setup"
+    ]
+  },
+  {
+    "objectID": "tech/ops/py-dev-setup.html#always-work-inside-an-isolated-environment",
+    "href": "tech/ops/py-dev-setup.html#always-work-inside-an-isolated-environment",
+    "title": "Python dev setup",
+    "section": "Always work inside an isolated environment",
+    "text": "Always work inside an isolated environment\nIt is very hard to manage different versions of dependencies for multiple projects in one place. We need to use virtual environments. In Python 3, virtualenv was added to core library as venv module.\ncd new_project\npython -m venv .\\myevn\n.\\myenv\\Scripts\\activate\npip install requests  # installs into .\\myenv\\Lib\\site-packages\nFor ML projects, it might be better to use [mini]conda as a replacement for pip:\nscoop install miniconda3\nconda install -n root -c pscondaenvs pscondaenvs\nconda init powershell\n\n# relaunch terminal\n\nconda info         # check current env\nconda list         # which packages are available\nconda info --envs  # list of existing environments\nconda create --name myenv\nconda activate myenv\nconda install -n myenv numpy scikit-learn\nconda deactivate\n\n# Add conda forge\nconda config --set auto_update_conda False\nconda config --add channels conda-forge\nconda search psycopg2\n\nconda install --file requirements.txt",
+    "crumbs": [
+      "Tech",
+      "Ops",
+      "Python dev setup"
+    ]
+  },
+  {
+    "objectID": "tech/ops/bash.html",
+    "href": "tech/ops/bash.html",
+    "title": "Bash",
+    "section": "",
+    "text": "One option is to use Bach by the amazing Chai Feng.",
+    "crumbs": [
+      "Tech",
+      "Ops",
+      "Bash"
+    ]
+  },
+  {
+    "objectID": "tech/ops/bash.html#unit-testing",
+    "href": "tech/ops/bash.html#unit-testing",
+    "title": "Bash",
+    "section": "",
+    "text": "One option is to use Bach by the amazing Chai Feng.",
+    "crumbs": [
+      "Tech",
+      "Ops",
+      "Bash"
+    ]
+  },
+  {
+    "objectID": "tech/ops/bash.html#safer-scripts",
+    "href": "tech/ops/bash.html#safer-scripts",
+    "title": "Bash",
+    "section": "Safer scripts",
+    "text": "Safer scripts\n#!/usr/bin/env bash\n\nset -euxo pipefail\n\n‘-e’ exit immediately on command fail\n‘-u’ treat unset variables as an error and exit immediately\n‘-x’ print each command before executing it\n‘-o pipefail’ sets the exit code of a pipeline to that of the rightmost command to exit with a non-zero status.\n\nsee: safer bash scripts\nAlso, always quote all variables.",
+    "crumbs": [
+      "Tech",
+      "Ops",
+      "Bash"
+    ]
+  },
+  {
+    "objectID": "tech/ops/bash.html#list-uniq-file-extensions-in-a-dir",
+    "href": "tech/ops/bash.html#list-uniq-file-extensions-in-a-dir",
+    "title": "Bash",
+    "section": "List uniq file extensions in a dir",
+    "text": "List uniq file extensions in a dir\nfor f in *; do echo ${f##*.}; done | sort | uniq`",
+    "crumbs": [
+      "Tech",
+      "Ops",
+      "Bash"
+    ]
+  },
+  {
+    "objectID": "tech/ops/bash.html#heredoc",
+    "href": "tech/ops/bash.html#heredoc",
+    "title": "Bash",
+    "section": "Heredoc",
+    "text": "Heredoc\n$ cat &lt;&lt; END | wc -l\none\ntwo\nthree\nEND\n3",
+    "crumbs": [
+      "Tech",
+      "Ops",
+      "Bash"
+    ]
+  },
+  {
+    "objectID": "tech/mgmt/need-for-engineering-managers.html",
+    "href": "tech/mgmt/need-for-engineering-managers.html",
+    "title": "Questionable advice: My boss says we don’t need any engineering managers. Is he right?",
+    "section": "",
+    "text": "source",
+    "crumbs": [
+      "Tech",
+      "Mgmt",
+      "Questionable advice: My boss says we don’t need any engineering managers. Is he right?"
+    ]
+  },
+  {
+    "objectID": "tech/mgmt/need-for-engineering-managers.html#why-managers-exist-why-org-structures-exist",
+    "href": "tech/mgmt/need-for-engineering-managers.html#why-managers-exist-why-org-structures-exist",
+    "title": "Questionable advice: My boss says we don’t need any engineering managers. Is he right?",
+    "section": "Why managers exist? Why org structures exist?",
+    "text": "Why managers exist? Why org structures exist?\nHow does a bad org structure look like? Rank (position in a hierarchy) is used as a tool of oppression. Information hoarding, playing dominance games (politics). Decisions are made based on rank.\nHierarchy is a property of self-organizing systems.\n\nA system is “a network of interdependent components that work together to try to accomplish a common aim.” – W. Edward Deming.\n\nA subsystem is a collection of elements with a smaller aim inside a larger system. The sybsystems always work to support the needs of the larger system; if the sybsystem instead optimizes for its own best interest, the whole system can fail.\nA system is self-organizing if it has the ability to make itself more complex, by diversifying, adapting, and improving itself. As systems self-organize and their complexity increases, they tend to generate hierarchy – an arrangement of systems and subsystems. In a stable, resilient and efficient system, sybsystems can largely take care of themselves, regulate themselves, and serve the needs of the larger system, while the larger system coordinates between subsystems and helps them perform better. Hierarchy minimizes the costs of coordination and reduces the amount of information that any given part of the system has to keep track of, preventing information overload. Information transfer and relationships withing a sybsystem are more more dense and have fewer delays than information transfer or relationshions between subsystems.\nA manager’s job is to coordinate between teams and help their team perform better.\nSoftware product development organizations are socio-technical systems, but the separation between “socio/people” and “technical/engineering” is never clean. Need for “glue work”.\nTasks that need to be done by any functional engineering org besides writing code:\n\nRecruiting: networking, interviewing, writing job descriptions and career ladders.\nProject management: managing stakeholders, prioritizing backlog, estimating size and scope.\nRunning team meetings: 1x1s (growth feedback), retrospectives, writing reviews, representing the teams’s needs.\nArchitecture, code reviews, capturing DORA and productivity metrics, managing burnout.",
+    "crumbs": [
+      "Tech",
+      "Mgmt",
+      "Questionable advice: My boss says we don’t need any engineering managers. Is he right?"
+    ]
+  },
+  {
+    "objectID": "tech/mgmt/need-for-engineering-managers.html#engineering-managers-are-a-useful-abstraction.",
+    "href": "tech/mgmt/need-for-engineering-managers.html#engineering-managers-are-a-useful-abstraction.",
+    "title": "Questionable advice: My boss says we don’t need any engineering managers. Is he right?",
+    "section": "Engineering managers are a useful abstraction.",
+    "text": "Engineering managers are a useful abstraction.\nOne of the primary benefits of hierarchy is to reduce information overload. Engineering labor takes concentration and focus. Context switching is expensive. Management labor consist of context switching every hour or so, and being available for interruptions throughtout the day. Engineering calendar and management calendar do not coexist well.\nIt isn’t up to managers to do all the glue work, but it is a manager’s job to make sure that everything that needs to get done, does gets done (requires providing necessary resources to people who do the actual work).\nAn engineer is responsible for the software she develops, deploys, and maintains. A manager is responsible for her team and the organization as a whole.\nIn natural hierarchies, we look up for purpose and down for function. The above makes a complicated argument for why we need engineering managers.\nThe simpler argument is that most engineering orgs have engineering managers. It is something that many smart people had to spend considerable time thinking about. It may sound “boring”, but actually it is like with “choosing boring technology” which means “the capabilities and failure conditions are well understood”.\nWhen there is no explicit structure or hierarchy, the result is not freedom and egalitarianism (see The Tyranny of Structureless). Such orgs tend to be chaotic, fragile and frustrating.\nNo EMs because of management overhead (because managers are not supposed to do tech work) is a flawed argument. Mostly because “productivity” does not equate “lines of code”.",
+    "crumbs": [
+      "Tech",
+      "Mgmt",
+      "Questionable advice: My boss says we don’t need any engineering managers. Is he right?"
+    ]
+  },
+  {
+    "objectID": "talks/index.html",
+    "href": "talks/index.html",
+    "title": "Talks",
+    "section": "",
+    "text": "My Talks and tutorials\nSlides, GitHub repos, and video recordings of talks at various conferences from 2011 to present. Before that my talks where mostly about boring fMRI, ASL, and MRI image processing; mostly presented at ISMRM and related conferences.",
+    "crumbs": [
+      "Talks"
     ]
   },
   {
@@ -770,99 +884,6 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "vz-logbook",
-    "section": "",
-    "text": "This is my attempt at digital gardening. Some people use the term bliki to describe this kind of information curation.\nCurrently, I am focusing on the following."
-  },
-  {
-    "objectID": "talks/mine.html",
-    "href": "talks/mine.html",
-    "title": "Talks and tutorials",
-    "section": "",
-    "text": "Moving to Larger Implementation of Agile, talk at the Learning Festival 2022, NUS-ISS (2022-08-26).\nDeveloping Developers, talk at the 2019 LeSS Conference (2019-09-12).\nProfessional Software Development. Can it be taught?, talk at PyCon SG Edu Summit (2019-06-25).\nData Science and Agile, Can or Not?, panel discussion at Stack conference (2018-10-03).\nMob Programming, talk (in Russian) at ag;)e days 2018 (2018-03-22). Slides in English.\nBrain, Memory and Effective study, workshop at AHA conference (2017-04-14).\nCluster failure: Why fMRI inferences have inflated false positive rates, talk at “Papers We Love #022” (2016-08-29). Slides.\nSoftware Carpentry, lightning talk at PyCon SG 2016 (2016-06-23).\nSoftware Carpentry: Python programming and Scientific python, tutorial at NTU Learning Studio (2016-06-11).",
-    "crumbs": [
-      "Talks",
-      "Talks and tutorials"
-    ]
-  },
-  {
-    "objectID": "talks/mine.html#now",
-    "href": "talks/mine.html#now",
-    "title": "Talks and tutorials",
-    "section": "",
-    "text": "Moving to Larger Implementation of Agile, talk at the Learning Festival 2022, NUS-ISS (2022-08-26).\nDeveloping Developers, talk at the 2019 LeSS Conference (2019-09-12).\nProfessional Software Development. Can it be taught?, talk at PyCon SG Edu Summit (2019-06-25).\nData Science and Agile, Can or Not?, panel discussion at Stack conference (2018-10-03).\nMob Programming, talk (in Russian) at ag;)e days 2018 (2018-03-22). Slides in English.\nBrain, Memory and Effective study, workshop at AHA conference (2017-04-14).\nCluster failure: Why fMRI inferences have inflated false positive rates, talk at “Papers We Love #022” (2016-08-29). Slides.\nSoftware Carpentry, lightning talk at PyCon SG 2016 (2016-06-23).\nSoftware Carpentry: Python programming and Scientific python, tutorial at NTU Learning Studio (2016-06-11).",
-    "crumbs": [
-      "Talks",
-      "Talks and tutorials"
-    ]
-  },
-  {
-    "objectID": "talks/mine.html#section",
-    "href": "talks/mine.html#section",
-    "title": "Talks and tutorials",
-    "section": "2013 - 2015",
-    "text": "2013 - 2015\nOrganizations v5.0, talk at BarCamp SG (2015-10-17).\nSoftware Carpentry training model, talk at EduCamp SG (2015-04-02).\nCLI until it CLIcks, tutorial at PyCon SG 2014 (2014-06-18).\nIntroduction to Python and SciPy, for A-STAR’s I2R (2013-08-22).\nPresentation 101, lightning talk at PyCon SG (2013-06-15).\nDacets: research data management for individual scientists, talk at PyCon SG 2013 (2013-06-14).\nIntroduction to data processing with Python, tutorial at PyCon SG 2013 (2013-06-13).\nFree research, talk at Open Science BarCamp @ NUS (2013-03-08).\nOpen Science, talk at Open Science BarCamp @ NUS (2013-03-08).",
-    "crumbs": [
-      "Talks",
-      "Talks and tutorials"
-    ]
-  },
-  {
-    "objectID": "talks/mine.html#section-1",
-    "href": "talks/mine.html#section-1",
-    "title": "Talks and tutorials",
-    "section": "2011 - 2012",
-    "text": "2011 - 2012\nHacking Academia, talk at BarCamp SG (2012-05-12).\nLies, damn lies and linguistics, talk at BarCamp SG at Blk71 (2011-09-10).\nBrain train, mini workshop at NUS for Denisa’s students (2011-06-21).",
-    "crumbs": [
-      "Talks",
-      "Talks and tutorials"
-    ]
-  },
-  {
-    "objectID": "writings/index.html",
-    "href": "writings/index.html",
-    "title": "Writings",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nAuthor\n\n\n\n\n\n\n\n\nSep 24, 2020\n\n\nHR lingo\n\n\n \n\n\n\n\n\n\nJul 29, 2020\n\n\nOrg signalling\n\n\n \n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Writings"
-    ]
-  },
-  {
-    "objectID": "writings/hr-lingo.html",
-    "href": "writings/hr-lingo.html",
-    "title": "HR lingo",
-    "section": "",
-    "text": "language and the words you use say a lot about a culture, and that we can take steps to change culture through changing those words. – Emily Webber\n\nThe above quote is from a short and sweet “Should you call people resources?” post which resonated with me. I don’t remember when the term “resource” applied to people started to bother me. It’s been a while, but usually I didn’t do anything about it. Last year I decided to engage with an HR admin in a bank where I worked as an external consultant. She kept referring to me and my colleagues as “external resources” in emails. I’d asked her to stop calling us that, but either she had ignored my request or thought it wasn’t important and continued to call us “ER”s. I repeated my request accompanied by a small explanation why people are not resources thinking that sensible people especially working in HR would have no problem understanding it. Her reply: “but it is just a classification in our internal IT system”…\nSome of my HR friends say that the R-word is slowly disappearing from their industry’s lexicon and that organization adopt Google’s “People Operation” or similar (hopefully not just borrowing the term and being done with it). I like this development.\nWhat about “talent”? It is not as offensive as “resources”, but still might trigger “I’ve got no talents.” Or “I’m not good at this.” And isn’t talent overrated? And what about “human capital” or “human assets”? What is the benefit of using these words and constructs instead of just “people”?",
-    "crumbs": [
-      "Writings",
-      "HR lingo"
-    ]
-  },
-  {
-    "objectID": "writings/org-signalling.html",
-    "href": "writings/org-signalling.html",
-    "title": "Org signalling",
-    "section": "",
-    "text": "Just like people, organizations use signalling to communicate with the rest of the world. SEC filing, branding campaigns, industry awards are obvious mechanisms. Certifications like ISO 9001 are useful for getting contractual agreements. There are also more subtle signals. For example B-corp certification means that a for-profit organization puts social sustainability above profit, while worldblue membership signals a cultural shift from traditional command-and-control to a more progressive organization.\nBut there are also organizations that don’t bother with certifications and branding. They just focus on doing good work and leave signalling to word-of-mouth. Corporate Rebels and their bucketlist are currently the best source of information on such organizations. Happy to see Odd-e appearing in the list.",
-    "crumbs": [
-      "Writings",
-      "Org signalling"
-    ]
-  },
-  {
-    "objectID": "talks/index.html",
-    "href": "talks/index.html",
-    "title": "Talks",
-    "section": "",
-    "text": "My Talks and tutorials\nSlides, GitHub repos, and video recordings of talks at various conferences from 2011 to present. Before that my talks where mostly about boring fMRI, ASL, and MRI image processing; mostly presented at ISMRM and related conferences.",
-    "crumbs": [
-      "Talks"
-    ]
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -891,6 +912,13 @@
     "crumbs": [
       "About"
     ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "vz-logbook",
+    "section": "",
+    "text": "This is my attempt at digital gardening. Some people use the term bliki to describe this kind of information curation.\nCurrently, I am focusing on the following."
   },
   {
     "objectID": "notes/bots/bionic_reading.html",
@@ -965,39 +993,15 @@
     ]
   },
   {
-    "objectID": "notes/web/need-for-engineering-managers.html",
-    "href": "notes/web/need-for-engineering-managers.html",
-    "title": "Questionable advice: My boss says we don’t need any engineering managers. Is he right?",
+    "objectID": "notes/web/effective-learning-kaufman.html",
+    "href": "notes/web/effective-learning-kaufman.html",
+    "title": "Effective learning",
     "section": "",
-    "text": "source",
+    "text": "Learning tips\nhttp://first20hours.com/ by Josh Kaufam.\nThe First 20 Hours - How to Learn Anything by Josh Kaufman at TEDxCSU.\n\nDeconstruct the skill\nLearn enough to self-correct\nRemove practice barriers (distraction and tools)\nPractice at least 20 hrs (overcome frustration barrier)\n\nThe major barrier to skill acquisition isn’t intellectual, it’s emotional.\nOvercome the resistance to learn a new skill (initial excitement and realization of the difficulty).\n\nFocus of very few topics\nSet concrete performance targets\nMake sure you have necessary tools\nGeneral overview -&gt; Divide into subtopics\nLearn in short bursts (&lt; 1h)\nFast feedback\nActive recall\n\nExamples:\nProgramming\n\nI spent some time learning what “programming” and “web applications” are in general,    then deconstructed these skills into smaller sub-skills that are easier to understand and practice.\nI set my target performance level by choosing two specific projects I wanted to create,    then defined what those projects would look like when finished.\nI deconstructed those projects into smaller sub-steps then identified which sub-steps seemed    most important.\nI made sure I had the tools I needed to work (like the latest version of Ruby),    and that I was able to find and use any additional tools I needed.\nI found a few reliable sources of programming information, but I skipped canned tutorials    in favor of jumping in and writing the actual programs.\nI worked on the most important sub-steps first, like figuring out how to test programs    on my computer, push the finished application to production, etc.\nI used reference examples to get started and build confidence, then tested various approaches    to figure out how to program the features I wanted.\nWhen I made an error, the program crashed and gave me an error message,    creating a fast feedback loop.\nAfter getting an error, I experimented with several ways to fix it.    If I couldn’t fix the problem myself, I searched for help.\nI kept using the build / test / fix approach until my programs were complete.\n\nTouch typing\n\nI learned how to change my keyboard layout to Colemak.\nI created a fast feedback loop by rearranging the physical keys on the keyboard,    so if I forgot  where a character was located, I could find it easily.\nI used the Keyzen typing tutor to learn the placement of characters by touch,    learning the most-used characters first. Keyzen re-introduced characters to the training set    as I made mistakes, so I spent most of my time practicing difficult characters until    my accuracy improved.\nI practiced for 45 minutes every night, just before going to bed, so my brain could consolidate    the motor skills into long-term memory most effectively.\nOnce I got to functional speed (20 WPM), I switched to Type-Fu, focusing on typing sentences    as fast as possible with over 99% accuracy.\nWhen I reached 40 WPM, I used Amphetype to train the most common English bigrams    and trigrams, further increasing my speed and accuracy.\nOnce I mastered the n-gram set, I switched to training the most common English words    in Amphetype until I reached 60 WPM sustained with 99% accuracy, which happened at the    21 hour mark.",
     "crumbs": [
       "Notes",
       "Web",
-      "Questionable advice: My boss says we don’t need any engineering managers. Is he right?"
-    ]
-  },
-  {
-    "objectID": "notes/web/need-for-engineering-managers.html#why-managers-exist-why-org-structures-exist",
-    "href": "notes/web/need-for-engineering-managers.html#why-managers-exist-why-org-structures-exist",
-    "title": "Questionable advice: My boss says we don’t need any engineering managers. Is he right?",
-    "section": "Why managers exist? Why org structures exist?",
-    "text": "Why managers exist? Why org structures exist?\nHow does a bad org structure look like? Rank (position in a hierarchy) is used as a tool of oppression. Information hoarding, playing dominance games (politics). Decisions are made based on rank.\nHierarchy is a property of self-organizing systems.\n\nA system is “a network of interdependent components that work together to try to accomplish a common aim.” – W. Edward Deming.\n\nA subsystem is a collection of elements with a smaller aim inside a larger system. The sybsystems always work to support the needs of the larger system; if the sybsystem instead optimizes for its own best interest, the whole system can fail.\nA system is self-organizing if it has the ability to make itself more complex, by diversifying, adapting, and improving itself. As systems self-organize and their complexity increases, they tend to generate hierarchy – an arrangement of systems and subsystems. In a stable, resilient and efficient system, sybsystems can largely take care of themselves, regulate themselves, and serve the needs of the larger system, while the larger system coordinates between subsystems and helps them perform better. Hierarchy minimizes the costs of coordination and reduces the amount of information that any given part of the system has to keep track of, preventing information overload. Information transfer and relationships withing a sybsystem are more more dense and have fewer delays than information transfer or relationshions between subsystems.\nA manager’s job is to coordinate between teams and help their team perform better.\nSoftware product development organizations are socio-technical systems, but the separation between “socio/people” and “technical/engineering” is never clean. Need for “glue work”.\nTasks that need to be done by any functional engineering org besides writing code:\n\nRecruiting: networking, interviewing, writing job descriptions and career ladders.\nProject management: managing stakeholders, prioritizing backlog, estimating size and scope.\nRunning team meetings: 1x1s (growth feedback), retrospectives, writing reviews, representing the teams’s needs.\nArchitecture, code reviews, capturing DORA and productivity metrics, managing burnout.",
-    "crumbs": [
-      "Notes",
-      "Web",
-      "Questionable advice: My boss says we don’t need any engineering managers. Is he right?"
-    ]
-  },
-  {
-    "objectID": "notes/web/need-for-engineering-managers.html#engineering-managers-are-a-useful-abstraction.",
-    "href": "notes/web/need-for-engineering-managers.html#engineering-managers-are-a-useful-abstraction.",
-    "title": "Questionable advice: My boss says we don’t need any engineering managers. Is he right?",
-    "section": "Engineering managers are a useful abstraction.",
-    "text": "Engineering managers are a useful abstraction.\nOne of the primary benefits of hierarchy is to reduce information overload. Engineering labor takes concentration and focus. Context switching is expensive. Management labor consist of context switching every hour or so, and being available for interruptions throughtout the day. Engineering calendar and management calendar do not coexist well.\nIt isn’t up to managers to do all the glue work, but it is a manager’s job to make sure that everything that needs to get done, does gets done (requires providing necessary resources to people who do the actual work).\nAn engineer is responsible for the software she develops, deploys, and maintains. A manager is responsible for her team and the organization as a whole.\nIn natural hierarchies, we look up for purpose and down for function. The above makes a complicated argument for why we need engineering managers.\nThe simpler argument is that most engineering orgs have engineering managers. It is something that many smart people had to spend considerable time thinking about. It may sound “boring”, but actually it is like with “choosing boring technology” which means “the capabilities and failure conditions are well understood”.\nWhen there is no explicit structure or hierarchy, the result is not freedom and egalitarianism (see The Tyranny of Structureless). Such orgs tend to be chaotic, fragile and frustrating.\nNo EMs because of management overhead (because managers are not supposed to do tech work) is a flawed argument. Mostly because “productivity” does not equate “lines of code”.",
-    "crumbs": [
-      "Notes",
-      "Web",
-      "Questionable advice: My boss says we don’t need any engineering managers. Is he right?"
+      "Effective learning"
     ]
   },
   {
@@ -1108,183 +1112,395 @@
     ]
   },
   {
-    "objectID": "coding/ops/bash.html",
-    "href": "coding/ops/bash.html",
-    "title": "Bash",
+    "objectID": "talks/mine.html",
+    "href": "talks/mine.html",
+    "title": "Talks and tutorials",
     "section": "",
-    "text": "One option is to use Bach by the amazing Chai Feng.",
+    "text": "Moving to Larger Implementation of Agile, talk at the Learning Festival 2022, NUS-ISS (2022-08-26).\nDeveloping Developers, talk at the 2019 LeSS Conference (2019-09-12).\nProfessional Software Development. Can it be taught?, talk at PyCon SG Edu Summit (2019-06-25).\nData Science and Agile, Can or Not?, panel discussion at Stack conference (2018-10-03).\nMob Programming, talk (in Russian) at ag;)e days 2018 (2018-03-22). Slides in English.\nBrain, Memory and Effective study, workshop at AHA conference (2017-04-14).\nCluster failure: Why fMRI inferences have inflated false positive rates, talk at “Papers We Love #022” (2016-08-29). Slides.\nSoftware Carpentry, lightning talk at PyCon SG 2016 (2016-06-23).\nSoftware Carpentry: Python programming and Scientific python, tutorial at NTU Learning Studio (2016-06-11).",
     "crumbs": [
-      "Coding",
-      "Ops",
-      "Bash"
+      "Talks",
+      "Talks and tutorials"
     ]
   },
   {
-    "objectID": "coding/ops/bash.html#unit-testing",
-    "href": "coding/ops/bash.html#unit-testing",
-    "title": "Bash",
+    "objectID": "talks/mine.html#now",
+    "href": "talks/mine.html#now",
+    "title": "Talks and tutorials",
     "section": "",
-    "text": "One option is to use Bach by the amazing Chai Feng.",
+    "text": "Moving to Larger Implementation of Agile, talk at the Learning Festival 2022, NUS-ISS (2022-08-26).\nDeveloping Developers, talk at the 2019 LeSS Conference (2019-09-12).\nProfessional Software Development. Can it be taught?, talk at PyCon SG Edu Summit (2019-06-25).\nData Science and Agile, Can or Not?, panel discussion at Stack conference (2018-10-03).\nMob Programming, talk (in Russian) at ag;)e days 2018 (2018-03-22). Slides in English.\nBrain, Memory and Effective study, workshop at AHA conference (2017-04-14).\nCluster failure: Why fMRI inferences have inflated false positive rates, talk at “Papers We Love #022” (2016-08-29). Slides.\nSoftware Carpentry, lightning talk at PyCon SG 2016 (2016-06-23).\nSoftware Carpentry: Python programming and Scientific python, tutorial at NTU Learning Studio (2016-06-11).",
     "crumbs": [
-      "Coding",
-      "Ops",
-      "Bash"
+      "Talks",
+      "Talks and tutorials"
     ]
   },
   {
-    "objectID": "coding/ops/bash.html#safer-scripts",
-    "href": "coding/ops/bash.html#safer-scripts",
-    "title": "Bash",
-    "section": "Safer scripts",
-    "text": "Safer scripts\n#!/usr/bin/env bash\n\nset -euxo pipefail\n\n‘-e’ exit immediately on command fail\n‘-u’ treat unset variables as an error and exit immediately\n‘-x’ print each command before executing it\n‘-o pipefail’ sets the exit code of a pipeline to that of the rightmost command to exit with a non-zero status.\n\nsee: safer bash scripts\nAlso, always quote all variables.",
+    "objectID": "talks/mine.html#section",
+    "href": "talks/mine.html#section",
+    "title": "Talks and tutorials",
+    "section": "2013 - 2015",
+    "text": "2013 - 2015\nOrganizations v5.0, talk at BarCamp SG (2015-10-17).\nSoftware Carpentry training model, talk at EduCamp SG (2015-04-02).\nCLI until it CLIcks, tutorial at PyCon SG 2014 (2014-06-18).\nIntroduction to Python and SciPy, for A-STAR’s I2R (2013-08-22).\nPresentation 101, lightning talk at PyCon SG (2013-06-15).\nDacets: research data management for individual scientists, talk at PyCon SG 2013 (2013-06-14).\nIntroduction to data processing with Python, tutorial at PyCon SG 2013 (2013-06-13).\nFree research, talk at Open Science BarCamp @ NUS (2013-03-08).\nOpen Science, talk at Open Science BarCamp @ NUS (2013-03-08).",
     "crumbs": [
-      "Coding",
-      "Ops",
-      "Bash"
+      "Talks",
+      "Talks and tutorials"
     ]
   },
   {
-    "objectID": "coding/ops/bash.html#list-uniq-file-extensions-in-a-dir",
-    "href": "coding/ops/bash.html#list-uniq-file-extensions-in-a-dir",
-    "title": "Bash",
-    "section": "List uniq file extensions in a dir",
-    "text": "List uniq file extensions in a dir\nfor f in *; do echo ${f##*.}; done | sort | uniq`",
+    "objectID": "talks/mine.html#section-1",
+    "href": "talks/mine.html#section-1",
+    "title": "Talks and tutorials",
+    "section": "2011 - 2012",
+    "text": "2011 - 2012\nHacking Academia, talk at BarCamp SG (2012-05-12).\nLies, damn lies and linguistics, talk at BarCamp SG at Blk71 (2011-09-10).\nBrain train, mini workshop at NUS for Denisa’s students (2011-06-21).",
     "crumbs": [
-      "Coding",
-      "Ops",
-      "Bash"
+      "Talks",
+      "Talks and tutorials"
     ]
   },
   {
-    "objectID": "coding/ops/bash.html#heredoc",
-    "href": "coding/ops/bash.html#heredoc",
-    "title": "Bash",
-    "section": "Heredoc",
-    "text": "Heredoc\n$ cat &lt;&lt; END | wc -l\none\ntwo\nthree\nEND\n3",
-    "crumbs": [
-      "Coding",
-      "Ops",
-      "Bash"
-    ]
-  },
-  {
-    "objectID": "coding/ops/py-dev-setup.html",
-    "href": "coding/ops/py-dev-setup.html",
-    "title": "Python dev setup",
+    "objectID": "tech/mgmt/cto-checklist.html",
+    "href": "tech/mgmt/cto-checklist.html",
+    "title": "CTO checklist",
     "section": "",
-    "text": "These days (2025) I use uv.\nbrew install uv\ncd $proj_dir\nuv init myapp && cd myapp\nuv python list\nuv python install 3.12.11\nuv python pin 3.12.11        # update .python_version\nuv run main.py\nuv add pytest\nuv lock --upgrade-package pytest  # uv lock -U  to update all deps\nuv sync  # to update .venv\nuv export --format requirements-txt &gt; requirements.txt\n\nuv run pip freeze --local\n\n\n\n(updated: oct 2024)\nbrew install pipx\npipx install poetry\ncd $new_project\npyenv local 3.12.7\npoetry init\npoetry env show\npoetry add fastapi uvicorn\npoetry add pytest pytest-cov --group test\n\n\n\npyenv install 3.12.1\npyenv local 3.12.1\npython -m venv venv\n. ./venv/bin/activate\npip install --upgrade pip\npip install fastapi\npip install 'uvicorn[standard]'\npip freeze &gt; requirements.txt",
+    "text": "How are technical decisions made and communicated?\nHow does engineering work get assigned?\nIs there a product roadmap that all developer can see?\nWhat is the team structure? (dedicated tech lead, designer, QA, technical writer, sysadmin/ops)\nHow often do you have tech meetings?\nDoes tech team participate in business and customer meetings?\nHow is performance evaluated?\nHow do you handle training? (junior staff, new tech)\nHow do you resolve conflicts/arguments?",
     "crumbs": [
-      "Coding",
-      "Ops",
-      "Python dev setup"
+      "Tech",
+      "Mgmt",
+      "CTO checklist"
     ]
   },
   {
-    "objectID": "coding/ops/py-dev-setup.html#uv",
-    "href": "coding/ops/py-dev-setup.html#uv",
-    "title": "Python dev setup",
+    "objectID": "tech/mgmt/cto-checklist.html#management-style",
+    "href": "tech/mgmt/cto-checklist.html#management-style",
+    "title": "CTO checklist",
     "section": "",
-    "text": "These days (2025) I use uv.\nbrew install uv\ncd $proj_dir\nuv init myapp && cd myapp\nuv python list\nuv python install 3.12.11\nuv python pin 3.12.11        # update .python_version\nuv run main.py\nuv add pytest\nuv lock --upgrade-package pytest  # uv lock -U  to update all deps\nuv sync  # to update .venv\nuv export --format requirements-txt &gt; requirements.txt\n\nuv run pip freeze --local",
+    "text": "How are technical decisions made and communicated?\nHow does engineering work get assigned?\nIs there a product roadmap that all developer can see?\nWhat is the team structure? (dedicated tech lead, designer, QA, technical writer, sysadmin/ops)\nHow often do you have tech meetings?\nDoes tech team participate in business and customer meetings?\nHow is performance evaluated?\nHow do you handle training? (junior staff, new tech)\nHow do you resolve conflicts/arguments?",
     "crumbs": [
-      "Coding",
-      "Ops",
-      "Python dev setup"
+      "Tech",
+      "Mgmt",
+      "CTO checklist"
     ]
   },
   {
-    "objectID": "coding/ops/py-dev-setup.html#pyenv-poetry",
-    "href": "coding/ops/py-dev-setup.html#pyenv-poetry",
-    "title": "Python dev setup",
+    "objectID": "tech/mgmt/cto-checklist.html#engineering-practice",
+    "href": "tech/mgmt/cto-checklist.html#engineering-practice",
+    "title": "CTO checklist",
+    "section": "Engineering practice",
+    "text": "Engineering practice\n\nWhat is your tech stack?\nWhat version control system do you use?\nWhat do you use for documentation? (design, usage, api, …)\nWhat do you use for issue tracking?\nHow do you test the code base? (unit/functional, coverage)\nHow often do you do code review?\nHow do you manage code deployment? (staging, production, rollback)\nHow do you deal with technical dept? (maintenance vs new features)",
+    "crumbs": [
+      "Tech",
+      "Mgmt",
+      "CTO checklist"
+    ]
+  },
+  {
+    "objectID": "tech/mgmt/cto-checklist.html#operations",
+    "href": "tech/mgmt/cto-checklist.html#operations",
+    "title": "CTO checklist",
+    "section": "Operations",
+    "text": "Operations\n\nDo you have system monitoring/logging in place?\nDo you have application monitoring/logging in place?\nDo you monitor 3d party (dependency) services?\nDo you have a disaster recovery procedure?\nHow do you handle alerts? (escalation)\nDo you provide customer support?",
+    "crumbs": [
+      "Tech",
+      "Mgmt",
+      "CTO checklist"
+    ]
+  },
+  {
+    "objectID": "tech/mgmt/cto-checklist.html#non-tech-questions-during-tech-role-interview",
+    "href": "tech/mgmt/cto-checklist.html#non-tech-questions-during-tech-role-interview",
+    "title": "CTO checklist",
+    "section": "Non-tech questions (during tech role interview)",
+    "text": "Non-tech questions (during tech role interview)\n\nCan you give an example of a time you helped a non-technical person with a technical problem, and how did you explain it to them?\nHave you worked with QA before? What were your feelings and how would you improve the process?\nHave you ever worked in a customer support or client facing role?\nWhat are your hobbies?\nWhat do you like about your current work environment, and what do you not like about it?",
+    "crumbs": [
+      "Tech",
+      "Mgmt",
+      "CTO checklist"
+    ]
+  },
+  {
+    "objectID": "tech/mgmt/cto-checklist.html#resources",
+    "href": "tech/mgmt/cto-checklist.html#resources",
+    "title": "CTO checklist",
+    "section": "Resources",
+    "text": "Resources\n\nDesign and development standard practices\n\nhttp://12factor.net/\nhttps://github.com/north/north\nhttp://dev.fastmonkeys.com/en/latest/\nhttp://blog.fogcreek.com/increase-defect-detection-with-our-code-review-checklist-example/\nCode Review\n\n\n\nManagement practice\n\nhttp://www.defmacro.org/2014/10/03/engman.html\nhttp://algeri-wong.com/yishan/engineering-management.html",
+    "crumbs": [
+      "Tech",
+      "Mgmt",
+      "CTO checklist"
+    ]
+  },
+  {
+    "objectID": "tech/programming/python2-notes.html",
+    "href": "tech/programming/python2-notes.html",
+    "title": "Notes on Python 2 (2014)",
     "section": "",
-    "text": "(updated: oct 2024)\nbrew install pipx\npipx install poetry\ncd $new_project\npyenv local 3.12.7\npoetry init\npoetry env show\npoetry add fastapi uvicorn\npoetry add pytest pytest-cov --group test",
+    "text": "https://github.com/faif/python-patterns\nhttp://planetpython.org/\nhttp://code.activestate.com/recipes/langs/python/",
     "crumbs": [
-      "Coding",
-      "Ops",
-      "Python dev setup"
+      "Tech",
+      "Programming",
+      "Notes on Python 2 (2014)"
     ]
   },
   {
-    "objectID": "coding/ops/py-dev-setup.html#pyenv-buildin-virtualenv",
-    "href": "coding/ops/py-dev-setup.html#pyenv-buildin-virtualenv",
-    "title": "Python dev setup",
+    "objectID": "tech/programming/python2-notes.html#info",
+    "href": "tech/programming/python2-notes.html#info",
+    "title": "Notes on Python 2 (2014)",
     "section": "",
-    "text": "pyenv install 3.12.1\npyenv local 3.12.1\npython -m venv venv\n. ./venv/bin/activate\npip install --upgrade pip\npip install fastapi\npip install 'uvicorn[standard]'\npip freeze &gt; requirements.txt",
+    "text": "https://github.com/faif/python-patterns\nhttp://planetpython.org/\nhttp://code.activestate.com/recipes/langs/python/",
     "crumbs": [
-      "Coding",
-      "Ops",
-      "Python dev setup"
+      "Tech",
+      "Programming",
+      "Notes on Python 2 (2014)"
     ]
   },
   {
-    "objectID": "coding/ops/py-dev-setup.html#proxy-setup-for-pip",
-    "href": "coding/ops/py-dev-setup.html#proxy-setup-for-pip",
-    "title": "Python dev setup",
-    "section": "Proxy setup for pip",
-    "text": "Proxy setup for pip\nAssuming the userID=1234566 and password=s3cr3t0, type the following in the terminal:\n$env:http_proxy=\"http://123456:s3cr3t0@proxytr.company.com:8080\"\n$env:https_proxy=\"http://123456:s3cr3t0@proxytr.company.com:8080\"\n(NB: http:// for $env:https IS correct)",
+    "objectID": "tech/programming/python2-notes.html#command-line-tools",
+    "href": "tech/programming/python2-notes.html#command-line-tools",
+    "title": "Notes on Python 2 (2014)",
+    "section": "Command line tools",
+    "text": "Command line tools\n\nbaker\ndocopt\ncookiecutter",
     "crumbs": [
-      "Coding",
-      "Ops",
-      "Python dev setup"
+      "Tech",
+      "Programming",
+      "Notes on Python 2 (2014)"
     ]
   },
   {
-    "objectID": "coding/ops/py-dev-setup.html#always-work-inside-an-isolated-environment",
-    "href": "coding/ops/py-dev-setup.html#always-work-inside-an-isolated-environment",
-    "title": "Python dev setup",
-    "section": "Always work inside an isolated environment",
-    "text": "Always work inside an isolated environment\nIt is very hard to manage different versions of dependencies for multiple projects in one place. We need to use virtual environments. In Python 3, virtualenv was added to core library as venv module.\ncd new_project\npython -m venv .\\myevn\n.\\myenv\\Scripts\\activate\npip install requests  # installs into .\\myenv\\Lib\\site-packages\nFor ML projects, it might be better to use [mini]conda as a replacement for pip:\nscoop install miniconda3\nconda install -n root -c pscondaenvs pscondaenvs\nconda init powershell\n\n# relaunch terminal\n\nconda info         # check current env\nconda list         # which packages are available\nconda info --envs  # list of existing environments\nconda create --name myenv\nconda activate myenv\nconda install -n myenv numpy scikit-learn\nconda deactivate\n\n# Add conda forge\nconda config --set auto_update_conda False\nconda config --add channels conda-forge\nconda search psycopg2\n\nconda install --file requirements.txt",
+    "objectID": "tech/programming/python2-notes.html#databases",
+    "href": "tech/programming/python2-notes.html#databases",
+    "title": "Notes on Python 2 (2014)",
+    "section": "Databases",
+    "text": "Databases\n\ndataset\nsandman",
     "crumbs": [
-      "Coding",
-      "Ops",
-      "Python dev setup"
+      "Tech",
+      "Programming",
+      "Notes on Python 2 (2014)"
     ]
   },
   {
-    "objectID": "coding/ops/osx_setup.html",
-    "href": "coding/ops/osx_setup.html",
-    "title": "OSX setup",
+    "objectID": "tech/programming/python2-notes.html#deployment",
+    "href": "tech/programming/python2-notes.html#deployment",
+    "title": "Notes on Python 2 (2014)",
+    "section": "Deployment",
+    "text": "Deployment\npy2app, py2exe, cx-freeze, pants.",
+    "crumbs": [
+      "Tech",
+      "Programming",
+      "Notes on Python 2 (2014)"
+    ]
+  },
+  {
+    "objectID": "tech/programming/python2-notes.html#documentation",
+    "href": "tech/programming/python2-notes.html#documentation",
+    "title": "Notes on Python 2 (2014)",
+    "section": "Documentation",
+    "text": "Documentation\n\nmkdocs\npycco",
+    "crumbs": [
+      "Tech",
+      "Programming",
+      "Notes on Python 2 (2014)"
+    ]
+  },
+  {
+    "objectID": "tech/programming/python2-notes.html#regular-expressions",
+    "href": "tech/programming/python2-notes.html#regular-expressions",
+    "title": "Notes on Python 2 (2014)",
+    "section": "Regular expressions",
+    "text": "Regular expressions\nhttps://developers.google.com/edu/python/regular-expressions\ngready vs non-gready search\ns = '&lt;b&gt;bold&lt;/b&gt; and &lt;i&gt;italic&lt;/i&gt;'\n\nre.search(r'&lt;.*&gt;', s).group()\n'&lt;b&gt;bold&lt;/b&gt; and &lt;i&gt;italic&lt;/i&gt;'\n\nre.search(r'&lt;.*?&gt;', s).group()\n'&lt;b&gt;'",
+    "crumbs": [
+      "Tech",
+      "Programming",
+      "Notes on Python 2 (2014)"
+    ]
+  },
+  {
+    "objectID": "tech/programming/python2-notes.html#testing",
+    "href": "tech/programming/python2-notes.html#testing",
+    "title": "Notes on Python 2 (2014)",
+    "section": "Testing",
+    "text": "Testing\nTest-Driven Web Development with Python (O’Reilly, web, django).\n\nhttps://wiki.python.org/moin/PythonTestingToolsTaxonomy\nhttps://twistedmatrix.com/documents/14.0.1/core/howto/trial.html\nhttp://testanything.org/",
+    "crumbs": [
+      "Tech",
+      "Programming",
+      "Notes on Python 2 (2014)"
+    ]
+  },
+  {
+    "objectID": "tech/programming/python2-notes.html#idioms-useful-constructs",
+    "href": "tech/programming/python2-notes.html#idioms-useful-constructs",
+    "title": "Notes on Python 2 (2014)",
+    "section": "Idioms / Useful constructs",
+    "text": "Idioms / Useful constructs\n#!/usr/bin/env python\n# -*- coding: utf-8 -*-\nfrom __future__ import print_function\n\nd = dict(zip(keys, values))\n\nfor k, _ in d.items():\n    print k\n\n\nwith open(path_to_file, 'r') as fh:\n    for line in fh:\n        print line.strip()\n\n\nfrom collections import defaultdict\nd = defaultdict(list)\nfor a, b in data:\n    d[a].append(b)  # will autocreate empty list on 1st key access attempt\n\nhttp://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html\nhttp://nbviewer.ipython.org/github/rasbt/python_reference/blob/master/not_so_obvious_python_stuff.ipynb\nSimple and profound Python Tricks",
+    "crumbs": [
+      "Tech",
+      "Programming",
+      "Notes on Python 2 (2014)"
+    ]
+  },
+  {
+    "objectID": "tech/programming/python2-notes.html#set-operations",
+    "href": "tech/programming/python2-notes.html#set-operations",
+    "title": "Notes on Python 2 (2014)",
+    "section": "Set operations",
+    "text": "Set operations\na &lt;= b  # a.issubset(b)\na &lt; b   # a &lt;= b and a != b\na &gt;= b  # a.issuperset(b)\na | b   # a.union(b)\na & b   # a.intersection(b)\na - b   # a.difference(b)  ## elements in a that are not in b\na ^ b   # a.symmetric_difference(b)  # elements in a or b but not in both",
+    "crumbs": [
+      "Tech",
+      "Programming",
+      "Notes on Python 2 (2014)"
+    ]
+  },
+  {
+    "objectID": "tech/programming/python2-notes.html#testing-with-py.test",
+    "href": "tech/programming/python2-notes.html#testing-with-py.test",
+    "title": "Notes on Python 2 (2014)",
+    "section": "Testing with py.test",
+    "text": "Testing with py.test\n\nhttps://speakerdeck.com/pelme\nhttp://oddbird.net/python-testing-tools-preso\nhttps://github.com/Fluxx/exam\n\nimport mymodule\n\ndef test_mymodule_myfunc():\n    expected = 'ABC'\n    assert test_mymodule_myfunc('abc') == expected\n$ py.test\n$ py.test -k test_foo   ## run all test_foo\n$ pip install pytest-xdist  ## distributed test plugin\n$ py.test -n 2  ## run in two processes\nUse markers to select/deselect which tests to run\nimport pytest\nimport sys\n\nimport mymodule\n\n@pytest.mark.thisone\ndef test_mymodule_myfunc():\n    expected = 'ABC'\n    assert test_mymodule_myfunc('abc') == expected\n\n@pytest.mark.skipif(sys.platform == 'darwin', reason='unsupported on OSX')\ndef test_anotherfunc():\n    expected = 'ABC'\n    assert mymodule.anotherfunc() == expected\n$ py.test -m thisone\n$ py.test -m \"not thisone\"\nUse fixtures\nimport pytest\nimport mymodule\n\n@pytest.fixture(scope='module')\ndef mydata():\n    return 'ABC'\n\ndef test_mymodule_myfunc(mydata):\n    assert test_mymodule_myfunc('abc') == mydata",
+    "crumbs": [
+      "Tech",
+      "Programming",
+      "Notes on Python 2 (2014)"
+    ]
+  },
+  {
+    "objectID": "tech/ops/tools.html",
+    "href": "tech/ops/tools.html",
+    "title": "Tools",
     "section": "",
-    "text": "updated: 2023-11-02",
+    "text": "ansible vault\necho $random_passwd &gt; .ansible-vault-password-file\nexport ANSIBLE_VAULT_PASSWORD_FILE=./.ansible-vault-password-file\nansible-vault encrypt hosts.txt\nansible-vault view hosts.txt\nansible-vault edit hosts.txt\n\n\ncrontab\n# user crontab\ncrontab -e\n5 * * * * /path/to/script\ncrontab -l # -r to remove\n\n#system crontab (run every 5 min)\necho \"*/5 * * * * bob /path/to/scrip.sh\" &gt; /etc/cron.d/bobs-script\n\n\njournalctl\njournalctl --since \"2 days ago\" -u uwsgi\njournalctl -flu uwsgi\n\n\nnginx\ntest config: nginx -T\n\n\npostfix\npostqueue -p  # emails still in queue\npostsuper -d $EMAIL_HEX_ID  # to delete\n\n\nsendmail\nssh $mgmt_box\nsendmail -t &lt;&lt;eof\nFrom: ops@foo.com\nTo: regi@registrar.com\nSubject: renew this\n\nHi, i can haz renew.\neof\n\n\nvagrant (osx)\nbrew tap caskroom/cask\nbrew cask install vagrant\nbrew cask reinstall virtualbox virtualbox-extension-pack\nvagrant init bento/ubuntu-16.04\nvim Vagrantfile\nvagrant up\nvagrant provision\nvagrant ssh",
     "crumbs": [
-      "Coding",
+      "Tech",
       "Ops",
-      "OSX setup"
+      "Tools"
     ]
   },
   {
-    "objectID": "coding/ops/osx_setup.html#xcode-and-homebrew",
-    "href": "coding/ops/osx_setup.html#xcode-and-homebrew",
-    "title": "OSX setup",
-    "section": "xcode and homebrew",
-    "text": "xcode and homebrew\nzsh --version\nxcode-select --install\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n/opt/homebrew/bin/brew shellenv &gt;&gt; /Users/ivan/.brewenv   # then copy or read it from .zshrc\nbrew doctor\n\nbrew install git\ngit config --global core.excludesfile ~/.gitignore\ncp tmp/home-etc/git/gitconfig ~/.gitconfig\n\nbrew install ack fzf neovim pyenv tmux tree wget xz zlib bat git-delta\nbrew install --cask betterzip cheatsheet docker qlmarkdown quicklook-csv rectangle suspicious-package vlc vscodium",
+    "objectID": "tech/ops/docker.html",
+    "href": "tech/ops/docker.html",
+    "title": "Docker",
+    "section": "",
+    "text": "Docker commands\ndocker\n    run $name[:$tag] [$cmd]\n    ps [-a] [$name]\n    stop $name | $id\n    rm $name | $id\n    images\n    rmi $name\n    pull $name\n    attach $id\n    logs $name\n\n\nDocker run\ndocker run -it $name  # interactive + terminal\ndocker run -p 8008:80 $name  # daemon mode, link ports $host:$container\ndocker run -v /local/dir:/container/dir $name  # mount local volume\ndocker run -e MYVAR=foobar $name  # pass env var to container\nNB: ports and volumes arguments always follow $host:$container order\n\n\nCreating an image\ncat &gt; Dockerfile &lt;&lt; EOF\nFROM ubuntu\nRUN apt-get update\nRUN apt-get install python\nRUN pip install flask flask-mysql\nCOPY . /opt/src\nENTRYPOINT FLASK_APP=/opt/src/app.py flask run\nEOF\ndocker build . -t $myname\ndocker push $myname\ndocker history $myname  # to see layers (successful RUNs in Dockerfile)\nDocker image is built from layers created from each FROM, RUN and COPY line. The layers are reused for different images.\nOther useful commands: ENV, WORKDIR, USER, CMD\n\n\nNetwork\nBy default docker uses bridge mode for containers running on the same host with default network 172.17.xxx.xxx. Other network modes are “none” (no network) and “host” (no network isolation from host).\ndocker network create --driver bridge --subnet 182.18.0.0/16 my_network\ndocker inspect $name will show full container info including network.\nDockers uses internal DNS 127.0.0.11 to resolve containers IP and containers names.\n\n\nStorage\nContainers, images, volumes are stored in /var/lib/docker. All image layers are RO. A contaier runs in a special RW container layer which gets destroyed when container is stoped. Data can be persisted in named volumes inside /var/lib/docker/volumes (volume mount) or a directory on a host (bind mount).\ndocker volume create my_volume\ndocker run -v my_volume:/var/log my_image\n\n# new explicit format for mounting volumes\ndocker run --mount type=bind,source=/data/my_image/logs,target=/var/log my_image\n\n\nRemoving images\ndocker images\ndocker rmi &lt;image_id1&gt; &lt;image_id2&gt;\ndocker system prune -a\ndocker volume ls\ndocker volume rm &lt;volume_name1&gt; &lt;volume_name2&gt;\n\n\nDocker compose\nIt’s possible to run multiple containers and “link” them for networking. But much easier to use docker-compose to manage multi-container app.\ndocker-compose.yml\nversion: 2\n\nservices:\n  frontend:\n    build:\n      context: ./app\n      args:\n        DB_HOST: localhost:5005\n    links:\n      - db\n    volumes:\n      - logs:/var/logs\n    depends_on:\n      db:\n        condition: service_started\n\n  db:\n    image: postgres:9.4\n    ports:\n      - \"5005:5432\"\n    volumes:\n      - /data/app/postgres:/var/lib/postgres\n\nvolumes:\n  logs:\ndocker-compose up -d   #--build\ndocker-compose exec frontend ls -l\ndocker-compose logs frontend\ndocker-compose down -v",
     "crumbs": [
-      "Coding",
+      "Tech",
       "Ops",
-      "OSX setup"
+      "Docker"
     ]
   },
   {
-    "objectID": "coding/ops/osx_setup.html#shell",
-    "href": "coding/ops/osx_setup.html#shell",
-    "title": "OSX setup",
-    "section": "shell",
-    "text": "shell\nsh -c \"$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\"\nln -s Library/Mobile\\ Documents/com~apple~CloudDocs ~/CloudDocs",
+    "objectID": "tech/ops/win-scoop.html",
+    "href": "tech/ops/win-scoop.html",
+    "title": "Windows 10 Dev Env Setup",
+    "section": "",
+    "text": "Go to https://github.com/PowerShell/PowerShell/\nClick on Latest under Releases\nSearch for win-x64.msi",
     "crumbs": [
-      "Coding",
+      "Tech",
       "Ops",
-      "OSX setup"
+      "Windows 10 Dev Env Setup"
     ]
   },
   {
-    "objectID": "coding/ops/osx_setup.html#python",
-    "href": "coding/ops/osx_setup.html#python",
-    "title": "OSX setup",
-    "section": "python",
-    "text": "python\nbrew install pyenv\necho 'eval \"$(pyenv init -)\"' &gt;&gt; .zshrc\npyenv install --list\npyenv install 3.11.0",
+    "objectID": "tech/ops/win-scoop.html#install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020",
+    "href": "tech/ops/win-scoop.html#install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020",
+    "title": "Windows 10 Dev Env Setup",
+    "section": "",
+    "text": "Go to https://github.com/PowerShell/PowerShell/\nClick on Latest under Releases\nSearch for win-x64.msi",
     "crumbs": [
-      "Coding",
+      "Tech",
       "Ops",
-      "OSX setup"
+      "Windows 10 Dev Env Setup"
+    ]
+  },
+  {
+    "objectID": "tech/ops/win-scoop.html#install-and-configure-scoop",
+    "href": "tech/ops/win-scoop.html#install-and-configure-scoop",
+    "title": "Windows 10 Dev Env Setup",
+    "section": "Install and configure Scoop",
+    "text": "Install and configure Scoop\nScoop allows installing and managing familiar dev tools on Windows from the command line. It is somewhat similar to homebrew on Mac or apt-get on Ubuntu.\nSetup your region’s web proxy (more info)\nType in the PowerShell Terminal:\n[net.webrequest]::defaultwebproxy = new-object net.webproxy \"http://proxy.COMPANY.com:8080\"\n[net.webrequest]::defaultwebproxy.credentials = [net.credentialcache]::defaultcredentials\nInstall scoop.sh and git:\nset-executionpolicy unrestricted -s cu\niwr -useb get.scoop.sh | iex\nscoop install git win32-openssh openssl\nsudo C:\\ProgramData\\scoop\\apps\\win32-openssh\\current\\install-sshd.ps1\ngit config --global credential.helper manager\ngit config --global http.sslVerify false\nscoop config proxy 'currentuser@proxy.COMPANY.com:8080'\nscoop install busybox cacert delta pshazz sudo\ngit config --global delta.side-by-side true",
+    "crumbs": [
+      "Tech",
+      "Ops",
+      "Windows 10 Dev Env Setup"
+    ]
+  },
+  {
+    "objectID": "tech/ops/win-scoop.html#install-development-tools",
+    "href": "tech/ops/win-scoop.html#install-development-tools",
+    "title": "Windows 10 Dev Env Setup",
+    "section": "Install development tools",
+    "text": "Install development tools\nScoop update and basic tools:\nscoop config proxy 'currentuser@proxytr.huawei.com:8080'\nsudo scoop update *\nscoop install cwRsync dust everything gpg procs sysinternals vcredist2015 vcredist windows-terminal -g\nAdd buckets and install java, node, python, postman, svn…:\nscoop bucket add extras versions java jetbrains\nscoop install zulu8 maven gradle\nscoop install IntelliJ-IDEA-Ultimate jetbrains-toolbox\nscoop install nodejs yarn python\nscoop install concfg nvim vscode curl jq postman silksvn\nInstall docker:\nscoop bucket add Ash258 'https://github.com/Ash258/Scoop-Ash258.git'\nscoop install docker",
+    "crumbs": [
+      "Tech",
+      "Ops",
+      "Windows 10 Dev Env Setup"
+    ]
+  },
+  {
+    "objectID": "tech/practices/refactoring.html",
+    "href": "tech/practices/refactoring.html",
+    "title": "Refactoring",
+    "section": "",
+    "text": "Extract example\n\nOriginal codeRefactored\n\n\ndef printOwing(amount):\n    printBanner()\n    print \"name: %s\" % name\n    print \"amount: %f\" % amount\n    \ndef printLateNotice(amount):\n    printBanner()\n    print \"name: %s\" % name\n    print \"amount: %f\" % amount\n\n\ndef printOwing(amount):\n    printBanner()\n    printDetails()\n    \ndef printLateNotice(amount):\n    printBanner()\n    printDetails()\n\ndef printDetails(amount):\n    print \"name: %s\" % name\n    print \"amount: %f\" % amount",
+    "crumbs": [
+      "Tech",
+      "Practices",
+      "Refactoring"
+    ]
+  },
+  {
+    "objectID": "tech/practices/refactoring.html#notes-from-industrial-logic-course",
+    "href": "tech/practices/refactoring.html#notes-from-industrial-logic-course",
+    "title": "Refactoring",
+    "section": "",
+    "text": "Extract example\n\nOriginal codeRefactored\n\n\ndef printOwing(amount):\n    printBanner()\n    print \"name: %s\" % name\n    print \"amount: %f\" % amount\n    \ndef printLateNotice(amount):\n    printBanner()\n    print \"name: %s\" % name\n    print \"amount: %f\" % amount\n\n\ndef printOwing(amount):\n    printBanner()\n    printDetails()\n    \ndef printLateNotice(amount):\n    printBanner()\n    printDetails()\n\ndef printDetails(amount):\n    print \"name: %s\" % name\n    print \"amount: %f\" % amount",
+    "crumbs": [
+      "Tech",
+      "Practices",
+      "Refactoring"
+    ]
+  },
+  {
+    "objectID": "tech/practices/refactoring.html#unlocking-the-awesome-power-of-refactoring",
+    "href": "tech/practices/refactoring.html#unlocking-the-awesome-power-of-refactoring",
+    "title": "Refactoring",
+    "section": "Unlocking the Awesome Power of Refactoring",
+    "text": "Unlocking the Awesome Power of Refactoring\nby J. B. Rainsberger tech excellence talk\nDeliberate practice, Learned Helplessness.\nNanosteps –&gt; Microsteps –&gt; Moves Repetition –&gt; Ease –&gt; Chunking (autonomic, subconscious, higher order thinking) –&gt; Confidence –&gt; Courage\nPattern: Item –&gt; Collection (ex function arg)\n\nadd extra arg f(x)  --&gt; f(x, xs: List).\nmodifiy calls of f(x) in the code base to use new signature.\nmodify f(x) to use xs instead of x.\nverify that the behaviour of f() is the same.\nremove x so that we are left with f(xs).\n\nStart practicing now: 30min refactoring at the end of a day or even week. Throw the changes away.\nPractice is not performance!\n“Cleaning the kitchen as you cook”.",
+    "crumbs": [
+      "Tech",
+      "Practices",
+      "Refactoring"
+    ]
+  },
+  {
+    "objectID": "tech/practices/katas_for_ds.html",
+    "href": "tech/practices/katas_for_ds.html",
+    "title": "TDD katas for Data Scientists",
+    "section": "",
+    "text": "Whenever I talk about TDD to data science and data engineering folks they say either 1) TDD is not working for algorithmic work, or 2) I’ve tried FizzBuzz and it is not fun. I can understand. Most katas in places like kata-log are more CS/SW dev oriented.\nSo, I’ve dicided to come up with some katas that might be more intersting for DS folks. Here they are.",
+    "crumbs": [
+      "Tech",
+      "Practices",
+      "TDD katas for Data Scientists"
+    ]
+  },
+  {
+    "objectID": "tech/practices/katas_for_ds.html#modplus",
+    "href": "tech/practices/katas_for_ds.html#modplus",
+    "title": "TDD katas for Data Scientists",
+    "section": "ModPlus",
+    "text": "ModPlus\nModPlus is a simple hashing algorithm. It takes in a positive integer X and returns a combinatorial sum of a binary representation of X after it is split into chunks of given length.\nFor example, modplus(12, chunk_length=3) should return 6.\nVariation: ModPlusDot. Instead of combinatorial sum, use a combination of binary AND and OR when combining chunks.\n(Simple enough for an algorithmic problem. Skills to practice: splitting the problems into smaller problems, naming things, simplify by extraction, refactoring while in green, make it work first).",
+    "crumbs": [
+      "Tech",
+      "Practices",
+      "TDD katas for Data Scientists"
+    ]
+  },
+  {
+    "objectID": "tech/practices/katas_for_ds.html#d-vector",
+    "href": "tech/practices/katas_for_ds.html#d-vector",
+    "title": "TDD katas for Data Scientists",
+    "section": "2D vector",
+    "text": "2D vector\nImagine you are working for Khan Academy (KA). KA wants to modernize their basic math classes, especially the display. Implement a cartesian 2D Vector class, that supports scalar multiplication, addition with another Vector, norm (magnitude) and dot product between 2 vectors(see vector).\n(This is more of a design kata, but still requires to implement a couple of formulas).",
+    "crumbs": [
+      "Tech",
+      "Practices",
+      "TDD katas for Data Scientists"
     ]
   }
 ]
