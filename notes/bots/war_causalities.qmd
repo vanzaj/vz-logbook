@@ -13,42 +13,100 @@ The verified casualty figures for the current Ukrainian-Russian war indicate ext
 - As of mid-November 2025, Russia has sustained between 226,000 and 327,000 confirmed military deaths, based on BBC analysis of Russian servicemen and contractors only [1][2].
 - The total Russian casualties (killed, wounded, missing), according to UK Defense Intelligence and ISW reports from October 2025, exceed 1.1 million since the full-scale invasion began, with 332,000 casualties reported just in 2025 [1].
 - Ukrainian military intelligence estimates 86,744 Russian soldiers killed and 33,996 missing in the first eight months of 2025 [3].
-- Russia continues to experience over 1,000 daily casualties in the later months of 2025[1].
+- Russia continues to experience over 1,000 daily casualties in the later months of 2025 [1].
 
 ### Ukrainian Military Casualties
-- Ukraine confirmed 43,000 military deaths as of December 2024, though Western analysts believe this is likely an undercount[2].
-- As of October 2025, projects cross-referencing Ukrainian military fatalities have documented 79,213 Ukrainian fighters killed by name and 81,728 missing in action, totaling 160,941 dead or missing[1].
-- Estimates from Western sources place Ukrainian losses between 60,000 and 100,000 killed and up to 400,000 wounded[1].
-- President Zelenskyy stated in February 2025 that over 46,000 Ukrainians had been killed and 380,000 wounded since the war began[1].
+- Ukraine confirmed 43,000 military deaths as of December 2024, though Western analysts believe this is likely an undercount [2].
+- As of October 2025, projects cross-referencing Ukrainian military fatalities have documented 79,213 Ukrainian fighters killed by name and 81,728 missing in action, totaling 160,941 dead or missing [1].
+- Estimates from Western sources place Ukrainian losses between 60,000 and 100,000 killed and up to 400,000 wounded [1].
+- President Zelenskyy stated in February 2025 that over 46,000 Ukrainians had been killed and 380,000 wounded since the war began [1].
 
 ### Civilian Casualties
-- The United Nations verified at least 13,883 civilian deaths and 35,548 injuries since the start of the full-scale invasion[4][5].
-- Monthly civilian casualties in 2025 were significantly higher than in 2024, with July 2025 marking the highest death toll since May 2022[5].
-- Civilian death tolls surpassed 13,800 by July 2025, according to OHCHR[4].
+- The United Nations verified at least 13,883 civilian deaths and 35,548 injuries since the start of the full-scale invasion [4][5].
+- Monthly civilian casualties in 2025 were significantly higher than in 2024, with July 2025 marking the highest death toll since May 2022 [5].
+- Civilian death tolls surpassed 13,800 by July 2025, according to OHCHR [4].
 - The most recent attacks resulted in 25–26 people killed and nearly 100 injured, including children, in overnight Russian strikes across Ukraine[6][7][8][9].
 
 ### Summary Table
 
-| Group                | Deaths (estimate)     | Wounded (estimate)    | Missing            | Civilian Deaths   |
-|----------------------|----------------------|-----------------------|--------------------|-------------------|
-| Russian Forces       | 226,000 – 327,000 | ~730,000 – 1 million | ~34,000     | N/A               |
-| Ukrainian Forces     | 46,000 – 100,000 | Up to 400,000 | ~81,700     | N/A               |
-| Civilians (Ukraine)  | N/A                  | N/A                   | N/A                | 13,883 – 13,800+ |
+  ------------------------------------------------------------------------
+  Group          Deaths         Wounded         Missing       Civilian
+                 (estimate)     (estimate)                    Deaths
+  -------------- -------------- --------------- ------------- ------------
+  Russian Forces 226,000 --     \~730,000 -- 1  \~34,000      N/A
+                 327,000        million                       
+
+  Ukrainian      46,000 --      Up to 400,000   \~81,700      N/A
+  Forces         100,000                                      
+
+  Civilians      N/A            N/A             N/A           13,883 --
+  (Ukraine)                                                   13,800+
+  ------------------------------------------------------------------------
 
 These figures are based on the latest available reports and should be viewed as minimum estimates, since the actual casualty numbers may be higher due to the fog of war and incomplete reporting [1][6][8][2][4][5][9].
 
-### Sources
-[1] Casualties of the Russo-Ukrainian war https://en.wikipedia.org/wiki/Casualties_of_the_Russo-Ukrainian_war
-[2] Ukraine in maps: Tracking the war with Russia https://www.bbc.com/news/articles/c0l0k4389g2o
-[3] Russia inches ahead in Ukraine as report says ... https://www.aljazeera.com/news/2025/10/9/russia-says-hopes-for-peace-wane-as-ukraine-strangles-its-fuel-supply
-[4] Ukraine civilian war casualties 2025 https://www.statista.com/statistics/1293492/ukraine-war-casualties/
-[5] Number of civilians killed and injured in Ukraine reaches three ... https://ukraine.ohchr.org/en/Number-of-civilians-killed-and-injured-in-Ukraine-reaches-three-year-monthly-high-in-July-2025-UN-human-rights-monitors-say
-[6] Civilian deaths in Ukraine surge past last year's toll as winter ... https://news.un.org/en/story/2025/11/1166419
-[7] Russian attack on Ternopil kills 26 in one of deadliest ... https://www.bbc.com/news/articles/cy0yere4k0zo
-[8] At least 25 killed in Russian attacks on war-torn Ukraine's ... https://www.aljazeera.com/news/2025/11/19/children-among-the-36-wounded-in-russias-overnight-attacks-on-ukraine
-[9] Russian Offensive Campaign Assessment, Nov. 19, 2025 https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-november-19-2025/
-[10] Casualties of Russia in Ukraine - official data https://index.minfin.com.ua/en/russian-invading/casualties/
+Sources
 
+1. [Casualties of the Russo-Ukrainian war](https://en.wikipedia.org/wiki/Casualties_of_the_Russo-Ukrainian_war)
+2. [Ukraine in maps: Tracking the war with Russia](https://www.bbc.com/news/articles/c0l0k4389g2o)
+3. [Russia inches ahead in Ukraine as report says ...](https://www.aljazeera.com/news/2025/10/9/russia-says-hopes-for-peace-wane-as-ukraine-strangles-its-fuel-supply)
+4. [Ukraine civilian war casualties 2025](https://www.statista.com/statistics/1293492/ukraine-war-casualties/)
+5. [Number of civilians killed and injured in Ukraine reaches three ...](https://ukraine.ohchr.org/en/Number-of-civilians-killed-and-injured-in-Ukraine-reaches-three-year-monthly-high-in-July-2025-UN-human-rights-monitors-say)
+6. [Civilian deaths in Ukraine surge past last year's toll as winter ...](https://news.un.org/en/story/2025/11/1166419)
+7. [Russian attack on Ternopil kills 26 in one of deadliest ...](https://www.bbc.com/news/articles/cy0yere4k0zo)
+8. [At least 25 killed in Russian attacks on war-torn Ukraine's ...](https://www.aljazeera.com/news/2025/11/19/children-among-the-36-wounded-in-russias-overnight-attacks-on-ukraine)
+9. [Russian Offensive Campaign Assessment, Nov. 19, 2025](https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-november-19-2025/)
+10. [Casualties of Russia in Ukraine - official data](https://index.minfin.com.ua/en/russian-invading/casualties/)
 
 ---
+
+## Q 2: How does it compares to the USSR-Afghanistan conflict?
+
+Compared to the Ukrainian-Russian war, the USSR-Afghanistan conflict saw significantly fewer Soviet military deaths but far greater Afghan civilian casualties and destruction over a decade (1979–1989) [1][2][3][4].
+
+### Soviet-Afghan War Casualties
+- Soviet military deaths: Around 13,310–15,000 over 10 years [1][2][4].
+- Soviet wounded: About 35,478–53,753 [1][2].
+- Missing Soviet soldiers: 311–312 [1][2].
+- Afghan civilians killed: Estimates range from 562,000 up to 2,000,000; most historians cite about 1 million [1][3][5][4].
+- Afghan military killed: Between 75,000 and 90,000 (mujahedeen) and about 58,000 pro-communist forces [1][3][5].
+- Total displaced: Over 5 million Afghans became refugees, and 3 million were internally displaced [5][6].
+
+#### Russian-Ukrainian War vs Soviet-Afghan War
+
+  --------------------------------------------------------------------------------------------------------
+  Conflict            Military Deaths    Military Deaths   Civilian Deaths      Total       Duration
+                      (invader)          (defender)                             Wounded     
+  ------------------- ------------------ ----------------- -------------------- ----------- --------------
+  Ukrainian-Russian   Russia:            Ukraine:          Ukraine: 13,800+     Russia:     3 years
+  War                 226,000--327,000   46,000--100,000                        \~1M+       (2022--2025)
+
+  Soviet-Afghan War   USSR:              Afghan:           Afghanistan:         USSR:       10 years
+                      13,310--15,000     \~133,000+ total  562,000--2,000,000   \~35,000+   (1979--1989)
+  --------------------------------------------------------------------------------------------------------
+
+### Analysis
+- Russian military deaths in Ukraine have already vastly surpassed those of the USSR in Afghanistan, with hundreds of thousands lost in just over three years versus about 15,000 over a decade [1][2][6].
+- Afghan civilian casualties and displacement were far higher than those seen in Ukraine so far, with up to 2 million killed and millions displaced [3][5][6].
+- Ukrainian civilian casualties, while tragic and rising, remain much lower compared to Afghan losses during the Soviet occupation [9][10][3][5][4].
+- Both conflicts caused immense suffering and population displacement, but the pace and scale of military losses in Ukraine's defense are historically unprecedented for Russia [6].
+
+These comparisons underscore the greater scale of military death for Russia in Ukraine, and a far more cataclysmic impact on civilians during the Afghanistan conflict [1][2][3][5][6].
+
+Sources
+
+1. [Soviet–Afghan War](https://simple.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War)
+2. [Soviet Lists Afghan War Toll: 13310 Dead, 35478 Wounded](https://www.nytimes.com/1988/05/26/world/soviet-lists-afghan-war-toll-13310-dead-35478-wounded.html)
+3. [Atrocity crimes in the Soviet–Afghan War](https://en.wikipedia.org/wiki/Atrocity_crimes_in_the_Soviet%E2%80%93Afghan_War)
+4. [Soviet-Afghan War (1979-1989)](https://americanarchive.org/exhibits/newshour-cold-war/afghanistan)
+5. [Official death count comparison between Afghanistan ...](https://www.reddit.com/r/UkraineWarVideoReport/comments/1nr8zr7/official_death_count_comparison_between/)
+6. [Russia's weekly troop losses in Ukraine have already ...](https://www.aspistrategist.org.au/russias-weekly-troop-losses-in-ukraine-have-already-overtaken-soviet-casualties-in-afghanistan/)
+7. [Casualties of the Russo-Ukrainian war](https://en.wikipedia.org/wiki/Casualties_of_the_Russo-Ukrainian_war)
+8. [Ukraine in maps: Tracking the war with Russia](https://www.bbc.com/news/articles/c0l0k4389g2o)
+9. [Ukraine civilian war casualties 2025](https://www.statista.com/statistics/1293492/ukraine-war-casualties/)
+10. [Number of civilians killed and injured in Ukraine reaches three ...](https://ukraine.ohchr.org/en/Number-of-civilians-killed-and-injured-in-Ukraine-reaches-three-year-monthly-high-in-July-2025-UN-human-rights-monitors-say)
+11. [Soviet–Afghan War](https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War)
+12. [Afghan War | History, Casualties, Dates, & Facts](https://www.britannica.com/event/Afghan-War)
+13. [Why is the death toll of civilians in soviet-afghan almost 20 ...](https://www.reddit.com/r/CapitalismVSocialism/comments/1lbs53d/why_is_the_death_toll_of_civilians_in/)
+14. [The Continuing Soviet War in Afghanistan](https://www.jstor.org/stable/45315752)
 
