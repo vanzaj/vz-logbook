@@ -1,3 +1,5 @@
-bash
+[Bb]ash
+[Dd]jango
+[Ll]inux
 ksh
 tcsh

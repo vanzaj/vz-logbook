@@ -24,12 +24,14 @@ I write [code](https://github.com/vanzaj), read [books](https://www.librarything
 - **1991:** Moved to Geneva, CH (Jan 1991).
 
 - **1993:** Enrolled at the University of Geneva, faculty of Science, [Physics](https://www.unige.ch/sciences/physique/physics-section/section/).
+  <br />
+  Working (evenings) at McDonald's and doing private math tuition to earn some money.
 
-- **1995:**  Became interested in "brain" and "complex systems".
+- **1995:**  Became interested in the "brain" and "complex systems".
 <br />
 Part-time work at UniGE as a "monitor", assistant to PhD students running physics labs. Wrote 1st non-trivial application to support "electrical components" lab (Windows 3.11, Delphi, C).  
 
-- **1996:** Summer job at the [CERN's Library](https://catalogue.library.cern/). Started learning UNIX (Digital and SunOS) and shell scripting (ksh, tcsh) with Emacs. Created an HTML "app" for visual navigation of the library's collection (with Mosaic browser).
+- **1996:** Summer job at the [CERN's Library](https://catalogue.library.cern/). Started learning UNIX (Digital and SunOS) and shell scripting (ksh, tcsh) with Emacs. Created an HTML "app" for visual navigation of the library's collection (with Mosaic browser). Discovered Linux (SlackWare and RedHat).
 
 - **1997:** Obtained *Licence ès sciences physiques* (BSc). Final research project: "Study of doping effects by Fluorine on Bi(2212) high temperature superconductors in powder and mono-crystalline forms."
 
@@ -39,17 +41,22 @@ Started using [IDL](https://en.wikipedia.org/wiki/IDL_(programming_language)) an
 <br />
 Entered PhD program at the [Group of Applied Physics](https://web.archive.org/web/20031008212325/http://www.unige.ch/gap-b/welcome.html) under Prof. [Pierre Descouts](https://scholargps.com/scholars/29557804716750/pierre-descouts) and Dr. [François Lazeyras](https://scholar.google.com/citations?user=e1sM6ccAAAAJ) from the Dpt. of Radiology at [HUG](https://www.hug.ch/en/radiology).   
 <br />
-Became sysadmin of all UNIX research workstations (DEC-Alpha, Sun Ultra). Introduced Linux as a cheaper and viable (able to run specialized software tools) alternative to commercial UNIX workstations.
+Became sysadmin of all UNIX research workstations (DEC-Alpha, Sun Ultra). Introduced Linux as a cheaper and viable (able to run specialized software tools) alternative to commercial UNIX workstations. Discovered Python as a much better alternative to Perl.
+<br />
+In 1999, I managed to save a couple of weeks of MRI patient data that wasn't backed up (time before PACS). The primary hard drive on the MRI console workstation has failed. I took the disk out, put into my linux box, compiled a SCSI driver, mounted the drive and run `fsck`. Full data recovery.
 
 - **2003:** Defended *PhD thesis*: "Epileptic Focus Localization Using EEG-triggered Functional MRI". Continued work at the Dpt. of Radiology at HUG as a postdoctoral fellow. ([thesis](assets/iz_th3441.pdf))  
 <br />
-During my PhD and later, I estimate that 60 to 70% of my time was spent on writing software; IDL for [image processing](https://github.com/vanzaj/mri_idl), C for new MRI pulse sequences, bash/perl/python for scripting. I've also built and administered a 3TB file server to store all our research data (RAID-0 with hot-swapable IDE discs using experimental 3ware controller) saving ~30kCHF of public money.
+During my PhD and later, I estimate that 60 to 70% of my time was spent on writing software; IDL for custom [image processing](https://github.com/vanzaj/mri_idl), Matlab (because [SPM](https://www.fil.ion.ucl.ac.uk/spm/), C for new MRI pulse sequences, Bash/Perl/Python for scripting. I've also built and administered a 3TB file server to store all our research data (RAID-0 with hot-swapable IDE discs using experimental 3ware controller) saving ~30kCHF of public money.
+<br />
+After my PhD defense, I continued as a postdoctoral fellow at HUG. My research focus shifted from clinical fMRI (presurgical evaluation for epilepsy and cancer patients) to fMRI activity localization (trying to improve [Talairach/MNI coordinates](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Xq7f6loAAAAJ&citation_for_view=Xq7f6loAAAAJ:IjCSPb-OGe4C)). This work ended up on the cover image of [NeuroImage](https://www.sciencedirect.com/journal/neuroimage/vol/24/issue/2).
 
-- **2004:** Moved to Singapore to work at the [National Neuroscience Institute](https://www.nni.com.sg/) as a postdoctoral fellow under Prof. [Xavier Golay](https://scholar.google.com/citations?user=TsqRcDwAAAAJ).
+- **2004:** Moved to Singapore to work at the [National Neuroscience Institute](https://www.nni.com.sg/) as a postdoctoral fellow under Prof. [Xavier Golay](https://scholar.google.com/citations?user=TsqRcDwAAAAJ). Our small (4 pax) research group did some amazing work on [ASL](https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.20784), [regional non-invasive perfusion](https://www.ahajournals.org/doi/full/10.1161/STROKEAHA.108.520593) and [quantitative fMRI](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zYATlFkAAAAJ&citation_for_view=zYATlFkAAAAJ:d1gkVwhDpl0C).
 
-- **2007:** Moved to Tokyo, Japan. Joined Philips Healthcare, MRI clinical science team. Joined Tokyo Linux Users Group. Co-founded Tokyo Hackerspace.
+- **2007:** Moved to Tokyo, Japan. Joined Philips Healthcare, MRI clinical science team under [Dr. Marc Van Cauteren](https://www.researchgate.net/profile/Marc-Van-Cauteren).
+  <br />Joined [Tokyo Linux Users Group](https://www.tlug.jp/). Co-founded [Tokyo Hackerspace](https://wiki.hackerspaces.org/Tokyo_Hacker_Space).
 
-- **2010:** Moved back to Singapore. Quit Philips. 6 months sabbatical. Joined [hackerspace.sg](https://hackerspace.sg) and [Python User Group SG](https://pugs.org.sg/). Started helping organising [PyCon-APAC/SG](https://pycon.sg).
+- **2010:** Moved back to Singapore. Quit Philips. 6 months sabbatical. Joined [hackerspace.sg](https://hackerspace.sg) and [Python User Group SG](https://pugs.org.sg/). Started helping organising [PyCon-APAC/SG](https://pycon.sg). Invited people like [Wes McKinney](https://www.youtube.com/watch?v=Jm73dKlYHZw) (pandas), [Jacob Kaplan-Moss](https://youtu.be/hIJdFxYlEKE?si=77rLT18-Ua7xQpCI) (django), [Kenneth Reitz](https://pycon.sg/archive/2014/news/2014/3/22/keynote-speakers/index.html) (requests).
 
 - **2011:** Got bitten by "startups bug". Co-founded [Ondelo](https://ondelo.com/) (network services) and Teralogy/dacets (scientific data management, "git/github" for research data).
 
@@ -58,10 +65,13 @@ During my PhD and later, I estimate that 60 to 70% of my time was spent on writi
 - **2016:** Joined [Odd-e](https://odd-e.com). Started learning technical coaching (TDD/BDD, pair/mob programming, continuous integration,..). Joined the development team working on the [LeSS site](https://less.works).
 
 - **2019:** Full time embedded developer/technical coach/scrum master at Credit Suisse Singapore.
+  <br />
+  [Developing Developers @ LeSS conf](https://less.works/conferenza/sessions/2019-less-conference-munich-developing-developers-152).
 
 - **2021-2022:** Technical coach/scrum master at Huawei R&D center in Europe (remote).
 <br />
 LeSS friendly coach at [Jago/DKatalis](https://www.dkatalis.com/) (hybrid).
-- **2025:** Still with Odd-e and not planning to change.
+
+- **2025:** Still with Odd-e and not planning to change. Mainly doing [LeSS in Action](https://less.works/course-details/less-in-action-large-product-developers-singapore-4314) trainings with [Terry](https://less.works/profiles/terry-yin-1).
 <br />
 

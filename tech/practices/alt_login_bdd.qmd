@@ -1,0 +1,31 @@
+---
+title: Alternative login kata
+date: 2025-11-28
+draft: true
+---
+
+## Articles
+
+- [TDD: Martin Fowler](https://martinfowler.com/bliki/TestDrivenDevelopment.html) (2023)
+
+
+## Books
+
+TDD by example
+Tidy first
+Refactoring
+
+
+## Practice
+
+kata logs
+cyber dojo
+exersism
+- [Diamond Kata](https://matteo.vaccari.name/posts/the-diamond-kata-revisited/)
+- [Programming Praxis](https://programmingpraxis.com/)
+
+
+## Sites
+
+- [BDD](https://www.behaviourdriven.org/) (by Dan North, the inventor, 2003)
+
