@@ -9,7 +9,7 @@ This is my [now page](https://nownownow.com/about).
 
 ## New course: Test driven development for data scientists
 
-Why? Because many folks in data science have not been exposed to good product development practices (XP + BDD).
+Why? Because many folks in data science have not been exposed to good product development practices (XP + BDD + CI/CD).
 The 1st iteration is done (trialed on a small class with 4 people). Feedback is good, but day 2 needs some improvements (API testing, mocking). Add material from Allen Downey books and courses.
 
 ## Establishing weekly routine

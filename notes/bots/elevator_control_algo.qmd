@@ -4,7 +4,7 @@ date: 2025-10-20
 author: ChatGPT5
 ---
 
-## Q: How hard is elevator control software algoritms for 2 lifts and 10 floors? 
+## Q: How hard is elevator control software algorithms for 2 lifts and 10 floors? 
 
 ---
 
@@ -12,9 +12,9 @@ Short answer: for a small mid-rise (2 cars, 10 floors), a competent engineer can
 
 
 ### Why it’s (surprisingly) hard
--	**It’s a stochastic, multi-objective, multi-agent control problem.** Arrivals vary by time (up-peak, lunch, down-peak), goals conflict (waiting time vs. ride time vs. energy), and decisions are coupled across cars. Classic work in RL framed elevator dispatching as a partially observable, nonstationary decision process. 
+-	**It’s a stochastic, multi-objective, multi-agent control problem.** Arrivals vary by time (up-peak, lunch, down-peak), goals conflict (waiting time vs. ride time vs. energy), and decisions are coupled across cars. Classic work in RL framed elevator dispatching as a partially observable, non-stationary decision process. 
 -	**Combinatorics explode.** Even for 2×10: positions (10²), directions (3²), door states (2²), hall-call lamps (18 buttons → 2¹⁸), in-car buttons (2×10 → 2²⁰). Multiplying these gives ~9.9×10¹⁴ distinct (coarse) states -- before modelling loads or travel times.
--	**"Obvious" rules interact badly.** Simple "nearest car" or even ETA-only dispatch can cause bunching and unfairness without extra logic (zoning, penalties, lookahead).  ￼
+-	**"Obvious" rules interact badly.** Simple "nearest car" or even ETA-only dispatch can cause bunching and unfairness without extra logic (zoning, penalties, look-ahead).  ￼
 
 ### What’s usually done (and good enough for 2×10)
 1.	Collective control with ETA cost (a.k.a. "nearest/soonest car with smarts"):
@@ -22,17 +22,17 @@ Assign each new hall call to the car that minimizes a cost like
 
 $J = w_{wait} \times \Delta(estimated\ wait) + w_{incar} \times \Delta(stops\ added) + w_{dir} \times (direction\ mismatch) + w_{load} \times (load\ factor)$
 
-with small lookahead (simulate inserting the stop in each car's queue). This, plus anti-bunching (small penalty if cars are within N floors) and simple peak-mode switches, yields robust performance in a small building.
+with small look-ahead (simulate inserting the stop in each car's queue). This, plus anti-bunching (small penalty if cars are within N floors) and simple peak-mode switches, yields robust performance in a small building.
 2.	Lightweight zoning/sectoring during peaks (e.g., car A favors floors 1–5, car B favors 6–10, but either can “steal” if much better). Helps fairness and reduces ping-ponging.
 3.	Destination control (DCS) (passengers key in floor before boarding) is often overkill for 2×10 but useful when traffic is bursty; it batches similar destinations and avoids unnecessary stops. Beware “reverse journeys” edge cases and good UI.  ￼
 
 ### How “optimal” gets hard
--	Exact optimal control is intractable in practice due to the state/action explosion and uncertain arrivals. Research uses simulation optimization, multi-objective/metaheuristics, and RL to beat hand-tuned heuristics—mostly on larger groups (e.g., 4+ cars, 15–40 floors).
+-	Exact optimal control is intractable in practice due to the state/action explosion and uncertain arrivals. Research uses simulation optimization, multi-objective/meta-heuristics, and RL to beat hand-tuned heuristics—mostly on larger groups (e.g., 4+ cars, 15–40 floors).
 -	Destination-dispatch assignment itself is a nontrivial combinatorial routing/assignment problem with time-dependent costs and constraints.
 
 ### A practical recipe for 2 lifts × 10 floors
 -	Traffic modes: up-peak, inter-floor, down-peak, off-peak; switch weights (w_wait, w_incar, w_dir) by mode (time-of-day + simple real-time triggers).  ￼
--	Costed ETA assignment with 1–2 stop lookahead, door-open/close timing and jerk-limited motion model.
+-	Costed ETA assignment with 1–2 stop look-ahead, door-open/close timing and jerk-limited motion model.
 -	Anti-bunching & parking: mild penalties when cars are close; when idle, park cars at strategic “home” floors (e.g., 3 and 8).
 -	Fairness: cap maximum predicted wait; if exceeded, allow “stealing” across zones.
 -	Diagnostics: log predicted vs. actual waits/ride times to tune weights.
