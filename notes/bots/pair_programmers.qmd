@@ -131,6 +131,8 @@ Other famous programmers/technical coaches:
 - [Amitai Schleier](https://latentagility.com/)
 - [Dave Farley](https://modernsoftwareengineering.co.uk/)
 - [James Shore](https://www.jamesshore.com/)
+- [Mike Cohn](https://www.mountaingoatsoftware.com/)
+- [Tim Ottinger](https://www.industriallogic.com/people/tottinge/)
 
 Companies practicing TDD and pairing: [WeDoTDD](https://wedotdd.com/).
 
