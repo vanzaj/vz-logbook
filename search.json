@@ -523,7 +523,7 @@
     "href": "notes/bots/pair_programmers.html#my-thoughts",
     "title": "Famous programmers who pair program",
     "section": "My thoughts",
-    "text": "My thoughts\nThe answer to the 1st prompt is rather disappointing. Basically, it is not that much different from good-old web search and required subsequent prompts to get more examples both historical and modern.\nOther famous programmers/technical coaches:\n\nAmitai Schleier\nDave Farley\nJames Shore\n\nCompanies practicing TDD and pairing: WeDoTDD.",
+    "text": "My thoughts\nThe answer to the 1st prompt is rather disappointing. Basically, it is not that much different from good-old web search and required subsequent prompts to get more examples both historical and modern.\nOther famous programmers/technical coaches:\n\nAmitai Schleier\nDave Farley\nJames Shore\nMike Cohn\nTim Ottinger\n\nCompanies practicing TDD and pairing: WeDoTDD.",
     "crumbs": [
       "Notes",
       "Bots",
