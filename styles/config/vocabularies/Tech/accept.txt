@@ -1,5 +1,10 @@
 [Bb]ash
 [Dd]jango
+[Dd]ojo
+JUnit
 [Ll]inux
+MobProgramming
+[Kk]ata
+[Kk]atas
 ksh
 tcsh

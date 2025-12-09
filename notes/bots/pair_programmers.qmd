@@ -1,0 +1,136 @@
+---
+title: Famous programmers who pair program
+date: 2025-12-09
+author: Gemini thinking 3 pro
+---
+
+During our [LeSS in Action](https://less.works/course-details/less-in-action-large-product-developers-a-k-a-the-glad-developers-amstelveen-4089) course, I needed to quickly provide real life examples of pair programming. So, I've asked Gemini. My own thoughts and examples follow Gemini's answers.
+
+## P: Give me a few know examples of famous technologists who frequently use pair programming in their daily work.
+
+Finding famous technologists who *daily* practice pair programming is rare because many move into management or architectural roles. However, there are a few legendary examples of "hands-on" titans who used it to build some of the most critical software in history, as well as the methodology creators who evangelized it.
+
+### 1. The Most Famous Duo: Jeff Dean and Sanjay Ghemawat
+These two are arguably the most effective pair programmers in the history of Silicon Valley. They are Senior Fellows at Google (the highest technical level) and are responsible for building the foundational systems of the modern internet: **MapReduce, BigTable, Spanner, and LevelDB.**
+
+* **How they worked:** For years, they worked at the same computer, sharing a keyboard and monitor. They would often finish each other's sentences and code.
+* **The "Chuck Norris" Fact:** There is a famous internal joke at Google that "Jeff Dean's compiler warns him about errors," but in reality, his "compiler" was often Sanjay sitting next to him.
+* **Why it mattered:** Their pairing allowed them to build massive, complex distributed systems that were exceptionally bug-free and efficient because they were constantly reviewing each other's logic in real-time.
+
+### 2. The Creator: Kent Beck
+Kent Beck is the father of **Extreme Programming (XP)**, the software methodology that popularized pair programming in the 1990s. He is also the creator of JUnit and Test Driven Development (TDD).
+
+* **His Daily Habit:** While he moves between roles (Meta, Gusto, etc.), he treats pair programming as a discipline rather than a suggestion. He famously stated that for complex or production-critical code, he does not work alone.
+* **The Philosophy:** He argues that "code reviews" are too late in the process. Pairing is a continuous, real-time code review that prevents bad design decisions before they are written.
+
+### 3. The Craftsman: Robert C. Martin ("Uncle Bob")
+A signatory of the Agile Manifesto and author of *Clean Code*, Uncle Bob is a vocal advocate for professionalism in coding, which he believes often requires pairing.
+
+* **His Approach:** He advocates for pairing particularly when solving "deep" problems or training junior developers. He views it as a transfer of professional standards—teaching not just *what* to code, but *how* to think about code.
+* **The "Ping Pong" Method:** He frequently demonstrates and uses "Ping Pong Pairing," where one person writes a failing test (TDD), passes the keyboard to the other to make it pass, who then writes the next failing test, and passes it back.
+
+### 4. The Thought Leader: Martin Fowler
+As a Chief Scientist at ThoughtWorks and a prolific author (*Refactoring*, *Patterns of Enterprise Application Architecture*), Fowler has institutionalized pair programming at an organizational level.
+
+* **Daily Work:** While he writes more prose than code these days, his daily work involves "pairing" on technical articles and architectural designs. He advocates that pairing is just as effective for writing documentation and design specs as it is for code.
+* **Influence:** Under his technical guidance, companies like ThoughtWorks require consultants to pair program 100% of the time, proving it works at scale in daily enterprise work.
+
+### Summary: Why they do it
+These technologists don't pair program because they are "slow" or need help. They do it because:
+
+1. **Immediate Feedback:** Bugs are caught in seconds, not days.
+2. **Focus:** It is much harder to procrastinate or check Twitter when someone is watching you code.
+3. **Bus Factor:** No single person "owns" the code; the knowledge is shared instantly.
+
+-----
+
+## P: What about creators of UNIX and C programming language?
+
+Yes, **Ken Thompson and Dennis Ritchie** are arguably the "original" pair programmers, long before the term existed.
+
+While they didn't have a formal "Agile" manifesto, their working style at Bell Labs in the late 1960s and 70s is exactly what modern pair programming aims to emulate.
+
+### The "Proto-Pairing" of Thompson and Ritchie
+They are the ultimate example of **informal, high-bandwidth collaboration**.
+
+* **The Hardware Constraint:** In the early days, they were working on a PDP-7 and later a PDP-11.  These were massive machines but often had limited terminals. It was physically natural to sit side-by-side at the teletype to debug the kernel or language features together.
+* **The Workflow:** Thompson (the rapid-fire hacker) would often write the initial implementation of a UNIX feature, and Ritchie (the theoretician and language designer) would refine the C language to support it, often in the same room, effectively "pairing" on the architecture of the system.
+* **The "Rubber Duck" Effect:** They served as each other's immediate feedback loop. If Thompson hit a roadblock in the OS, Ritchie was there to adjust the C compiler to fix it, and vice versa. This tight loop is why UNIX and C fit together so perfectly—they evolved simultaneously in the same room.
+
+### Other Historical Examples of "De Facto" Pairing
+Before it was a named methodology, many early computing breakthroughs came from duos who shared a brain (and often a keyboard):
+
+* **Bill Gates and Paul Allen (Microsoft Basic):** In the famous "crunch mode" to write the BASIC interpreter for the Altair 8800, they worked non-stop for weeks. One would write the assembly code while the other verified the logic and manually calculated memory addresses (since they had no assembler). This was "Driver-Navigator" pairing in its rawest form.
+* **Steve Wozniak and Steve Jobs (Breakout):** While Wozniak was the primary engineer, the development of the arcade game *Breakout* for Atari involved Jobs staying up four nights straight with Wozniak. Jobs (who couldn't design circuits) acted as the "Navigator/Product Owner," reviewing the game mechanics and motivating Wozniak to reduce the chip count, while Wozniak ("The Driver") executed the design.
+
+### Why this matters
+The creators of UNIX and C prove that pair programming isn't just a training tool for juniors; it is a **discovery tool for masters**. When two experts pair, they don't just write code faster—they invent entirely new paradigms (like the pipe `|` operator, which was debated and refined in that collaborative environment).
+
+---
+
+## P: Who are famous technical coaches who teach and promote pair programming and TDD?
+
+Beyond the legendary creators, there is a vibrant community of "Technical Coaches"—professionals who literally make a living teaching teams how to pair program and practice Test Driven Development (TDD).
+
+Here are the most famous technical coaches active today, each known for a specific "style" or contribution to the field.
+
+### 1. The "Strong-Style" Specialist: Llewellyn Falco
+Llewellyn is famous for defining **Strong-Style Pairing**, a specific technique designed to force collaboration and prevent the "Driver" (typist) from ignoring the "Navigator."
+
+* **His Golden Rule:** "For an idea to go from your head into the computer, it **must** go through someone else's hands."
+* **How it works:** If you are the Navigator and you know exactly what to type, you cannot type it. You must verbally describe it to the Driver. If the Driver doesn't understand, you don't grab the keyboard; you must explain it better.
+* **Why he teaches it:** It forces high-bandwidth communication and ensures the Navigator stays engaged, fixing the common problem where the Navigator "zones out."
+
+### 2. The Dojo Master: Emily Bache
+Emily Bache is arguably the world's leading expert on **Technical Coaching** and **Coding Dojos**. She wrote the book *The Coding Dojo Handbook* and popularized the famous "Gilded Rose" refactoring kata.
+
+* **The "Samman" Method:** She developed the **Samman Technical Coaching** method, where a coach works with a team in two modes:
+    1.  **Learning Hour:** Practicing safe, small exercises (Katas) away from production code.
+    2.  **The Ensemble:** Working on the *actual* production code as a group (Mob Programming) to apply the new skills immediately.
+* **Why she matters:** She focuses on **"Ensemble Programming"** (Mob Programming) as the primary way to teach TDD, arguing that learning is faster when the whole team learns together rather than in isolated pairs.
+
+### 3. The Craftsman: Sandro Mancuso
+Sandro Mancuso founded the **Software Craftsmanship** movement in London and wrote *The Software Craftsman*. He teaches that TDD and Pairing are not just "Agile tricks" but ethical obligations of a professional.
+
+* **His Focus:** He focuses on **Professionalism**. He teaches that writing "dirty code" is unprofessional in the same way a surgeon leaving tools inside a patient is unprofessional.
+* **The "Bank Kata":** He frequently uses a "Bank Kata" to teach "Outside-In TDD" (or London School TDD), where you start with the high-level API and use "Mock Objects" to design the system top-down, pairing closely to define interfaces before implementation.
+
+### 4. The Philosopher: J.B. Rainsberger
+J.B. (famous for "J.B.rains") is a coach who focuses heavily on the **psychology and design** aspects of TDD.
+
+* **His Mantra:** "TDD is a design technique, not a testing technique."
+* **The Lesson:** He teaches that if TDD is painful, your *design* is bad. He uses pairing sessions to show developers that their "hard to test" code is actually "highly coupled" code. He helps teams realize that the pain they feel when pairing or testing is a signal to refactor the architecture, not to stop testing.
+
+### 5. The Mob Evangelist: Woody Zuill
+While Llewellyn Falco formalized the "Strong Style" of pairing, Woody Zuill took it to the extreme by popularizing **Mob Programming** (now often called Software Teaming or Ensemble Programming).
+
+* **The "Turn Up The Good" Philosophy:** He noticed that when his team fixed bugs together on one screen, they were faster and happier. So he asked, "If this is good, why don't we turn up the good?" and they started working on *everything* together, all day, every day.
+* **His Coaching Style:** He is famous for a very gentle, humane approach. He focuses on kindness, consideration, and respect in the pairing/mobbing environment, proving that psychological safety is the precursor to technical excellence.
+
+---
+
+### Summary Table: Which Coach for Which Problem?
+
+| Coach | Best For... | Key Concept |
+| :--- | :--- | :--- |
+| **Llewellyn Falco** | Teams where the Navigator zones out. | **Strong-Style Pairing** (Idea $\to$ Voice $\to$ Hands) |
+| **Emily Bache** | Teams that need structured practice. | **Coding Dojos** & **Samman Method** |
+| **Sandro Mancuso** | Teams needing professional discipline. | **Software Craftsmanship** |
+| **J.B. Rainsberger** | Teams struggling with "Spaghetti Code." | **TDD as Design** |
+| **Woody Zuill** | Teams dealing with knowledge silos. | **Mob Programming** |
+
+
+------ 
+
+## My thoughts
+
+The answer to the 1st prompt is rather disappointing. Basically, it is not that much different from good-old web search and required subsequent prompts to get more examples both historical and modern. 
+
+Other famous programmers/technical coaches:
+
+- [Amitai Schleier](https://latentagility.com/)
+- [Dave Farley](https://modernsoftwareengineering.co.uk/)
+- [James Shore](https://www.jamesshore.com/)
+
+Companies practicing TDD and pairing: [WeDoTDD](https://wedotdd.com/).
+
