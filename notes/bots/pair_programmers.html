@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="ChatGPT5">
-<meta name="dcterms.date" content="2025-10-31">
+<meta name="author" content="Gemini thinking 3 pro">
+<meta name="dcterms.date" content="2025-12-09">
 
-<title>Bionic Reading – vz-logbook</title>
+<title>Famous programmers who pair program – vz-logbook</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -106,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Notes</li><li class="breadcrumb-item"><a href="../../notes/bots/bionic_reading.html">Bots</a></li><li class="breadcrumb-item"><a href="../../notes/bots/bionic_reading.html">Bionic Reading</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Notes</li><li class="breadcrumb-item"><a href="../../notes/bots/bionic_reading.html">Bots</a></li><li class="breadcrumb-item"><a href="../../notes/bots/pair_programmers.html">Famous programmers who pair program</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -190,7 +219,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/bots/bionic_reading.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../notes/bots/bionic_reading.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Bionic Reading</span></a>
   </div>
 </li>
@@ -208,7 +237,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/bots/pair_programmers.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/bots/pair_programmers.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Famous programmers who pair program</span></a>
   </div>
 </li>
@@ -470,26 +499,39 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#q-what-do-you-know-about-bionic-reading-are-there-any-scientific-studies-supporting-this-method" id="toc-q-what-do-you-know-about-bionic-reading-are-there-any-scientific-studies-supporting-this-method" class="nav-link active" data-scroll-target="#q-what-do-you-know-about-bionic-reading-are-there-any-scientific-studies-supporting-this-method">Q: What do you know about Bionic Reading? Are there any scientific studies supporting this method?</a></li>
-  <li><a href="#what-is-bionic-reading" id="toc-what-is-bionic-reading" class="nav-link" data-scroll-target="#what-is-bionic-reading">What is Bionic Reading?</a></li>
-  <li><a href="#what-claims-are-made" id="toc-what-claims-are-made" class="nav-link" data-scroll-target="#what-claims-are-made">What claims are made?</a></li>
-  <li><a href="#what-does-the-scientific-evidence-say" id="toc-what-does-the-scientific-evidence-say" class="nav-link" data-scroll-target="#what-does-the-scientific-evidence-say">What does the scientific evidence say?</a>
+  <li><a href="#p-give-me-a-few-know-examples-of-famous-technologists-who-frequently-use-pair-programming-in-their-daily-work." id="toc-p-give-me-a-few-know-examples-of-famous-technologists-who-frequently-use-pair-programming-in-their-daily-work." class="nav-link active" data-scroll-target="#p-give-me-a-few-know-examples-of-famous-technologists-who-frequently-use-pair-programming-in-their-daily-work.">P: Give me a few know examples of famous technologists who frequently use pair programming in their daily work.</a>
   <ul class="collapse">
-  <li><a href="#a.-rigorous-empirical-studies" id="toc-a.-rigorous-empirical-studies" class="nav-link" data-scroll-target="#a.-rigorous-empirical-studies">A. Rigorous empirical studies</a></li>
-  <li><a href="#b.-educationalqualitative-studies" id="toc-b.-educationalqualitative-studies" class="nav-link" data-scroll-target="#b.-educationalqualitative-studies">B. Educational/qualitative studies</a></li>
-  <li><a href="#c.-summary-of-evidence" id="toc-c.-summary-of-evidence" class="nav-link" data-scroll-target="#c.-summary-of-evidence">C. Summary of evidence</a></li>
+  <li><a href="#the-most-famous-duo-jeff-dean-and-sanjay-ghemawat" id="toc-the-most-famous-duo-jeff-dean-and-sanjay-ghemawat" class="nav-link" data-scroll-target="#the-most-famous-duo-jeff-dean-and-sanjay-ghemawat">1. The Most Famous Duo: Jeff Dean and Sanjay Ghemawat</a></li>
+  <li><a href="#the-creator-kent-beck" id="toc-the-creator-kent-beck" class="nav-link" data-scroll-target="#the-creator-kent-beck">2. The Creator: Kent Beck</a></li>
+  <li><a href="#the-craftsman-robert-c.-martin-uncle-bob" id="toc-the-craftsman-robert-c.-martin-uncle-bob" class="nav-link" data-scroll-target="#the-craftsman-robert-c.-martin-uncle-bob">3. The Craftsman: Robert C. Martin (“Uncle Bob”)</a></li>
+  <li><a href="#the-thought-leader-martin-fowler" id="toc-the-thought-leader-martin-fowler" class="nav-link" data-scroll-target="#the-thought-leader-martin-fowler">4. The Thought Leader: Martin Fowler</a></li>
+  <li><a href="#summary-why-they-do-it" id="toc-summary-why-they-do-it" class="nav-link" data-scroll-target="#summary-why-they-do-it">Summary: Why they do it</a></li>
   </ul></li>
-  <li><a href="#critical-commentary-given-your-background" id="toc-critical-commentary-given-your-background" class="nav-link" data-scroll-target="#critical-commentary-given-your-background">Critical commentary (given your background)</a></li>
-  <li><a href="#my-conclusion" id="toc-my-conclusion" class="nav-link" data-scroll-target="#my-conclusion">My conclusion</a></li>
+  <li><a href="#p-what-about-creators-of-unix-and-c-programming-language" id="toc-p-what-about-creators-of-unix-and-c-programming-language" class="nav-link" data-scroll-target="#p-what-about-creators-of-unix-and-c-programming-language">P: What about creators of UNIX and C programming language?</a>
+  <ul class="collapse">
+  <li><a href="#the-proto-pairing-of-thompson-and-ritchie" id="toc-the-proto-pairing-of-thompson-and-ritchie" class="nav-link" data-scroll-target="#the-proto-pairing-of-thompson-and-ritchie">The “Proto-Pairing” of Thompson and Ritchie</a></li>
+  <li><a href="#other-historical-examples-of-de-facto-pairing" id="toc-other-historical-examples-of-de-facto-pairing" class="nav-link" data-scroll-target="#other-historical-examples-of-de-facto-pairing">Other Historical Examples of “De Facto” Pairing</a></li>
+  <li><a href="#why-this-matters" id="toc-why-this-matters" class="nav-link" data-scroll-target="#why-this-matters">Why this matters</a></li>
+  </ul></li>
+  <li><a href="#p-who-are-famous-technical-coaches-who-teach-and-promote-pair-programming-and-tdd" id="toc-p-who-are-famous-technical-coaches-who-teach-and-promote-pair-programming-and-tdd" class="nav-link" data-scroll-target="#p-who-are-famous-technical-coaches-who-teach-and-promote-pair-programming-and-tdd">P: Who are famous technical coaches who teach and promote pair programming and TDD?</a>
+  <ul class="collapse">
+  <li><a href="#the-strong-style-specialist-llewellyn-falco" id="toc-the-strong-style-specialist-llewellyn-falco" class="nav-link" data-scroll-target="#the-strong-style-specialist-llewellyn-falco">1. The “Strong-Style” Specialist: Llewellyn Falco</a></li>
+  <li><a href="#the-dojo-master-emily-bache" id="toc-the-dojo-master-emily-bache" class="nav-link" data-scroll-target="#the-dojo-master-emily-bache">2. The Dojo Master: Emily Bache</a></li>
+  <li><a href="#the-craftsman-sandro-mancuso" id="toc-the-craftsman-sandro-mancuso" class="nav-link" data-scroll-target="#the-craftsman-sandro-mancuso">3. The Craftsman: Sandro Mancuso</a></li>
+  <li><a href="#the-philosopher-j.b.-rainsberger" id="toc-the-philosopher-j.b.-rainsberger" class="nav-link" data-scroll-target="#the-philosopher-j.b.-rainsberger">4. The Philosopher: J.B. Rainsberger</a></li>
+  <li><a href="#the-mob-evangelist-woody-zuill" id="toc-the-mob-evangelist-woody-zuill" class="nav-link" data-scroll-target="#the-mob-evangelist-woody-zuill">5. The Mob Evangelist: Woody Zuill</a></li>
+  <li><a href="#summary-table-which-coach-for-which-problem" id="toc-summary-table-which-coach-for-which-problem" class="nav-link" data-scroll-target="#summary-table-which-coach-for-which-problem">Summary Table: Which Coach for Which Problem?</a></li>
+  </ul></li>
+  <li><a href="#my-thoughts" id="toc-my-thoughts" class="nav-link" data-scroll-target="#my-thoughts">My thoughts</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Notes</li><li class="breadcrumb-item"><a href="../../notes/bots/bionic_reading.html">Bots</a></li><li class="breadcrumb-item"><a href="../../notes/bots/bionic_reading.html">Bionic Reading</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Notes</li><li class="breadcrumb-item"><a href="../../notes/bots/bionic_reading.html">Bots</a></li><li class="breadcrumb-item"><a href="../../notes/bots/pair_programmers.html">Famous programmers who pair program</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Bionic Reading</h1>
+<h1 class="title">Famous programmers who pair program</h1>
 </div>
 
 
@@ -499,14 +541,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>ChatGPT5 </p>
+             <p>Gemini thinking 3 pro </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 31, 2025</p>
+      <p class="date">December 9, 2025</p>
     </div>
   </div>
   
@@ -518,111 +560,187 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="q-what-do-you-know-about-bionic-reading-are-there-any-scientific-studies-supporting-this-method" class="level2">
-<h2 class="anchored" data-anchor-id="q-what-do-you-know-about-bionic-reading-are-there-any-scientific-studies-supporting-this-method">Q: What do you know about Bionic Reading? Are there any scientific studies supporting this method?</h2>
-<hr>
-<p>Here’s a detailed breakdown of the reading‑method called <strong>Bionic Reading</strong>—how it works, what claims are made, and what the empirical evidence (to date) suggests. I’ve also included comments on how the method aligns (or doesn’t) with known cognitive/ocular‑neuroscience of reading.</p>
-<hr>
-</section>
-<section id="what-is-bionic-reading" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-bionic-reading">What is Bionic Reading?</h2>
-<p><strong>Definition &amp; mechanism</strong><br>
-- Bionic Reading was developed by Swiss designer Renato Casutt. According to his website, the idea is to “make reading easier by guiding the eyes through artificial fixation points”. (<a href="https://www.howtogeek.com/807981/what-is-bionic-reading-and-how-do-you-use-it/">howtogeek.com</a>)<br>
-- In practice: parts of words (typically the first few letters) are bolded (or otherwise visually highlighted). The idea is that the reader’s eye jumps (“saccades”) from one bolded section (“fixation point”) to the next, and the brain fills in the remainder of each word. (<a href="https://triangle.indwes.edu/what-is-bionic-reading/">triangle.indwes.edu</a>)<br>
-- Additional parameters: the method’s website refers to three components—<strong>Fixation</strong>, <strong>Saccade</strong>, and <strong>Opacity</strong>—which allow adjustments (how many letters are bolded, how visible the non‑bold text is, column width, etc.). (<a href="https://bionic-reading.com/br-method/">bionic-reading.com</a>)<br>
-- It is marketed as a tool for reading speed, reading focus (especially for those with attentional issues), and improved comprehension/retention. For example the official site claims benefits such as “Save precious time. Gain advantages. Learn new things faster.” (<a href="https://bionic-reading.com/br-method/">bionic-reading.com</a>)</p>
-<p><strong>Practical usage</strong><br>
-- Apps or browser extensions exist to convert regular text (PDF, EPUB, web pages) into Bionic Reading format. (<a href="https://www.howtogeek.com/807981/what-is-bionic-reading-and-how-do-you-use-it/">howtogeek.com</a>)<br>
-- Users report that for them the bolded‑first‑letters help them focus and “skim” more easily, though this is anecdotal. (See for instance Reddit commentary.) (<a href="https://www.reddit.com/r/typography/comments/v0uvtd/bionic_reading_is_trending_any_proof_or_research/">reddit.com</a>)</p>
-<hr>
-</section>
-<section id="what-claims-are-made" class="level2">
-<h2 class="anchored" data-anchor-id="what-claims-are-made">What claims are made?</h2>
-<p>Key claims include:</p>
+<p>During our <a href="https://less.works/course-details/less-in-action-large-product-developers-a-k-a-the-glad-developers-amstelveen-4089">LeSS in Action</a> course, I needed to quickly provide real life examples of pair programming. So, I’ve asked Gemini. My own thoughts and examples follow Gemini’s answers.</p>
+<section id="p-give-me-a-few-know-examples-of-famous-technologists-who-frequently-use-pair-programming-in-their-daily-work." class="level2">
+<h2 class="anchored" data-anchor-id="p-give-me-a-few-know-examples-of-famous-technologists-who-frequently-use-pair-programming-in-their-daily-work.">P: Give me a few know examples of famous technologists who frequently use pair programming in their daily work.</h2>
+<p>Finding famous technologists who <em>daily</em> practice pair programming is rare because many move into management or architectural roles. However, there are a few legendary examples of “hands-on” titans who used it to build some of the most critical software in history, as well as the methodology creators who evangelized it.</p>
+<section id="the-most-famous-duo-jeff-dean-and-sanjay-ghemawat" class="level3">
+<h3 class="anchored" data-anchor-id="the-most-famous-duo-jeff-dean-and-sanjay-ghemawat">1. The Most Famous Duo: Jeff Dean and Sanjay Ghemawat</h3>
+<p>These two are arguably the most effective pair programmers in the history of Silicon Valley. They are Senior Fellows at Google (the highest technical level) and are responsible for building the foundational systems of the modern internet: <strong>MapReduce, BigTable, Spanner, and LevelDB.</strong></p>
 <ul>
-<li>Increased reading speed (because eye‑movement/fixation is reduced).<br>
-</li>
-<li>Improved comprehension (because brain fills in the rest of each word, supposedly reducing cognitive load).<br>
-</li>
-<li>Better focus / less distraction (especially for readers with ADHD, dyslexia, or low motivation).<br>
-</li>
-<li>Increased reading motivation, self‑efficacy (particularly in educational settings). (<a href="https://www.ijams-bbp.net/wp-content/uploads/2024/02/11-IJAMS-November-402-416-1.pdf">ijams-bbp.net</a>)</li>
-</ul>
-<p>So in short: Bionic Reading is pitched as an accessibility/efficiency tool for reading.</p>
-<hr>
-</section>
-<section id="what-does-the-scientific-evidence-say" class="level2">
-<h2 class="anchored" data-anchor-id="what-does-the-scientific-evidence-say">What does the scientific evidence say?</h2>
-<p>Since you have a scientific background, I’ll divide into <strong>(A)</strong> rigorous experimental/empirical studies, and <strong>(B)</strong> smaller scale educational/qualitative studies, followed by my commentary.</p>
-<section id="a.-rigorous-empirical-studies" class="level3">
-<h3 class="anchored" data-anchor-id="a.-rigorous-empirical-studies">A. Rigorous empirical studies</h3>
-<ul>
-<li>A peer‑reviewed article listed on PubMed:<br>
-Title: <em>“No, Bionic Reading does not work”</em> (Elsevier, 2024) – statistical analyses for 100 paragraphs comparing Bionic vs normal reading found <strong>no significant difference in reading times</strong>. (<a href="https://pubmed.ncbi.nlm.nih.gov/38723450/">pubmed.ncbi.nlm.nih.gov</a>)<br>
-The authors conclude: “I conclude that Bionic Reading does not facilitate reading.” (<a href="https://pubmed.ncbi.nlm.nih.gov/38723450/">pubmed.ncbi.nlm.nih.gov</a>)<br>
-</li>
-<li>An EEG master’s thesis: <em>“An EEG Study on The Effect of Bionic Reading on Semantic Processing”</em> (student thesis at Utrecht University) – this suggests an attempt to measure neural/semantic processing of Bionic Reading, but being a thesis (not full peer‑reviewed yet) limits its weight. (<a href="https://studenttheses.uu.nl/handle/20.500.12932/47512">studenttheses.uu.nl</a>)</li>
-</ul>
-<p>Thus from the highest standard evidence so far: <strong>no robust effect</strong> on speed/efficiency in normal reading tasks.</p>
-</section>
-<section id="b.-educationalqualitative-studies" class="level3">
-<h3 class="anchored" data-anchor-id="b.-educationalqualitative-studies">B. Educational/qualitative studies</h3>
-<ul>
-<li>A quasi‑experimental study of 110 learners with learning disabilities in the Philippines (2022‑23) found that Bionic Reading improved reading motivation and self‑efficacy significantly for the experimental group (versus control) in post‑intervention tests. (<a href="https://www.ijams-bbp.net/wp-content/uploads/2024/02/11-IJAMS-November-402-416-1.pdf">ijams-bbp.net</a>)<br>
-</li>
-<li>A classroom action research study (30 10th‑grade students, Indonesia) found average reading scores improved from 67 → 72 and % of students meeting a “minimum mastery criterion” increased from 63% → 75% using a “Bionic method”. (<a href="https://bajangjournal.com/index.php/JOEL/article/view/7133">bajangjournal.com</a>)<br>
-</li>
-<li>Some blog/educator commentary analyses are skeptical. For example, one article discusses five key questions and essentially points out that rigorous empirical evidence is lacking. (<a href="https://languageeducatorsassemble.com/bionic-reading/">languageeducatorsassemble.com</a>)</li>
+<li><strong>How they worked:</strong> For years, they worked at the same computer, sharing a keyboard and monitor. They would often finish each other’s sentences and code.</li>
+<li><strong>The “Chuck Norris” Fact:</strong> There is a famous internal joke at Google that “Jeff Dean’s compiler warns him about errors,” but in reality, his “compiler” was often Sanjay sitting next to him.</li>
+<li><strong>Why it mattered:</strong> Their pairing allowed them to build massive, complex distributed systems that were exceptionally bug-free and efficient because they were constantly reviewing each other’s logic in real-time.</li>
 </ul>
 </section>
-<section id="c.-summary-of-evidence" class="level3">
-<h3 class="anchored" data-anchor-id="c.-summary-of-evidence">C. Summary of evidence</h3>
+<section id="the-creator-kent-beck" class="level3">
+<h3 class="anchored" data-anchor-id="the-creator-kent-beck">2. The Creator: Kent Beck</h3>
+<p>Kent Beck is the father of <strong>Extreme Programming (XP)</strong>, the software methodology that popularized pair programming in the 1990s. He is also the creator of JUnit and Test Driven Development (TDD).</p>
 <ul>
-<li><strong>Reading speed/comprehension (normal adult readers):</strong> empirically <em>no</em> convincing benefit (per Elsevier study)<br>
-</li>
-<li><strong>Motivation/self‑efficacy (learners with disabilities):</strong> some positive preliminary results<br>
-</li>
-<li><strong>Overall:</strong> the method is <strong>not yet strongly validated</strong> in robust cognitive/behavioral studies.</li>
+<li><strong>His Daily Habit:</strong> While he moves between roles (Meta, Gusto, etc.), he treats pair programming as a discipline rather than a suggestion. He famously stated that for complex or production-critical code, he does not work alone.</li>
+<li><strong>The Philosophy:</strong> He argues that “code reviews” are too late in the process. Pairing is a continuous, real-time code review that prevents bad design decisions before they are written.</li>
 </ul>
+</section>
+<section id="the-craftsman-robert-c.-martin-uncle-bob" class="level3">
+<h3 class="anchored" data-anchor-id="the-craftsman-robert-c.-martin-uncle-bob">3. The Craftsman: Robert C. Martin (“Uncle Bob”)</h3>
+<p>A signatory of the Agile Manifesto and author of <em>Clean Code</em>, Uncle Bob is a vocal advocate for professionalism in coding, which he believes often requires pairing.</p>
+<ul>
+<li><strong>His Approach:</strong> He advocates for pairing particularly when solving “deep” problems or training junior developers. He views it as a transfer of professional standards—teaching not just <em>what</em> to code, but <em>how</em> to think about code.</li>
+<li><strong>The “Ping Pong” Method:</strong> He frequently demonstrates and uses “Ping Pong Pairing,” where one person writes a failing test (TDD), passes the keyboard to the other to make it pass, who then writes the next failing test, and passes it back.</li>
+</ul>
+</section>
+<section id="the-thought-leader-martin-fowler" class="level3">
+<h3 class="anchored" data-anchor-id="the-thought-leader-martin-fowler">4. The Thought Leader: Martin Fowler</h3>
+<p>As a Chief Scientist at ThoughtWorks and a prolific author (<em>Refactoring</em>, <em>Patterns of Enterprise Application Architecture</em>), Fowler has institutionalized pair programming at an organizational level.</p>
+<ul>
+<li><strong>Daily Work:</strong> While he writes more prose than code these days, his daily work involves “pairing” on technical articles and architectural designs. He advocates that pairing is just as effective for writing documentation and design specs as it is for code.</li>
+<li><strong>Influence:</strong> Under his technical guidance, companies like ThoughtWorks require consultants to pair program 100% of the time, proving it works at scale in daily enterprise work.</li>
+</ul>
+</section>
+<section id="summary-why-they-do-it" class="level3">
+<h3 class="anchored" data-anchor-id="summary-why-they-do-it">Summary: Why they do it</h3>
+<p>These technologists don’t pair program because they are “slow” or need help. They do it because:</p>
+<ol type="1">
+<li><strong>Immediate Feedback:</strong> Bugs are caught in seconds, not days.</li>
+<li><strong>Focus:</strong> It is much harder to procrastinate or check Twitter when someone is watching you code.</li>
+<li><strong>Bus Factor:</strong> No single person “owns” the code; the knowledge is shared instantly.</li>
+</ol>
 <hr>
 </section>
 </section>
-<section id="critical-commentary-given-your-background" class="level2">
-<h2 class="anchored" data-anchor-id="critical-commentary-given-your-background">Critical commentary (given your background)</h2>
-<p>From a cognitive/neurological perspective:</p>
+<section id="p-what-about-creators-of-unix-and-c-programming-language" class="level2">
+<h2 class="anchored" data-anchor-id="p-what-about-creators-of-unix-and-c-programming-language">P: What about creators of UNIX and C programming language?</h2>
+<p>Yes, <strong>Ken Thompson and Dennis Ritchie</strong> are arguably the “original” pair programmers, long before the term existed.</p>
+<p>While they didn’t have a formal “Agile” manifesto, their working style at Bell Labs in the late 1960s and 70s is exactly what modern pair programming aims to emulate.</p>
+<section id="the-proto-pairing-of-thompson-and-ritchie" class="level3">
+<h3 class="anchored" data-anchor-id="the-proto-pairing-of-thompson-and-ritchie">The “Proto-Pairing” of Thompson and Ritchie</h3>
+<p>They are the ultimate example of <strong>informal, high-bandwidth collaboration</strong>.</p>
 <ul>
-<li>Reading involves a complex interplay of <strong>bottom‑up</strong> (orthographic/phonological/lexical) processing and <strong>top‑down</strong> (semantic/contextual) processing. The “visual word form area”, saccadic eye‑movements, fixation durations, etc., all matter. For instance, research shows that altering text layout can affect oculomotor behaviour (see e.g., inverted/mirrored text reading) but tends to <em>slow</em> reading rather than speed it. (<a href="https://arxiv.org/abs/1911.04585">arxiv.org</a>)<br>
-</li>
-<li>The claim of “brain fills in the rest of each word” relies on the assumption that readers consistently use a chunking strategy of few letters + context. While partial word recognition is plausible (there’s evidence for parafoveal processing, etc.), constructing artificial bolded fixation points presumes that you can systematically reduce fixations without increasing processing cost elsewhere (e.g., reconstructing the word, losing some letters, etc.).<br>
-</li>
-<li>The empirical null result (no significant difference in reading time) aligns with the expectation that any alteration in text format that changes typical fixations/saccades may <em>disrupt</em> rather than <em>enhance</em> reading in skilled readers.<br>
-</li>
-<li>The positive results in motivation/self‑efficacy settings (learners with disabilities) might reflect <strong>meta-cognitive/affective</strong> benefits (i.e., the novelty or perceived “helpful” formatting leads to increased engagement) rather than a true cognitive/processing speed increase.<br>
-</li>
-<li>Because you work in brain imaging, it is worth noting that I found no published neuroimaging study (fMRI/EEG) at large scale showing altered activation patterns or reading‑network efficiency changes due to Bionic Reading. The EEG thesis suggests someone is attempting that, but results don’t appear peer‑reviewed yet.<br>
-</li>
-<li>Speed‑reading claims (especially big ones) are generally treated with scepticism in reading‑science (see for example reviews of speed‑reading techniques). (<a href="https://en.wikipedia.org/wiki/Speed_reading">en.wikipedia.org</a>)</li>
+<li><strong>The Hardware Constraint:</strong> In the early days, they were working on a PDP-7 and later a PDP-11. These were massive machines but often had limited terminals. It was physically natural to sit side-by-side at the teletype to debug the kernel or language features together.</li>
+<li><strong>The Workflow:</strong> Thompson (the rapid-fire hacker) would often write the initial implementation of a UNIX feature, and Ritchie (the theoretician and language designer) would refine the C language to support it, often in the same room, effectively “pairing” on the architecture of the system.</li>
+<li><strong>The “Rubber Duck” Effect:</strong> They served as each other’s immediate feedback loop. If Thompson hit a roadblock in the OS, Ritchie was there to adjust the C compiler to fix it, and vice versa. This tight loop is why UNIX and C fit together so perfectly—they evolved simultaneously in the same room.</li>
+</ul>
+</section>
+<section id="other-historical-examples-of-de-facto-pairing" class="level3">
+<h3 class="anchored" data-anchor-id="other-historical-examples-of-de-facto-pairing">Other Historical Examples of “De Facto” Pairing</h3>
+<p>Before it was a named methodology, many early computing breakthroughs came from duos who shared a brain (and often a keyboard):</p>
+<ul>
+<li><strong>Bill Gates and Paul Allen (Microsoft Basic):</strong> In the famous “crunch mode” to write the BASIC interpreter for the Altair 8800, they worked non-stop for weeks. One would write the assembly code while the other verified the logic and manually calculated memory addresses (since they had no assembler). This was “Driver-Navigator” pairing in its rawest form.</li>
+<li><strong>Steve Wozniak and Steve Jobs (Breakout):</strong> While Wozniak was the primary engineer, the development of the arcade game <em>Breakout</em> for Atari involved Jobs staying up four nights straight with Wozniak. Jobs (who couldn’t design circuits) acted as the “Navigator/Product Owner,” reviewing the game mechanics and motivating Wozniak to reduce the chip count, while Wozniak (“The Driver”) executed the design.</li>
+</ul>
+</section>
+<section id="why-this-matters" class="level3">
+<h3 class="anchored" data-anchor-id="why-this-matters">Why this matters</h3>
+<p>The creators of UNIX and C prove that pair programming isn’t just a training tool for juniors; it is a <strong>discovery tool for masters</strong>. When two experts pair, they don’t just write code faster—they invent entirely new paradigms (like the pipe <code>|</code> operator, which was debated and refined in that collaborative environment).</p>
+<hr>
+</section>
+</section>
+<section id="p-who-are-famous-technical-coaches-who-teach-and-promote-pair-programming-and-tdd" class="level2">
+<h2 class="anchored" data-anchor-id="p-who-are-famous-technical-coaches-who-teach-and-promote-pair-programming-and-tdd">P: Who are famous technical coaches who teach and promote pair programming and TDD?</h2>
+<p>Beyond the legendary creators, there is a vibrant community of “Technical Coaches”—professionals who literally make a living teaching teams how to pair program and practice Test Driven Development (TDD).</p>
+<p>Here are the most famous technical coaches active today, each known for a specific “style” or contribution to the field.</p>
+<section id="the-strong-style-specialist-llewellyn-falco" class="level3">
+<h3 class="anchored" data-anchor-id="the-strong-style-specialist-llewellyn-falco">1. The “Strong-Style” Specialist: Llewellyn Falco</h3>
+<p>Llewellyn is famous for defining <strong>Strong-Style Pairing</strong>, a specific technique designed to force collaboration and prevent the “Driver” (typist) from ignoring the “Navigator.”</p>
+<ul>
+<li><strong>His Golden Rule:</strong> “For an idea to go from your head into the computer, it <strong>must</strong> go through someone else’s hands.”</li>
+<li><strong>How it works:</strong> If you are the Navigator and you know exactly what to type, you cannot type it. You must verbally describe it to the Driver. If the Driver doesn’t understand, you don’t grab the keyboard; you must explain it better.</li>
+<li><strong>Why he teaches it:</strong> It forces high-bandwidth communication and ensures the Navigator stays engaged, fixing the common problem where the Navigator “zones out.”</li>
+</ul>
+</section>
+<section id="the-dojo-master-emily-bache" class="level3">
+<h3 class="anchored" data-anchor-id="the-dojo-master-emily-bache">2. The Dojo Master: Emily Bache</h3>
+<p>Emily Bache is arguably the world’s leading expert on <strong>Technical Coaching</strong> and <strong>Coding Dojos</strong>. She wrote the book <em>The Coding Dojo Handbook</em> and popularized the famous “Gilded Rose” refactoring kata.</p>
+<ul>
+<li><strong>The “Samman” Method:</strong> She developed the <strong>Samman Technical Coaching</strong> method, where a coach works with a team in two modes:
+<ol type="1">
+<li><strong>Learning Hour:</strong> Practicing safe, small exercises (Katas) away from production code.</li>
+<li><strong>The Ensemble:</strong> Working on the <em>actual</em> production code as a group (Mob Programming) to apply the new skills immediately.</li>
+</ol></li>
+<li><strong>Why she matters:</strong> She focuses on <strong>“Ensemble Programming”</strong> (Mob Programming) as the primary way to teach TDD, arguing that learning is faster when the whole team learns together rather than in isolated pairs.</li>
+</ul>
+</section>
+<section id="the-craftsman-sandro-mancuso" class="level3">
+<h3 class="anchored" data-anchor-id="the-craftsman-sandro-mancuso">3. The Craftsman: Sandro Mancuso</h3>
+<p>Sandro Mancuso founded the <strong>Software Craftsmanship</strong> movement in London and wrote <em>The Software Craftsman</em>. He teaches that TDD and Pairing are not just “Agile tricks” but ethical obligations of a professional.</p>
+<ul>
+<li><strong>His Focus:</strong> He focuses on <strong>Professionalism</strong>. He teaches that writing “dirty code” is unprofessional in the same way a surgeon leaving tools inside a patient is unprofessional.</li>
+<li><strong>The “Bank Kata”:</strong> He frequently uses a “Bank Kata” to teach “Outside-In TDD” (or London School TDD), where you start with the high-level API and use “Mock Objects” to design the system top-down, pairing closely to define interfaces before implementation.</li>
+</ul>
+</section>
+<section id="the-philosopher-j.b.-rainsberger" class="level3">
+<h3 class="anchored" data-anchor-id="the-philosopher-j.b.-rainsberger">4. The Philosopher: J.B. Rainsberger</h3>
+<p>J.B. (famous for “J.B.rains”) is a coach who focuses heavily on the <strong>psychology and design</strong> aspects of TDD.</p>
+<ul>
+<li><strong>His Mantra:</strong> “TDD is a design technique, not a testing technique.”</li>
+<li><strong>The Lesson:</strong> He teaches that if TDD is painful, your <em>design</em> is bad. He uses pairing sessions to show developers that their “hard to test” code is actually “highly coupled” code. He helps teams realize that the pain they feel when pairing or testing is a signal to refactor the architecture, not to stop testing.</li>
+</ul>
+</section>
+<section id="the-mob-evangelist-woody-zuill" class="level3">
+<h3 class="anchored" data-anchor-id="the-mob-evangelist-woody-zuill">5. The Mob Evangelist: Woody Zuill</h3>
+<p>While Llewellyn Falco formalized the “Strong Style” of pairing, Woody Zuill took it to the extreme by popularizing <strong>Mob Programming</strong> (now often called Software Teaming or Ensemble Programming).</p>
+<ul>
+<li><strong>The “Turn Up The Good” Philosophy:</strong> He noticed that when his team fixed bugs together on one screen, they were faster and happier. So he asked, “If this is good, why don’t we turn up the good?” and they started working on <em>everything</em> together, all day, every day.</li>
+<li><strong>His Coaching Style:</strong> He is famous for a very gentle, humane approach. He focuses on kindness, consideration, and respect in the pairing/mobbing environment, proving that psychological safety is the precursor to technical excellence.</li>
 </ul>
 <hr>
 </section>
-<section id="my-conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="my-conclusion">My conclusion</h2>
+<section id="summary-table-which-coach-for-which-problem" class="level3">
+<h3 class="anchored" data-anchor-id="summary-table-which-coach-for-which-problem">Summary Table: Which Coach for Which Problem?</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Coach</th>
+<th style="text-align: left;">Best For…</th>
+<th style="text-align: left;">Key Concept</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Llewellyn Falco</strong></td>
+<td style="text-align: left;">Teams where the Navigator zones out.</td>
+<td style="text-align: left;"><strong>Strong-Style Pairing</strong> (Idea <span class="math inline">\(\to\)</span> Voice <span class="math inline">\(\to\)</span> Hands)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Emily Bache</strong></td>
+<td style="text-align: left;">Teams that need structured practice.</td>
+<td style="text-align: left;"><strong>Coding Dojos</strong> &amp; <strong>Samman Method</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Sandro Mancuso</strong></td>
+<td style="text-align: left;">Teams needing professional discipline.</td>
+<td style="text-align: left;"><strong>Software Craftsmanship</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>J.B. Rainsberger</strong></td>
+<td style="text-align: left;">Teams struggling with “Spaghetti Code.”</td>
+<td style="text-align: left;"><strong>TDD as Design</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Woody Zuill</strong></td>
+<td style="text-align: left;">Teams dealing with knowledge silos.</td>
+<td style="text-align: left;"><strong>Mob Programming</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="my-thoughts" class="level2">
+<h2 class="anchored" data-anchor-id="my-thoughts">My thoughts</h2>
+<p>The answer to the 1st prompt is rather disappointing. Basically, it is not that much different from good-old web search and required subsequent prompts to get more examples both historical and modern.</p>
+<p>Other famous programmers/technical coaches:</p>
 <ul>
-<li>At this point, the method is <strong>interesting</strong>, and the user‑reports (especially for dyslexia/attention issues) suggest that there may be some <em>subjective benefit</em> (engagement, focus).<br>
-</li>
-<li>However, if the question is “Does Bionic Reading <em>improve reading speed/comprehension</em> in adult readers under controlled conditions?” — the answer is: <strong>no strong evidence yet</strong>.<br>
-</li>
-<li>If you are considering either (a) recommending it for your own reading workflows, or (b) studying it as part of cognitive/neuroscience research, the key caveats are:
-<ul>
-<li>It may <em>not</em> help (and might even slow) skilled readers.<br>
-</li>
-<li>For reading‑disability populations the affective/motivational benefits might be worthwhile to explore further.<br>
-</li>
-<li>If you’re considering research: designing an eye‑tracking + EEG/fMRI study comparing normal vs bolded‑format reading (with conditions controlling for word‑length, frequency, fixation/saccade patterns) would be valuable.<br>
-</li>
-<li>The metric of “reading speed” should be carefully defined (words per minute, fixation count, saccade length) and “comprehension” needs to be tested with valid comprehension tasks, not just subject ratings.</li>
-</ul></li>
+<li><a href="https://latentagility.com/">Amitai Schleier</a></li>
+<li><a href="https://modernsoftwareengineering.co.uk/">Dave Farley</a></li>
+<li><a href="https://www.jamesshore.com/">James Shore</a></li>
 </ul>
+<p>Companies practicing TDD and pairing: <a href="https://wedotdd.com/">WeDoTDD</a>.</p>
 
 
 </section>
