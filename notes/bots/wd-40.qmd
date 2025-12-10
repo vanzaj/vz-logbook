@@ -1,0 +1,49 @@
+---
+title: The story behind WD-40
+date: 2025-12-10
+author: Gemini thinking 3 pro
+---
+
+Recently I've heard an interesting story about [WD-40](https://www.wd40.com/).
+
+
+## P: Do you know the story behind the product called WD-40?
+
+The story of WD-40 is a classic example of **persistence and accidental success**. It wasn't originally designed for squeaky doors or stuck zippers; it was invented for rocket science.
+
+Here is the breakdown of how "Water Displacement, 40th Formula" came to be.
+
+### 1. The Original Purpose: Protecting Missiles
+In **1953**, a small company called the **Rocket Chemical Company** in San Diego, California, set out to create a line of rust-prevention solvents and degreasers for the aerospace industry.
+
+Their specific goal was to create a formula that would displace water to prevent corrosion on the outer skin of the **Atlas Missile** (the first operational intercontinental ballistic missile developed for the U.S. Air Force). The missile's stainless steel skin was so thin that it was actually kept rigid by the pressure of the fuel inside; if it rusted or corroded, it could be catastrophic.
+
+### 2. The Name: Why "40"?
+The name is surprisingly literal. It stands for **"Water Displacement, 40th Formula."**
+
+The chemists at the company (often credited to Norm Larsen, though some sources cite chemist Iver Norman Lawson) worked through 39 failed formulas. They were trying to find a chemical balance that would effectively displace standing water and prevent moisture from forming.
+
+On their **40th attempt**, they finally got the mixture right. That is the exact formula still in use today.
+
+### 3. From Rockets to Household Shelves
+The transition from industrial aerospace product to household staple happened organically:
+* **The "Sneak" Phase:** The product worked so well at the plant that employees started sneaking cans of it home in their lunchboxes to use on their own cars, tools, and squeaky appliances.
+* **The Pivot:** Noticing this unauthorized personal use, Norm Larsen realized the commercial potential. In **1958**, the company began putting the fluid into aerosol cans and selling it to the general public in San Diego.
+* **The Big Break:** In **1961**, a massive storm called Hurricane Carla struck the U.S. Gulf Coast. The company received its first truckload order to ship WD-40 to the victims, who used it to recondition flood-damaged vehicles and equipment. This proved its utility on a massive scale.
+
+### 4. Interesting Facts
+
+* **The Secret Sauce:** The formula is a trade secret and **was never patented.** This was a strategic move; patents require you to publicly disclose your ingredients, and patents eventually expire. By keeping it a trade secret, the company never had to reveal exactly what is in the can.
+* **Not a Lubricant?** Technically, WD-40 is a **solvent** and a water displacer, not a primary lubricant. While it helps things move by cleaning them and unsticking them, it eventually evaporates. (For long-term lubrication, you are often better off with silicone or grease).
+* **The Company Name:** The Rocket Chemical Company was so successful with this one product that they eventually just renamed the entire company. In 1969, they officially became the **WD-40 Company**.
+
+### Summary Table
+ 
+ Detail                Fact 
+ :---                  :--- 
+ **Invented**          1953 
+ **Location**          San Diego, California 
+ **Original Use**      Protecting the Atlas Missile from rust 
+ **Meaning**           **W**ater **D**isplacement, **40**th Formula 
+ **Key Ingredient**    Trade Secret (never patented) 
+
