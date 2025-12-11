@@ -16,7 +16,7 @@ For example, `modplus(12, chunk_length=3)` should return 6.
 
 Variation: ModPlusDot. Instead of combinatorial sum, use a combination of binary AND and OR when combining chunks.
 
-(Simple enough for an algorithmic problem. Skills to practice: splitting the problems into smaller problems, naming things, simplify by extraction, refactoring while in green, make it work first).
+Simple enough for an algorithmic problem. Skills to practice: splitting the problems into smaller problems, naming things, simplify by extraction, refactoring while in green, make it work first.
 
 
 ## 2D vector
@@ -24,4 +24,5 @@ Variation: ModPlusDot. Instead of combinatorial sum, use a combination of binary
 Imagine you are working for Khan Academy (KA). KA wants to modernize their basic math classes, especially the display.
 Implement a cartesian 2D `Vector` class, that supports scalar multiplication, addition with another `Vector`, norm (magnitude) and dot product between 2 vectors(see [vector](https://mathworld.wolfram.com/Vector.html)).
 
-(This is more of a design kata, but still requires to implement a couple of formulas).
+This is more of a design kata, but still requires to implement a couple of formulas.
+
