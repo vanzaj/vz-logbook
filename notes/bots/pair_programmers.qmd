@@ -1,7 +1,7 @@
 ---
 title: Famous programmers who pair program
 date: 2025-12-09
-author: Gemini thinking 3 pro
+author: Gemini 3 pro
 ---
 
 During our [LeSS in Action](https://less.works/course-details/less-in-action-large-product-developers-a-k-a-the-glad-developers-amstelveen-4089) course, I needed to quickly provide real life examples of pair programming. So, I've asked Gemini. My own thoughts and examples follow Gemini's answers.

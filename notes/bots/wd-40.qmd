@@ -1,7 +1,7 @@
 ---
 title: The story behind WD-40
 date: 2025-12-10
-author: Gemini thinking 3 pro
+author: Gemini 3 pro
 ---
 
 Recently I've heard an interesting story about [WD-40](https://www.wd40.com/).

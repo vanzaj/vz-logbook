@@ -1,7 +1,7 @@
 ---
 title: Top, but Toxic performers
 date: 2025-12-11
-author: Gemini thinking 3 pro
+author: Gemini 3 pro
 ---
 
 You are a leader or key decision maker in your organization. You do your best to hire the best people in the context of your business (say investment or healthcare). You know that the best are often opinionated and tend towards egoistic. Is this a good hiring strategy?
