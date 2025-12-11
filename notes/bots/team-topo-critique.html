@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Gemini 2.5 Pro">
+<meta name="dcterms.date" content="2025-10-24">
 
-<title>Windows 10 Dev Env Setup – VZ’s LogBook</title>
+<title>Team Topologies – VZ’s LogBook</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,41 +22,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -65,8 +32,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../tech/practices/alt_login_bdd.html" rel="next">
-<link href="../../tech/ops/tools.html" rel="prev">
+<link href="../../notes/bots/top_toxic_performers.html" rel="next">
+<link href="../../notes/bots/pair_programmers.html" rel="prev">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -141,7 +108,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Tech</li><li class="breadcrumb-item"><a href="../../tech/ops/bash.html">Ops</a></li><li class="breadcrumb-item"><a href="../../tech/ops/win-scoop.html">Windows 10 Dev Env Setup</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notes/bots/index.html">Notes</a></li><li class="breadcrumb-item"><a href="../../notes/bots/index.html">Hallucinations</a></li><li class="breadcrumb-item"><a href="../../notes/bots/team-topo-critique.html">Team Topologies</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -207,22 +174,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
  <span class="menu-text">Notes</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../notes/bots/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Hallucinations</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../notes/bots/bionic_reading.html" class="sidebar-item-text sidebar-link">
@@ -249,7 +216,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/bots/team-topo-critique.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/bots/team-topo-critique.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Team Topologies</span></a>
   </div>
 </li>
@@ -394,13 +361,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false">
  <span class="menu-text">Tech</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false">
@@ -426,13 +393,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false">
  <span class="menu-text">Ops</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../tech/ops/bash.html" class="sidebar-item-text sidebar-link">
@@ -465,7 +432,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../tech/ops/win-scoop.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../tech/ops/win-scoop.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Windows 10 Dev Env Setup</span></a>
   </div>
 </li>
@@ -523,25 +490,37 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020" id="toc-install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020" class="nav-link active" data-scroll-target="#install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020">Install latest Microsoft Powershell (v7.0.3 as of 9 November 2020)</a></li>
-  <li><a href="#install-and-configure-scoop" id="toc-install-and-configure-scoop" class="nav-link" data-scroll-target="#install-and-configure-scoop">Install and configure Scoop</a></li>
-  <li><a href="#install-development-tools" id="toc-install-development-tools" class="nav-link" data-scroll-target="#install-development-tools">Install development tools</a></li>
+  <li><a href="#p-please-give-me-a-summary-of-team-topologies-organizing-business-and-technology-teams-for-fast-flow-book-by-manuel-pais-and-matthew-skelton." id="toc-p-please-give-me-a-summary-of-team-topologies-organizing-business-and-technology-teams-for-fast-flow-book-by-manuel-pais-and-matthew-skelton." class="nav-link active" data-scroll-target="#p-please-give-me-a-summary-of-team-topologies-organizing-business-and-technology-teams-for-fast-flow-book-by-manuel-pais-and-matthew-skelton.">P: Please give me a summary of Team Topologies: Organizing Business and Technology Teams for Fast Flow Book by Manuel Pais and Matthew Skelton.</a></li>
+  <li><a href="#p-how-is-team-cognitive-load-defined-in-the-book" id="toc-p-how-is-team-cognitive-load-defined-in-the-book" class="nav-link" data-scroll-target="#p-how-is-team-cognitive-load-defined-in-the-book">P: How is ‘team cognitive load’ defined in the book?</a></li>
+  <li><a href="#my-thoughts" id="toc-my-thoughts" class="nav-link" data-scroll-target="#my-thoughts">My thoughts</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Tech</li><li class="breadcrumb-item"><a href="../../tech/ops/bash.html">Ops</a></li><li class="breadcrumb-item"><a href="../../tech/ops/win-scoop.html">Windows 10 Dev Env Setup</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notes/bots/index.html">Notes</a></li><li class="breadcrumb-item"><a href="../../notes/bots/index.html">Hallucinations</a></li><li class="breadcrumb-item"><a href="../../notes/bots/team-topo-critique.html">Team Topologies</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Windows 10 Dev Env Setup</h1>
+<h1 class="title">Team Topologies</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Gemini 2.5 Pro </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 24, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -551,47 +530,71 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020" class="level2">
-<h2 class="anchored" data-anchor-id="install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020">Install latest Microsoft Powershell (v7.0.3 as of 9 November 2020)</h2>
+<p><em>Team Topologies</em> by Matthew Skelton and Manuel Pais is a pretty popular book. 4.18 stars from 5374 ratings on <a href="https://www.goodreads.com/book/show/44135420-team-topologies">goodread.com</a> and similar ranking on Amazon.</p>
+<p>I haven’t read it, but today I have decided to learn a bit more about it using Gemini 2.5 Pro.</p>
+<hr>
+<section id="p-please-give-me-a-summary-of-team-topologies-organizing-business-and-technology-teams-for-fast-flow-book-by-manuel-pais-and-matthew-skelton." class="level2">
+<h2 class="anchored" data-anchor-id="p-please-give-me-a-summary-of-team-topologies-organizing-business-and-technology-teams-for-fast-flow-book-by-manuel-pais-and-matthew-skelton.">P: Please give me a summary of Team Topologies: Organizing Business and Technology Teams for Fast Flow Book by Manuel Pais and Matthew Skelton.</h2>
+<p>Here’s a summary of the book <em>Team Topologies: Organizing Business and Technology Teams for Fast Flow</em> by Manuel Pais and Matthew Skelton.</p>
+<p>The book provides a practical and adaptive model for organizing technology and business teams. Its primary goal is to help organizations achieve a fast flow of software delivery by optimizing team structures to reduce dependencies, improve communication, and, most importantly, manage <strong>team cognitive load</strong>.</p>
+<section id="the-core-problem-cognitive-load" class="level4">
+<h4 class="anchored" data-anchor-id="the-core-problem-cognitive-load">The Core Problem: Cognitive Load</h4>
+<p>The central concept of the book is <strong>Team Cognitive Load</strong>. This refers to the total amount of mental effort a team is using at any given time. The authors, drawing on psychologist John Sweller’s work, argue that a team, like an individual, has a finite cognitive capacity.</p>
+<p>If a team is responsible for too many different things (e.g., multiple complex business domains, intricate infrastructure, testing, operations, and user support), its cognitive load becomes too high. This overload is the main blocker to a fast flow of value, leading to:</p>
 <ul>
-<li>Go to <a href="https://github.com/PowerShell/PowerShell/" class="uri">https://github.com/PowerShell/PowerShell/</a></li>
-<li>Click on <code>Latest</code> under Releases</li>
-<li>Search for <code>win-x64.msi</code></li>
+<li>Slow delivery</li>
+<li>Poor-quality work</li>
+<li>Team burnout</li>
+<li>An inability to innovate</li>
 </ul>
+<p>The entire <em>Team Topologies</em> model is designed to explicitly limit and manage the cognitive load of each team.</p>
 </section>
-<section id="install-and-configure-scoop" class="level2">
-<h2 class="anchored" data-anchor-id="install-and-configure-scoop">Install and configure Scoop</h2>
-<p><a href="https://scoop.sh/">Scoop</a> allows installing and managing familiar dev tools on Windows from the command line. It is somewhat similar to <code>homebrew</code> on Mac or <code>apt-get</code> on Ubuntu.</p>
-<p>Setup your region’s web proxy (<a href="https://scoop-docs.now.sh/docs/misc/Using-Scoop-behind-a-proxy.html">more info</a>)</p>
-<p>Type in the PowerShell Terminal:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">[net.webrequest]::defaultwebproxy</span> = new-object net.webproxy <span class="st">"http://proxy.COMPANY.com:8080"</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">[net.webrequest]::defaultwebproxy.credentials</span> = <span class="pp">[</span><span class="ss">net.credentialcache</span><span class="pp">]</span>::defaultcredentials</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Install scoop.sh and git:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">set-executionpolicy</span> unrestricted <span class="at">-s</span> cu</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">iwr</span> <span class="at">-useb</span> get.scoop.sh <span class="kw">|</span> <span class="ex">iex</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install git win32-openssh openssl</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> C:<span class="dt">\P</span>rogramData<span class="dt">\s</span>coop<span class="dt">\a</span>pps<span class="dt">\w</span>in32-openssh<span class="dt">\c</span>urrent<span class="dt">\i</span>nstall-sshd.ps1</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> credential.helper manager</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> http.sslVerify false</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> config proxy <span class="st">'currentuser@proxy.COMPANY.com:8080'</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install busybox cacert delta pshazz sudo</span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> delta.side-by-side true</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="the-four-fundamental-team-topologies" class="level4">
+<h4 class="anchored" data-anchor-id="the-four-fundamental-team-topologies">The Four Fundamental Team Topologies</h4>
+<p>The book proposes that instead of functional silos (like “dev,” “ops,” “QA”), organizations should use only four fundamental types of teams.</p>
+<ol type="1">
+<li><p><strong>Stream-aligned Team</strong>: This is the primary team type. It’s a cross-functional team aligned to a single, valuable “stream” of work, such as a product, a service, a user journey, or a specific business capability. They are empowered to build, run, and own their service end-to-end, from idea to production and back. The majority of teams in an organization should be stream-aligned.</p></li>
+<li><p><strong>Platform Team</strong>: The purpose of a platform team is to enable stream-aligned teams to deliver their work with more autonomy and less effort. They provide internal services and tools (e.g., CI/CD pipelines, monitoring dashboards, self-service infrastructure) as an internal “product.” This reduces the cognitive load on stream-aligned teams, as they don’t have to be experts in (for example) Kubernetes orchestration.</p></li>
+<li><p><strong>Enabling Team</strong>: This is a team of specialists (e.g., in security, test automation, or a new technology) who help stream-aligned teams acquire missing capabilities. Their goal is not to do the work for other teams but to “teach them how to fish.” They are temporary and move on once the stream-aligned team is self-sufficient in that area.</p></li>
+<li><p><strong>Complicated-subsystem Team</strong>: This team is only created when a specific part of the system is so complex that it requires deep, specialized knowledge (e.g., a real-time video processing engine, a complex financial-modeling algorithm). This team builds and maintains that one subsystem, hiding its complexity from other teams (usually platform or stream-aligned) who consume it as a service.</p></li>
+</ol>
 </section>
-<section id="install-development-tools" class="level2">
-<h2 class="anchored" data-anchor-id="install-development-tools">Install development tools</h2>
-<p>Scoop update and basic tools:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> config proxy <span class="st">'currentuser@proxytr.huawei.com:8080'</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> scoop update <span class="pp">*</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install cwRsync dust everything gpg procs sysinternals vcredist2015 vcredist windows-terminal <span class="at">-g</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Add buckets and install java, node, python, postman, svn…:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> bucket add extras versions java jetbrains</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install zulu8 maven gradle</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install IntelliJ-IDEA-Ultimate jetbrains-toolbox</span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install nodejs yarn python</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install concfg nvim vscode curl jq postman silksvn</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Install docker:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> bucket add Ash258 <span class="st">'https://github.com/Ash258/Scoop-Ash258.git'</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install docker</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="the-three-team-interaction-modes" class="level4">
+<h4 class="anchored" data-anchor-id="the-three-team-interaction-modes">The Three Team Interaction Modes</h4>
+<p>The book also defines three specific ways these teams should interact. Using these explicit modes makes communication and dependencies clear, avoiding messy, undefined “coordination.”</p>
+<ol type="1">
+<li><p><strong>Collaboration</strong>: Two teams work closely together for a defined, temporary period. This mode is used for rapid discovery and innovation, such as when a stream-aligned team and a platform team are figuring out a new API. It is high-bandwidth but creates a high cognitive load, so it should be used sparingly and with a clear goal.</p></li>
+<li><p><strong>X-as-a-Service</strong>: This is the most common and desirable mode. One team consumes a service, tool, or API from another (like a platform team) with minimal interaction. This mode works best when the service is reliable, well-documented, and easy to use, as it minimizes the cognitive load on the consuming team.</p></li>
+<li><p><strong>Facilitating</strong>: One team (usually an enabling team) helps and mentors another team to clear an obstacle or learn a new skill. The goal is to grow the capabilities of the team being facilitated. This is a temporary interaction.</p></li>
+</ol>
+</section>
+<section id="key-principles-and-goals" class="level4">
+<h4 class="anchored" data-anchor-id="key-principles-and-goals">Key Principles and Goals</h4>
+<ul>
+<li><p><strong>Fast Flow</strong>: The ultimate goal is to optimize the organization for a fast, smooth flow of change into production. The topologies and interaction modes are all in service of this goal.</p></li>
+<li><p><strong>Reverse Conway’s Law</strong>: The book heavily references <a href="https://en.wikipedia.org/wiki/Conway%27s_law">Conway’s Law</a>, which states that organizations design systems that mirror their own communication structures. <em>Team Topologies</em> advises organizations to use this as a tool: “First, design the organization you want, and the system architecture will follow.” By creating small, autonomous, stream-aligned teams, you are intentionally designing your organization to produce a loosely coupled, modular software architecture.</p></li>
+<li><p><strong>Team-First Approach</strong>: The team is the fundamental unit of delivery. The model emphasizes creating long-lived, stable teams and giving them the autonomy and cognitive space to own their work and “build the right thing” and “build the thing right.”</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="p-how-is-team-cognitive-load-defined-in-the-book" class="level2">
+<h2 class="anchored" data-anchor-id="p-how-is-team-cognitive-load-defined-in-the-book">P: How is ‘team cognitive load’ defined in the book?</h2>
+<p>In Team Topologies, ‘team cognitive load’ is defined as the total <strong>mental effort and capacity</strong> being used by a team at any given time to get their work done.</p>
+<p>The authors, Manuel Pais and Matthew Skelton, adapt this concept from psychologist John Sweller’s Cognitive Load Theory. They argue that a team, just like an individual, has a finite mental capacity. If a team is responsible for too much, their performance plummets.</p>
+<p>The book breaks this load down into three specific types:</p>
+<ul>
+<li><p><strong>Intrinsic Cognitive Load</strong>: The “good” or necessary complexity related to the team’s core domain. For example, the effort required to understand the specific business rules of a payment processing system.</p></li>
+<li><p><strong>Extraneous Cognitive Load</strong>: The “bad” or wasteful complexity. This is the mental effort spent on non-value-adding tasks, such as fighting with deployment tools, navigating complex environments, or trying to understand another team’s confusing API.</p></li>
+<li><p><strong>Germane Cognitive Load</strong>: The “value-adding” complexity. This is the effort dedicated to learning, improving, and innovating within the core domain, such as discovering better ways to solve a business problem or improving the system’s architecture.</p></li>
+</ul>
+<p>The central goal of the Team Topologies model is to <strong>minimize extraneous cognitive load</strong> (by using things like Platform teams) and keep the intrinsic load manageable. This frees up the team’s mental capacity for the <strong>germane load</strong>, which is where true innovation and “fast flow” happen.</p>
+<hr>
+</section>
+<section id="my-thoughts" class="level2">
+<h2 class="anchored" data-anchor-id="my-thoughts">My thoughts</h2>
+<p>So, “team topologies” are basically advocating for <em>component teams</em>, teams that are narrowly specialized in either business (value-streams) or technology domains, and effort must be made to ensure they are as independent as possible, as few dependencies as possible; i.e teams work in isolation. They recognize the value of cross-functionality within the team, but reject the same idea for several teams working in the same product area.</p>
+<p>If I were a business owner, I wish all my dev teams could pick up and do <em>any</em> kind of work. If they don’t know how, they can learn. And I am happy to pay for their “learning time”.</p>
 
 
 </section>
@@ -1000,13 +1003,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../tech/ops/tools.html" class="pagination-link" aria-label="Tools">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Tools</span>
+      <a href="../../notes/bots/pair_programmers.html" class="pagination-link" aria-label="Famous programmers who pair program">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Famous programmers who pair program</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../tech/practices/alt_login_bdd.html" class="pagination-link" aria-label="Alternative login kata">
-        <span class="nav-page-text">Alternative login kata</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../notes/bots/top_toxic_performers.html" class="pagination-link" aria-label="Top, but Toxic performers">
+        <span class="nav-page-text">Top, but Toxic performers</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
