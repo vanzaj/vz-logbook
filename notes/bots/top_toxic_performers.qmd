@@ -6,8 +6,9 @@ author: Gemini thinking 3 pro
 
 You are a leader or key decision maker in your organization. You do your best to hire the best people in the context of your business (say investment or healthcare). You know that the best are often opinionated and tend towards egoistic. Is this a good hiring strategy?
 
+---
 
-## P: What research is available on the impact of excellent but toxic/egoistic on team/org behaviour? 
+## P: What research is available on the impact of excellent but toxic/egoistic on team/org performance? 
 
 Research indicates that while "brilliant jerks" (often called toxic high performers) may deliver short-term individual results, their net impact on an organization is almost universally negative.
 
@@ -55,6 +56,7 @@ High performers with toxic traits often display "rivalrous narcissism," which is
 **Impact:** Rivalrous high performers actively suppress team cohesion. They hoard information, steal credit, and create "psychological danger," stopping others from speaking up or innovating.
 
 **Moral Disengagement:** These individuals often use their high performance as a moral license ("I made the most sales, so I can yell at the support staff"), which normalizes abuse within the culture.
+
 
 ### 5. Organizational Long-Term Consequences
 

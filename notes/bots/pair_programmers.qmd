@@ -6,6 +6,8 @@ author: Gemini thinking 3 pro
 
 During our [LeSS in Action](https://less.works/course-details/less-in-action-large-product-developers-a-k-a-the-glad-developers-amstelveen-4089) course, I needed to quickly provide real life examples of pair programming. So, I've asked Gemini. My own thoughts and examples follow Gemini's answers.
 
+---
+
 ## P: Give me a few know examples of famous technologists who frequently use pair programming in their daily work.
 
 Finding famous technologists who *daily* practice pair programming is rare because many move into management or architectural roles. However, there are a few legendary examples of "hands-on" titans who used it to build some of the most critical software in history, as well as the methodology creators who evangelized it.
@@ -42,7 +44,7 @@ These technologists don't pair program because they are "slow" or need help. The
 2. **Focus:** It is much harder to procrastinate or check Twitter when someone is watching you code.
 3. **Bus Factor:** No single person "owns" the code; the knowledge is shared instantly.
 
------
+---
 
 ## P: What about creators of UNIX and C programming language?
 
@@ -107,18 +109,15 @@ While Llewellyn Falco formalized the "Strong Style" of pairing, Woody Zuill took
 * **The "Turn Up The Good" Philosophy:** He noticed that when his team fixed bugs together on one screen, they were faster and happier. So he asked, "If this is good, why don't we turn up the good?" and they started working on *everything* together, all day, every day.
 * **His Coaching Style:** He is famous for a very gentle, humane approach. He focuses on kindness, consideration, and respect in the pairing/mobbing environment, proving that psychological safety is the precursor to technical excellence.
 
----
-
 ### Summary Table: Which Coach for Which Problem?
 
 | Coach | Best For... | Key Concept |
-| :--- | :--- | :--- |
+| :---  | :---        | :---        |
 | **Llewellyn Falco** | Teams where the Navigator zones out. | **Strong-Style Pairing** (Idea $\to$ Voice $\to$ Hands) |
 | **Emily Bache** | Teams that need structured practice. | **Coding Dojos** & **Samman Method** |
 | **Sandro Mancuso** | Teams needing professional discipline. | **Software Craftsmanship** |
 | **J.B. Rainsberger** | Teams struggling with "Spaghetti Code." | **TDD as Design** |
 | **Woody Zuill** | Teams dealing with knowledge silos. | **Mob Programming** |
-
 
 ------ 
 

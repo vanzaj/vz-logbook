@@ -5,7 +5,7 @@ author: Perplexity
 ---
 
 
-## Q1: What are verified causalities figures in the current Ukrainian-Russian war?
+## P: What are verified causalities figures in the current Ukrainian-Russian war?
 
 The verified casualty figures for the current Ukrainian-Russian war indicate extremely high losses on both sides, with substantial military and civilian deaths and injuries reported throughout 2025. The estimates below reflect the most current numbers from reputable organizations and official statements.
 
@@ -58,7 +58,7 @@ These figures are based on the latest available reports and should be viewed as 
 
 ---
 
-## Q 2: How does it compares to the USSR-Afghanistan conflict?
+## P: How does it compares to the USSR-Afghanistan conflict?
 
 Compared to the Ukrainian-Russian war, the USSR-Afghanistan conflict saw significantly fewer Soviet military deaths but far greater Afghan civilian casualties and destruction over a decade (1979–1989) [^1][^2][^3][^4].
 
@@ -90,5 +90,4 @@ Compared to the Ukrainian-Russian war, the USSR-Afghanistan conflict saw signifi
 - Both conflicts caused immense suffering and population displacement, but the pace and scale of military losses in Ukraine's defense are historically unprecedented for Russia [^6].
 
 These comparisons underscore the greater scale of military death for Russia in Ukraine, and a far more cataclysmic impact on civilians during the Afghanistan conflict [^1][^2][^3][^5][^6].
-
 

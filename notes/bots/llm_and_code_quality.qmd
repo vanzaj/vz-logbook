@@ -4,13 +4,11 @@ date: 2025-09-15
 author: ChatGPT5
 ---
 
-## Q: How does the use of LLM for coding influence quality?
-
----
+## P: How does the use of LLM for coding influence quality?
 
 Here's a structured breakdown of how using large language models (LLMs) for coding can influence code quality -- both beneficial effects and risks -- based on recent studies and empirical evidence.
 
-### What “quality” means in software
+### What "quality" means in software
 
 Before diving in, it's helpful to clarify what we mean by _code quality_. Common (but not exhaustive) dimensions include:
 

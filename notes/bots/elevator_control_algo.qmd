@@ -4,9 +4,7 @@ date: 2025-10-20
 author: ChatGPT5
 ---
 
-## Q: How hard is elevator control software algorithms for 2 lifts and 10 floors? 
-
----
+## P: How hard is elevator control software algorithms for 2 lifts and 10 floors? 
 
 Short answer: for a small mid-rise (2 cars, 10 floors), a competent engineer can build a good dispatcher with standard heuristics; building a provably optimal or generally state-of-the-art controller is a hard stochastic control problem that researchers still publish on.
 
