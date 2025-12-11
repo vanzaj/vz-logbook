@@ -5,11 +5,23 @@ project:
     - "!WARP.md"
 
 website:
-  title: "vz-logbook"
+  title: "VZ's LogBook"
+  description: "Vanzaj's personal internet corner. All opinions are mine."
+
+  site-url: "https://sansans.net"
+  repo-url: "https://github.com/vanzaj/vz-logbook"
+
+  page-footer:
+    left: |
+      <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="/assets/cc-by-nc-sa.png" alt="CC BY-NC-SA" style="height: 31px;"></a>
+  
+  page-navigation: true
+
   navbar:
     background: light
     tools:
       - icon: github
+      
         menu:
           - text: Source Code
             url:  https://github.com/vanzaj/vz-logbook.git
