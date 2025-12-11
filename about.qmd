@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-I call myself a *scingineer* - an amalgamation of "scientist" and "engineer". In my ["previous life"](https://www.researchgate.net/profile/Ivan-Zimine), I used to study human brain using Magnetic Resonance Imaging (with fMRI, ASL, DTI and anatomical imaging). I got tired of "publish or perish" and switched to software development. Now I work as a programmer, trainer and technical coach (XP, LeSS) at [Odd-e](https://odd-e.com).
+I call myself a *scingineer* - an amalgamation of "scientist" and "engineer". In my ["previous life"](https://www.researchgate.net/profile/Ivan-Zimine), I used to study human brain using Magnetic Resonance Imaging (with fMRI, ASL, DTI and anatomical imaging). I got tired of "publish or perish" and switched to software development. Now I work as a programmer, trainer and technical coach ([XP](https://wiki.c2.com/?ExtremeProgramming), [LeSS](https://less.works/less/technical-excellence)) at [Odd-e](https://odd-e.com).
 
 I write [code](https://github.com/vanzaj), read [books](https://www.librarything.com/catalog/vanzaj), listen to [music](https://open.spotify.com/user/1182446969?si=a4c839ac02704397), juggle, cycle, do some [martial arts](https://en.wikipedia.org/wiki/Baguazhang) and [free dive](https://zenfreediving.org). Topics that get my attention: brain, psychology, learning, education, complex systems, open science, linguistics, and unconventional [organizational](https://www.corporate-rebels.com/) and [business](https://www.humanocracy.com/) practices. 
 
@@ -11,7 +11,7 @@ I write [code](https://github.com/vanzaj), read [books](https://www.librarything
 - [LinkedIn](https://www.linkedin.com/in/ivanzimine/)
 - [Google Scholar](https://scholar.google.com/citations?user=Xq7f6loAAAAJ)
 - [CV](assets/cv_ivz.pdf)
-- [bsky](https://bsky.app/profile/vanzaj.bsky.social) (warning: lots of cats pics and swearing)
+- [bsky](https://bsky.app/profile/vanzaj.bsky.social) (WARNING: lots of cats pics and swearing)
 
 ## Timeline
 
@@ -41,14 +41,14 @@ Started using [IDL](https://en.wikipedia.org/wiki/IDL_(programming_language)) an
 <br />
 Entered PhD program at the [Group of Applied Physics](https://web.archive.org/web/20031008212325/http://www.unige.ch/gap-b/welcome.html) under Prof. [Pierre Descouts](https://scholargps.com/scholars/29557804716750/pierre-descouts) and Dr. [François Lazeyras](https://scholar.google.com/citations?user=e1sM6ccAAAAJ) from the Dpt. of Radiology at [HUG](https://www.hug.ch/en/radiology).   
 <br />
-Became sysadmin of all UNIX research workstations (DEC-Alpha, Sun Ultra). Introduced Linux as a cheaper and viable (able to run specialized software tools) alternative to commercial UNIX workstations. Discovered Python as a much better alternative to Perl.
+Became sysadmin of all UNIX research workstations (DEC-Alpha, Sun Ultra). Introduced Linux as a cheaper and viable (able to run specialized software tools) alternative to commercial UNIX workstations. Discovered python (v1.4) as a much better alternative to perl and shell for writing "glue" code (aka scripts).
 <br />
 <br />
-In 1999, I managed to save a couple of weeks of MRI patient data that wasn't backed up (time before PACS). The primary hard drive on the MRI console workstation has failed. I took the disk out, put into my linux box, compiled a SCSI driver, mounted the drive and run `fsck`. Full data recovery.
+In 1999, I managed to save a couple of weeks of MRI patient data that wasn't backed up (time before [PACS](https://en.wikipedia.org/wiki/Picture_archiving_and_communication_system)). The primary hard drive on the MRI console workstation has failed. I took the disk out, put into my linux box, compiled a SCSI driver, mounted the drive and run `fsck`. Full data recovery.
 
 - **2003:** Defended *PhD thesis*: "Epileptic Focus Localization Using EEG-triggered Functional MRI". Continued work at the Dpt. of Radiology at HUG as a postdoctoral fellow. ([thesis](assets/iz_th3441.pdf))  
 <br />
-During my PhD and later, I estimate that 60 to 70% of my time was spent on writing software; IDL for custom [image processing](https://github.com/vanzaj/mri_idl), Matlab (because [SPM](https://www.fil.ion.ucl.ac.uk/spm/), C for new MRI pulse sequences, Bash/Perl/Python for scripting. I've also built and administered a 3TB file server to store all our research data (RAID-0 with hot-swapable IDE discs using experimental 3ware controller) saving ~30kCHF of public money.
+During my PhD and later, I estimate that 60 to 70% of my time was spent on writing software; IDL for custom [image processing](https://github.com/vanzaj/mri_idl), Matlab (because [SPM](https://www.fil.ion.ucl.ac.uk/spm/), C for new MRI pulse sequences, Bash/Perl/Python for scripting. I've also built and administered a 3TB file server to store all our research data (RAID-0 with hot-swapable IDE discs using experimental [3ware controller](https://lnxg.ca/?Hardware___Debian_Linux_with_a_3ware_Escalade_8506)) saving ~30kCHF of public money.
 <br />
 <br />
 After my PhD defense, I continued as a postdoctoral fellow at HUG. My research focus shifted from clinical fMRI (presurgical evaluation for epilepsy and cancer patients) to fMRI activity localization (trying to improve [Talairach/MNI coordinates](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Xq7f6loAAAAJ&citation_for_view=Xq7f6loAAAAJ:IjCSPb-OGe4C)). This work ended up on the cover image of [NeuroImage](https://www.sciencedirect.com/journal/neuroimage/vol/24/issue/2).
