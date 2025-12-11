@@ -1,0 +1,77 @@
+---
+title: Top, but Toxic performers
+date: 2025-12-11
+author: Gemini thinking 3 pro
+---
+
+You are a leader or key decision maker in your organization. You do your best to hire the best people in the context of your business (say investment or healthcare). You know that the best are often opinionated and tend towards egoistic. Is this a good hiring strategy?
+
+
+## P: What research is available on the impact of excellent but toxic/egoistic on team/org behaviour? 
+
+Research indicates that while "brilliant jerks" (often called toxic high performers) may deliver short-term individual results, their net impact on an organization is almost universally negative.
+
+The following analysis details the key research findings on how these individuals affect team dynamics and organizational behavior.
+
+### 1. The Economic Case: Cost vs. Benefit
+
+The most direct research challenges the assumption that high output justifies bad behavior.
+
+**The "Toxic Worker" Study (Harvard Business School):** A [study](https://fama.io/post/the-economic-cost-of-toxic-workplace-behavior) of nearly 60,000 workers by Dylan Minor and Michael Housman found that **avoiding a toxic employee is worth twice as much as hiring a superstar.**
+
+**The Math:** Hiring a top 1% performer adds roughly \$5,300 in productivity gains. However, avoiding a toxic worker saves approximately \$12,500 in turnover and replacement costs.
+
+**Conclusion:** It is more profitable to avoid toxicity than to chase brilliance.
+
+
+### 2. The "Bad Apple" Effect on Teams
+
+[Research](https://www.barrettrose.com/true-cost-toxic-employees/) confirms that toxicity is contagious and disproportionately damaging to group performance.
+
+**The 30–40% Drop (University of Washington/Rotterdam School of Management):** Researcher Will Felps conducted a study placing "bad apples" (actors playing roles like "The Jerk," "The Slacker," or "The Depressive") into teams.
+
+**Finding:** Teams with just *one* toxic member saw their performance drop by **30% to 40%**.
+
+**Mechanism:** The toxic behavior didn't just isolate the "jerk"—it spread. Teammates naturally began to mimic the bad behavior, reduce their own effort, and squabble amongst themselves ("emotional contagion").
+
+
+### 3. The "Competent Jerk" Dilemma
+
+A seminal framework in organizational psychology explains why these people survive in companies despite the damage they cause.
+
+**Casciaro & Lobo (Harvard Business Review):** In their study "[Competent Jerks, Lovable Fools](https://thegetrealproject.com/2018/01/better-competent-jerk-lovable-fool/)", they classified employees by **Competence** and **Likability**.
+
+**The finding:** When forced to choose, most people prefer the "Lovable Fool" (low competence, high likability) over the "Competent Jerk" (high competence, low likability).
+
+**The trap:** However, managers often protect Competent Jerks because their individual metrics look good on paper. This creates a disconnect where leadership values the jerk, but the team (who relies on trust and collaboration) is actively sabotaged by them.
+
+
+### 4. Psychological Impact & Narcissism
+
+High performers with toxic traits often display "rivalrous narcissism," which is distinct from confident.
+
+**Admirative vs. Rivalrous Narcissism:** [Research](https://pmc.ncbi.nlm.nih.gov/articles/PMC12649423/) distinguishes between narcissists who want to be admired (often charismatic and initially effective) and those who are rivalrous (see others as threats).
+
+**Impact:** Rivalrous high performers actively suppress team cohesion. They hoard information, steal credit, and create "psychological danger," stopping others from speaking up or innovating.
+
+**Moral Disengagement:** These individuals often use their high performance as a moral license ("I made the most sales, so I can yell at the support staff"), which normalizes abuse within the culture.
+
+### 5. Organizational Long-Term Consequences
+
+The research highlights three specific long-term damages:
+
+1.  **Asymmetric Turnover:** [You don't just lose employees](https://influencejournalforleaders.com/2025/04/18/the-hidden-cost-of-high-performers-when-top-talent-turns-toxic/); you lose your *best* employees. High performers have the most options in the job market and are the least tolerant of toxic peers. They leave; the mediocre employees (who can't leave) stay and tolerate the abuse.
+2.  **Innovation Stagnation:** [Psychological safety](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6451) is the #1 predictor of effective teams (Google’s [Project Aristotle](https://psychsafety.com/googles-project-aristotle/). [Toxic high performers](https://www.forbes.com/sites/jasonwalker/2025/01/22/stop-playing-nice-leadership-power-plays-to-crush-toxic-teammates/) destroy this safety, silencing the debate and risk-taking required for innovation.
+3.  **Managerial Credibility:** When [leaders tolerate](https://lsaglobal.com/toxic-high-performers-why-you-need-to-act/) a toxic high performer, they signal that "values" are just marketing. This cynicism reduces engagement across the entire organization.
+
+
+### Summary Table: The Net Impact
+
+| Metric | High Performer (Toxic) Impact | Research Basis |
+| :---   | :---                          | :---           |
+| **Individual Output** | High (initially) | Traditional Performance Reviews |
+| **Team Output** | **-30% to -40%** | Felps (Bad Apple Study) |
+| **Financial ROI** | **Negative** (Cost > Gain) | HBS (Minor/Housman) |
+| **Retention** | Increases turnover of *other* top talent | General Org Psych |
+| **Culture** | Contagious toxicity (others become toxic) | Emotional Contagion Theory |
+
