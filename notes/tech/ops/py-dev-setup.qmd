@@ -1,6 +1,7 @@
 ---
 title: Python dev setup
 date: 2025-10-28
+author: Ivan Zimine
 ---
 
 # Python development on OSX/Linux

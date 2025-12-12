@@ -1,5 +1,7 @@
 ---
 title: OSX setup
+date: 2020-01-05
+author: Ivan Zimine
 ---
 
 updated: 2023-11-02

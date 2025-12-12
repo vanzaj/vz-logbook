@@ -10,7 +10,6 @@ date: 2013-09-29
 
 [The First 20 Hours - How to Learn Anything](http://www.youtube.com/watch?v=5MgBikgcWnY#t=358) by Josh Kaufman at TEDxCSU.
 
-
 1. Deconstruct the skill
 2. Learn enough to self-correct
 3. Remove practice barriers (distraction and tools)
@@ -20,7 +19,7 @@ The major barrier to skill acquisition isn't intellectual, it's emotional.
 
 Overcome the resistance to learn a new skill (initial excitement and realization of the difficulty).
 
-1. Focus of very few topics
+1. Focus of few topics
 2. Set concrete performance targets
 3. Make sure you have necessary tools
 4. General overview -> Divide into subtopics
@@ -28,7 +27,7 @@ Overcome the resistance to learn a new skill (initial excitement and realization
 6. Fast feedback
 7. Active recall
 
-Examples:
+**Examples:**
 
 [Programming](http://first20hours.com/programming/)
 
@@ -56,19 +55,9 @@ Examples:
 [Touch typing](http://first20hours.com/typing/)
 
 - I learned how to change my keyboard layout to Colemak.
-- I created a fast feedback loop by rearranging the physical keys on the keyboard, 
-    so if I forgot  where a character was located, I could find it easily.
-- I used the Keyzen typing tutor to learn the placement of characters by touch, 
-    learning the most-used characters first. Keyzen re-introduced characters to the training set 
-    as I made mistakes, so I spent most of my time practicing difficult characters until 
-    my accuracy improved.
-- I practiced for 45 minutes every night, just before going to bed, so my brain could consolidate 
-    the motor skills into long-term memory most effectively.
-- Once I got to functional speed (20 WPM), I switched to Type-Fu, focusing on typing sentences 
-    as fast as possible with over 99% accuracy.
-- When I reached 40 WPM, I used Amphetype to train the most common English bigrams 
-    and trigrams, further increasing my speed and accuracy.
-- Once I mastered the n-gram set, I switched to training the most common English words 
-    in Amphetype until I reached 60 WPM sustained with 99% accuracy, which happened at the 
-    21 hour mark.  
+- I created a fast feedback loop by rearranging the physical keys on the keyboard, so if I forgot  where a character was located, I could find it easily.
+- I used the Keyzen typing tutor to learn the placement of characters by touch, learning the most-used characters first. Keyzen re-introduced characters to the training set as I made mistakes, so I spent most of my time practicing difficult characters until my accuracy improved. I practiced for 45 minutes every night, just before going to bed, so my brain could consolidate the motor skills into long-term memory most effectively.
+- Once I got to functional speed (20 WPM), I switched to Type-Fu, focusing on typing sentences as fast as possible with over 99% accuracy.
+- When I reached 40 WPM, I used Amphetype to train the most common English bigrams and trigrams, further increasing my speed and accuracy.
+- Once I mastered the n-gram set, I switched to training the most common English words in Amphetype until I reached 60 WPM sustained with 99% accuracy, which happened at the 21 hour mark.  
 

@@ -3,7 +3,7 @@ title: HR lingo
 date: 2020-09-24
 ---
 
-![](images/should-i-say-resources.png){width=90%}
+![](../images/should-i-say-resources.png){width=90%}
 
 > language and the words you use say a lot about a culture, and that we can take steps to change culture through changing those words. -- Emily Webber
 

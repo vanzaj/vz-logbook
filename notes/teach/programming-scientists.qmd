@@ -7,6 +7,7 @@ date: 2024-05-22
 ## Basics
 
 1. [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) (MIT, `shell, vim, git`)
+1. [CLI until it CLIcks](https://nbviewer.org/github/vanzaj/pyconsg2014-tutorial-cli/blob/master/ipynb/tutorial.ipynb), my tutorial at PyConSG 2014 (`shell`, `mkdocs`, `git`) 
 1. [Software Development for Data Scientists](https://uwseds.github.io/syllabus.html) (University of Washington)
 1. [Software Carpentry](https://software-carpentry.org/lessons/)
 1. [Research Software Engineering with Python](https://alan-turing-institute.github.io/rse-course/html/index.html)
@@ -15,9 +16,9 @@ date: 2024-05-22
 
 ## Staff nobody teaches
 
-1. TDD & Refactoring
-1. Documentation as code
-1. Infrastructure as code
+1. [TDD & Refactoring](../tech/practices/katas_for_ds.qmd)
+1. [Documentation as code](https://www.writethedocs.org/guide/docs-as-code/)
+1. [Infrastructure as code](https://en.wikipedia.org/wiki/Infrastructure_as_code)
 
 
 ## Related
