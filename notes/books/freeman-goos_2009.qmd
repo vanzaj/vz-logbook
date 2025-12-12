@@ -1,13 +1,12 @@
 ---
 title: Growing Object-Oriented Software, Guided by tests
 author:
-    - name: Steve Freeman
-    - name: Nat Pryce
+ - name: Steve Freeman
+ - name: Nat Pryce
 date: 2009-10-22
 categories: [programming, dev practice, tdd]
 ---
 
------
 
 Problem domain vs solution domain.
 

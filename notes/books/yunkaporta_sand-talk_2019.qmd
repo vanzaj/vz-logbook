@@ -5,16 +5,14 @@ date: 2019-09-19
 categories: [culture, complexity]
 ---
 
-------
-
 > Solutions to complex problems take many dissimilar minds and points of view.
 
 Connective thinking.
 
 
-# Albino boy
+## Albino boy
 
-( < > ) knee bend direction, "I am greater/lesser than you"
+( < > ) knee bending direction, "I am greater/lesser than you".
 
 > Containing the excesses of malignant narcissists is a team effort... Engaging with them (narcissists) alone is futile -- never wrestle a pig -- as the old saying goes; you both end up covered in shit, and the pig likes it.
 
@@ -23,14 +21,14 @@ Connective thinking.
 > Everyone is an idiot from time to time.
 
 
-# First Law
+## First Law
 
 (three circles and flowers)
 
 > After my yarns with Percy, I begin to see the uncertainty principle not as a law but as an expression of frustration about the impossibility of achieving godlike scientific objectivity.
 
 
-# Forever limited
+## Forever limited
 
 > Sustainable systems cannot be manufactured by individuals or appointed committees, particularly during times of intense transition and upheaval.
 
@@ -39,7 +37,7 @@ Connective thinking.
 (chekout Larry Gross, Post Apocaliptic Stress Syndrom).
 
 
-# Lines in the sand
+## Lines in the sand
 
 > People today will mostly focus on the points of connection, the nodes of interest like stars in the sky. But the real understanding comes in the spaces in between, in the relational forces that connect and move the points.
 
@@ -60,7 +58,7 @@ Connective thinking.
 > Adolescent cultures always ask the same three questions. Why are we here? How should we live? What will happen when we die?
 
 
-# Of Spirit and Spirits
+## Of Spirit and Spirits
 
 > There are at least four parts to your spirit from an Aboriginal point of view: your higher self (superego), ancestral spirit, living spirit and shadow spirit... Your shadow spirit is that part of you that wants things you don't need, makes you think you're better than other people and above the land. If the rest of your spirit is not clear and in balance, it gets away from you, causing conflict and destruction. You gossip behind people's backs, spread uncertainty, deliver judgments, upset people, take more than you need and accumulate goods without sharing. It makes you a competitor instead of a human being.
 
@@ -83,6 +81,7 @@ abstract       o      o   concrete
 > Knowledge transmission must connect both abstract knowledge and concrete application through meaningful metaphors to be effective.
 
 
-# Advanced and Fair
+## Advanced and Fair
 
-TODO
+TODO: finish the rest of the chapters
+

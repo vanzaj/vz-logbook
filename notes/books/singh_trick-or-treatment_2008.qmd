@@ -1,13 +1,11 @@
 ---
-title: "Trick or Treatment? Alternative Medicine on Trial"
+title: Trick or Treatment? Alternative Medicine on Trial
 author:
     - name: Simon Singh
     - name: Edzard Ernst
 date: 2008-08-17
-categories: [science, medicine]
+categories: [popular science, medicine, quacks]
 ---
-
------
 
 # Chapter 1: How do you determine the truth?
 
@@ -49,3 +47,4 @@ Placebo effect was probably recognized very early.
 Henry Beecher's observations regarding morphine vs saline effects during WWII.
 
 Sham surgery (Leonard Cobb, internal mammary ligation) -> importance of double-blind studies.
+

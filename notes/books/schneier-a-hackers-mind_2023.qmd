@@ -7,7 +7,7 @@ date: 2023-02-07
 Socio-technical systems. Humans + computers.
 Complex systems are easier to hack.
 
-hacks: technical, economic, financial, legal, social, political, cognitive.
+Types of hacks: technical, economic, financial, legal, social, political, cognitive.
 
 Hacking is exploiting a system without breaking the system's rules but subverting rules' intent for personal gain at the expense of the other participants in the system.
 

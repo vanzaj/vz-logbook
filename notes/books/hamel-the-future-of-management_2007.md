@@ -2,7 +2,7 @@
 title: The Future of Management
 author: Gary Hamel
 date: 2007-09-07
-categories: [leadership]
+categories: [leadership, OD]
 ---
 
 

@@ -24,8 +24,6 @@ What technical leaders do? Understanding the problem, managing the flow of ideas
 > problem-solving leaders have one thing in common: a faith that there’s always a better way.
 > ... faith is the belief in something for which there is no proof (Russell).
 
-----
-
 Unless and until all members of a team have a common understanding of the problem, attempts to solve the problem are just so much wasted energy.
 
 No worthwhile project is ever described fully and correctly...

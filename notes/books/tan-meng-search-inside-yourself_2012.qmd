@@ -5,7 +5,6 @@ date: 2012-01-01
 categories: [psychology]
 ---
 
-----
 
 [Mattieu Richard](https://en.wikipedia.org/wiki/Matthieu_Ricard), buddist monk, happiest man (because science).
 
@@ -33,9 +32,9 @@ Benefits of high EQ:
 
 Wallace Bachman, "Nice Guys Finish First: A SYMLOG Analysis of U.S. Naval Commands," in The SYMLOG Practitioner, ed. Polley, Hare, and Stone (New York: Praeger, 1988): 133–153.
 
-If nothing good happens, then by default, I feel unhappy
+If nothing good happens, then by default, I feel unhappy.
 vs
-In nothing bad happens, than by default I feel happy
+In nothing bad happens, than by default I feel happy.
 
 > Between stimulus and response, there is a space. In that space lies our freedom and our power to choose our response. In our response lies our growth and our happiness." -- V. Frankl
 
@@ -115,3 +114,4 @@ Thoughts and emotions are not who we are; they are simply phenomena in mind and 
 - lack of commitment
 - avoidance of accountability
 - inattention to results
+
