@@ -1,9 +1,17 @@
 [
   {
-    "listing": "/writings/index.html",
+    "listing": "/notes/pub/index.html",
     "items": [
-      "/writings/hr-lingo.html",
-      "/writings/org-signalling.html"
+      "/notes/pub/hr-lingo.html",
+      "/notes/pub/org-signalling.html"
+    ]
+  },
+  {
+    "listing": "/notes/teach/index.html",
+    "items": [
+      "/notes/teach/effective-learning-kaufman.html",
+      "/notes/teach/cognitive-load.html",
+      "/notes/teach/programming-scientists.html"
     ]
   },
   {
@@ -33,6 +41,22 @@
       "/notes/books/singh_trick-or-treatment_2008.html",
       "/notes/books/walker-why-we-sleep_2017.html",
       "/notes/books/feathers-legacy-code_2004.html"
+    ]
+  },
+  {
+    "listing": "/notes/tech/index.html",
+    "items": [
+      "/notes/tech/ops/bash.html",
+      "/notes/tech/mgmt/cto-checklist.html",
+      "/notes/tech/ops/docker.html",
+      "/notes/tech/programming/python2-notes.html",
+      "/notes/tech/ops/osx_setup.html",
+      "/notes/tech/ops/py-dev-setup.html",
+      "/notes/tech/mgmt/need-for-engineering-managers.html",
+      "/notes/tech/practices/refactoring.html",
+      "/notes/tech/practices/katas_for_ds.html",
+      "/notes/tech/ops/tools.html",
+      "/notes/tech/ops/win-scoop.html"
     ]
   }
 ]

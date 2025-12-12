@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Gemini 3 pro">
-<meta name="dcterms.date" content="2025-12-09">
 
-<title>Famous programmers who pair program – VZ’s LogBook</title>
+<title>Windows 10 Dev Env Setup – VZ’s LogBook</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,29 +20,64 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../notes/bots/team-topo-critique.html" rel="next">
-<link href="../../notes/bots/llm_and_code_quality.html" rel="prev">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-f3e87e0bb0765aae0ce4da68b988dce5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../notes/tech/practices/alt_login_bdd.html" rel="next">
+<link href="../../../notes/tech/ops/tools.html" rel="prev">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-f3e87e0bb0765aae0ce4da68b988dce5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,37 +106,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-sidebar floating nav-fixed quarto-light">
@@ -113,7 +117,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">VZ’s LogBook</span>
     </a>
   </div>
@@ -137,7 +141,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notes/bots/index.html">Notes</a></li><li class="breadcrumb-item"><a href="../../notes/bots/index.html">Hallucinations</a></li><li class="breadcrumb-item"><a href="../../notes/bots/pair_programmers.html">Famous programmers who pair program</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../notes/bots/index.html">Notes</a></li><li class="breadcrumb-item"><a href="../../../notes/tech/index.html">Tech notes</a></li><li class="breadcrumb-item"><a href="../../../notes/tech/ops/bash.html">Ops</a></li><li class="breadcrumb-item"><a href="../../../notes/tech/ops/win-scoop.html">Windows 10 Dev Env Setup</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -151,19 +155,19 @@ window.Quarto = {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../now.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../now.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Now</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../talks/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../talks/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Talks</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -172,7 +176,7 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../talks/mine.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../talks/mine.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Talks and tutorials</span></a>
   </div>
 </li>
@@ -189,58 +193,58 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../notes/bots/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../notes/bots/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Hallucinations</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/bots/bionic_reading.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/bots/bionic_reading.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Bionic Reading</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/bots/elevator_control_algo.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/bots/elevator_control_algo.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Elevator Control Algorithm</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/bots/llm_and_code_quality.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/bots/llm_and_code_quality.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">LLM and code quality</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/bots/pair_programmers.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../notes/bots/pair_programmers.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Famous programmers who pair program</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/bots/team-topo-critique.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/bots/team-topo-critique.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Team Topologies</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/bots/top_toxic_performers.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/bots/top_toxic_performers.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Top, but Toxic performers</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/bots/war_causalities.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/bots/war_causalities.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">War Causalities</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/bots/wd-40.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/bots/wd-40.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">The story behind WD-40</span></a>
   </div>
 </li>
@@ -248,7 +252,7 @@ window.Quarto = {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../notes/books/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../notes/books/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Book notes</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -257,67 +261,67 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/coyle-the-culture-code_2018.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/books/coyle-the-culture-code_2018.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">The Culture Code</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/de_botton-how-to-think-more-about-sex_2012.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/books/de_botton-how-to-think-more-about-sex_2012.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">How To Think More About Sex</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/feathers-legacy-code_2004.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/books/feathers-legacy-code_2004.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Working Effectively with Legacy Code</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/freeman-goos_2009.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/books/freeman-goos_2009.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Growing Object-Oriented Software, Guided by tests</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/hamel-the-future-of-management_2007.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/books/hamel-the-future-of-management_2007.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">The Future of Management</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/schneier-a-hackers-mind_2023.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/books/schneier-a-hackers-mind_2023.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">A Hacker’s Mind. How the Powerful Bend Society’s Rules, and How to Bend them Back</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/singh_trick-or-treatment_2008.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/books/singh_trick-or-treatment_2008.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Trick or Treatment? Alternative Medicine on Trial</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/tan-meng-search-inside-yourself_2012.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/books/tan-meng-search-inside-yourself_2012.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Search Inside Yourself</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/walker-why-we-sleep_2017.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/books/walker-why-we-sleep_2017.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Why We Sleep</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/weinberg-becoming-a-technical-leader.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/books/weinberg-becoming-a-technical-leader.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Becoming a Technical Leader</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/books/yunkaporta_sand-talk_2019.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/books/yunkaporta_sand-talk_2019.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Sand Talk: How Indigenous Thinking Can Save the World</span></a>
   </div>
 </li>
@@ -325,7 +329,7 @@ window.Quarto = {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../notes/teach/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../notes/teach/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Learning &amp; Teaching</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -334,19 +338,19 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/teach/cognitive-load.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/teach/cognitive-load.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Resources on cognitive load</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/teach/effective-learning-kaufman.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/teach/effective-learning-kaufman.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Effective learning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/teach/programming-scientists.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/teach/programming-scientists.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Teaching programming to science students</span></a>
   </div>
 </li>
@@ -354,7 +358,7 @@ window.Quarto = {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../notes/pub/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../notes/pub/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Articles</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -363,13 +367,13 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/pub/hr-lingo.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/pub/hr-lingo.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">HR lingo</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/pub/org-signalling.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/pub/org-signalling.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Org signalling</span></a>
   </div>
 </li>
@@ -377,13 +381,13 @@ window.Quarto = {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../notes/tech/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../notes/tech/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tech notes</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false">
@@ -395,13 +399,13 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/tech/mgmt/cto-checklist.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/tech/mgmt/cto-checklist.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">CTO checklist</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/tech/mgmt/need-for-engineering-managers.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/tech/mgmt/need-for-engineering-managers.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Questionable advice: My boss says we don’t need any engineering managers. Is he right?</span></a>
   </div>
 </li>
@@ -409,46 +413,46 @@ window.Quarto = {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true">
  <span class="menu-text">Ops</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth3 ">  
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth3 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/tech/ops/bash.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/tech/ops/bash.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Bash</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/tech/ops/docker.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/tech/ops/docker.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Docker</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/tech/ops/osx_setup.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/tech/ops/osx_setup.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">OSX setup</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/tech/ops/py-dev-setup.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/tech/ops/py-dev-setup.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Python dev setup</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/tech/ops/tools.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/tech/ops/tools.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tools</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/tech/ops/win-scoop.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/tech/ops/win-scoop.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Windows 10 Dev Env Setup</span></a>
   </div>
 </li>
@@ -465,13 +469,13 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/tech/practices/katas_for_ds.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/tech/practices/katas_for_ds.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">TDD katas for Data Scientists</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/tech/practices/refactoring.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/tech/practices/refactoring.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Refactoring</span></a>
   </div>
 </li>
@@ -488,7 +492,7 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notes/tech/programming/python2-notes.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../notes/tech/programming/python2-notes.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Notes on Python 2 (2014)</span></a>
   </div>
 </li>
@@ -508,58 +512,25 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#p-give-me-a-few-know-examples-of-famous-technologists-who-frequently-use-pair-programming-in-their-daily-work." id="toc-p-give-me-a-few-know-examples-of-famous-technologists-who-frequently-use-pair-programming-in-their-daily-work." class="nav-link active" data-scroll-target="#p-give-me-a-few-know-examples-of-famous-technologists-who-frequently-use-pair-programming-in-their-daily-work.">P: Give me a few know examples of famous technologists who frequently use pair programming in their daily work.</a>
-  <ul class="collapse">
-  <li><a href="#the-most-famous-duo-jeff-dean-and-sanjay-ghemawat" id="toc-the-most-famous-duo-jeff-dean-and-sanjay-ghemawat" class="nav-link" data-scroll-target="#the-most-famous-duo-jeff-dean-and-sanjay-ghemawat">1. The Most Famous Duo: Jeff Dean and Sanjay Ghemawat</a></li>
-  <li><a href="#the-creator-kent-beck" id="toc-the-creator-kent-beck" class="nav-link" data-scroll-target="#the-creator-kent-beck">2. The Creator: Kent Beck</a></li>
-  <li><a href="#the-craftsman-robert-c.-martin-uncle-bob" id="toc-the-craftsman-robert-c.-martin-uncle-bob" class="nav-link" data-scroll-target="#the-craftsman-robert-c.-martin-uncle-bob">3. The Craftsman: Robert C. Martin (“Uncle Bob”)</a></li>
-  <li><a href="#the-thought-leader-martin-fowler" id="toc-the-thought-leader-martin-fowler" class="nav-link" data-scroll-target="#the-thought-leader-martin-fowler">4. The Thought Leader: Martin Fowler</a></li>
-  <li><a href="#summary-why-they-do-it" id="toc-summary-why-they-do-it" class="nav-link" data-scroll-target="#summary-why-they-do-it">Summary: Why they do it</a></li>
-  </ul></li>
-  <li><a href="#p-what-about-creators-of-unix-and-c-programming-language" id="toc-p-what-about-creators-of-unix-and-c-programming-language" class="nav-link" data-scroll-target="#p-what-about-creators-of-unix-and-c-programming-language">P: What about creators of UNIX and C programming language?</a>
-  <ul class="collapse">
-  <li><a href="#the-proto-pairing-of-thompson-and-ritchie" id="toc-the-proto-pairing-of-thompson-and-ritchie" class="nav-link" data-scroll-target="#the-proto-pairing-of-thompson-and-ritchie">The “Proto-Pairing” of Thompson and Ritchie</a></li>
-  <li><a href="#other-historical-examples-of-de-facto-pairing" id="toc-other-historical-examples-of-de-facto-pairing" class="nav-link" data-scroll-target="#other-historical-examples-of-de-facto-pairing">Other Historical Examples of “De Facto” Pairing</a></li>
-  <li><a href="#why-this-matters" id="toc-why-this-matters" class="nav-link" data-scroll-target="#why-this-matters">Why this matters</a></li>
-  </ul></li>
-  <li><a href="#p-who-are-famous-technical-coaches-who-teach-and-promote-pair-programming-and-tdd" id="toc-p-who-are-famous-technical-coaches-who-teach-and-promote-pair-programming-and-tdd" class="nav-link" data-scroll-target="#p-who-are-famous-technical-coaches-who-teach-and-promote-pair-programming-and-tdd">P: Who are famous technical coaches who teach and promote pair programming and TDD?</a>
-  <ul class="collapse">
-  <li><a href="#the-strong-style-specialist-llewellyn-falco" id="toc-the-strong-style-specialist-llewellyn-falco" class="nav-link" data-scroll-target="#the-strong-style-specialist-llewellyn-falco">1. The “Strong-Style” Specialist: Llewellyn Falco</a></li>
-  <li><a href="#the-dojo-master-emily-bache" id="toc-the-dojo-master-emily-bache" class="nav-link" data-scroll-target="#the-dojo-master-emily-bache">2. The Dojo Master: Emily Bache</a></li>
-  <li><a href="#the-craftsman-sandro-mancuso" id="toc-the-craftsman-sandro-mancuso" class="nav-link" data-scroll-target="#the-craftsman-sandro-mancuso">3. The Craftsman: Sandro Mancuso</a></li>
-  <li><a href="#the-philosopher-j.b.-rainsberger" id="toc-the-philosopher-j.b.-rainsberger" class="nav-link" data-scroll-target="#the-philosopher-j.b.-rainsberger">4. The Philosopher: J.B. Rainsberger</a></li>
-  <li><a href="#the-mob-evangelist-woody-zuill" id="toc-the-mob-evangelist-woody-zuill" class="nav-link" data-scroll-target="#the-mob-evangelist-woody-zuill">5. The Mob Evangelist: Woody Zuill</a></li>
-  <li><a href="#summary-table-which-coach-for-which-problem" id="toc-summary-table-which-coach-for-which-problem" class="nav-link" data-scroll-target="#summary-table-which-coach-for-which-problem">Summary Table: Which Coach for Which Problem?</a></li>
-  </ul></li>
-  <li><a href="#my-thoughts" id="toc-my-thoughts" class="nav-link" data-scroll-target="#my-thoughts">My thoughts</a></li>
+  <li><a href="#install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020" id="toc-install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020" class="nav-link active" data-scroll-target="#install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020">Install latest Microsoft Powershell (v7.0.3 as of 9 November 2020)</a></li>
+  <li><a href="#install-and-configure-scoop" id="toc-install-and-configure-scoop" class="nav-link" data-scroll-target="#install-and-configure-scoop">Install and configure Scoop</a></li>
+  <li><a href="#install-development-tools" id="toc-install-development-tools" class="nav-link" data-scroll-target="#install-development-tools">Install development tools</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notes/bots/index.html">Notes</a></li><li class="breadcrumb-item"><a href="../../notes/bots/index.html">Hallucinations</a></li><li class="breadcrumb-item"><a href="../../notes/bots/pair_programmers.html">Famous programmers who pair program</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../notes/bots/index.html">Notes</a></li><li class="breadcrumb-item"><a href="../../../notes/tech/index.html">Tech notes</a></li><li class="breadcrumb-item"><a href="../../../notes/tech/ops/bash.html">Ops</a></li><li class="breadcrumb-item"><a href="../../../notes/tech/ops/win-scoop.html">Windows 10 Dev Env Setup</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Famous programmers who pair program</h1>
+<h1 class="title">Windows 10 Dev Env Setup</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Gemini 3 pro </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">December 9, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -569,189 +540,47 @@ window.Quarto = {
 </header>
 
 
-<p>During our <a href="https://less.works/course-details/less-in-action-large-product-developers-a-k-a-the-glad-developers-amstelveen-4089">LeSS in Action</a> course, I needed to quickly provide real life examples of pair programming. So, I’ve asked Gemini. My own thoughts and examples follow Gemini’s answers.</p>
-<hr>
-<section id="p-give-me-a-few-know-examples-of-famous-technologists-who-frequently-use-pair-programming-in-their-daily-work." class="level2">
-<h2 class="anchored" data-anchor-id="p-give-me-a-few-know-examples-of-famous-technologists-who-frequently-use-pair-programming-in-their-daily-work.">P: Give me a few know examples of famous technologists who frequently use pair programming in their daily work.</h2>
-<p>Finding famous technologists who <em>daily</em> practice pair programming is rare because many move into management or architectural roles. However, there are a few legendary examples of “hands-on” titans who used it to build some of the most critical software in history, as well as the methodology creators who evangelized it.</p>
-<section id="the-most-famous-duo-jeff-dean-and-sanjay-ghemawat" class="level3">
-<h3 class="anchored" data-anchor-id="the-most-famous-duo-jeff-dean-and-sanjay-ghemawat">1. The Most Famous Duo: Jeff Dean and Sanjay Ghemawat</h3>
-<p>These two are arguably the most effective pair programmers in the history of Silicon Valley. They are Senior Fellows at Google (the highest technical level) and are responsible for building the foundational systems of the modern internet: <strong>MapReduce, BigTable, Spanner, and LevelDB.</strong></p>
+<section id="install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020" class="level2">
+<h2 class="anchored" data-anchor-id="install-latest-microsoft-powershell-v7.0.3-as-of-9-november-2020">Install latest Microsoft Powershell (v7.0.3 as of 9 November 2020)</h2>
 <ul>
-<li><strong>How they worked:</strong> For years, they worked at the same computer, sharing a keyboard and monitor. They would often finish each other’s sentences and code.</li>
-<li><strong>The “Chuck Norris” Fact:</strong> There is a famous internal joke at Google that “Jeff Dean’s compiler warns him about errors,” but in reality, his “compiler” was often Sanjay sitting next to him.</li>
-<li><strong>Why it mattered:</strong> Their pairing allowed them to build massive, complex distributed systems that were exceptionally bug-free and efficient because they were constantly reviewing each other’s logic in real-time.</li>
+<li>Go to <a href="https://github.com/PowerShell/PowerShell/" class="uri">https://github.com/PowerShell/PowerShell/</a></li>
+<li>Click on <code>Latest</code> under Releases</li>
+<li>Search for <code>win-x64.msi</code></li>
 </ul>
 </section>
-<section id="the-creator-kent-beck" class="level3">
-<h3 class="anchored" data-anchor-id="the-creator-kent-beck">2. The Creator: Kent Beck</h3>
-<p>Kent Beck is the father of <strong>Extreme Programming (XP)</strong>, the software methodology that popularized pair programming in the 1990s. He is also the creator of JUnit and Test Driven Development (TDD).</p>
-<ul>
-<li><strong>His Daily Habit:</strong> While he moves between roles (Meta, Gusto, etc.), he treats pair programming as a discipline rather than a suggestion. He famously stated that for complex or production-critical code, he does not work alone.</li>
-<li><strong>The Philosophy:</strong> He argues that “code reviews” are too late in the process. Pairing is a continuous, real-time code review that prevents bad design decisions before they are written.</li>
-</ul>
+<section id="install-and-configure-scoop" class="level2">
+<h2 class="anchored" data-anchor-id="install-and-configure-scoop">Install and configure Scoop</h2>
+<p><a href="https://scoop.sh/">Scoop</a> allows installing and managing familiar dev tools on Windows from the command line. It is somewhat similar to <code>homebrew</code> on Mac or <code>apt-get</code> on Ubuntu.</p>
+<p>Setup your region’s web proxy (<a href="https://scoop-docs.now.sh/docs/misc/Using-Scoop-behind-a-proxy.html">more info</a>)</p>
+<p>Type in the PowerShell Terminal:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">[net.webrequest]::defaultwebproxy</span> = new-object net.webproxy <span class="st">"http://proxy.COMPANY.com:8080"</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">[net.webrequest]::defaultwebproxy.credentials</span> = <span class="pp">[</span><span class="ss">net.credentialcache</span><span class="pp">]</span>::defaultcredentials</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Install scoop.sh and git:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">set-executionpolicy</span> unrestricted <span class="at">-s</span> cu</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">iwr</span> <span class="at">-useb</span> get.scoop.sh <span class="kw">|</span> <span class="ex">iex</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install git win32-openssh openssl</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> C:<span class="dt">\P</span>rogramData<span class="dt">\s</span>coop<span class="dt">\a</span>pps<span class="dt">\w</span>in32-openssh<span class="dt">\c</span>urrent<span class="dt">\i</span>nstall-sshd.ps1</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> credential.helper manager</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> http.sslVerify false</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> config proxy <span class="st">'currentuser@proxy.COMPANY.com:8080'</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install busybox cacert delta pshazz sudo</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> delta.side-by-side true</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="the-craftsman-robert-c.-martin-uncle-bob" class="level3">
-<h3 class="anchored" data-anchor-id="the-craftsman-robert-c.-martin-uncle-bob">3. The Craftsman: Robert C. Martin (“Uncle Bob”)</h3>
-<p>A signatory of the Agile Manifesto and author of <em>Clean Code</em>, Uncle Bob is a vocal advocate for professionalism in coding, which he believes often requires pairing.</p>
-<ul>
-<li><strong>His Approach:</strong> He advocates for pairing particularly when solving “deep” problems or training junior developers. He views it as a transfer of professional standards—teaching not just <em>what</em> to code, but <em>how</em> to think about code.</li>
-<li><strong>The “Ping Pong” Method:</strong> He frequently demonstrates and uses “Ping Pong Pairing,” where one person writes a failing test (TDD), passes the keyboard to the other to make it pass, who then writes the next failing test, and passes it back.</li>
-</ul>
-</section>
-<section id="the-thought-leader-martin-fowler" class="level3">
-<h3 class="anchored" data-anchor-id="the-thought-leader-martin-fowler">4. The Thought Leader: Martin Fowler</h3>
-<p>As a Chief Scientist at ThoughtWorks and a prolific author (<em>Refactoring</em>, <em>Patterns of Enterprise Application Architecture</em>), Fowler has institutionalized pair programming at an organizational level.</p>
-<ul>
-<li><strong>Daily Work:</strong> While he writes more prose than code these days, his daily work involves “pairing” on technical articles and architectural designs. He advocates that pairing is just as effective for writing documentation and design specs as it is for code.</li>
-<li><strong>Influence:</strong> Under his technical guidance, companies like ThoughtWorks require consultants to pair program 100% of the time, proving it works at scale in daily enterprise work.</li>
-</ul>
-</section>
-<section id="summary-why-they-do-it" class="level3">
-<h3 class="anchored" data-anchor-id="summary-why-they-do-it">Summary: Why they do it</h3>
-<p>These technologists don’t pair program because they are “slow” or need help. They do it because:</p>
-<ol type="1">
-<li><strong>Immediate Feedback:</strong> Bugs are caught in seconds, not days.</li>
-<li><strong>Focus:</strong> It is much harder to procrastinate or check Twitter when someone is watching you code.</li>
-<li><strong>Bus Factor:</strong> No single person “owns” the code; the knowledge is shared instantly.</li>
-</ol>
-<hr>
-</section>
-</section>
-<section id="p-what-about-creators-of-unix-and-c-programming-language" class="level2">
-<h2 class="anchored" data-anchor-id="p-what-about-creators-of-unix-and-c-programming-language">P: What about creators of UNIX and C programming language?</h2>
-<p>Yes, <strong>Ken Thompson and Dennis Ritchie</strong> are arguably the “original” pair programmers, long before the term existed.</p>
-<p>While they didn’t have a formal “Agile” manifesto, their working style at Bell Labs in the late 1960s and 70s is exactly what modern pair programming aims to emulate.</p>
-<section id="the-proto-pairing-of-thompson-and-ritchie" class="level3">
-<h3 class="anchored" data-anchor-id="the-proto-pairing-of-thompson-and-ritchie">The “Proto-Pairing” of Thompson and Ritchie</h3>
-<p>They are the ultimate example of <strong>informal, high-bandwidth collaboration</strong>.</p>
-<ul>
-<li><strong>The Hardware Constraint:</strong> In the early days, they were working on a PDP-7 and later a PDP-11. These were massive machines but often had limited terminals. It was physically natural to sit side-by-side at the teletype to debug the kernel or language features together.</li>
-<li><strong>The Workflow:</strong> Thompson (the rapid-fire hacker) would often write the initial implementation of a UNIX feature, and Ritchie (the theoretician and language designer) would refine the C language to support it, often in the same room, effectively “pairing” on the architecture of the system.</li>
-<li><strong>The “Rubber Duck” Effect:</strong> They served as each other’s immediate feedback loop. If Thompson hit a roadblock in the OS, Ritchie was there to adjust the C compiler to fix it, and vice versa. This tight loop is why UNIX and C fit together so perfectly—they evolved simultaneously in the same room.</li>
-</ul>
-</section>
-<section id="other-historical-examples-of-de-facto-pairing" class="level3">
-<h3 class="anchored" data-anchor-id="other-historical-examples-of-de-facto-pairing">Other Historical Examples of “De Facto” Pairing</h3>
-<p>Before it was a named methodology, many early computing breakthroughs came from duos who shared a brain (and often a keyboard):</p>
-<ul>
-<li><strong>Bill Gates and Paul Allen (Microsoft Basic):</strong> In the famous “crunch mode” to write the BASIC interpreter for the Altair 8800, they worked non-stop for weeks. One would write the assembly code while the other verified the logic and manually calculated memory addresses (since they had no assembler). This was “Driver-Navigator” pairing in its rawest form.</li>
-<li><strong>Steve Wozniak and Steve Jobs (Breakout):</strong> While Wozniak was the primary engineer, the development of the arcade game <em>Breakout</em> for Atari involved Jobs staying up four nights straight with Wozniak. Jobs (who couldn’t design circuits) acted as the “Navigator/Product Owner,” reviewing the game mechanics and motivating Wozniak to reduce the chip count, while Wozniak (“The Driver”) executed the design.</li>
-</ul>
-</section>
-<section id="why-this-matters" class="level3">
-<h3 class="anchored" data-anchor-id="why-this-matters">Why this matters</h3>
-<p>The creators of UNIX and C prove that pair programming isn’t just a training tool for juniors; it is a <strong>discovery tool for masters</strong>. When two experts pair, they don’t just write code faster—they invent entirely new paradigms (like the pipe <code>|</code> operator, which was debated and refined in that collaborative environment).</p>
-<hr>
-</section>
-</section>
-<section id="p-who-are-famous-technical-coaches-who-teach-and-promote-pair-programming-and-tdd" class="level2">
-<h2 class="anchored" data-anchor-id="p-who-are-famous-technical-coaches-who-teach-and-promote-pair-programming-and-tdd">P: Who are famous technical coaches who teach and promote pair programming and TDD?</h2>
-<p>Beyond the legendary creators, there is a vibrant community of “Technical Coaches”—professionals who literally make a living teaching teams how to pair program and practice Test Driven Development (TDD).</p>
-<p>Here are the most famous technical coaches active today, each known for a specific “style” or contribution to the field.</p>
-<section id="the-strong-style-specialist-llewellyn-falco" class="level3">
-<h3 class="anchored" data-anchor-id="the-strong-style-specialist-llewellyn-falco">1. The “Strong-Style” Specialist: Llewellyn Falco</h3>
-<p>Llewellyn is famous for defining <strong>Strong-Style Pairing</strong>, a specific technique designed to force collaboration and prevent the “Driver” (typist) from ignoring the “Navigator.”</p>
-<ul>
-<li><strong>His Golden Rule:</strong> “For an idea to go from your head into the computer, it <strong>must</strong> go through someone else’s hands.”</li>
-<li><strong>How it works:</strong> If you are the Navigator and you know exactly what to type, you cannot type it. You must verbally describe it to the Driver. If the Driver doesn’t understand, you don’t grab the keyboard; you must explain it better.</li>
-<li><strong>Why he teaches it:</strong> It forces high-bandwidth communication and ensures the Navigator stays engaged, fixing the common problem where the Navigator “zones out.”</li>
-</ul>
-</section>
-<section id="the-dojo-master-emily-bache" class="level3">
-<h3 class="anchored" data-anchor-id="the-dojo-master-emily-bache">2. The Dojo Master: Emily Bache</h3>
-<p>Emily Bache is arguably the world’s leading expert on <strong>Technical Coaching</strong> and <strong>Coding Dojos</strong>. She wrote the book <em>The Coding Dojo Handbook</em> and popularized the famous “Gilded Rose” refactoring kata.</p>
-<ul>
-<li><strong>The “Samman” Method:</strong> She developed the <strong>Samman Technical Coaching</strong> method, where a coach works with a team in two modes:
-<ol type="1">
-<li><strong>Learning Hour:</strong> Practicing safe, small exercises (Katas) away from production code.</li>
-<li><strong>The Ensemble:</strong> Working on the <em>actual</em> production code as a group (Mob Programming) to apply the new skills immediately.</li>
-</ol></li>
-<li><strong>Why she matters:</strong> She focuses on <strong>“Ensemble Programming”</strong> (Mob Programming) as the primary way to teach TDD, arguing that learning is faster when the whole team learns together rather than in isolated pairs.</li>
-</ul>
-</section>
-<section id="the-craftsman-sandro-mancuso" class="level3">
-<h3 class="anchored" data-anchor-id="the-craftsman-sandro-mancuso">3. The Craftsman: Sandro Mancuso</h3>
-<p>Sandro Mancuso founded the <strong>Software Craftsmanship</strong> movement in London and wrote <em>The Software Craftsman</em>. He teaches that TDD and Pairing are not just “Agile tricks” but ethical obligations of a professional.</p>
-<ul>
-<li><strong>His Focus:</strong> He focuses on <strong>Professionalism</strong>. He teaches that writing “dirty code” is unprofessional in the same way a surgeon leaving tools inside a patient is unprofessional.</li>
-<li><strong>The “Bank Kata”:</strong> He frequently uses a “Bank Kata” to teach “Outside-In TDD” (or London School TDD), where you start with the high-level API and use “Mock Objects” to design the system top-down, pairing closely to define interfaces before implementation.</li>
-</ul>
-</section>
-<section id="the-philosopher-j.b.-rainsberger" class="level3">
-<h3 class="anchored" data-anchor-id="the-philosopher-j.b.-rainsberger">4. The Philosopher: J.B. Rainsberger</h3>
-<p>J.B. (famous for “J.B.rains”) is a coach who focuses heavily on the <strong>psychology and design</strong> aspects of TDD.</p>
-<ul>
-<li><strong>His Mantra:</strong> “TDD is a design technique, not a testing technique.”</li>
-<li><strong>The Lesson:</strong> He teaches that if TDD is painful, your <em>design</em> is bad. He uses pairing sessions to show developers that their “hard to test” code is actually “highly coupled” code. He helps teams realize that the pain they feel when pairing or testing is a signal to refactor the architecture, not to stop testing.</li>
-</ul>
-</section>
-<section id="the-mob-evangelist-woody-zuill" class="level3">
-<h3 class="anchored" data-anchor-id="the-mob-evangelist-woody-zuill">5. The Mob Evangelist: Woody Zuill</h3>
-<p>While Llewellyn Falco formalized the “Strong Style” of pairing, Woody Zuill took it to the extreme by popularizing <strong>Mob Programming</strong> (now often called Software Teaming or Ensemble Programming).</p>
-<ul>
-<li><strong>The “Turn Up The Good” Philosophy:</strong> He noticed that when his team fixed bugs together on one screen, they were faster and happier. So he asked, “If this is good, why don’t we turn up the good?” and they started working on <em>everything</em> together, all day, every day.</li>
-<li><strong>His Coaching Style:</strong> He is famous for a very gentle, humane approach. He focuses on kindness, consideration, and respect in the pairing/mobbing environment, proving that psychological safety is the precursor to technical excellence.</li>
-</ul>
-</section>
-<section id="summary-table-which-coach-for-which-problem" class="level3">
-<h3 class="anchored" data-anchor-id="summary-table-which-coach-for-which-problem">Summary Table: Which Coach for Which Problem?</h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Coach</th>
-<th style="text-align: left;">Best For…</th>
-<th style="text-align: left;">Key Concept</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><strong>Llewellyn Falco</strong></td>
-<td style="text-align: left;">Teams where the Navigator zones out.</td>
-<td style="text-align: left;"><strong>Strong-Style Pairing</strong> (Idea <span class="math inline">\(\to\)</span> Voice <span class="math inline">\(\to\)</span> Hands)</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Emily Bache</strong></td>
-<td style="text-align: left;">Teams that need structured practice.</td>
-<td style="text-align: left;"><strong>Coding Dojos</strong> &amp; <strong>Samman Method</strong></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Sandro Mancuso</strong></td>
-<td style="text-align: left;">Teams needing professional discipline.</td>
-<td style="text-align: left;"><strong>Software Craftsmanship</strong></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>J.B. Rainsberger</strong></td>
-<td style="text-align: left;">Teams struggling with “Spaghetti Code.”</td>
-<td style="text-align: left;"><strong>TDD as Design</strong></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Woody Zuill</strong></td>
-<td style="text-align: left;">Teams dealing with knowledge silos.</td>
-<td style="text-align: left;"><strong>Mob Programming</strong></td>
-</tr>
-</tbody>
-</table>
-<hr>
-</section>
-</section>
-<section id="my-thoughts" class="level2">
-<h2 class="anchored" data-anchor-id="my-thoughts">My thoughts</h2>
-<p>The answer to the 1st prompt is rather disappointing. Basically, it is not that much different from good-old web search and required subsequent prompts to get more examples both historical and modern.</p>
-<p>Other famous programmers/technical coaches:</p>
-<ul>
-<li><a href="https://latentagility.com/">Amitai Schleier</a></li>
-<li><a href="https://modernsoftwareengineering.co.uk/">Dave Farley</a></li>
-<li><a href="https://www.jamesshore.com/">James Shore</a></li>
-<li><a href="https://www.mountaingoatsoftware.com/">Mike Cohn</a></li>
-<li><a href="https://www.industriallogic.com/people/tottinge/">Tim Ottinger</a></li>
-</ul>
-<p>Companies practicing TDD and pairing: <a href="https://wedotdd.com/">WeDoTDD</a>.</p>
+<section id="install-development-tools" class="level2">
+<h2 class="anchored" data-anchor-id="install-development-tools">Install development tools</h2>
+<p>Scoop update and basic tools:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> config proxy <span class="st">'currentuser@proxytr.huawei.com:8080'</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> scoop update <span class="pp">*</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install cwRsync dust everything gpg procs sysinternals vcredist2015 vcredist windows-terminal <span class="at">-g</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Add buckets and install java, node, python, postman, svn…:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> bucket add extras versions java jetbrains</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install zulu8 maven gradle</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install IntelliJ-IDEA-Ultimate jetbrains-toolbox</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install nodejs yarn python</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install concfg nvim vscode curl jq postman silksvn</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Install docker:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> bucket add Ash258 <span class="st">'https://github.com/Ash258/Scoop-Ash258.git'</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">scoop</span> install docker</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 </section>
@@ -1160,13 +989,13 @@ window.Quarto = {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../notes/bots/llm_and_code_quality.html" class="pagination-link" aria-label="LLM and code quality">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">LLM and code quality</span>
+      <a href="../../../notes/tech/ops/tools.html" class="pagination-link" aria-label="Tools">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Tools</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../notes/bots/team-topo-critique.html" class="pagination-link" aria-label="Team Topologies">
-        <span class="nav-page-text">Team Topologies</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../../notes/tech/practices/alt_login_bdd.html" class="pagination-link" aria-label="Alternative login kata">
+        <span class="nav-page-text">Alternative login kata</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -1174,7 +1003,7 @@ window.Quarto = {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="../../assets/cc-by-nc-sa.png" alt="CC BY-NC-SA" style="height: 31px;"></a></p>
+<p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="../../../assets/cc-by-nc-sa.png" alt="CC BY-NC-SA" style="height: 31px;"></a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
