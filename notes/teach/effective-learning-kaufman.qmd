@@ -1,5 +1,6 @@
 ---
 title: Effective learning
+author: Ivan Zimine
 date: 2013-09-29
 ---
 

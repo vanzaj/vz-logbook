@@ -1,9 +1,10 @@
 ---
-title: "Resources on cognitive load"
+title: Resources on cognitive load
 author: Ivan Zimine
 date: 2022-10-25
 ---
 
+Updated: 2025-11-11
 
 A friend asked me if I had any reading resources on cognitive load. Here are some:
 

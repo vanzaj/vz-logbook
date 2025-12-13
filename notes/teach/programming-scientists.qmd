@@ -4,6 +4,7 @@ author: Ivan Zimine
 date: 2024-05-22
 ---
 
+
 ## Basics
 
 1. [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) (MIT, `shell, vim, git`)
