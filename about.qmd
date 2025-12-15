@@ -41,7 +41,7 @@ Started using [IDL](https://en.wikipedia.org/wiki/IDL_(programming_language)) an
 <br />
 Entered PhD program at the [Group of Applied Physics](https://web.archive.org/web/20031008212325/http://www.unige.ch/gap-b/welcome.html) under Prof. [Pierre Descouts](https://scholargps.com/scholars/29557804716750/pierre-descouts) and Dr. [François Lazeyras](https://scholar.google.com/citations?user=e1sM6ccAAAAJ) from the Dpt. of Radiology at [HUG](https://www.hug.ch/en/radiology).   
 <br />
-Became sysadmin of all UNIX research workstations (DEC-Alpha, Sun Ultra). Introduced Linux as a cheaper and viable (able to run specialized software tools) alternative to commercial UNIX workstations. Discovered python (v1.4) as a much better alternative to perl and shell for writing "glue" code (aka scripts).
+Became sysadmin of all UNIX research workstations (DEC-Alpha, Sun Ultra). Introduced Linux as a cheaper and viable (able to run specialized software tools) alternative to commercial UNIX workstations (saved 15K CHF of public money allocated to my workstation). Discovered Python (v1.4) as a much better alternative to Perl and Shell for writing "glue" code (aka scripts).
 <br />
 <br />
 In 1999, I managed to save a couple of weeks of MRI patient data that wasn't backed up (time before [PACS](https://en.wikipedia.org/wiki/Picture_archiving_and_communication_system)). The primary hard drive on the MRI console workstation has failed. I took the disk out, put into my linux box, compiled a SCSI driver, mounted the drive and run `fsck`. Full data recovery.
