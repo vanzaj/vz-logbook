@@ -1,16 +1,22 @@
 ---
 title: Now
-date: 2025-11-05
+date: 2025-12-16
 ---
 
 
 This is my [now page](https://nownownow.com/about).
 
+## Rakyat Press
 
-## New course: Test driven development for data scientists
+Indie publishing of original and translated works in local languages in the spirit of what Volkswagen was supposed to be for common folks.
+Why? Because LLMs and training data is way too dominated by English which can't be a good thing in the long term.
+
+
+## Test driven development for data scientists
 
 Why? Because many folks in data science have not been exposed to good product development practices (XP + BDD + CI/CD).
-I did 2 trial iteration is done (with a small class, 4-5 people). Feedback is good, but day 2 needs some improvements (API testing, mocking, and ML specific testing). 2 days is clearly not enough. Current version is 3 days or 2.5 days with some content skipped.
+I did 2 trial iteration is done (with a small class, 4-5 people). Feedback is good, but day 2 needs some improvements (API testing, mocking, and ML specific testing). 2 days is a bit too short. Current version is 3 days or 2.5 days with some content skipped.
+
 
 ## Establishing weekly routine
 
