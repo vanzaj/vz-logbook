@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-12-19">
+<meta name="author" content="Perplexity">
+<meta name="dcterms.date" content="2025-12-18">
 
-<title>Now – VZ’s LogBook</title>
+<title>Cerebras vs Nvidia – VZ’s LogBook</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,26 +25,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./talks/index.html" rel="next">
-<link href="./about.html" rel="prev">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f3e87e0bb0765aae0ce4da68b988dce5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../notes/bots/elevator_control_algo.html" rel="next">
+<link href="../../notes/bots/bionic_reading.html" rel="prev">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-f3e87e0bb0765aae0ce4da68b988dce5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-sidebar floating nav-fixed quarto-light">
@@ -83,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">VZ’s LogBook</span>
     </a>
   </div>
@@ -107,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./now.html">Now</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notes/bots/index.html">Notes</a></li><li class="breadcrumb-item"><a href="../../notes/bots/index.html">Hallucinations</a></li><li class="breadcrumb-item"><a href="../../notes/bots/cerebras.html">Cerebras vs Nvidia</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -121,19 +122,19 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link">
+  <a href="../../about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./now.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../now.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Now</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./talks/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../talks/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Talks</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -142,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./talks/mine.html" class="sidebar-item-text sidebar-link">
+  <a href="../../talks/mine.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Talks and tutorials</span></a>
   </div>
 </li>
@@ -150,67 +151,73 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Notes</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./notes/bots/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../notes/bots/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Hallucinations</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/bots/bionic_reading.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/bots/bionic_reading.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Bionic Reading</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/bots/elevator_control_algo.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/bots/cerebras.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Cerebras vs Nvidia</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../notes/bots/elevator_control_algo.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Elevator Control Algorithm</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/bots/llm_and_code_quality.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/bots/llm_and_code_quality.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">LLM and code quality</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/bots/pair_programmers.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/bots/pair_programmers.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Famous programmers who pair program</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/bots/team-topo-critique.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/bots/team-topo-critique.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Team Topologies</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/bots/top_toxic_performers.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/bots/top_toxic_performers.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Top, but Toxic performers</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/bots/war_causalities.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/bots/war_causalities.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">War Causalities</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/bots/wd-40.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/bots/wd-40.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">The story behind WD-40</span></a>
   </div>
 </li>
@@ -218,7 +225,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./notes/books/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../notes/books/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Book notes</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -227,67 +234,67 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/books/coyle-the-culture-code_2018.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/books/coyle-the-culture-code_2018.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">The Culture Code</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/books/de_botton-how-to-think-more-about-sex_2012.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/books/de_botton-how-to-think-more-about-sex_2012.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">How To Think More About Sex</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/books/feathers-legacy-code_2004.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/books/feathers-legacy-code_2004.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Working Effectively with Legacy Code</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/books/freeman-goos_2009.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/books/freeman-goos_2009.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Growing Object-Oriented Software, Guided by tests</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/books/hamel-the-future-of-management_2007.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/books/hamel-the-future-of-management_2007.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">The Future of Management</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/books/schneier-a-hackers-mind_2023.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/books/schneier-a-hackers-mind_2023.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">A Hacker’s Mind. How the Powerful Bend Society’s Rules, and How to Bend them Back</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/books/singh_trick-or-treatment_2008.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/books/singh_trick-or-treatment_2008.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Trick or Treatment? Alternative Medicine on Trial</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/books/tan-meng-search-inside-yourself_2012.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/books/tan-meng-search-inside-yourself_2012.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Search Inside Yourself</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/books/walker-why-we-sleep_2017.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/books/walker-why-we-sleep_2017.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Why We Sleep</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/books/weinberg-becoming-a-technical-leader.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/books/weinberg-becoming-a-technical-leader.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Becoming a Technical Leader</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/books/yunkaporta_sand-talk_2019.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/books/yunkaporta_sand-talk_2019.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Sand Talk: How Indigenous Thinking Can Save the World</span></a>
   </div>
 </li>
@@ -295,7 +302,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./notes/teach/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../notes/teach/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Learning &amp; Teaching</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -304,19 +311,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/teach/cognitive-load.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/teach/cognitive-load.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Resources on cognitive load</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/teach/effective-learning-kaufman.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/teach/effective-learning-kaufman.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Effective learning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/teach/programming-scientists.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/teach/programming-scientists.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Teaching programming to science students</span></a>
   </div>
 </li>
@@ -324,7 +331,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./notes/pub/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../notes/pub/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Articles</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -333,13 +340,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/pub/hr-lingo.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/pub/hr-lingo.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">HR lingo</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/pub/org-signalling.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/pub/org-signalling.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Org signalling</span></a>
   </div>
 </li>
@@ -347,7 +354,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./notes/tech/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../notes/tech/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tech notes</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -365,13 +372,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/tech/mgmt/cto-checklist.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/tech/mgmt/cto-checklist.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">CTO checklist</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/tech/mgmt/need-for-engineering-managers.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/tech/mgmt/need-for-engineering-managers.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Questionable advice: My boss says we don’t need any engineering managers. Is he right?</span></a>
   </div>
 </li>
@@ -388,37 +395,37 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/tech/ops/bash.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/tech/ops/bash.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Bash</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/tech/ops/docker.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/tech/ops/docker.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Docker</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/tech/ops/osx_setup.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/tech/ops/osx_setup.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">OSX setup</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/tech/ops/py-dev-setup.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/tech/ops/py-dev-setup.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Python dev setup</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/tech/ops/tools.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/tech/ops/tools.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tools</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/tech/ops/win-scoop.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/tech/ops/win-scoop.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Windows 10 Dev Env Setup</span></a>
   </div>
 </li>
@@ -435,13 +442,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/tech/practices/katas_for_ds.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/tech/practices/katas_for_ds.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">TDD katas for Data Scientists</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/tech/practices/refactoring.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/tech/practices/refactoring.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Refactoring</span></a>
   </div>
 </li>
@@ -458,7 +465,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./notes/tech/programming/python2-notes.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notes/tech/programming/python2-notes.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Notes on Python 2 (2014)</span></a>
   </div>
 </li>
@@ -478,32 +485,37 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#rakyat-press" id="toc-rakyat-press" class="nav-link active" data-scroll-target="#rakyat-press">Rakyat Press</a></li>
-  <li><a href="#test-driven-development-for-data-scientists" id="toc-test-driven-development-for-data-scientists" class="nav-link" data-scroll-target="#test-driven-development-for-data-scientists">Test driven development for data scientists</a></li>
-  <li><a href="#bike-clinic" id="toc-bike-clinic" class="nav-link" data-scroll-target="#bike-clinic">Bike clinic</a></li>
-  <li><a href="#establishing-weekly-routine" id="toc-establishing-weekly-routine" class="nav-link" data-scroll-target="#establishing-weekly-routine">Establishing weekly routine</a></li>
-  <li><a href="#learning" id="toc-learning" class="nav-link" data-scroll-target="#learning">Learning</a></li>
-  <li><a href="#reading" id="toc-reading" class="nav-link" data-scroll-target="#reading">Reading</a></li>
+  <li><a href="#p-cerebars" id="toc-p-cerebars" class="nav-link active" data-scroll-target="#p-cerebars">P: Cerebars</a></li>
+  <li><a href="#nvidias-entrenched-position" id="toc-nvidias-entrenched-position" class="nav-link" data-scroll-target="#nvidias-entrenched-position">Nvidia’s entrenched position</a></li>
+  <li><a href="#where-cerebras-can-win" id="toc-where-cerebras-can-win" class="nav-link" data-scroll-target="#where-cerebras-can-win">Where Cerebras can win</a></li>
+  <li><a href="#key-constraints-on-displacement" id="toc-key-constraints-on-displacement" class="nav-link" data-scroll-target="#key-constraints-on-displacement">Key constraints on displacement</a></li>
+  <li><a href="#realistic-scenario" id="toc-realistic-scenario" class="nav-link" data-scroll-target="#realistic-scenario">Realistic scenario</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notes/bots/index.html">Notes</a></li><li class="breadcrumb-item"><a href="../../notes/bots/index.html">Hallucinations</a></li><li class="breadcrumb-item"><a href="../../notes/bots/cerebras.html">Cerebras vs Nvidia</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Now</h1>
+<h1 class="title">Cerebras vs Nvidia</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Perplexity </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 19, 2025</p>
+      <p class="date">December 18, 2025</p>
     </div>
   </div>
   
@@ -515,39 +527,27 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is my <a href="https://nownownow.com/p/zpjP">now page</a>.</p>
-<section id="rakyat-press" class="level2">
-<h2 class="anchored" data-anchor-id="rakyat-press">Rakyat Press</h2>
-<p>Indie publishing of original and translated works in local languages in the spirit of what Volkswagen was supposed to be for common folks. Why? 1/ Translation is as hard and creative as producing the original content. Yet translators are payed by the number of words/lines/pages, and never get royalties based on the sales of their work. This is not right. 2/ LLMs and training data is way too dominated by English which can’t be a good thing in the long term.</p>
+<section id="p-cerebars" class="level2">
+<h2 class="anchored" data-anchor-id="p-cerebars">P: Cerebars</h2>
+<p>Nvidia is very unlikely to be broadly displaced by Cerebras in the foreseeable future, but Cerebras can carve out profitable niches and pressure Nvidia at the high end. [1][4][14] Think of Cerebras more as a specialized alternative than a full replacement.</p>
 </section>
-<section id="test-driven-development-for-data-scientists" class="level2">
-<h2 class="anchored" data-anchor-id="test-driven-development-for-data-scientists">Test driven development for data scientists</h2>
-<p>Why? Because many folks in data science have not been exposed to good product development practices (XP + BDD + CI/CD). I did 2 trial iteration is done (with a small class, 4-5 people). Feedback is good, but day 2 needs some improvements (API testing, mocking, and ML specific testing). 2 days is a bit too short. Current version is 3 days or 2.5 days with some content skipped.</p>
+<section id="nvidias-entrenched-position" class="level2">
+<h2 class="anchored" data-anchor-id="nvidias-entrenched-position">Nvidia’s entrenched position</h2>
+<p>Nvidia controls roughly 90%+ of the data‑center AI accelerator market by revenue, with a massive installed base and a dominant software ecosystem (CUDA, cuDNN, TensorRT, libraries, pretrained models, etc.). [4][20] Analysts generally expect “minimal business loss” to Cerebras over the next several years because Nvidia’s roadmap (Hopper → Blackwell → GB200) and ecosystem lock‑in keep most customers on GPUs. [1][14]</p>
 </section>
-<section id="bike-clinic" class="level2">
-<h2 class="anchored" data-anchor-id="bike-clinic">Bike clinic</h2>
-<p>Everywhere I walk in Singapore, I see abandoned (rusted, flat tires) bycicles. I pick them up, leave my phone number, and ressurect them.</p>
+<section id="where-cerebras-can-win" class="level2">
+<h2 class="anchored" data-anchor-id="where-cerebras-can-win">Where Cerebras can win</h2>
+<p>Cerebras’ wafer‑scale systems can beat Nvidia on raw performance and cost for some large‑model training and especially inference workloads, sometimes by an order of magnitude on specific benchmarks. [6][13][16] That makes Cerebras attractive for a subset of large enterprises, national labs and hyperscalers that run huge models at scale and are willing to adopt a more specialized stack. [4][11]</p>
 </section>
-<section id="establishing-weekly-routine" class="level2">
-<h2 class="anchored" data-anchor-id="establishing-weekly-routine">Establishing weekly routine</h2>
-<ol type="1">
-<li>Weekly plan. Monday morning: make a plan for upcoming week. Friday afternoon: review the week.</li>
-<li>Daily morning mental exercises for 30min. Learning Bahasa Indonesia using physical flashcards. Learning crypto from <a href="https://brilliant.org/courses/cryptocurrency/">brilliant</a>.</li>
-<li>Add/update my <a href="https://vanzaj.github.io/vz-logbook/">digital garden</a> (1 hour/week).</li>
-</ol>
+<section id="key-constraints-on-displacement" class="level2">
+<h2 class="anchored" data-anchor-id="key-constraints-on-displacement">Key constraints on displacement</h2>
+<p>Several structural factors limit Cerebras’ ability to “replace” Nvidia:<br>
+- Market scale: Cerebras’ revenue is orders of magnitude smaller, even under bullish growth projections, versus Nvidia’s tens of billions in data‑center revenue. [1][17] - Ecosystem and versatility: Nvidia GPUs serve gaming, graphics, traditional HPC, and a wide range of AI workloads, while Cerebras is focused on large‑scale AI, making it more niche. [4][6][14] - Customer concentration and risk: Cerebras has historically depended heavily on a few large customers, while Nvidia has a broad, diversified customer base. [4][8]</p>
 </section>
-<section id="learning" class="level2">
-<h2 class="anchored" data-anchor-id="learning">Learning</h2>
-<ol type="1">
-<li><a href="https://www.manning.com/books/build-a-large-language-model-from-scratch">Build a Large Language Model</a></li>
-<li><a href="https://fullstackdeeplearning.com/llm-bootcamp/">Full Stack LLM Bootcamp</a></li>
-</ol>
-</section>
-<section id="reading" class="level2">
-<h2 class="anchored" data-anchor-id="reading">Reading</h2>
-<ol type="1">
-<li><a href="https://nesslabs.com/book">Tiny Experiments</a> by Anne-Laure Le Cunff</li>
-</ol>
+<section id="realistic-scenario" class="level2">
+<h2 class="anchored" data-anchor-id="realistic-scenario">Realistic scenario</h2>
+<p>The most plausible path is that Nvidia remains the default platform for most AI workloads, while Cerebras (and a few others like AMD/custom ASICs) capture specific high‑value segments where their performance‑per‑dollar or performance‑per‑watt advantage is compelling. [6][14][15] Over time, this could modestly erode Nvidia’s share at the margin and improve pricing power for buyers, but not eliminate Nvidia’s central role in the AI hardware ecosystem. [1][4]</p>
+<p>Sources [1] Nvidia: Expect Minimal Business Loss to Cerebras Amid IPO and … https://drrobertcastellano.substack.com/p/nvidia-expect-minimal-business-loss [2] Red-Hot AI IPO Cerberas Claims Chips are 20X Faster Than NVIDIA … https://247wallst.com/ai-portfolio/2024/12/11/red-hot-ai-ipo-cerberas-claims-chips-are-20x-faster-than-nvidia-nvda/ [3] This is bad news for NVIDIA. Cerebras chips used by Mistral AI are specifically designed for inference https://www.reddit.com/r/singularity/comments/1in0unp/this_is_bad_news_for_nvidia_cerebras_chips_used/ [4] Nvidia Reigns Supreme in AI, But Cerebras Eyes the Throne https://opentools.ai/news/nvidia-reigns-supreme-in-ai-but-cerebras-eyes-the-throne [5] Cerebras vs Nvidia: New inference tool promises higher … https://www.artificialintelligence-news.com/news/cerebras-vs-nvidia-inference-tool-promises-higher-performance/ [6] New AI Chip Beats Nvidia, AMD and Intel by a Mile … https://www.nasdaq.com/articles/new-ai-chip-beats-nvidia-amd-and-intel-mile-20x-faster-speeds-and-over-4-trillion [7] How Cerebras approaches competing against Nvidia https://www.techtarget.com/searchenterpriseai/podcast/How-Cerebras-approaches-competing-against-Nvidia [8] Cerebras IPO has ‘too much hair’ as AI chipmaker tries to sell Wall Street on Nvidia alternative https://www.cnbc.com/2024/10/11/cerebras-ipo-has-too-much-hair-as-chipmaker-tries-to-take-on-nvidia.html [9] A Comparison of the Cerebras Wafer-Scale Integration … https://arxiv.org/html/2503.11698v1 [10] How massive Cerebras chips rival Nvidia GPUs for AI https://www.youtube.com/watch?v=qC_lCFTOJU0 [11] Cerebras’ inference AI tool challenges Nvidia, but faces hurdles https://www.techtarget.com/searchenterpriseai/news/366609279/Cerebras-inference-tool-challenges-Nvidia-but-comes-with-hurdles [12] Cerebras Systems: A Deep Dive into the Wafer-Scale … https://skywork.ai/skypage/en/Cerebras-Systems-A-Deep-Dive-into-the-Wafer-Scale-Revolution-Challenging-Nvidia’s-AI-Dominance/1972865057216851968 [13] Faster inference from Cerebras, Beats Blackwell https://www.cerebras.ai/blog/blackwell-vs-cerebras [14] Top 20+ AI Chip Makers: NVIDIA &amp; Its Competitors https://research.aimultiple.com/ai-chip-makers/ [15] AI Chips &amp; Accelerators https://mlq.ai/research/ai-chips/ [16] Cerebras CS-3 vs.&nbsp;Nvidia DGX B200 Blackwell https://www.cerebras.ai/blog/cerebras-cs-3-vs-nvidia-dgx-b200-blackwell [17] Cerebras Stock - NVIDIA Killer or Luxury Good? - Nanalyze https://www.nanalyze.com/2024/10/cerebras-stock-nvidia-killer-or-luxury-good/ [18] Cerebras has been a true revelation when it comes to … https://news.ycombinator.com/item?id=45429098 [19] AI Chip Startup Cerebras Systems Looks To Challenge Nvidia’s Dominance https://www.youtube.com/watch?v=a3Kg7uXflQY [20] Nvidia dominates the AI chip market, but there’s more competition than ever https://www.cnbc.com/2024/06/02/nvidia-dominates-the-ai-chip-market-but-theres-rising-competition-.html</p>
 
 
 </section>
@@ -956,13 +956,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./about.html" class="pagination-link" aria-label="About">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">About</span>
+      <a href="../../notes/bots/bionic_reading.html" class="pagination-link" aria-label="Bionic Reading">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Bionic Reading</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./talks/index.html" class="pagination-link" aria-label="Talks">
-        <span class="nav-page-text">Talks</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../notes/bots/elevator_control_algo.html" class="pagination-link" aria-label="Elevator Control Algorithm">
+        <span class="nav-page-text">Elevator Control Algorithm</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -970,7 +970,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="./assets/cc-by-nc-sa.png" alt="CC BY-NC-SA" style="height: 31px;"></a></p>
+<p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="../../assets/cc-by-nc-sa.png" alt="CC BY-NC-SA" style="height: 31px;"></a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
