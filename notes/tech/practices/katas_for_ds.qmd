@@ -18,6 +18,8 @@ Variation: ModPlusDot. Instead of combinatorial sum, use a combination of binary
 
 Simple enough for an algorithmic problem. Skills to practice: splitting the problems into smaller problems, naming things, simplify by extraction, refactoring while in green, make it work first.
 
+Practical application: [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm).
+
 
 ## 2D vector
 
