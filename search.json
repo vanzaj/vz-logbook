@@ -1877,7 +1877,7 @@
     "href": "notes/tech/practices/katas_for_ds.html#modplus",
     "title": "TDD katas for Data Scientists",
     "section": "ModPlus",
-    "text": "ModPlus\nModPlus is a simple hashing algorithm. It takes in a positive integer X and returns a combinatorial sum of a binary representation of X after it is split into chunks of given length.\nFor example, modplus(12, chunk_length=3) should return 6.\nVariation: ModPlusDot. Instead of combinatorial sum, use a combination of binary AND and OR when combining chunks.\nSimple enough for an algorithmic problem. Skills to practice: splitting the problems into smaller problems, naming things, simplify by extraction, refactoring while in green, make it work first.",
+    "text": "ModPlus\nModPlus is a simple hashing algorithm. It takes in a positive integer X and returns a combinatorial sum of a binary representation of X after it is split into chunks of given length.\nFor example, modplus(12, chunk_length=3) should return 6.\nVariation: ModPlusDot. Instead of combinatorial sum, use a combination of binary AND and OR when combining chunks.\nSimple enough for an algorithmic problem. Skills to practice: splitting the problems into smaller problems, naming things, simplify by extraction, refactoring while in green, make it work first.\nPractical application: Luhn algorithm.",
     "crumbs": [
       "Notes",
       "Tech notes",
