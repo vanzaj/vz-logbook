@@ -8,35 +8,42 @@ This is my [now page](https://nownownow.com/p/zpjP).
 
 ## Rakyat Press
 
-Indie publishing of original and translated works in local languages in the spirit of what Volkswagen was supposed to be for common folks.
-Why? 1/ Translation is as hard and creative as producing the original content. Yet translators are payed by the number of words/lines/pages, and never get royalties based on the sales of their work. This is not right. 2/ LLMs and training data is way too dominated by English which can't be a good thing in the long term.
+Indie publishing of the original and translated works in local languages in the spirit of what Volkswagen was supposed to be for common folks.
+
+Why?
+
+1: Translation is as hard and creative as producing the original content. Yet translators are payed by the number of words/lines/pages, and never get royalties based on the sales of their work. This is not right. See [the French translation of](https://www.goodreads.com/book/show/7711871-surfaces-and-essences).
+
+2: LLMs and training data is way too dominated by English, which can't be a good thing in the long term.
 
 
 ## Test driven development for data scientists
 
-Why? Because many folks in data science have not been exposed to good product development practices (XP + BDD + CI/CD).
-I did 2 trial iteration is done (with a small class, 4-5 people). Feedback is good, but day 2 needs some improvements (API testing, mocking, and ML specific testing). 2 days is a bit too short. Current version is 3 days or 2.5 days with some content skipped.
+Why? Because way too many folks in data science have not been exposed to good product development practices (XP + BDD + CI/CD).
+I did a few trial iterations with small classes of 4-5 people. Feedback is good, but 2 days is not enough. Needs some improvements with a common setup, API testing, mocking, and ML specific testing. Current version is 3 days or 2.5 days with some content skipped.
 
 
 ## Bike clinic
 
-Everywhere I walk in Singapore, I see abandoned (rusted, flat tires) bycicles. I pick them up, leave my phone number, and ressurect them. 
+Everywhere I walk in Singapore, I see abandoned (rusted, flat tires) bycicles. I pick them up, leave my phone number, ressurect them, and resell on [Carousell](https://www.carousell.sg/).
 
 
 ## Establishing weekly routine
 
 1. Weekly plan. Monday morning: make a plan for upcoming week. Friday afternoon: review the week.
 1. Daily morning mental exercises for 30min. Learning Bahasa Indonesia using physical flashcards. Learning crypto from [brilliant](https://brilliant.org/courses/cryptocurrency/).
-1. Add/update my [digital garden](https://vanzaj.github.io/vz-logbook/) (1 hour/week).
+1. Add/update my [digital garden](https://sansans.net) (1 hour/week).
 
 
 ## Learning
 
+1. Sailing and maintaing a boat in a sailing condition.
 1. [Build a Large Language Model](https://www.manning.com/books/build-a-large-language-model-from-scratch)
 1. [Full Stack LLM Bootcamp](https://fullstackdeeplearning.com/llm-bootcamp/)
 
 
 ## Reading
 
+1. [Le Sermon sur la chute de Rome)](https://www.cbc.ca/news/entertainment/corsican-tale-wins-france-s-prix-goncourt-1.1200327) by Jérôme Ferrari.
 1. [Tiny Experiments](https://nesslabs.com/book) by Anne-Laure Le Cunff
 
