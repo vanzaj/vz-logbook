@@ -1,0 +1,62 @@
+[
+  {
+    "listing": "/notes/pub/index.html",
+    "items": [
+      "/notes/pub/hr-lingo.html",
+      "/notes/pub/org-signalling.html"
+    ]
+  },
+  {
+    "listing": "/notes/teach/index.html",
+    "items": [
+      "/notes/teach/effective-learning-kaufman.html",
+      "/notes/teach/cognitive-load.html",
+      "/notes/teach/programming-scientists.html"
+    ]
+  },
+  {
+    "listing": "/notes/bots/index.html",
+    "items": [
+      "/notes/bots/bionic_reading.html",
+      "/notes/bots/elevator_control_algo.html",
+      "/notes/bots/pair_programmers.html",
+      "/notes/bots/llm_and_code_quality.html",
+      "/notes/bots/team-topo-critique.html",
+      "/notes/bots/wd-40.html",
+      "/notes/bots/top_toxic_performers.html",
+      "/notes/bots/war_causalities.html"
+    ]
+  },
+  {
+    "listing": "/notes/books/index.html",
+    "items": [
+      "/notes/books/schneier-a-hackers-mind_2023.html",
+      "/notes/books/weinberg-becoming-a-technical-leader.html",
+      "/notes/books/freeman-goos_2009.html",
+      "/notes/books/de_botton-how-to-think-more-about-sex_2012.html",
+      "/notes/books/yunkaporta_sand-talk_2019.html",
+      "/notes/books/tan-meng-search-inside-yourself_2012.html",
+      "/notes/books/coyle-the-culture-code_2018.html",
+      "/notes/books/hamel-the-future-of-management_2007.html",
+      "/notes/books/singh_trick-or-treatment_2008.html",
+      "/notes/books/walker-why-we-sleep_2017.html",
+      "/notes/books/feathers-legacy-code_2004.html"
+    ]
+  },
+  {
+    "listing": "/notes/tech/index.html",
+    "items": [
+      "/notes/tech/ops/bash.html",
+      "/notes/tech/mgmt/cto-checklist.html",
+      "/notes/tech/ops/docker.html",
+      "/notes/tech/programming/python2-notes.html",
+      "/notes/tech/ops/osx_setup.html",
+      "/notes/tech/ops/py-dev-setup.html",
+      "/notes/tech/mgmt/need-for-engineering-managers.html",
+      "/notes/tech/practices/refactoring.html",
+      "/notes/tech/practices/katas_for_ds.html",
+      "/notes/tech/ops/tools.html",
+      "/notes/tech/ops/win-scoop.html"
+    ]
+  }
+]
