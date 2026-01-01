@@ -1,0 +1,18 @@
+---
+title: Notes
+---
+
+### [Books](./books/)
+Notes and summaries of books I've read.
+
+### [Bots](./bots/)
+LLM-generated content.
+
+### [Tech](./tech/)
+Technical notes
+
+### [Education](./edu/)
+Education related notes
+
+### [Publications](./pub/)
+Published papers.
