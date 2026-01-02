@@ -2,7 +2,7 @@
   --header-bg: #3a6d6d;
   --header-text: #f5ead6;
   --body-bg: #f5ead6;
-  --content-bg: #ffffff;
+  --content-bg: #f5ead6;
   --text-primary: #2d2d2d;
   --text-secondary: #666666;
   --accent-teal: #4a7c7c;
@@ -15,20 +15,18 @@ body {
 }
 
 #title-block-header {
-  display: none;
+  display: block;
 }
 
 #title-block-header .title {
-  color: var(--header-text);
+  color: var(--text-primary);
   font-size: 3rem;
   font-weight: 700;
   letter-spacing: 0.15em;
-  text-transform: uppercase;
-  margin-bottom: 0rem;
+  padding-top: 1rem;
 }
 
 #title-block-header .subtitle {
-  color: var(--header-text);
   font-size: 1.2rem;
   letter-spacing: 0.1em;
   text-transform: capitalize;
@@ -84,6 +82,10 @@ body {
   justify-content: flex-end !important;
 }
 
+.navbar-toggler-icon {
+  background-color: var(--header-text);
+}
+
 #navbarCollapse {
   justify-content: flex-end !important;
 }
@@ -101,9 +103,7 @@ svg.aa-SubmitIcon {
 #quarto-content {
   background-color: var(--content-bg);
   padding: 2rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  max-width: 900px;
-  margin: 2rem auto;
+  max-width: 100%;
 }
 
 /* Article titles */
@@ -113,14 +113,12 @@ svg.aa-SubmitIcon {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--text-primary);
-  margin-bottom: 1.5rem;
 }
 
 /* Article metadata */
 .quarto-title-meta {
   color: var(--accent-teal);
   font-size: 0.95rem;
-  margin-bottom: 2rem;
   text-align: center;
 }
 
@@ -134,8 +132,7 @@ h2 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
   color: var(--text-primary);
 }
 
@@ -216,8 +213,8 @@ code {
 .nav-footer {
   background-color: var(--header-bg);
   color: var(--header-text);
-  margin-top: 3rem;
-  padding: 2rem;
+  margin-top: 1rem;
+  padding: 1rem;
 }
 
 /* Responsive adjustments */

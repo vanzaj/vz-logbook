@@ -7,27 +7,6 @@
     ]
   },
   {
-    "listing": "/notes/teach/index.html",
-    "items": [
-      "/notes/teach/effective-learning-kaufman.html",
-      "/notes/teach/cognitive-load.html",
-      "/notes/teach/programming-scientists.html"
-    ]
-  },
-  {
-    "listing": "/notes/bots/index.html",
-    "items": [
-      "/notes/bots/bionic_reading.html",
-      "/notes/bots/elevator_control_algo.html",
-      "/notes/bots/pair_programmers.html",
-      "/notes/bots/llm_and_code_quality.html",
-      "/notes/bots/team-topo-critique.html",
-      "/notes/bots/wd-40.html",
-      "/notes/bots/top_toxic_performers.html",
-      "/notes/bots/war_causalities.html"
-    ]
-  },
-  {
     "listing": "/notes/books/index.html",
     "items": [
       "/notes/books/schneier-a-hackers-mind_2023.html",
@@ -41,6 +20,27 @@
       "/notes/books/singh_trick-or-treatment_2008.html",
       "/notes/books/walker-why-we-sleep_2017.html",
       "/notes/books/feathers-legacy-code_2004.html"
+    ]
+  },
+  {
+    "listing": "/notes/edu/index.html",
+    "items": [
+      "/notes/edu/effective-learning-kaufman.html",
+      "/notes/edu/cognitive-load.html",
+      "/notes/edu/programming-scientists.html"
+    ]
+  },
+  {
+    "listing": "/notes/bots/index.html",
+    "items": [
+      "/notes/bots/bionic_reading.html",
+      "/notes/bots/elevator_control_algo.html",
+      "/notes/bots/pair_programmers.html",
+      "/notes/bots/llm_and_code_quality.html",
+      "/notes/bots/team-topo-critique.html",
+      "/notes/bots/wd-40.html",
+      "/notes/bots/top_toxic_performers.html",
+      "/notes/bots/war_causalities.html"
     ]
   },
   {
