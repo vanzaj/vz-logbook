@@ -19,23 +19,28 @@ website:
 
   navbar:
     background: light
-    tools:
+    title: "VZ's LogBook"
+    left:
+      - text: ""
+    right:
+      - text: ABOUT
+        href: about.qmd
+      - text: NOW
+        href: now.qmd
+      - text: TALKS
+        href: talks/
+      - text: NOTES
+        href: notes/
       - icon: github
-      
         menu:
           - text: Source Code
             url:  https://github.com/vanzaj/vz-logbook.git
     search: true
-  sidebar:
-    style: "floating"
-    collapse-level: 1
-    contents: auto
  
 format:
   html:
     theme: yeti
-    css: styles.css
+    css: custom.css
     toc: true
     include-after-body: _goatcounter.html
-
 

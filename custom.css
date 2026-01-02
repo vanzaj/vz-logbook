@@ -1,0 +1,238 @@
+:root {
+  --header-bg: #3a6d6d;
+  --header-text: #f5ead6;
+  --body-bg: #f5ead6;
+  --content-bg: #f5ead6;
+  --text-primary: #2d2d2d;
+  --text-secondary: #666666;
+  --accent-teal: #4a7c7c;
+  --border-light: #e0d5c7;
+}
+
+body {
+  background-color: var(--body-bg);
+  color: var(--text-primary);
+}
+
+#title-block-header {
+  display: block;
+}
+
+#title-block-header .title {
+  color: var(--text-primary);
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  padding-top: 1rem;
+}
+
+#title-block-header .subtitle {
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+}
+
+.navbar {
+  background-color: var(--header-bg) !important;
+  border-bottom: none;
+  padding: 0.5rem 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.navbar-brand {
+  display: block !important;
+  color: var(--header-text) !important;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  padding: 0.5rem 1rem !important;
+}
+
+.navbar-brand:hover {
+  opacity: 0.8;
+}
+
+.navbar-nav .nav-link {
+  color: var(--header-text) !important;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  font-weight: 500;
+  padding: 0.5rem 1rem !important;
+  transition: opacity 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  opacity: 0.8;
+}
+
+.navbar .navbar-nav {
+  gap: 0.5rem;
+}
+
+.navbar-collapse {
+  justify-content: flex-end !important;
+}
+
+.navbar-toggler-icon {
+  background-color: var(--header-text);
+}
+
+#navbarCollapse {
+  justify-content: flex-end !important;
+}
+
+.navbar .container-fluid {
+  justify-content: flex-end !important;
+}
+
+svg.aa-SubmitIcon {
+  color: var(--header-text) !important;
+}
+
+
+/* Main content area */
+#quarto-content {
+  background-color: var(--content-bg);
+  padding: 2rem;
+  max-width: 100%;
+}
+
+/* Article titles */
+.quarto-title-block h1.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-primary);
+}
+
+/* Article metadata */
+.quarto-title-meta {
+  color: var(--accent-teal);
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.quarto-title-meta-contents {
+  display: inline-block;
+}
+
+/* Headings */
+h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 1rem;
+  color: var(--text-primary);
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-primary);
+}
+
+/* Body text */
+p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+}
+
+/* Links */
+a {
+  color: var(--accent-teal);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.2s ease;
+}
+
+a:hover {
+  border-bottom: 1px solid var(--accent-teal);
+}
+
+/* Sidebar styling */
+.sidebar {
+  background-color: var(--content-bg);
+}
+
+.sidebar-title {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.9rem;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  text-transform: none;
+}
+
+/* Hide "On this page" TOC */
+#TOC {
+  display: none;
+}
+
+/* Callout blocks */
+.callout {
+  border-left: 4px solid var(--accent-teal);
+  background-color: #f9f6f1;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+}
+
+/* Code blocks */
+pre {
+  background-color: #f9f6f1;
+  border: 1px solid var(--border-light);
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+code {
+  background-color: #f9f6f1;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+/* Footer */
+.nav-footer {
+  background-color: var(--header-bg);
+  color: var(--header-text);
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 100%) {
+  #title-block-header .title {
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+  }
+  
+  #title-block-header .subtitle {
+    font-size: 1rem;
+  }
+  
+  .quarto-title-block h1.title {
+    font-size: 1.8rem;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+}
