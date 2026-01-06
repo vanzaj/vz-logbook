@@ -1089,7 +1089,7 @@
     "href": "notes/tech/practices/katas_for_ds.html",
     "title": "TDD katas for Data Scientists",
     "section": "",
-    "text": "Whenever I talk about TDD to data science and data engineering folks they say either 1) TDD is not working for algorithmic work, or 2) I’ve tried FizzBuzz and it is not fun. I can understand. Most katas in places like kata-log are more CS/SW dev oriented.\nSo, I’ve dicided to come up with some katas that might be more intersting for DS folks. Here they are."
+    "text": "Whenever I talk about TDD to data science and data engineering folks, they say that either TDD is not working for algorithmic work, or I’ve tried FizzBuzz and it is not fun [^1]. I can understand. Most katas in places like kata-log are more oriented towards CS/SW devs.\nSo, I’ve decided to come up with some katas that might be more interesting for DS folks. Here they are."
   },
   {
     "objectID": "notes/tech/practices/katas_for_ds.html#modplus",
@@ -1104,6 +1104,13 @@
     "title": "TDD katas for Data Scientists",
     "section": "2D vector",
     "text": "2D vector\nImagine you are working for Khan Academy (KA). KA wants to modernize their basic math classes, especially the display. Implement a cartesian 2D Vector class, that supports scalar multiplication, addition with another Vector, norm (magnitude) and dot product between 2 vectors(see vector).\nThis is more of a design kata, but still requires to implement a couple of formulas."
+  },
+  {
+    "objectID": "notes/tech/practices/katas_for_ds.html#other-potential-katas",
+    "href": "notes/tech/practices/katas_for_ds.html#other-potential-katas",
+    "title": "TDD katas for Data Scientists",
+    "section": "Other potential katas",
+    "text": "Other potential katas\n\n[Clock24][https://github.com/vanzaj/tdd-exercises/clock24]"
   },
   {
     "objectID": "talks/mine.html",
