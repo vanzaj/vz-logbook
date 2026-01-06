@@ -29,7 +29,6 @@ body {
 #title-block-header .subtitle {
   font-size: 1.2rem;
   letter-spacing: 0.1em;
-  text-transform: capitalize;
   display: inline-block;
   padding: 0.5rem 1rem;
   margin-top: 0.5rem;
@@ -49,7 +48,6 @@ body {
 .navbar-brand {
   display: block !important;
   color: var(--header-text) !important;
-  text-transform: uppercase;
   font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: 0.15em;
@@ -62,7 +60,6 @@ body {
 
 .navbar-nav .nav-link {
   color: var(--header-text) !important;
-  text-transform: uppercase;
   font-size: 0.85rem;
   letter-spacing: 0.08em;
   font-weight: 500;
@@ -110,7 +107,6 @@ svg.aa-SubmitIcon {
 .quarto-title-block h1.title {
   font-size: 2.5rem;
   font-weight: 700;
-  text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--text-primary);
 }
@@ -130,7 +126,6 @@ svg.aa-SubmitIcon {
 h2 {
   font-size: 1.8rem;
   font-weight: 700;
-  text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-top: 1rem;
   color: var(--text-primary);
@@ -164,6 +159,10 @@ a:hover {
   border-bottom: 1px solid var(--accent-teal);
 }
 
+blockquote {
+  border-left: 0.25rem solid var(--header-bg);
+}
+
 /* Sidebar styling */
 .sidebar {
   background-color: var(--content-bg);
@@ -171,7 +170,6 @@ a:hover {
 
 .sidebar-title {
   font-weight: 600;
-  text-transform: uppercase;
   letter-spacing: 0.05em;
   font-size: 0.9rem;
 }
@@ -195,18 +193,18 @@ a:hover {
 }
 
 /* Code blocks */
-pre {
-  background-color: #f9f6f1;
-  border: 1px solid var(--border-light);
-  padding: 1rem;
-  border-radius: 4px;
-}
-
 code {
   background-color: #f9f6f1;
   padding: 0.2em 0.4em;
   border-radius: 3px;
   font-size: 0.9em;
+}
+
+pre {
+  background-color: #f9f6f1;
+  border: 1px solid var(--border-light);
+  padding: 1rem;
+  border-radius: 4px;
 }
 
 /* Footer */
