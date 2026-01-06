@@ -1,0 +1,96 @@
+---
+title: 99 Bottles of OOP
+author:
+  - Sandi Metz
+  - Katrina Owen
+date: 2018-10-05
+categories: [programming, tdd, refactoring]
+---
+
+[mostly highlights]
+
+# Ch.1
+
+Simplifying code:
+
+  - Incomprehensibly Concise
+    - How difficult was it to write?
+    - How hard is it to understand?
+    - How expensive will it be to change?
+  - Speculatively General
+  - Concretely Abstract (change over understanding)
+  - Shameless Green     (understanding over change)
+
+> The failure is not bad intention -— it's insufficient patience.
+
+> One of the biggest challenges of design is knowing when to stop, and deciding well requires making judgments about code.
+
+> Any pile of code can be made to work;
+> good code not only works, but is also simple, understandable, expressive and changeable.
+
+> ... it is cheaper to manage temporary duplication than to recover from incorrect abstractions.
+
+
+# Ch. 2
+
+> DRY is important but if applied too early, and with too much vigor, it can do more harm than good.
+
+> Knowledge that one object has about another creates a dependency.
+
+
+# Ch. 3 Unearthing concepts
+
+Flocking/swarming rules:
+
+1. Alignment - Steer towards the average heading of neighbors
+2. Separation - Don’t get too close to a neighbor
+3. Cohesion - Steer towards the average position of the flock
+
+> DRYing out sameness has some value, but DRYing out difference has more.
+> ... Difference holds the key to understanding.
+> ... If you can name the difference, you’ve identified that smaller abstraction.
+
+> The general rule is that the name of a thing should be one level of abstraction higher than the thing itself.
+
+
+# Ch. 4
+
+> When nibbling away at the problem, you don't have to understand everything before you can do anything.
+> Taking care of the small things often cuts the big ones down to size.
+
+
+# Ch. 5
+
+> Superfluous difference raises the cost of reading code, and increases the difficulty of future refactoring.
+
+> Having multiple methods that take the same argument is a code smell.
+
+>...having tests that pass doesn't guarantee the best expression of code...
+
+
+# Ch. 6
+
+> Polymorphism allows senders to depend on the message while remaining ignorant of the type, or class, of the receiver.
+
+> The cold, hard truth is that you can’t avoid conditionals. However, you can use polymorphism to create pluggable behavior, and confine conditionals to factories whose job is to select the right object.
+
+> Liskov violations are insidious, and over time cause increasing harm.
+
+> make the change easy (warning: this may be hard), then make the easy change.  -- Kent Beck
+
+> Clever shortcuts are a false economy. Invest in code that tells the truth.
+
+# Afterword
+
+Strive for simplicity.
+Don’t abstract too soon.
+Focus on smells.
+Concentrate on difference.
+Take small steps.
+Follow the Flocking Rules.
+Refactor under green.
+Fix the easy problems first.
+Work horizontally.
+Seek stable landing points.
+Be disciplined.
+Don’t chase the shiny thing.
