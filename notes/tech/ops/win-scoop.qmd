@@ -1,5 +1,6 @@
 ---
 title: Windows 10 Dev Env Setup
+date: 2021-04-01
 ---
 
 ## Install latest Microsoft Powershell (v7.0.3 as of 9 November 2020)

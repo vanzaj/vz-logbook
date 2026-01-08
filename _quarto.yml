@@ -30,7 +30,17 @@ website:
       - text: TALKS
         href: talks/
       - text: NOTES
-        href: notes/
+        menu:
+          - text: Books
+            href: notes/books/
+          - text: Bots
+            href: notes/bots/
+          - text: Education
+            href: notes/edu/
+          - text: Published
+            href: notes/pub/
+          - text: Tech
+            href: notes/tech/
       - icon: github
         menu:
           - text: Source Code
