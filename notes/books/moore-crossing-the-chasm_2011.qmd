@@ -1,0 +1,184 @@
+---
+title: Crossing the chasm
+author: Geoffrey A. Moore
+date: 2011-10-22
+categories: [business, management]
+---
+
+
+## Part 1: Discovering the chasm
+
+> ...while many are called, few are chosen.
+
+Technology adoption: innovators, early adopters, early majority, late majority, laggards.
+
+Each phase corresponds to different users with different needs and demands.
+Each phase is separated by a crack. The biggest crack is between early adopters and early majority.
+
+
+## High-Tech Marketing Enlightement
+
+Marketing:
+  Actions to create, grow, maintain and defend markets.
+
+Market:
+  A set of actual or potential customers for a given set of products or services who have a common of needs or wants who reference each other when making a buying decision.
+
+Early markets:
+  Innovators (technology enthusiasts) + Early adopters (visionaries).
+  Linus Torvalds vs Bill Gates.
+
+Innovators are inherently interested in new technology. They need 1) access to technology, 2) access to knowledge (no BS), 3) technology needs to be affordable (the guys are not in charge of budgets).
+
+  Visionaries are that rare breed of people who have the insight to match an emerging technology to a strategic opportunity, the temperament to translate insight into a high-visibility, high-rise project, and the charisma to get the rest of their organization to buy into that project.
+
+Visionaries are hidden source of high-tech development funding. They fund *a dream*. Focus, account management and executive restrain are crucial. Visionaries are driven by a non-technological goal. They rely on innovators on what-is-the-latest-and-greatest.
+
+
+Mainstream markets:
+
+Early majority = pragmatists
+Late majority = conservatives
+Laggards = skeptics
+
+> ...if the goal of visionaries is to take a quantum leap forward, the goal of pragmatists is to make a percentage improvement -- incremental, measurable, predictable progress.
+
+Pragmatists only take calculated risk with safety nets in place. Pragmatists like to see competition (prices and alternative).
+
+Conservatives believe far more in tradition than in progress.
+
+
+## Part 3: Crossing the Chasm
+
+**The D-Day Analogy**
+
+To enter the mainstream market is an act of aggression. "Crossing the chasm" is not the time to be nice.
+
+Market entry ~=  Invasion of Normandy by US/UK forces:
+(fast invasion focused directly and exclusively on the point of attack)
+  Mainstream market = Europe
+  Dominant competition = Germans
+  Early market base = UK
+  Strategic target market segment = Normandy
+  Chasm = the English Channel
+
+Another analogy: starting a fire. One needs 1) paper, 2) kindling, 3) logs, 4) spark.
+
+Trying to cross the chasm without taking a niche market approach is like trying to light a fire without kindling
+
+Market segmentation. Big fish, small pond. Pragmatics 'like' market leaders.
+
+For the actual chasm crossing applications have a huge advantage. (over platform)
+
+...disruptive innovations are more likely to be championed by the end users than by the technology professionals that operate current infrastructure.
+
+
+## Target the Point of Attack
+
+> If you don't know where you are going, you probably aren't going to get there.
+
+Market segmentation strategy. Evaluate each segment. Choose and focus all resources on getting dominant leadership position in that segment.
+
+There are no ways to get sensible data about early markets.
+
+Informed intuition, rather than analytical reason, is the most trustworthy decision-making tool to use.
+
+**Target-Customer characterization using Scenarios**
+
+Header (business market)
+  User: industry, geography, department, job title
+  Technical buyer: order request
+  Economic buyer: order approval
+
+Header (consumer market)
+  User: age, gender, economic status, social group
+  Buyer: who pays
+
+A day in Life (before)
+  Scene or situation
+  Desired outcome
+  Attempted approach
+  Interfering factors
+  Economic consequences
+
+A day in life (after)
+  New approach
+  Enabling factors
+  Economic rewards
+
+Need to create a library of scenarios and a ranking system (from showstoppers to nice-to-have). Make independent evaluation of scenarios to decide which are most important ones.
+
+
+**Market Development Strategy Checklist**
+
+* Target customer
+* Compelling reason to buy
+* Whole product
+* Partners and allies
+* Distribution
+* Pricing
+* Competition
+* Positioning
+* Next target customer
+
+**The Whole Product**
+
+Products: (((( Generic ) Expected ) Augmented ) Potential )
+
+Whole product: core + deployment + support + training + extra features
+
+
+technology -> product    -> market     -> enterprise
+specialists   visionaries   pragmatists   conservatives
+
+(tech & product) - chasm - (market)
+
+product values: ease of use, speed, price, unique functionality
+market values: installed base, standards, 3d parties, cost of ownership, support
+
+
+### Positioning
+
+
+1. Name it and Frame it. Customers cannot buy what they cannot name or find in some category
+2. Who for and what for
+3. Competition and differentiation
+4. Financials and Futures
+
+The claim; the evidence; audience; feedback and adjustment
+
+Elevator pitch:
+    For... (target customers, beachhead segment)
+    Who are dissatisfied with... (current solutions)
+    Our product is a... (new product category)
+    That provides... (key problem-solving capability)
+    Unlike... (product alternative)
+    We have assembled... (whole product)
+
+### Distribution and pricing
+
+
+> distribution is the vehicle..., and pricing is its fuel.
+
+Distribution channels:
+    Direct sales (best for high-tech)
+    Two-tier retail
+    One-tier retail
+    Internet retail
+    Value-added reselling
+    Original Equipment Manufacturing
+    System Intergrators
+
+Pricing models:
+    customer-oriented
+    vendor-oriented
+    distribution-oriented
+
+### Beyond the chasm
+
+Post-chasm enterprise is not the same as pre-chasm company.
+
+Pioneers (tech and sales to visionaries) and Settlers (ops, support and sales to pragmatics)
+
+Only post-chasm enterprise brings wealth. It is always a team effort to cross the chasm. First employees are not automatically entitled to financial returns if they don't participate in post-chasm (boring) activities.
+
