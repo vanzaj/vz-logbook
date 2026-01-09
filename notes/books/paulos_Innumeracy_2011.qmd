@@ -1,0 +1,49 @@
+---
+title: Innumeracy. Mathematical illiteracy and its consequences
+author: John Allen Paulos
+date: 2011-10-17
+categories: [popular science, mathematics, education, society]
+
+## TOC
+
+1. Examples and principles
+1. Probability and coincidence
+1. Pseudoscience
+1. Whence innumeracy
+1. Statistics, Trade-offs, and Society
+
+## Quotes
+
+> The moral is that some unlikely event is likely to occur, whereas it's much
+less likely that a particular one will.
+
+> ... it would be very unlikely for unlikely events not to occur.
+
+> There's always enough random success to justify almost anything to someone
+who wants to believe.
+
+> There is a strong general tendency to filter out the bad and the failed and
+to focus on the good and the successful.
+
+> If one's model or one's data are no good, the conclusions that follow
+won't be either.
+
+> There always seem to be escape clauses which can account for everything.
+
+> There is no such thing as a free lunch, and even if there were, there'd be
+no guarantee against indigestion.
+
+> ...the desire to filter and emphasize information is at odds with the desire
+to obtain a random sample.
+
+
+## Notes
+
+It is useful to have a list of things to explain large/small numbers.
+
+Prisoner's dilema for N people (Robert Wolfl).
+
+Capture-recapture -- a method for sample size estimation.
+
+Type I/II errors for FDA and monotheistic religion.
+
