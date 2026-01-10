@@ -16,7 +16,7 @@ Each phase corresponds to different users with different needs and demands.
 Each phase is separated by a crack. The biggest crack is between early adopters and early majority.
 
 
-## High-Tech Marketing Enlightement
+## High-Tech Marketing Enlightenment
 
 Marketing:
   Actions to create, grow, maintain and defend markets.
@@ -143,7 +143,7 @@ market values: installed base, standards, 3d parties, cost of ownership, support
 1. Name it and Frame it. Customers cannot buy what they cannot name or find in some category
 2. Who for and what for
 3. Competition and differentiation
-4. Financials and Futures
+4. Finances and Futures
 
 The claim; the evidence; audience; feedback and adjustment
 
@@ -167,7 +167,7 @@ Distribution channels:
     Internet retail
     Value-added reselling
     Original Equipment Manufacturing
-    System Intergrators
+    System Integrator
 
 Pricing models:
     customer-oriented

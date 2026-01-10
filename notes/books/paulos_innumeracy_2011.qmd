@@ -3,6 +3,7 @@ title: Innumeracy. Mathematical illiteracy and its consequences
 author: John Allen Paulos
 date: 2011-10-17
 categories: [popular science, mathematics, education, society]
+---
 
 ## TOC
 
@@ -41,7 +42,7 @@ to obtain a random sample.
 
 It is useful to have a list of things to explain large/small numbers.
 
-Prisoner's dilema for N people (Robert Wolfl).
+Prisoner's dilemma for N people (Robert Wolfl).
 
 Capture-recapture -- a method for sample size estimation.
 
