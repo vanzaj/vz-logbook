@@ -21,36 +21,36 @@
     <lastmod>2025-12-29T08:01:04.089Z</lastmod>
   </url>
   <url>
-    <loc>https://sansans.net/notes/tech/programming/python2-notes.html</loc>
-    <lastmod>2025-12-29T08:01:04.096Z</lastmod>
+    <loc>https://sansans.net/notes/tech/index.html</loc>
+    <lastmod>2025-12-29T08:01:04.086Z</lastmod>
   </url>
   <url>
-    <loc>https://sansans.net/notes/tech/mgmt/need-for-engineering-managers.html</loc>
+    <loc>https://sansans.net/notes/tech/mgmt/cto-checklist.html</loc>
     <lastmod>2025-12-29T08:01:04.087Z</lastmod>
   </url>
   <url>
-    <loc>https://sansans.net/notes/pub/org-signalling.html</loc>
+    <loc>https://sansans.net/notes/pub/hr-lingo.html</loc>
     <lastmod>2025-12-29T08:01:04.084Z</lastmod>
   </url>
   <url>
-    <loc>https://sansans.net/notes/pub/index.html</loc>
-    <lastmod>2025-12-29T08:01:04.084Z</lastmod>
+    <loc>https://sansans.net/notes/index.html</loc>
+    <lastmod>2026-01-02T01:05:14.348Z</lastmod>
   </url>
   <url>
-    <loc>https://sansans.net/notes/books/hamel-the-future-of-management_2007.html</loc>
-    <lastmod>2025-12-29T08:01:04.070Z</lastmod>
+    <loc>https://sansans.net/notes/books/tan-meng-search-inside-yourself_2012.html</loc>
+    <lastmod>2025-12-29T08:01:04.074Z</lastmod>
   </url>
   <url>
-    <loc>https://sansans.net/notes/books/freeman-goos_2009.html</loc>
-    <lastmod>2025-12-29T08:01:04.070Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sansans.net/notes/books/singh_trick-or-treatment_2008.html</loc>
-    <lastmod>2025-12-29T08:01:04.073Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sansans.net/notes/books/weinberg-becoming-a-technical-leader.html</loc>
+    <loc>https://sansans.net/notes/books/walker-why-we-sleep_2017.html</loc>
     <lastmod>2025-12-29T08:01:04.076Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/notes/books/metz-99bottles.html</loc>
+    <lastmod>2026-01-06T09:24:09.952Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/notes/books/moore-crossing-the-chasm_2011.html</loc>
+    <lastmod>2026-01-10T19:24:08.645Z</lastmod>
   </url>
   <url>
     <loc>https://sansans.net/notes/books/coyle-the-culture-code_2018.html</loc>
@@ -65,7 +65,55 @@
     <lastmod>2025-12-29T08:01:04.071Z</lastmod>
   </url>
   <url>
-    <loc>https://sansans.net/notes/bots/pair_programmers.html</loc>
+    <loc>https://sansans.net/notes/bots/elevator_control_algo.html</loc>
+    <lastmod>2025-12-29T08:01:04.077Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/notes/bots/bionic_reading.html</loc>
+    <lastmod>2025-12-29T08:01:04.077Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/notes/bots/wd-40.html</loc>
+    <lastmod>2025-12-29T08:01:04.080Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/notes/bots/war_causalities.html</loc>
+    <lastmod>2025-12-29T08:01:04.080Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/notes/bots/llm_and_code_quality.html</loc>
+    <lastmod>2025-12-29T08:01:04.078Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/notes/edu/index.html</loc>
+    <lastmod>2026-01-01T23:28:31.163Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/notes/edu/programming-scientists.html</loc>
+    <lastmod>2025-12-29T08:01:04.086Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/about.html</loc>
+    <lastmod>2025-12-29T08:01:03.903Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/index.html</loc>
+    <lastmod>2025-12-29T08:01:04.065Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/notes/edu/cognitive-load.html</loc>
+    <lastmod>2025-12-29T08:01:04.085Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/notes/edu/effective-learning-kaufman.html</loc>
+    <lastmod>2025-12-29T08:01:04.085Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/notes/bots/team-topo-critique.html</loc>
+    <lastmod>2025-12-29T08:01:04.079Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/notes/bots/top_toxic_performers.html</loc>
     <lastmod>2025-12-29T08:01:04.079Z</lastmod>
   </url>
   <url>
@@ -73,56 +121,12 @@
     <lastmod>2025-12-29T08:01:04.078Z</lastmod>
   </url>
   <url>
-    <loc>https://sansans.net/notes/bots/top_toxic_performers.html</loc>
+    <loc>https://sansans.net/notes/bots/pair_programmers.html</loc>
     <lastmod>2025-12-29T08:01:04.079Z</lastmod>
   </url>
   <url>
-    <loc>https://sansans.net/notes/bots/team-topo-critique.html</loc>
-    <lastmod>2025-12-29T08:01:04.079Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sansans.net/notes/edu/effective-learning-kaufman.html</loc>
-    <lastmod>2025-12-29T08:01:04.085Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sansans.net/notes/edu/cognitive-load.html</loc>
-    <lastmod>2025-12-29T08:01:04.085Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sansans.net/index.html</loc>
-    <lastmod>2025-12-29T08:01:04.065Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sansans.net/about.html</loc>
-    <lastmod>2025-12-29T08:01:03.903Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sansans.net/notes/edu/programming-scientists.html</loc>
-    <lastmod>2025-12-29T08:01:04.086Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sansans.net/notes/edu/index.html</loc>
-    <lastmod>2026-01-01T23:28:31.163Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sansans.net/notes/bots/llm_and_code_quality.html</loc>
-    <lastmod>2025-12-29T08:01:04.078Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sansans.net/notes/bots/war_causalities.html</loc>
-    <lastmod>2025-12-29T08:01:04.080Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sansans.net/notes/bots/wd-40.html</loc>
-    <lastmod>2025-12-29T08:01:04.080Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sansans.net/notes/bots/bionic_reading.html</loc>
-    <lastmod>2025-12-29T08:01:04.077Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sansans.net/notes/bots/elevator_control_algo.html</loc>
-    <lastmod>2025-12-29T08:01:04.077Z</lastmod>
+    <loc>https://sansans.net/notes/books/paulos_innumeracy_2011.html</loc>
+    <lastmod>2026-01-10T19:21:10.822Z</lastmod>
   </url>
   <url>
     <loc>https://sansans.net/notes/books/feathers-legacy-code_2004.html</loc>
@@ -137,32 +141,36 @@
     <lastmod>2025-12-29T08:01:04.070Z</lastmod>
   </url>
   <url>
-    <loc>https://sansans.net/notes/books/metz-99bottles.html</loc>
-    <lastmod>2026-01-06T09:24:09.952Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sansans.net/notes/books/walker-why-we-sleep_2017.html</loc>
+    <loc>https://sansans.net/notes/books/weinberg-becoming-a-technical-leader.html</loc>
     <lastmod>2025-12-29T08:01:04.076Z</lastmod>
   </url>
   <url>
-    <loc>https://sansans.net/notes/books/tan-meng-search-inside-yourself_2012.html</loc>
-    <lastmod>2025-12-29T08:01:04.074Z</lastmod>
+    <loc>https://sansans.net/notes/books/singh_trick-or-treatment_2008.html</loc>
+    <lastmod>2025-12-29T08:01:04.073Z</lastmod>
   </url>
   <url>
-    <loc>https://sansans.net/notes/index.html</loc>
-    <lastmod>2026-01-02T01:05:14.348Z</lastmod>
+    <loc>https://sansans.net/notes/books/freeman-goos_2009.html</loc>
+    <lastmod>2025-12-29T08:01:04.070Z</lastmod>
   </url>
   <url>
-    <loc>https://sansans.net/notes/pub/hr-lingo.html</loc>
+    <loc>https://sansans.net/notes/books/hamel-the-future-of-management_2007.html</loc>
+    <lastmod>2025-12-29T08:01:04.070Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/notes/pub/index.html</loc>
     <lastmod>2025-12-29T08:01:04.084Z</lastmod>
   </url>
   <url>
-    <loc>https://sansans.net/notes/tech/mgmt/cto-checklist.html</loc>
+    <loc>https://sansans.net/notes/pub/org-signalling.html</loc>
+    <lastmod>2025-12-29T08:01:04.084Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sansans.net/notes/tech/mgmt/need-for-engineering-managers.html</loc>
     <lastmod>2025-12-29T08:01:04.087Z</lastmod>
   </url>
   <url>
-    <loc>https://sansans.net/notes/tech/index.html</loc>
-    <lastmod>2025-12-29T08:01:04.086Z</lastmod>
+    <loc>https://sansans.net/notes/tech/programming/python2-notes.html</loc>
+    <lastmod>2025-12-29T08:01:04.096Z</lastmod>
   </url>
   <url>
     <loc>https://sansans.net/notes/tech/ops/bash.html</loc>

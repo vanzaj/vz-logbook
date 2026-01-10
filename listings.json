@@ -1,9 +1,26 @@
 [
   {
-    "listing": "/notes/pub/index.html",
+    "listing": "/notes/tech/index.html",
     "items": [
-      "/notes/pub/hr-lingo.html",
-      "/notes/pub/org-signalling.html"
+      "/notes/tech/ops/bash.html",
+      "/notes/tech/mgmt/cto-checklist.html",
+      "/notes/tech/ops/docker.html",
+      "/notes/tech/programming/python2-notes.html",
+      "/notes/tech/ops/osx_setup.html",
+      "/notes/tech/ops/py-dev-setup.html",
+      "/notes/tech/mgmt/need-for-engineering-managers.html",
+      "/notes/tech/practices/refactoring.html",
+      "/notes/tech/practices/katas_for_ds.html",
+      "/notes/tech/ops/tools.html",
+      "/notes/tech/ops/win-scoop.html"
+    ]
+  },
+  {
+    "listing": "/notes/edu/index.html",
+    "items": [
+      "/notes/edu/effective-learning-kaufman.html",
+      "/notes/edu/cognitive-load.html",
+      "/notes/edu/programming-scientists.html"
     ]
   },
   {
@@ -20,21 +37,15 @@
     ]
   },
   {
-    "listing": "/notes/edu/index.html",
-    "items": [
-      "/notes/edu/effective-learning-kaufman.html",
-      "/notes/edu/cognitive-load.html",
-      "/notes/edu/programming-scientists.html"
-    ]
-  },
-  {
     "listing": "/notes/books/index.html",
     "items": [
       "/notes/books/metz-99bottles.html",
       "/notes/books/schneier-a-hackers-mind_2023.html",
       "/notes/books/weinberg-becoming-a-technical-leader.html",
+      "/notes/books/moore-crossing-the-chasm_2011.html",
       "/notes/books/freeman-goos_2009.html",
       "/notes/books/de_botton-how-to-think-more-about-sex_2012.html",
+      "/notes/books/paulos_innumeracy_2011.html",
       "/notes/books/yunkaporta_sand-talk_2019.html",
       "/notes/books/tan-meng-search-inside-yourself_2012.html",
       "/notes/books/coyle-the-culture-code_2018.html",
@@ -45,19 +56,10 @@
     ]
   },
   {
-    "listing": "/notes/tech/index.html",
+    "listing": "/notes/pub/index.html",
     "items": [
-      "/notes/tech/ops/bash.html",
-      "/notes/tech/mgmt/cto-checklist.html",
-      "/notes/tech/ops/docker.html",
-      "/notes/tech/programming/python2-notes.html",
-      "/notes/tech/ops/osx_setup.html",
-      "/notes/tech/ops/py-dev-setup.html",
-      "/notes/tech/mgmt/need-for-engineering-managers.html",
-      "/notes/tech/practices/refactoring.html",
-      "/notes/tech/practices/katas_for_ds.html",
-      "/notes/tech/ops/tools.html",
-      "/notes/tech/ops/win-scoop.html"
+      "/notes/pub/hr-lingo.html",
+      "/notes/pub/org-signalling.html"
     ]
   }
 ]
