@@ -44,7 +44,7 @@ Entered PhD program at the [Group of Applied Physics](https://web.archive.org/we
 Became sysadmin of all UNIX research workstations (DEC-Alpha, Sun Ultra). Introduced Linux as a cheaper and viable (able to run specialized software tools) alternative to commercial UNIX workstations (saved 15K CHF of public money allocated to my workstation). Discovered Python (v1.4) as a much better alternative to Perl and Shell for writing "glue" code (aka scripts).
 <br />
 <br />
-In 1999, I managed to save a couple of weeks of MRI patient data that wasn't backed up (time before [PACS](https://en.wikipedia.org/wiki/Picture_archiving_and_communication_system)). The primary hard drive on the MRI console workstation has failed. I took the disk out, put into my linux box, compiled a SCSI driver, mounted the drive and run `fsck`. Full data recovery.
+In 1999, I managed to save a couple of weeks of MRI patient data that wasn't backed up (time before [PACS](https://en.wikipedia.org/wiki/Picture_archiving_and_communication_system)). The primary hard drive on the MRI console workstation has failed. I took the disk out, put into my Linux box, compiled a SCSI driver, mounted the drive and run `fsck`. Full data recovery.
 
 - **2003:** Defended *PhD thesis*: "Epileptic Focus Localization Using EEG-triggered Functional MRI". Continued work at the Dpt. of Radiology at HUG as a postdoctoral fellow. ([thesis](assets/iz_th3441.pdf))  
 <br />

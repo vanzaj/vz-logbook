@@ -25,7 +25,7 @@ I did a few trial iterations with small classes of 4-5 people. Feedback is good,
 
 ## Bike clinic
 
-Everywhere I walk in Singapore, I see abandoned (rusted, flat tires) bycicles. I pick them up, leave my phone number, ressurect them, and resell on [Carousell](https://www.carousell.sg/).
+Everywhere I walk in Singapore, I see abandoned (rusted, flat tires) bicycles. I pick them up, leave my phone number, resurrect them, and resell on [Carousell](https://www.carousell.sg/).
 
 
 ## Establishing weekly routine
@@ -37,7 +37,7 @@ Everywhere I walk in Singapore, I see abandoned (rusted, flat tires) bycicles. I
 
 ## Learning
 
-1. Sailing and maintaing a boat in a sailing condition.
+1. Sailing and maintaining a boat in a sailing condition.
 1. [Build a Large Language Model](https://www.manning.com/books/build-a-large-language-model-from-scratch)
 1. [Full Stack LLM Bootcamp](https://fullstackdeeplearning.com/llm-bootcamp/)
 
