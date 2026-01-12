@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-#set -euxo pipefail
+set -euxo pipefail
 
 CUSTOM_DICT="./_ignore.pws"
 FILES_TO_CHECK=$(find . -name '*.qmd')
@@ -9,7 +9,7 @@ MISSPELLED_WORDS_FILE="misspellings.txt"
 touch "$MISSPELLED_WORDS_FILE"
 
 for FILE in $FILES_TO_CHECK; do
-  cat "$FILE" | aspell --mode=markdown --lang=en_GB --personal="$CUSTOM_DICT" list >> "$MISSPELLED_WORDS_FILE"
+  cat "$FILE" | aspell --mode=markdown --lang=en_GB-ise --personal="$CUSTOM_DICT" list >> "$MISSPELLED_WORDS_FILE"
 done
 
 FINAL_LIST=$(sort -u "$MISSPELLED_WORDS_FILE")
