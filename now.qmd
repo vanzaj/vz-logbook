@@ -12,7 +12,7 @@ Indie publishing of the original and translated works in local languages in the 
 
 Why?
 
-1: Translation is as hard and creative as producing the original content. Yet translators are payed by the number of words/lines/pages, and never get royalties based on the sales of their work. This is not right. See [the French translation of](https://www.goodreads.com/book/show/7711871-surfaces-and-essences).
+1: Translation is as hard and creative as producing the original content. Yet translators are payed by the number of words/lines/pages, and never get royalties based on the sales of their work. This is not right. See [Le Ton beau de Marot](https://en.wikipedia.org/wiki/Le_Ton_beau_de_Marot) by Douglas Hofstadter.
 
 2: LLMs and training data is way too dominated by English, which can't be a good thing in the long term.
 
