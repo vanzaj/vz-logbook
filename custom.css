@@ -1,11 +1,12 @@
 :root {
-  --header-bg: #3a6d6d;
-  --header-text: #f5ead6;
-  --body-bg: #f5ead6;
-  --content-bg: #f5ead6;
+  --header-bg: #756bb1;
+  --header-text: #bcbddc;
+  --body-bg: var(--header-text);
+  --content-bg: #efedf5;
   --text-primary: #2d2d2d;
   --text-secondary: #666666;
-  --accent-teal: #4a7c7c;
+  --emphasis: var(--header-bg);
+  --accent-teal: var(--header-bg);
   --border-light: #e0d5c7;
 }
 
@@ -100,7 +101,8 @@ svg.aa-SubmitIcon {
 #quarto-content {
   background-color: var(--content-bg);
   padding: 2rem;
-  max-width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 /* Article titles */
@@ -211,7 +213,6 @@ pre {
 .nav-footer {
   background-color: var(--header-bg);
   color: var(--header-text);
-  margin-top: 1rem;
   padding: 1rem;
 }
 

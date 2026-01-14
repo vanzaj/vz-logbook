@@ -11,16 +11,17 @@ draft: true
 
 ## Books
 
-TDD by example
-Tidy first
-Refactoring
+- TDD by example
+- Tidy first
+- Refactoring
 
 
 ## Practice
 
-kata logs
-cyber dojo
-exersism
+- kata logs
+- cyber dojo
+- exersism
+
 - [Diamond Kata](https://matteo.vaccari.name/posts/the-diamond-kata-revisited/)
 - [Programming Praxis](https://programmingpraxis.com/)
 
