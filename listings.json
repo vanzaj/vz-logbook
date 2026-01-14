@@ -1,39 +1,9 @@
 [
   {
-    "listing": "/notes/tech/index.html",
+    "listing": "/notes/pub/index.html",
     "items": [
-      "/notes/tech/ops/bash.html",
-      "/notes/tech/mgmt/cto-checklist.html",
-      "/notes/tech/ops/docker.html",
-      "/notes/tech/programming/python2-notes.html",
-      "/notes/tech/ops/osx_setup.html",
-      "/notes/tech/ops/py-dev-setup.html",
-      "/notes/tech/mgmt/need-for-engineering-managers.html",
-      "/notes/tech/practices/refactoring.html",
-      "/notes/tech/practices/katas_for_ds.html",
-      "/notes/tech/ops/tools.html",
-      "/notes/tech/ops/win-scoop.html"
-    ]
-  },
-  {
-    "listing": "/notes/edu/index.html",
-    "items": [
-      "/notes/edu/effective-learning-kaufman.html",
-      "/notes/edu/cognitive-load.html",
-      "/notes/edu/programming-scientists.html"
-    ]
-  },
-  {
-    "listing": "/notes/bots/index.html",
-    "items": [
-      "/notes/bots/bionic_reading.html",
-      "/notes/bots/elevator_control_algo.html",
-      "/notes/bots/pair_programmers.html",
-      "/notes/bots/llm_and_code_quality.html",
-      "/notes/bots/team-topo-critique.html",
-      "/notes/bots/wd-40.html",
-      "/notes/bots/top_toxic_performers.html",
-      "/notes/bots/war_causalities.html"
+      "/notes/pub/hr-lingo.html",
+      "/notes/pub/org-signalling.html"
     ]
   },
   {
@@ -56,10 +26,40 @@
     ]
   },
   {
-    "listing": "/notes/pub/index.html",
+    "listing": "/notes/bots/index.html",
     "items": [
-      "/notes/pub/hr-lingo.html",
-      "/notes/pub/org-signalling.html"
+      "/notes/bots/bionic_reading.html",
+      "/notes/bots/elevator_control_algo.html",
+      "/notes/bots/pair_programmers.html",
+      "/notes/bots/llm_and_code_quality.html",
+      "/notes/bots/team-topo-critique.html",
+      "/notes/bots/wd-40.html",
+      "/notes/bots/top_toxic_performers.html",
+      "/notes/bots/war_causalities.html"
+    ]
+  },
+  {
+    "listing": "/notes/edu/index.html",
+    "items": [
+      "/notes/edu/effective-learning-kaufman.html",
+      "/notes/edu/cognitive-load.html",
+      "/notes/edu/programming-scientists.html"
+    ]
+  },
+  {
+    "listing": "/notes/tech/index.html",
+    "items": [
+      "/notes/tech/ops/bash.html",
+      "/notes/tech/mgmt/cto-checklist.html",
+      "/notes/tech/ops/docker.html",
+      "/notes/tech/programming/python2-notes.html",
+      "/notes/tech/ops/osx_setup.html",
+      "/notes/tech/ops/py-dev-setup.html",
+      "/notes/tech/mgmt/need-for-engineering-managers.html",
+      "/notes/tech/practices/refactoring.html",
+      "/notes/tech/practices/katas_for_ds.html",
+      "/notes/tech/ops/tools.html",
+      "/notes/tech/ops/win-scoop.html"
     ]
   }
 ]
