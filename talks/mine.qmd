@@ -5,71 +5,71 @@ date: 2024-04-20
 
 ## 2016 - now
 
-[Moving to Larger Implementation of Agile](https://www.youtube.com/watch?v=P1N4AXdR31g), talk at the [Learning Festival 2022, NUS-ISS](https://www.iss.nus.edu.sg/learning-festival/digital-academy) (2022-08-26).
+[Moving to Larger Implementation of Agile](https://www.youtube.com/watch?v=P1N4AXdR31g). Talk at the [Learning Festival 2022, NUS-ISS](https://www.iss.nus.edu.sg/learning-festival/digital-academy) (2022-08-26).
 
 
-[Developing Developers](https://www.infoq.com/presentations/growing-as-a-developer/), talk at the [2019 LeSS Conference](https://less.works/conferenza/conferences/2019-less-conference-munich-5) (2019-09-12).
+[Developing Developers](https://www.infoq.com/presentations/growing-as-a-developer/). Talk at the [2019 LeSS Conference](https://less.works/conferenza/conferences/2019-less-conference-munich-5) (2019-09-12).
 
 
-[Professional Software Development. Can it be taught?](https://speakerdeck.com/vanzaj/professional-software-development-can-it-be-taught), talk at [PyCon SG Edu Summit](https://pycon.sg/edu-summit/) (2019-06-25).
+[Professional Software Development. Can it be taught?](https://speakerdeck.com/vanzaj/professional-software-development-can-it-be-taught). Talk at [PyCon SG Edu Summit](https://pycon.sg/edu-summit/) (2019-06-25).
 
 
-[Data Science and Agile, Can or Not? ](https://www.youtube.com/watch?v=hu0KKxCbr3o), panel discussion at Stack conference (2018-10-03).
+[Data Science and Agile, Can or Not? ](https://www.youtube.com/watch?v=hu0KKxCbr3o). Panel discussion at the Stack conference (2018-10-03).
 
 
-[Mob Programming](https://www.youtube.com/watch?v=s4jsOiWXil0), talk (in Russian) at [ag;)e days 2018](https://msk18.agiledays.ru/) (2018-03-22).<br/>
+[Mob Programming](https://www.youtube.com/watch?v=s4jsOiWXil0). Talk (in Russian) at the [ag;)e days 2018](https://msk18.agiledays.ru/) (2018-03-22).<br/>
 [Slides](https://speakerdeck.com/vanzaj/mob-programming) in English.
 
 
-[Brain, Memory and Effective study](https://speakerdeck.com/vanzaj/brain-memory-and-effective-study), workshop at AHA conference (2017-04-14).
+[Brain, Memory and Effective study](https://speakerdeck.com/vanzaj/brain-memory-and-effective-study). Workshop at AHA conference (2017-04-14).
 
 
-[Cluster failure: Why fMRI inferences have inflated false positive rates](https://engineers.sg/video/cluster-failure-why-fmri-inferences-have-inflated-false-positive-rates-papers-we-love-022--1038), talk at "Papers We Love #022" (2016-08-29). [Slides](https://speakerdeck.com/vanzaj/cluster-failure-fmri-data-analysis-paper).
+[Cluster failure: Why fMRI inferences have inflated false positive rates](https://engineers.sg/video/cluster-failure-why-fmri-inferences-have-inflated-false-positive-rates-papers-we-love-022--1038). Talk at "Papers We Love #022" (2016-08-29). [Slides](https://speakerdeck.com/vanzaj/cluster-failure-fmri-data-analysis-paper).
 
 
-[Software Carpentry](https://www.youtube.com/watch?v=nua-fStrQJ0), lightning talk at [PyCon SG 2016](https://pycon.sg/archive/2016/) (2016-06-23).
+[Software Carpentry](https://www.youtube.com/watch?v=nua-fStrQJ0). Lightning talk at [PyCon SG 2016](https://pycon.sg/archive/2016/) (2016-06-23).
 
 
-[Software Carpentry: Python programming and Scientific python](https://vanzaj.github.io/2016-06-11-ntu/), tutorial at NTU Learning Studio (2016-06-11).
+[Software Carpentry: Python programming and Scientific python](https://vanzaj.github.io/2016-06-11-ntu/). Tutorial at NTU Learning Studio (2016-06-11).
 
 
 ## 2013 - 2015
 
-[Organizations v5.0](https://speakerdeck.com/vanzaj/organizations-v5-dot-0), talk at BarCamp SG (2015-10-17).
+[Organizations v5.0](https://speakerdeck.com/vanzaj/organizations-v5-dot-0). Talk at BarCamp SG (2015-10-17).
 
 
-[Software Carpentry training model](https://speakerdeck.com/vanzaj/software-carpentry-training-model), talk at EduCamp SG (2015-04-02).
+[Software Carpentry training model](https://speakerdeck.com/vanzaj/software-carpentry-training-model). Talk at EduCamp SG (2015-04-02).
 
 
-[CLI until it CLIcks](https://github.com/vanzaj/pyconsg2014-tutorial-cli), tutorial at [PyCon SG 2014](https://pycon.sg/archive/2014/schedule/presentation/3/) (2014-06-18).
+[CLI until it CLIcks](https://github.com/vanzaj/pyconsg2014-tutorial-cli). Tutorial at [PyCon SG 2014](https://pycon.sg/archive/2014/schedule/presentation/3/) (2014-06-18).
 
 
-[Introduction to Python and SciPy](https://github.com/vanzaj/pytalks/tree/master/20130822_I2R-tutorial_intro-python-scipy), for A-STAR's I2R (2013-08-22).
+[Introduction to Python and SciPy](https://github.com/vanzaj/pytalks/tree/master/20130822_I2R-tutorial_intro-python-scipy). Workshop for A-STAR's I2R (2013-08-22).
 
 
-[Presentation 101](https://speakerdeck.com/vanzaj/presentation-101), lightning talk at PyCon SG (2013-06-15).
+[Presentation 101](https://speakerdeck.com/vanzaj/presentation-101). Lightning talk at PyCon SG (2013-06-15).
 
 
-[Dacets: research data management for individual scientists](https://www.youtube.com/watch?v=WmGuQ8JaNto), talk at [PyCon SG 2013](https://pycon.sg/archive/2013/schedule/presentation/18/) (2013-06-14).
+[Dacets: research data management for individual scientists](https://www.youtube.com/watch?v=WmGuQ8JaNto). Talk at [PyCon SG 2013](https://pycon.sg/archive/2013/schedule/presentation/18/) (2013-06-14).
 
 
-[Introduction to data processing with Python](https://github.com/vanzaj/pytalks/tree/master/20130613-pyconsg-tutorial-scipy), tutorial at [PyCon SG 2013](https://pycon.sg/archive/2013/schedule/presentation/22/) (2013-06-13).
+[Introduction to data processing with Python](https://github.com/vanzaj/pytalks/tree/master/20130613-pyconsg-tutorial-scipy). Tutorial at [PyCon SG 2013](https://pycon.sg/archive/2013/schedule/presentation/22/) (2013-06-13).
 
 
-[Free research](https://speakerdeck.com/vanzaj/free-research), talk at Open Science BarCamp @ NUS (2013-03-08).
+[Free research](https://speakerdeck.com/vanzaj/free-research). Talk at Open Science BarCamp @ NUS (2013-03-08).
 
 
-[Open Science](https://speakerdeck.com/vanzaj/open-science), talk at Open Science BarCamp @ NUS (2013-03-08).
+[Open Science](https://speakerdeck.com/vanzaj/open-science). Talk at Open Science BarCamp @ NUS (2013-03-08).
 
 
 
 ## 2011 - 2012
 
-[Hacking Academia](https://speakerdeck.com/vanzaj/hacking-academia), talk at BarCamp SG (2012-05-12).
+[Hacking Academia](https://speakerdeck.com/vanzaj/hacking-academia). Talk at BarCamp SG (2012-05-12).
 
 
-[Lies, damn lies and linguistics](https://speakerdeck.com/vanzaj/lies-damned-lies-and-linguistics), talk at BarCamp SG at Blk71 (2011-09-10). 
+[Lies, damn lies and linguistics](https://speakerdeck.com/vanzaj/lies-damned-lies-and-linguistics). Talk at BarCamp SG at Blk71 (2011-09-10). 
 
 
-[Brain train](https://speakerdeck.com/vanzaj/free-research), mini workshop at NUS for [Denisa's](https://scholarbank.nus.edu.sg/entities/person/199f2399-35a3-42a8-adcc-029e939a9591) students (2011-06-21).
+[Brain train](https://speakerdeck.com/vanzaj/free-research). Mini workshop at NUS for [Denisa's](https://scholarbank.nus.edu.sg/entities/person/199f2399-35a3-42a8-adcc-029e939a9591) students (2011-06-21).
 
