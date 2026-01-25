@@ -12,15 +12,18 @@ Indie publishing of the original and translated works in local languages in the 
 
 Why?
 
-1: Translation is as hard and creative as producing the original content. Yet translators are payed by the number of words/lines/pages, and never get royalties based on the sales of their work. This is not right. See [Le Ton beau de Marot](https://en.wikipedia.org/wiki/Le_Ton_beau_de_Marot) by Douglas Hofstadter.
+  1. Translation is as hard and creative as producing the original content. Yet translators are payed by the number of words/lines/pages, and never get royalties based on the sales of their work. This is not right. See [Le Ton beau de Marot](https://en.wikipedia.org/wiki/Le_Ton_beau_de_Marot) by Douglas Hofstadter.
 
-2: LLMs and training data is way too dominated by English, which can't be a good thing in the long term.
+  2. LLMs and training data is way too dominated by English. That can not be a good thing in the long term.
 
 
 ## Test driven development for data scientists
 
-Why? Because way too many folks in data science have not been exposed to good product development practices (XP + BDD + CI/CD).
-I did a few trial iterations with small classes of 4-5 people. Feedback is good, but 2 days is not enough. Needs some improvements with a common setup, API testing, mocking, and ML specific testing. Current version is 3 days or 2.5 days with some content skipped.
+Why?
+
+Because too many people who call themselves _data scientists_ have not been exposed to good product development practices such as XP, BDD, and CI/CD.
+
+I have been working on a 2-days course to remediate this situation, and run a few trial iterations with small classes of 4-5 people. Feedback is good, but 2 days is definitely not enough. Needs some improvements with a common setup, API testing, mocking, and ML specific testing. Current version is 3 days or 2.5 days with some content skipped.
 
 
 ## Bike clinic

@@ -3,7 +3,7 @@ title: TDD katas for Data Scientists
 date: 2025-11-04
 ---
 
-Whenever I talk about TDD to data science and data engineering folks, they say that either TDD is not working for algorithmic work, or I've tried FizzBuzz and it is not fun [^1]. I can understand. Most katas in places like [kata-log](https://kata-log.rocks/) are more oriented towards CS/SW devs.
+Whenever I talk about TDD to data science and data engineering folks, they say that either TDD is not working for algorithmic work, or "I've tried FizzBuzz and it is not fun [^1]". I can understand. Most katas in places like [kata-log](https://kata-log.rocks/) are more oriented towards more traditional software developers.
 
 So, I've decided to come up with some katas that might be more interesting for DS folks. Here they are.
 
@@ -34,5 +34,5 @@ This is more of a design kata, but still requires to implement a couple of formu
 
 ## Other potential katas
 
-- [Clock24][https://github.com/vanzaj/tdd-exercises/clock24]
+- [Clock24](https://github.com/vanzaj/tdd-exercises/clock24)
 
