@@ -4,7 +4,5 @@ title: "vz-logbook"
 
 This is [my](about.qmd) attempt at [digital gardening](https://lyz-code.github.io/blue-book/digital_garden/). Some people use the term [bliki](https://martinfowler.com/bliki/WhatIsaBliki.html) to describe this kind of information curation.
 
-"Sansans" means "sans answers". Don't even try to look for any answers to any questions you might have here. It is only my personal online space. Things that I find *noteworthy*. 
-
-Currently, I am focusing on the [following](now.qmd).
+"Sansans" is short for "sans answers". Don't even try to look for any answers to any questions you might have here. It is only my personal online space. Things that I find *noteworthy*. 
 

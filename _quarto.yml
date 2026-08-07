@@ -25,8 +25,6 @@ website:
     right:
       - text: ABOUT
         href: about.qmd
-      - text: NOW
-        href: now.qmd
       - text: TALKS
         href: talks/
       - text: NOTES
