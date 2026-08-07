@@ -7,50 +7,50 @@
     "text": "My Talks and tutorials.\nSlides, GitHub repos, and video recordings of talks at various conferences from 2011 to present. Before that, my presentations where mostly about fMRI, ASL, and MRI image processing; mostly presented at ISMRM and related conferences."
   },
   {
-    "objectID": "now.html",
-    "href": "now.html",
+    "objectID": "now_skip.html",
+    "href": "now_skip.html",
     "title": "Now",
     "section": "",
     "text": "Updated 19 Dec 2025.\nThis is my now page."
   },
   {
-    "objectID": "now.html#rakyat-press",
-    "href": "now.html#rakyat-press",
+    "objectID": "now_skip.html#rakyat-press",
+    "href": "now_skip.html#rakyat-press",
     "title": "Now",
     "section": "Rakyat Press",
-    "text": "Rakyat Press\nIndie publishing of the original and translated works in local languages in the spirit of what Volkswagen was supposed to be for common folks.\nWhy?\n1: Translation is as hard and creative as producing the original content. Yet translators are payed by the number of words/lines/pages, and never get royalties based on the sales of their work. This is not right. See Le Ton beau de Marot by Douglas Hofstadter.\n2: LLMs and training data is way too dominated by English, which can’t be a good thing in the long term."
+    "text": "Rakyat Press\nIndie publishing of the original and translated works in local languages in the spirit of what Volkswagen was supposed to be for common folks.\nWhy?\n\nTranslation is as hard and creative as producing the original content. Yet translators are payed by the number of words/lines/pages, and never get royalties based on the sales of their work. This is not right. See Le Ton beau de Marot by Douglas Hofstadter.\nLLMs and training data is way too dominated by English. That can not be a good thing in the long term."
   },
   {
-    "objectID": "now.html#test-driven-development-for-data-scientists",
-    "href": "now.html#test-driven-development-for-data-scientists",
+    "objectID": "now_skip.html#test-driven-development-for-data-scientists",
+    "href": "now_skip.html#test-driven-development-for-data-scientists",
     "title": "Now",
     "section": "Test driven development for data scientists",
-    "text": "Test driven development for data scientists\nWhy? Because way too many folks in data science have not been exposed to good product development practices (XP + BDD + CI/CD). I did a few trial iterations with small classes of 4-5 people. Feedback is good, but 2 days is not enough. Needs some improvements with a common setup, API testing, mocking, and ML specific testing. Current version is 3 days or 2.5 days with some content skipped."
+    "text": "Test driven development for data scientists\nWhy?\nBecause too many people who call themselves data scientists have not been exposed to good product development practices such as XP, BDD, and CI/CD.\nI have been working on a 2-days course to remediate this situation, and run a few trial iterations with small classes of 4-5 people. Feedback is good, but 2 days is definitely not enough. Needs some improvements with a common setup, API testing, mocking, and ML specific testing. Current version is 3 days or 2.5 days with some content skipped."
   },
   {
-    "objectID": "now.html#bike-clinic",
-    "href": "now.html#bike-clinic",
+    "objectID": "now_skip.html#bike-clinic",
+    "href": "now_skip.html#bike-clinic",
     "title": "Now",
     "section": "Bike clinic",
     "text": "Bike clinic\nEverywhere I walk in Singapore, I see abandoned (rusted, flat tires) bicycles. I pick them up, leave my phone number, resurrect them, and resell on Carousell."
   },
   {
-    "objectID": "now.html#establishing-weekly-routine",
-    "href": "now.html#establishing-weekly-routine",
+    "objectID": "now_skip.html#establishing-weekly-routine",
+    "href": "now_skip.html#establishing-weekly-routine",
     "title": "Now",
     "section": "Establishing weekly routine",
     "text": "Establishing weekly routine\n\nWeekly plan. Monday morning: make a plan for upcoming week. Friday afternoon: review the week.\nDaily morning mental exercises for 30min. Learning Bahasa Indonesia using physical flashcards. Learning crypto from brilliant.\nAdd/update my digital garden (1 hour/week)."
   },
   {
-    "objectID": "now.html#learning",
-    "href": "now.html#learning",
+    "objectID": "now_skip.html#learning",
+    "href": "now_skip.html#learning",
     "title": "Now",
     "section": "Learning",
     "text": "Learning\n\nSailing and maintaining a boat in a sailing condition.\nBuild a Large Language Model\nFull Stack LLM Bootcamp"
   },
   {
-    "objectID": "now.html#reading",
-    "href": "now.html#reading",
+    "objectID": "now_skip.html#reading",
+    "href": "now_skip.html#reading",
     "title": "Now",
     "section": "Reading",
     "text": "Reading\n\nTiny Experiments by Anne-Laure Le Cunff."
@@ -550,14 +550,14 @@
     "href": "index.html",
     "title": "vz-logbook",
     "section": "",
-    "text": "This is my attempt at digital gardening. Some people use the term bliki to describe this kind of information curation.\n“Sansans” means “sans answers”. Don’t even try to look for any answers to any questions you might have here. It is only my personal online space. Things that I find noteworthy.\nCurrently, I am focusing on the following."
+    "text": "This is my attempt at digital gardening. Some people use the term bliki to describe this kind of information curation.\n“Sansans” is short for “sans answers”. Don’t even try to look for any answers to any questions you might have here. It is only my personal online space. Things that I find noteworthy."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I call myself a scingineer - an amalgamation of “scientist” and “engineer”. In my “previous life”, I used to study human brain using Magnetic Resonance Imaging (with fMRI, ASL, DTI and anatomical imaging). I got tired of “publish or perish” and switched to software development. Now I work as a programmer, trainer and technical coach (XP, LeSS) at Odd-e.\nI write code, read books, listen to music, juggle, cycle, do some martial arts and free dive. Topics that get my attention: brain, psychology, learning, education, complex systems, open science, linguistics, and unconventional organizational and business practices."
+    "text": "I call myself a scingineer - an amalgamation of “scientist” and “engineer”. In my “previous life”, I used to study human brain using Magnetic Resonance Imaging (with fMRI, ASL, DTI and anatomical imaging). I got tired of “publish or perish” and switched to software development. Now I work as a programmer, trainer and technical coach (XP, LeSS) at Odd-e.\nI write code, read books, listen to music, juggle, cycle, and free dive. Topics that get my attention: brain, psychology, learning, education, complex systems, open science, linguistics, and unconventional organizational and business practices."
   },
   {
     "objectID": "about.html#links",
@@ -1159,7 +1159,7 @@
     "href": "notes/tech/practices/katas_for_ds.html",
     "title": "TDD katas for Data Scientists",
     "section": "",
-    "text": "Whenever I talk about TDD to data science and data engineering folks, they say that either TDD is not working for algorithmic work, or I’ve tried FizzBuzz and it is not fun [^1]. I can understand. Most katas in places like kata-log are more oriented towards CS/SW devs.\nSo, I’ve decided to come up with some katas that might be more interesting for DS folks. Here they are."
+    "text": "Whenever I talk about TDD to data science and data engineering folks, they say that either TDD is not working for algorithmic work, or “I’ve tried FizzBuzz and it is not fun [^1]”. I can understand. Most katas in places like kata-log are more oriented towards more traditional software developers.\nSo, I’ve decided to come up with some katas that might be more interesting for DS folks. Here they are."
   },
   {
     "objectID": "notes/tech/practices/katas_for_ds.html#modplus",
@@ -1180,7 +1180,7 @@
     "href": "notes/tech/practices/katas_for_ds.html#other-potential-katas",
     "title": "TDD katas for Data Scientists",
     "section": "Other potential katas",
-    "text": "Other potential katas\n\n[Clock24][https://github.com/vanzaj/tdd-exercises/clock24]"
+    "text": "Other potential katas\n\nClock24"
   },
   {
     "objectID": "talks/mine.html",

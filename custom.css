@@ -23,13 +23,12 @@ body {
   color: var(--text-primary);
   font-size: 3rem;
   font-weight: 700;
-  letter-spacing: 0.15em;
   padding-top: 1rem;
+  /* letter-spacing: 0.15em; */
 }
 
 #title-block-header .subtitle {
   font-size: 1.2rem;
-  letter-spacing: 0.1em;
   display: inline-block;
   padding: 0.5rem 1rem;
   margin-top: 0.5rem;
@@ -51,7 +50,6 @@ body {
   color: var(--header-text) !important;
   font-size: 1.2rem;
   font-weight: 700;
-  letter-spacing: 0.15em;
   padding: 0.5rem 1rem !important;
 }
 
@@ -62,7 +60,6 @@ body {
 .navbar-nav .nav-link {
   color: var(--header-text) !important;
   font-size: 0.85rem;
-  letter-spacing: 0.08em;
   font-weight: 500;
   padding: 0.5rem 1rem !important;
   transition: opacity 0.2s ease;
@@ -101,7 +98,7 @@ svg.aa-SubmitIcon {
 #quarto-content {
   background-color: var(--content-bg);
   padding: 2rem;
-  max-width: 90%;
+  max-width: 98%;
   margin: 0 auto;
 }
 
@@ -109,7 +106,6 @@ svg.aa-SubmitIcon {
 .quarto-title-block h1.title {
   font-size: 2.5rem;
   font-weight: 700;
-  letter-spacing: 0.05em;
   color: var(--text-primary);
 }
 
@@ -128,7 +124,6 @@ svg.aa-SubmitIcon {
 h2 {
   font-size: 1.8rem;
   font-weight: 700;
-  letter-spacing: 0.05em;
   margin-top: 1rem;
   color: var(--text-primary);
 }
@@ -172,7 +167,6 @@ blockquote {
 
 .sidebar-title {
   font-weight: 600;
-  letter-spacing: 0.05em;
   font-size: 0.9rem;
 }
 
@@ -220,7 +214,6 @@ pre {
 @media (max-width: 100%) {
   #title-block-header .title {
     font-size: 2rem;
-    letter-spacing: 0.1em;
   }
   
   #title-block-header .subtitle {
