@@ -8,19 +8,19 @@ date: 2011-12-24
 
 1. General medicine (5 years)
 2. Internship (1 year) -> MD degree
-3. Medical officer (5 years) -> GP
+3. Medical officer (5 years) -> GP
 
-Patients load: 
+Patients load: 
 
 - 30% go to GP
-- 70% go to Polyclinics
+- 70% go to Polyclinics
 
 
 # Specialist
 
 1. General medicine (5 years)
 2. Medical officer (3-4 years)
-3. Registrar (3-4 years) -> Specialist diploma 
+3. Registrar (3-4 years) -> Specialist diploma 
 4. Associate consultant (2-3 years) -> Sub-specialty diploma (overseas)
 5. Consultant (5 years)
 6. Senior Consultant
@@ -28,22 +28,22 @@ Patients load: 
 
 ## Specialities
 
-- General surgery
-- Pediatrics
-- Neurology
-- Orthopedics
-- Anesthesiology
-- Geriatrics
-- Pathology
-- Immunology/Endocrinology
-- Radiology
-- Hematology/Oncology
-- Cardiology
-- Respiratory
-- Ophthalmology
-- ENT
-- Psychiatry
-- Sports medicine
-- Gynecology/Obstetrics
-- Emergency medicine
+- General surgery
+- Pediatrics
+- Neurology
+- Orthopedics
+- Anesthesiology
+- Geriatrics
+- Pathology
+- Immunology/Endocrinology
+- Radiology
+- Hematology/Oncology
+- Cardiology
+- Respiratory
+- Ophthalmology
+- ENT
+- Psychiatry
+- Sports medicine
+- Gynecology/Obstetrics
+- Emergency medicine
 
