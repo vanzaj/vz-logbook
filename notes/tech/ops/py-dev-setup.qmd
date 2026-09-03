@@ -23,6 +23,8 @@ uv sync  # to update .venv
 uv export --format requirements-txt > requirements.txt
 
 uv run pip freeze --local
+
+uv tool install ruff
 ```
 
 ## pyenv + poetry
