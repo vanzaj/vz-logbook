@@ -114,6 +114,7 @@ svg.aa-SubmitIcon {
   color: var(--text-secondary);
   font-size: 0.95rem;
   text-align: left;
+  margin-top: 1rem;
 }
 
 .quarto-title-meta-heading {
@@ -136,6 +137,10 @@ svg.aa-SubmitIcon {
   display: inline;
   margin: 0;
   font-size: 0.95rem;
+}
+
+.quarto-title-meta-contents p:not(:last-child)::after {
+  content: ", ";
 }
 
 /* Headings */
