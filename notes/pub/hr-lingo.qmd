@@ -1,5 +1,6 @@
 ---
 title: HR lingo
+author: Ivan Zimine
 date: 2020-09-24
 ---
 

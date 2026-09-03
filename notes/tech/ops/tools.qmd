@@ -1,7 +1,6 @@
 ---
 title: Tools
 date: 2015-05-05
-author: Ivan Zimine
 ---
 
 # ansible vault
