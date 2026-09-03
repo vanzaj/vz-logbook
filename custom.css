@@ -111,13 +111,31 @@ svg.aa-SubmitIcon {
 
 /* Article metadata */
 .quarto-title-meta {
-  color: var(--accent-teal);
+  color: var(--text-secondary);
   font-size: 0.95rem;
-  text-align: center;
+  text-align: left;
+}
+
+.quarto-title-meta-heading {
+  display: inline;
+  text-transform: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+}
+
+.quarto-title-meta-heading::after {
+  content: ": ";
 }
 
 .quarto-title-meta-contents {
-  display: inline-block;
+  display: inline;
+}
+
+.quarto-title-meta-contents p {
+  display: inline;
+  margin: 0;
+  font-size: 0.95rem;
 }
 
 /* Headings */

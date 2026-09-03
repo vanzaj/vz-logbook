@@ -50,5 +50,6 @@ format:
     theme: yeti
     css: custom.css
     toc: true
+    date-format: medium
     include-after-body: _goatcounter.html
 
