@@ -98,7 +98,7 @@ svg.aa-SubmitIcon {
 #quarto-content {
   background-color: var(--content-bg);
   padding: 2rem;
-  max-width: 98%;
+  max-width: 100%;
   margin: 0 auto;
 }
 

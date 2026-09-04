@@ -1,25 +1,25 @@
 #!/usr/bin/env bash
 
-set -euxo pipefail
+set -euo pipefail
 
 CUSTOM_DICT="./_ignore.pws"
-FILES_TO_CHECK=$(find . -name '*.qmd')
 
-MISSPELLED_WORDS_FILE="misspellings.txt"
-touch "$MISSPELLED_WORDS_FILE"
+if [[ $# -gt 0 ]]; then
+  files=("$@")
+else
+  files=()
+  while IFS= read -r -d '' file; do
+    files+=("$file")
+  done < <(find . -name '*.qmd' -print0)
+fi
 
-for FILE in $FILES_TO_CHECK; do
-  cat "$FILE" | aspell --mode=markdown --lang=en_GB-ise --personal="$CUSTOM_DICT" list >> "$MISSPELLED_WORDS_FILE"
-done
+misspelled=$(cat "${files[@]}" | aspell --mode=markdown --lang=en_GB-ise \
+  --add-extra-dicts=en_US --personal="$CUSTOM_DICT" list | sort -u)
 
-FINAL_LIST=$(sort -u "$MISSPELLED_WORDS_FILE")
-COUNT=$(echo "$FINAL_LIST" | wc -w)
-
-/bin/rm $MISSPELLED_WORDS_FILE
-
-if [ $COUNT -gt 0 ]; then
-  echo "❌ Found $COUNT misspelled words:"
-  echo "$FINAL_LIST"
+if [[ -n "$misspelled" ]]; then
+  count=$(wc -l <<< "$misspelled")
+  echo "❌ Found $count misspelled words:"
+  echo "$misspelled"
   exit 1
 else
   echo "✅ Spell check passed. No misspellings found."
