@@ -1,5 +1,5 @@
 ---
-title: Hallucinations
+title: LLM bots
 listing: table
 ---
 
