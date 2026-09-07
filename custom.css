@@ -233,6 +233,29 @@ pre {
   padding: 1rem;
 }
 
+/* References appendix: match body text size (theme default shrinks to 0.9em) */
+#quarto-appendix.default .quarto-appendix-contents > *:not(h2):not(.h2) {
+  font-size: 1.1rem;
+}
+
+/* References heading: it renders as an h2, so match this site's h2 style */
+#quarto-appendix.default .quarto-appendix-heading {
+  font-size: 1.8rem !important;
+  font-weight: 700;
+  margin-top: 1rem;
+  color: var(--text-primary);
+  opacity: 1;
+}
+
+/* Add vertical spacing between individual reference entries */
+#quarto-appendix.default .csl-entry {
+  margin-bottom: 1em;
+}
+
+#quarto-appendix.default .csl-entry:last-child {
+  margin-bottom: 0;
+}
+
 /* Responsive adjustments */
 @media (max-width: 100%) {
   #title-block-header .title {

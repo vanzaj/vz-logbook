@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Ivan Zimine">
 
-<title>Education – VZ’s LogBook</title>
+<title>Status of current “Chess in education” research – VZ's LogBook</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,7 +27,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -36,8 +56,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -75,65 +93,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../custom.css">
 </head>
@@ -216,22 +176,60 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
+  <li><a href="#summary-of-findings" id="toc-summary-of-findings" class="nav-link" data-scroll-target="#summary-of-findings">Summary of findings</a></li>
+  <li><a href="#chess-in-education-programs" id="toc-chess-in-education-programs" class="nav-link" data-scroll-target="#chess-in-education-programs">Chess in education programs</a>
+  <ul class="collapse">
+  <li><a href="#english-speaking-world" id="toc-english-speaking-world" class="nav-link" data-scroll-target="#english-speaking-world">English speaking world</a></li>
+  <li><a href="#big-stories-from-fide" id="toc-big-stories-from-fide" class="nav-link" data-scroll-target="#big-stories-from-fide">“Big” stories from FIDE</a></li>
+  </ul></li>
+  <li><a href="#pre-2000-studies" id="toc-pre-2000-studies" class="nav-link" data-scroll-target="#pre-2000-studies">Pre-2000 studies</a></li>
+  <li><a href="#post-2000-studies" id="toc-post-2000-studies" class="nav-link" data-scroll-target="#post-2000-studies">Post-2000 studies</a>
+  <ul class="collapse">
+  <li><a href="#italian-study" id="toc-italian-study" class="nav-link" data-scroll-target="#italian-study">Italian study</a></li>
+  <li><a href="#chess-in-schools-and-communities-uk" id="toc-chess-in-schools-and-communities-uk" class="nav-link" data-scroll-target="#chess-in-schools-and-communities-uk">Chess in Schools and Communities, UK</a></li>
+  </ul></li>
+  <li><a href="#footnotes" id="toc-footnotes" class="nav-link" data-scroll-target="#footnotes">Footnotes</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Education</h1>
+<h1 class="title">Status of current “Chess in education” research</h1>
 </div>
 
 
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Ivan Zimine </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Overseas Family School
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta">
 
-    
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">Sep 26, 2014</p>
+    </div>
+  </div>
   
     
   </div>
@@ -241,112 +239,133 @@ window.Quarto = {
 </header>
 
 
+<section id="purpose" class="level1">
+<h1>Purpose</h1>
+<ul>
+<li><p>What evidence can be found in academic and non-academic sources supporting or arguing against beneficial effects of Chess and Weiqi instruction on cognitive development in school age children?</p></li>
+<li><p>Which experiments can be useful in the assessment of effectiveness of specific chess instruction programs?</p></li>
+</ul>
+</section>
+<section id="summary-of-findings" class="level1">
+<h1>Summary of findings</h1>
+<ul>
+<li><p>There are many “Chess in Schools” programs and initiatives already in existence or being implemented at the local, national and international<sup><a href="#fn1">1</a></sup> levels.</p></li>
+<li><p>There are surprisingly few well designed studies of the effects of chess instruction in school age children that can be found in academic literature. There is almost no information in English with regards to Weiqi in the same context.</p></li>
+<li><p>Critical review of studies that are used to support and promote various “Chess in Schools” initiatives shows that the evidence of beneficial effects of chess instruction is weak. This is due to:</p>
+<ul>
+<li>difficulties in conducting rigorous studies in school environment</li>
+<li>high variability of research methods and goals</li>
+</ul>
+<p>However, there are recent and ongoing studies that are very promissing.</p></li>
+</ul>
+</section>
+<section id="chess-in-education-programs" class="level1">
+<h1>Chess in education programs</h1>
+<section id="english-speaking-world" class="level2">
+<h2 class="anchored" data-anchor-id="english-speaking-world">English speaking world</h2>
+<ol type="1">
+<li><a href="http://cis.fide.com">Chess in School Commission (FIDE)</a> (since 1984).</li>
+<li><a href="http://www.chessintheschools.org">Chess in the Schools (US)</a> (since 1986).</li>
+<li><a href="http://www.chessctr.org/">US Chess Center</a> (since 1992).</li>
+<li><a href="http://www.chess-math.org/">Chess and Math Association (CA)</a> (since 1985).</li>
+<li><a href="http://chessinschools.co.uk">Chess in Schools and Communities (UK)</a> (since 2010).</li>
+<li><a href="http://kasparovchessfoundation.org/">Kasparov Chess Foundation</a> (since 2002).</li>
+<li><a href="http://www.webster.edu/spice/">Susan Polgar Institute for Chess Excellence</a></li>
+<li><a href="http://cis.fide.com/en/conferences">Chess in Education conferences</a></li>
+</ol>
+</section>
+<section id="big-stories-from-fide" class="level2">
+<h2 class="anchored" data-anchor-id="big-stories-from-fide">“Big” stories from FIDE</h2>
+<ul>
+<li><p>Compulsory chess curriculum in primary schools in Armenia since 2011. Progress is monitored by the Pedagogical University of Yerevan and first results should be presented in October 2014 at the International Conference on Chess in Schools.</p></li>
+<li><p>Chess in Schools is supported by the Turkish Ministry of Education, but chess is still not compulsory<sup><a href="#fn2">2</a></sup> in the curriculum. Turkish Chess Federation runs a successful program since 2005 focusing on training of the teachers. By 2010, 50’000 teachers have been reportedly trained.</p></li>
+</ul>
+</section>
+</section>
+<section id="pre-2000-studies" class="level1">
+<h1>Pre-2000 studies</h1>
+<blockquote class="blockquote">
+<p>“Research shows, there is a strong correlation between learning to play chess and academic achievement. In 2000, a landmark study found that students who received chess instruction scored significantly higher on all measures of academic achievement, including math, spatial analysis, and non-verbal reasoning ability (Smith and Cage, 2000).” – <cite>Wendi Fischer, <a href="http://education.jhu.edu/PD/newhorizons/strategies/topics/thinking-skills/chess/">Educational Value of Chess</a>, 2006</cite></p>
+</blockquote>
+<p>There are many non-academic publications promoting the benefits of chess in education. Many can be found on chess related websites in “resources” or “research” sections. The quote above is a typical example except that it was published on the website of the School of Education of John Hopkins University (independent source and a well known academic institution). The problem is that the “landmark study” refers to <span class="citation" data-cites="smith_effects_2000">Smith and Cage (<a href="#ref-smith_effects_2000" role="doc-biblioref">2000</a>)</span>, a study of the effects of 120 hours of chess instruction on the mathematics achievement in a population of 40 children (20 in “treatment” and 20 in control groups) from an underprivileged socio-economic background. Considering the sample size and demographics, such studies may be useful to some educators, but they do not provide strong evidence about the benefits of chess for children education in a more general context.</p>
+<p>Many publications refer to studies summarized in the “<a href="http://www.quadcitychess.com/benefits_of_chess.html">Teacher’s guide: Research and benefits of chess</a>” by Robert Ferguson. “<a href="http://www.psmcd.net/Default.htm">The Benefits of Chess in Education</a>” by Patrick S. McDonald is another popular compilation of articles; it is a somewhat extended version of the Ferguson’s guide with more details about the same actual studies. The studies described in these two guides were conducted between 1974 and 1997, and all reporting positive findings.</p>
+<p>In 2001, the first Koltanowski Memorial Conference on Chess and Education was organized at the University of Texas at Dallas. A collection of extended and updated essays by participants of the conference was published as a <a href="http://www.amazon.com/Chess-Education-Selected-Koltanowski-Conference/dp/0978674200">book</a><sup><a href="#fn3">3</a></sup> in 2006. A chapter by <span class="citation" data-cites="gobet_educational_2006">Gobet and Campitelli (<a href="#ref-gobet_educational_2006" role="doc-biblioref">2006</a>)</span> provides a critical review of seven studies which are often sited in non-academic publications as “research proofs”.</p>
+<p>Apart from methodology evaluation, the studies were compared to a hypothetical “ideal experiment” – a study which should meet the following requirements:</p>
+<ul>
+<li>random assignment of the participants to the various groups</li>
+<li>presence of a pretest to insure that there is no initial difference between the groups</li>
+<li>presence of a posttest to measure potential differences due to the treatment</li>
+<li>presence of an experimental group and of two control groups, one for eliminating the possibility of a placebo effect</li>
+<li>provision of different people for carrying out the treatment, the pretest, and posttest</li>
+<li>experimenter’s and tester’s ignorance of the nature of the group assignment</li>
+<li>participants’ ignorance of the purpose of the experiment, and even of the fact that they are participating in a study.</li>
+</ul>
+<p>The overall conclusion of the review is that “there is a huge chasm between the strong claims often found in chess literature and the rather inconclusive findings of a limited number of studies”. More specific issues are:</p>
+<blockquote class="blockquote">
+<p>Out of the seven studies we reviewed, only two were published in peer- reviewed journals.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Only three studies (…) used a design with random assignment. The other studies, (…) used statistical techniques too weak to infer the causal structure of the variables under study.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Three other methodological weaknesses should also be mentioned. First, no study has examined the long-term benefits of instruction. (…) Second, the characteristics of the teacher were rarely, if ever, controlled. (…) Finally, a very unsatisfactory feature of this research is the total lack of replication. None of the studies under review was repeated with the same experimental design and under similar conditions.</p>
+</blockquote>
+<p>It should be noted that this critique doesn’t mean that chess has no impact on education, but only that there is no solid experimental evidence.</p>
+</section>
+<section id="post-2000-studies" class="level1">
+<h1>Post-2000 studies</h1>
+<p>“On the effect of chess training on scholastic achievement” <span class="citation" data-cites="bart_effect_2014">(<a href="#ref-bart_effect_2014" role="doc-biblioref">Bart 2014</a>)</span> is the most recent review of the subject. There have been a few more studies, both in the general population as well as focusing on children with special needs, but the review concludes with “What is needed is an increase in the quality and quantity of empirical studies to determine the extent to which the acquisition of chess expertise facilitates the acquisition of scholastic expertise among students.”.</p>
+<p>A study conducted in Spain by <span class="citation" data-cites="aciego_benefits_2012">Aciego et al. (<a href="#ref-aciego_benefits_2012" role="doc-biblioref">2012</a>)</span> examined intellectual and socio-emotional effects of 1 year of regular chess playing in comparison to active sport (football and basketball) as primary extracurricular activity in school age children (6 to 16 years old). The conclusion of the study is:</p>
+<blockquote class="blockquote">
+<p>After one year of regularly practicing this[chess] activity, the students improve their performance in tests that require the cognitive skills of attention and resistance to distraction, perceptive organization, speed, planning, and foresight. Their teachers consider them to be better personally adjusted, more satisfied with the school, they enjoy studying and have better coping and problem-solving strategies.</p>
+</blockquote>
+<p>Good features of this study are the use of relatively large population (N:chess=170, N:sports=60), and the use of standard psychological test (Wechsler Intelligence Scale for Children revised<sup><a href="#fn4">4</a></sup>) for pre- and post-tests. The weaknesses are: no information about the nature of chess activities, possible selection bias in the chess group and no discussion about age effects.</p>
+<section id="italian-study" class="level2">
+<h2 class="anchored" data-anchor-id="italian-study">Italian study</h2>
+<p><span class="citation" data-cites="trinchero_can_2013">Trinchero (<a href="#ref-trinchero_can_2013" role="doc-biblioref">2013</a>)</span> reports on a study involving 568 primary school students aged 8 to 10 in Italy. This is the largest published<sup><a href="#fn5">5</a></sup> study so far, and the author has been involved in various trials of chess training in primary schools since 2005. The study examined the effects of chess instruction on the mathematics ability measured by a subset of OECD-PISA mathematics section in the span of 1 academic year. The design was quasi-experimental (non-random sampling), but because of the sample size and simple design with controls for selection and test biases the evidence from this study is strong. The conclusion is:</p>
+<blockquote class="blockquote">
+<p>…we found a small but clear advantage of the experimental [chess] group with respect to improvement of problem solving ability in mathematics. This advantage is greater in subgroups that have attended more hours of chess in-presence lessons and have achieved an higher level in chess online training.</p>
+</blockquote>
+<p>Trinchero’s report has many interesting details. It’s the only one that provides some details about the chess instruction. One surprising detail is that the median of in-classroom chess training was only 11 hours, but the children had access to an online computer-assisted chess training linked to what students learned in the classroom.</p>
+</section>
+<section id="chess-in-schools-and-communities-uk" class="level2">
+<h2 class="anchored" data-anchor-id="chess-in-schools-and-communities-uk">Chess in Schools and Communities, UK</h2>
+<p>In the UK, <a href="http://chessinschools.co.uk">Chess in Schools and Communities</a> (CSC) seems to be gaining momentum. In 2012, the charity has received £700’000 from the <a href="http://educationendowmentfoundation.org.uk/projects/chess-in-schools-and-communities-chess-in-primary-schools">Education Endowment Foundation</a> with some of the funds allocated for conducting a large (100 schools, 3’000 students) randomized controlled trial (RCT) over 3 years to evaluate the utility of chess instruction in schools. The study is conducted by an independent team from the Institute of Education in University of London. RCT studies of such size are the current “gold standard” in medical and social sciences for demonstrating the benefits of a particular intervention. Final report is expected in early 2016. However, there is a <a href="http://chessinschools.co.uk/download/research/Susan_Sallon_Dissertation.pdf">dissertation</a> by Susan Sallon on the CSC website on the subject of the impact of chess on primary school children cognitive development. It is unclear if it is related to the RTC study, but the target population and the chess program are the same.</p>
+<p>The experimental setup was the following: 483 children aged 8-9 where recruited from 14 primary schools. Children in the chess group (n=201) had 30 hours of mandatory chess tuition in the previous year (aged 7-8) while children in the control group (n=282) had no chess instruction. Because of the age of participants, a purpose built ‘quiz’ based on the National Curriculum Key Stage 1 and 2 was used for evaluation. The ‘quiz’ was designed to test 4 key areas of pupil ability, namely, numeracy, spatial awareness, logical deduction and problem solving. The result was that pupils in the chess group scored significantly higher than pupils in the control group in each of tested areas and on overall scores.</p>
+<p>The main weakness of the study is that the ‘quiz’ was “devised in consultation with an experienced primary school teacher.” While this may be useful for hiding the fact about the experiment (as opposed to using a standardized psychological test), such ‘quizes’ should be designed with participation of an experienced educational psychologist.</p>
+</section>
+</section>
+<section id="footnotes" class="level1">
+<h1>Footnotes</h1>
+<ol type="1">
+<li><span id="fn1"></span> Declaration 50/2011 “Chess in School” adopted by the European Parliament in March 2012.</li>
+<li><span id="fn2"></span> deliberately because of the size of the country</li>
+<li><span id="fn3"></span> Chess and Education: Selected Essays From the Koltanowski Conference by Tim Redman (Editor)</li>
+<li><span id="fn4"></span> WISC-R is the 1974 version; current version (since 2003-2004) is WISC-IV</li>
+<li><span id="fn5"></span> although not in a peer-reviewed journal</li>
+</ol>
 
 
 
+</section>
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-      <option value="listing-title-sort" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-author" data-direction="asc">
-        Author
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-aciego_benefits_2012" class="csl-entry" role="listitem">
+Aciego, Ramón, Lorena García, and Moisés Betancort. 2012. <span>“<a href="https://www.ncbi.nlm.nih.gov/pubmed/22774429">The Benefits of Chess for the Intellectual and Social-Emotional Enrichment in Schoolchildren</a>.”</span> <em>The Spanish Journal of Psychology</em> 15 (2): 551–59.
 </div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
-</th>
-
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-
-<th>
-<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-listing-date-sort="1380384000000" data-listing-file-modified-sort="1788422663282" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="500" data-listing-title-sort="Effective learning" data-listing-filename-sort="effective-learning-kaufman.qmd">
-<td>
-<span class="listing-date">Sep 29, 2013</span>
-</td>
-<td>
-<a href="../../notes/edu/effective-learning-kaufman.html" class="title listing-title">Effective learning</a>
-</td>
-<td>
-<span class="listing-author">Ivan Zimine</span>
-</td>
-
-</tr>
-
-<tr data-index="1" data-listing-date-sort="1324656000000" data-listing-file-modified-sort="1788432579432" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="78" data-listing-title-sort="Medical education in SG" data-listing-filename-sort="med-edu-sg.qmd">
-<td>
-<span class="listing-date">Dec 24, 2011</span>
-</td>
-<td>
-<a href="../../notes/edu/med-edu-sg.html" class="title listing-title">Medical education in SG</a>
-</td>
-<td>
-<span class="listing-author">Ivan Zimine</span>
-</td>
-
-</tr>
-
-<tr data-index="2" data-listing-date-sort="1666627200000" data-listing-file-modified-sort="1766995264085" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="110" data-listing-title-sort="Resources on cognitive load" data-listing-filename-sort="cognitive-load.qmd">
-<td>
-<span class="listing-date">Oct 25, 2022</span>
-</td>
-<td>
-<a href="../../notes/edu/cognitive-load.html" class="title listing-title">Resources on cognitive load</a>
-</td>
-<td>
-<span class="listing-author">Ivan Zimine</span>
-</td>
-
-</tr>
-
-<tr data-index="3" data-listing-date-sort="1716307200000" data-listing-file-modified-sort="1788615795221" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="75" data-listing-title-sort="Teaching programming to science students" data-listing-filename-sort="programming-scientists.qmd">
-<td>
-<span class="listing-date">May 22, 2024</span>
-</td>
-<td>
-<a href="../../notes/edu/programming-scientists.html" class="title listing-title">Teaching programming to science students</a>
-</td>
-<td>
-<span class="listing-author">Ivan Zimine</span>
-</td>
-
-</tr>
-
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+<div id="ref-bart_effect_2014" class="csl-entry" role="listitem">
+Bart, William M. 2014. <span>“On the Effect of Chess Training on Scholastic Achievement.”</span> <em>Frontiers Psychology</em>, ahead of print, August. <a href="https://doi.org/10.3389/fpsyg.2014.00762">https://doi.org/10.3389/fpsyg.2014.00762</a>.
+</div>
+<div id="ref-gobet_educational_2006" class="csl-entry" role="listitem">
+Gobet, Fernand, and Guillermo Campitelli. 2006. <span>“Educational Benefits of Chess Instruction: A Critical Review.”</span> In <em>Chess and Education: Selected Essays from the Koltanowski Conference</em>. University of Texas at Dallas. <a href="http://www.brunel.ac.uk/~hsstffg/preprints/chess_and_education.PDF">http://www.brunel.ac.uk/~hsstffg/preprints/chess_and_education.PDF</a>.
+</div>
+<div id="ref-smith_effects_2000" class="csl-entry" role="listitem">
+Smith, James P., and Bob N. Cage. 2000. <span>“The Effects of Chess Instruction on the Mathematics Achievement of Southern, Rural, Black Secondary Students.”</span> <em>Research in the Schools</em> 7 (1). <a href="http://eric.ed.gov/?id=EJ644250">http://eric.ed.gov/?id=EJ644250</a>.
+</div>
+<div id="ref-trinchero_can_2013" class="csl-entry" role="listitem">
+Trinchero, Roberto. 2013. <em>Can Chess Training Improve Pisa Scores in Mathematics.</em> University of Turin; Kasparov Chess Foundation Europe. <a href="http://www.kcfe.eu/en/content/can-chess-training-improve-pisa-scores-mathematics">http://www.kcfe.eu/en/content/can-chess-training-improve-pisa-scores-mathematics</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script data-goatcounter="https://vanzaj.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
