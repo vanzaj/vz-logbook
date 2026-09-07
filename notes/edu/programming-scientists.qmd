@@ -15,9 +15,10 @@ date: 2024-05-22
 1. [Introduction to hacking](https://introtohacking.github.io/) (Princeton, Charlie Marsh)
 
 
-## Staff nobody teaches
+## Staff that almost nobody teaches
 
-1. [TDD & Refactoring](../tech/practices/katas_for_ds.qmd)
+1. [TDD & Refactoring](https://martinfowler.com/bliki/TestDrivenDevelopment.html)
+    a. [TDD for Data scientists](../tech/practices/katas_for_ds.qmd)
 1. [Documentation as code](https://www.writethedocs.org/guide/docs-as-code/)
 1. [Infrastructure as code](https://en.wikipedia.org/wiki/Infrastructure_as_code)
 
@@ -25,5 +26,5 @@ date: 2024-05-22
 ## Related
 
 1. [The Carpentries](https://carpentries.org/)
-1. [Society of Research Software Engineers (UK)](https://society-rse.org/)
+1. [Society of Research Software Engineers](https://society-rse.org/) (UK)
 1. [First Year Physics Lab Course](https://github.com/Contemporary-Physicslab/FYPLC), TU Delft (2026)
