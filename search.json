@@ -763,11 +763,11 @@
     "text": "The Missing Semester of Your CS Education (MIT, shell, vim, git)\nCLI until it CLIcks, my tutorial at PyConSG 2014 (shell, mkdocs, git)\nSoftware Development for Data Scientists (University of Washington)\nSoftware Carpentry\nResearch Software Engineering with Python\nIntroduction to hacking (Princeton, Charlie Marsh)"
   },
   {
-    "objectID": "notes/edu/programming-scientists.html#staff-nobody-teaches",
-    "href": "notes/edu/programming-scientists.html#staff-nobody-teaches",
+    "objectID": "notes/edu/programming-scientists.html#staff-that-almost-nobody-teaches",
+    "href": "notes/edu/programming-scientists.html#staff-that-almost-nobody-teaches",
     "title": "Teaching programming to science students",
-    "section": "Staff nobody teaches",
-    "text": "Staff nobody teaches\n\nTDD & Refactoring\nDocumentation as code\nInfrastructure as code"
+    "section": "Staff that almost nobody teaches",
+    "text": "Staff that almost nobody teaches\n\nTDD & Refactoring\n\nTDD for Data scientists\n\nDocumentation as code\nInfrastructure as code"
   },
   {
     "objectID": "notes/edu/programming-scientists.html#related",
