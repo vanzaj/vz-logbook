@@ -50,7 +50,8 @@ date: 2024-04-20
 [Presentation 101](https://speakerdeck.com/vanzaj/presentation-101). Lightning talk at PyCon SG (2013-06-15).
 
 
-[Dacets: research data management for individual scientists](https://www.youtube.com/watch?v=WmGuQ8JaNto). Talk at [PyCon SG 2013](https://pycon.sg/archive/2013/schedule/presentation/18/) (2013-06-14).
+[Dacets: research data management for individual scientists](https://speakerdeck.com/vanzaj/dacets-research-data-management-for-individual-scientists
+). Talk at [PyCon SG 2013](https://pycon.sg/archive/2013/schedule/presentation/18/) ([video](https://www.youtube.com/watch?v=WmGuQ8JaNto)) (2013-06-14).
 
 
 [Introduction to data processing with Python](https://github.com/vanzaj/pytalks/tree/master/20130613-pyconsg-tutorial-scipy). Tutorial at [PyCon SG 2013](https://pycon.sg/archive/2013/schedule/presentation/22/) (2013-06-13).
