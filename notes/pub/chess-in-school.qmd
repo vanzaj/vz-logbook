@@ -1,0 +1,248 @@
+---
+title: 'Status of current "Chess in education" research'
+author: 
+  - name: Ivan Zimine
+    affiliation:
+      - name: Overseas Family School
+        city: Singapore
+date: 2014-09-26
+bibliography: chess-in-school.bib
+---
+
+# Purpose
+
+* What evidence can be found in academic and non-academic sources supporting or
+  arguing against beneficial effects of Chess and Weiqi instruction on cognitive
+  development in school age children?
+
+* Which experiments can be useful in the assessment of effectiveness of specific
+  chess instruction programs?
+
+
+# Summary of findings
+
+* There are many "Chess in Schools" programs and initiatives already in
+  existence or being implemented at the local, national and 
+  international<sup>[1](#fn1)</sup> levels.
+
+* There are surprisingly few well designed studies of the effects of chess
+  instruction in school age children that can be found in academic literature.
+  There is almost no information in English with regards to Weiqi in the same
+  context.
+
+* Critical review of studies that are used to support and promote various "Chess
+  in Schools" initiatives shows that the evidence of beneficial effects of chess
+  instruction is weak. This is due to:
+
+    - difficulties in conducting rigorous studies in school environment
+    - high variability of research methods and goals
+
+    However, there are recent and ongoing studies that are very promissing.  
+
+
+# Chess in education programs
+
+## English speaking world
+
+1. [Chess in School Commission (FIDE)](http://cis.fide.com) (since 1984).
+2. [Chess in the Schools (US)](http://www.chessintheschools.org) (since 1986).
+2. [US Chess Center](http://www.chessctr.org/) (since 1992).
+2. [Chess and Math Association (CA)](http://www.chess-math.org/) (since 1985).
+2. [Chess in Schools and Communities (UK)](http://chessinschools.co.uk) (since
+    2010).
+2. [Kasparov Chess Foundation](http://kasparovchessfoundation.org/) (since
+   2002).
+2. [Susan Polgar Institute for Chess Excellence](http://www.webster.edu/spice/)
+2. [Chess in Education conferences](http://cis.fide.com/en/conferences)
+
+
+## "Big" stories from FIDE
+
+* Compulsory chess curriculum in primary schools in Armenia since 2011. Progress
+  is monitored by the Pedagogical University of Yerevan and first results should
+  be presented in October 2014 at the International Conference on Chess in
+  Schools.
+
+* Chess in Schools is supported by the Turkish Ministry of Education, but chess
+  is still not compulsory<sup>[2](#fn2)</sup> in
+  the curriculum. Turkish Chess Federation runs a successful program since 2005
+  focusing on training of the teachers. By 2010, 50'000 teachers have been
+  reportedly trained.
+
+
+# Pre-2000 studies
+
+> "Research shows, there is a strong correlation between learning to play chess
+> and academic achievement. In 2000, a landmark study found that students who
+> received chess instruction scored significantly higher on all measures of
+> academic achievement, including math, spatial analysis, and non-verbal
+> reasoning ability (Smith and Cage, 2000)." -- <cite>Wendi Fischer,
+> [Educational Value of Chess][fisher-jhu-2006], 2006</cite>
+
+There are many non-academic publications promoting the benefits of chess in
+education. Many can be found on chess related websites in "resources" or
+"research" sections.  The quote above is a typical example except that it was
+published on the website of the School of Education of John Hopkins University
+(independent source and a well known academic institution).  The problem is that
+the "landmark study" refers to @smith_effects_2000, a study of the effects of
+120 hours of chess instruction on the mathematics achievement in a population of
+40 children (20 in "treatment" and 20 in control groups) from an underprivileged
+socio-economic background.  Considering the sample size and demographics, such
+studies may be useful to some educators, but they do not provide strong evidence
+about the benefits of chess for children education in a more general context.
+
+Many publications refer to studies summarized in the "[Teacher's guide: Research
+and benefits of chess][ferguson-benefits-1997]" by Robert Ferguson.  "[The
+Benefits of Chess in Education][mcdonald-benefits-2005]" by Patrick S. McDonald
+is another popular compilation of articles; it is a somewhat extended version
+of the Ferguson's guide with more details about the same actual studies. The
+studies described in these two guides were conducted between 1974 and 1997, and
+all reporting positive findings.
+
+In 2001, the first Koltanowski Memorial Conference on Chess and Education was
+organized at the University of Texas at Dallas. A collection of extended and
+updated essays by participants of the conference was published as a
+[book][redman-chess-2006]<sup>[3](#fn3)</sup> in 2006. A chapter by
+@gobet_educational_2006 provides a critical review of seven studies
+which are often sited in non-academic publications as "research proofs".
+
+Apart from methodology evaluation, the studies were compared to a hypothetical
+"ideal experiment” -- a study which should meet the following requirements: 
+
+* random assignment of the participants to the various groups
+* presence of a pretest to insure that there is no initial difference between 
+  the groups
+* presence of a posttest to measure potential differences due to the treatment
+* presence of an experimental group and of two control groups, one for 
+  eliminating the possibility of a placebo effect
+* provision of different people for carrying out the treatment, the pretest, 
+  and posttest
+* experimenter’s and tester’s ignorance of the nature of the group assignment
+* participants’ ignorance of the purpose of the experiment, and even of the 
+  fact that they are participating in a study.
+
+The overall conclusion of the review is that "there is a huge chasm between the
+strong claims often found in chess literature and the rather inconclusive
+findings of a limited number of studies". More specific issues are:
+
+> Out of the seven studies we reviewed, only two were published in peer-
+> reviewed journals.
+
+> Only three studies (...) used a design with random assignment. The other
+> studies, (...) used statistical techniques too weak to infer the causal
+> structure of the variables under study.
+
+> Three other methodological weaknesses should also be mentioned. First, no
+> study has examined the long-term benefits of instruction. (...) Second, the
+> characteristics of the teacher were rarely, if ever, controlled. (...)
+> Finally, a very unsatisfactory feature of this research is the total lack of
+> replication. None of the studies under review was repeated with the same
+> experimental design and under similar conditions.
+
+It should be noted that this critique doesn't mean that chess has no impact on
+education, but only that there is no solid experimental evidence.
+
+[fisher-jhu-2006]: http://education.jhu.edu/PD/newhorizons/strategies/topics/thinking-skills/chess/
+[ferguson-benefits-1997]: http://www.quadcitychess.com/benefits_of_chess.html
+[mcdonald-benefits-2005]: http://www.psmcd.net/Default.htm
+[redman-chess-2006]: http://www.amazon.com/Chess-Education-Selected-Koltanowski-Conference/dp/0978674200
+
+
+# Post-2000 studies
+
+"On the effect of chess training on scholastic achievement" [@bart_effect_2014]
+is the most recent review of the subject.  There have been a few more studies,
+both in the general population as well as focusing on children with special
+needs, but the review concludes with "What is needed is an increase in the
+quality and quantity of empirical studies to determine the extent to which the
+acquisition of chess expertise facilitates the acquisition of scholastic
+expertise among students.".
+
+A study conducted in Spain by @aciego_benefits_2012 examined intellectual and
+socio-emotional effects of 1 year of regular chess playing in comparison to
+active sport (football and basketball) as primary extracurricular activity in
+school age children (6 to 16 years old). The conclusion of the study is:
+
+> After one year of regularly practicing this[chess] activity, the students
+> improve their performance in tests that require the cognitive skills of
+> attention and resistance to distraction, perceptive organization, speed,
+> planning, and foresight. Their teachers consider them to be better personally
+> adjusted, more satisfied with the school, they enjoy studying and have better
+> coping and problem-solving strategies. 
+
+Good features of this study are the use of relatively large population
+(N:chess=170, N:sports=60), and the use of standard psychological test (Wechsler
+Intelligence Scale for Children revised<sup>[4](#fn4)</sup>) for pre- and post-tests. The weaknesses
+are: no information about the nature of chess activities, possible selection
+bias in the chess group and no discussion about age effects.
+
+
+## Italian study
+
+@trinchero_can_2013 reports on a study involving 568 primary school students
+aged 8 to 10 in Italy. This is the largest published<sup>[5](#fn5)</sup> study so far, and the author has been involved in various
+trials of chess training in primary schools since 2005.  The study examined the
+effects of chess instruction on the mathematics ability measured by a subset of
+OECD-PISA mathematics section in the span of 1 academic year.  The design was
+quasi-experimental (non-random sampling), but because of the sample size and
+simple design with controls for selection and test biases the evidence from this
+study is strong.  The conclusion is:
+
+> ...we found a small but clear advantage of the experimental [chess] group with
+> respect to improvement of problem solving ability in mathematics. This
+> advantage is greater in subgroups that have attended more hours of chess
+> in-presence lessons and have achieved an higher level in chess online
+> training.
+
+Trinchero's report has many interesting details. It's the only one that provides
+some details about the chess instruction. One surprising detail is that the
+median of in-classroom chess training was only 11 hours, but the children had
+access to an online computer-assisted chess training linked to what students
+learned in the classroom.
+
+
+## Chess in Schools and Communities, UK
+
+In the UK, [Chess in Schools and Communities](http://chessinschools.co.uk) (CSC)
+seems to be gaining momentum. In 2012, the charity has received £700'000 from
+the [Education Endowment Foundation][eef-chess-in-schools] with some of the
+funds allocated for conducting a large (100 schools, 3'000 students) randomized
+controlled trial (RCT) over 3 years to evaluate the utility of chess instruction
+in schools. The study is conducted by an independent team from the Institute of
+Education in University of London.  RCT studies of such size are the current
+"gold standard" in medical and social sciences for demonstrating the benefits of
+a particular intervention. Final report is expected in early 2016.  However,
+there is a [dissertation][csc-sallon-diss] by Susan Sallon on the CSC website on
+the subject of the impact of chess on primary school children cognitive
+development. It is unclear if it is related to the RTC study, but the target
+population and the chess program are the same.
+
+The experimental setup was the following: 483 children aged 8-9 where recruited
+from 14 primary schools.  Children in the chess group (n=201) had 30 hours of
+mandatory chess tuition in the previous year (aged 7-8) while children in the
+control group (n=282) had no chess instruction. Because of the age of
+participants, a purpose built 'quiz' based on the National Curriculum Key Stage
+1 and 2 was used for evaluation. The ‘quiz’ was designed to test 4 key areas of
+pupil ability, namely, numeracy, spatial awareness, logical deduction and
+problem solving. The result was that pupils in the chess group scored
+significantly higher than pupils in the control group in each of tested areas
+and on overall scores.
+
+The main weakness of the study is that the 'quiz' was "devised in consultation
+with an experienced primary school teacher." While this may be useful for hiding
+the fact about the experiment (as opposed to using a standardized psychological
+test), such 'quizes' should be designed with participation of an experienced
+educational psychologist.
+
+
+[eef-chess-in-schools]: http://educationendowmentfoundation.org.uk/projects/chess-in-schools-and-communities-chess-in-primary-schools
+[csc-sallon-diss]: http://chessinschools.co.uk/download/research/Susan_Sallon_Dissertation.pdf
+
+
+# Footnotes
+
+1. []{#fn1} Declaration 50/2011 “Chess in School” adopted by the European Parliament in March 2012.
+2. []{#fn2} deliberately because of the size of the country
+3. []{#fn3} Chess and Education: Selected Essays From the Koltanowski Conference by Tim Redman (Editor)
+4. []{#fn4} WISC-R is the 1974 version; current version (since 2003-2004) is WISC-IV
+5. []{#fn5} although not in a peer-reviewed journal
