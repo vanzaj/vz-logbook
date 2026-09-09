@@ -1,5 +1,7 @@
 ---
 title: LLM bots
-listing: table
+listing:
+  type: table
+  sort: "date asc"
 ---
 

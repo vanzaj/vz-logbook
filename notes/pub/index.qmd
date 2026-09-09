@@ -1,5 +1,7 @@
 ---
 title: Articles
-listing: table
+listing:
+  type: table
+  sort: "date asc"
 ---
 

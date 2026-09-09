@@ -1,5 +1,7 @@
 ---
 title: Tech notes
-listing: table
+listing:
+  type: table
+  sort: "date asc"
 ---
 
