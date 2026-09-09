@@ -1,0 +1,49 @@
+---
+title: "The Infinity Machine: Demis Hassabis, DeepMind, and the Quest for Superintelligence"
+author: Sebastian Mallaby
+date: 2026-03-31
+categories: [AI, history]
+---
+
+## Early Hassabis
+
+- Demis Hassa(p->b)is; born in London on 27 Jul 1976 to Greek father and Singaporean mother
+- Early chess prodigy and later other competitive board games. Self-taught programming on ZX spectrum from 1984 (as an 8yo!). Passed A-levels at 16yo. Too young to enter university ->gap year at a Bullfrog Productions game development studio ("Theme park", complex world/agents simulation). Influenced by "Gödel, Esher, Bach", "Blade runner" and Conway's Game of Life.
+- MSc CS from university of Cambridge in 1997.
+- Founded Elixir Studios (game dev) in 1998.
+- PhD in cognitive neuroscience (on memory and imagination, hippocampus, [2007 fMRI paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC2571957/)) from UCL Institute of Neurology in 2009.
+- Post-doc at Gatsby Computational Neuroscience unit at UCL. Visiting scientist at MIT and Harvard. Singularity conference.
+
+## DeepMind pre LLMs
+
+- Founded DeepMind together with Shane Legg and Mustafa Suleyman in 2010. Goal: "solve intelligence" aka AGI (investors: Peter Thiel, Elon Musk, Jaan Tallinn).
+- 2012 ImageNet competition results with deep learning by Alex Krizhevsky (Convolution NN on consumer GPU), Ilya Sutskever (deep NN) and Geoffrey Hinton (Toronto).
+- Solve Atari games (pong, space invaders) using visual inputs into deep-Q(uality)-network in 2013. Hire David Silver (reinforcement learning (RL)) to combine deep-learning and RL. Vlad Mnih.
+- Search for VC money. Acquisition by Google in 2014 for 600+M$ (relative independence, AI/AGI safety guarantees, research budget).
+- AlphaGo (policy net + value net + RL + monte carlo tree search). Win over Fan Hui in Oct 2015 and Lee Sedol in March 2016.
+- OpenAI founded in Dec 2015 with Sutskever joining Musk and Altman.
+- DeepMind applied/health led by Suleyman (2015-2018). NHS, patients' data, politics.
+- Oct/Dec 2017 AlphaZero (residual NN + RL) led by Silver can play go, chess and shogu without external training data.
+- Oct 2017, start of AlphaFold, hiring John Jumper. RL works well if there is a clear evaluation function of "what good looks like". Not the case with proteins.
+- Oct 2019 AlphaStar wins 99.8% of StarCraft 2 games against human players (game of significant complexity).
+- May-Nov 2020 AlphaFold2 scored 92.4 at CASP, higher accuracy than X-ray crystallography. Nobel prize in 2024 in chemistry.
+
+## LLMs
+- 2013-2015, Sutskever's work on recurrent NN, sequence-to-sequence framework, translation and word embeddings (at Google).
+- May 2015 "attention" idea for RecNN, LSTM, Seq2Seq from Bengio's group in Montreal. Move to self-suprevising learning.
+- June 2017, "[Attention is all you need](https://arxiv.org/abs/1706.03762)", transformer architecture (Noam Shazeer from Google).
+- June 2018, 1st public announcement of GPT: generative pre-trained transformer by OpenAI.
+- Feb 2019, release of GPT-2. Microsoft invests 1 billion into OpenAI
+- Apr 2020, release of GPT-3.
+- Jan 2021, founding of Anthropic. Release of DALL-E and Codex by OpenAI.
+- Nov 2022, OpenAI released ChatGPT based on GPT-3.5.
+- Feb 2023, LLaMA (v1), 1st open-weights model
+- Mar 2023, GPT-4, 128K of context tokens
+- Jul 2023 Claude 2
+- Dec 2023 Gemini 1.0
+- Feb 2024 Gemini 1.5 Pro, 1M of context tokens
+- Mar 2024 Claude 3 Opus
+- Jul 2024 Llama 3.1 (405B params)
+- Sep 2024 GPT-o1, reasoning
+- Jan 2025 DeepSeek-R1
+
