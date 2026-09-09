@@ -1,6 +1,8 @@
 ---
 title: Book notes
-listing: table
+listing:
+  type: table
+  sort: "date asc"
 date-format: YYYY
 ---
 
